@@ -1,0 +1,628 @@
+/*
+Theme Name: VarietySoCal
+Theme URI: http://www.weblineindia.com
+Author: weblineindia
+Author URI: http://www.weblineindia.com
+Description: weblineindia
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: varietysocal 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+*{margin: 0; padding: 0; outline:none;}
+
+body{margin:0px; padding:0px; background-color:#FFFEFE; font-family:'metaplus_bold_romanregular';}
+
+
+@font-face {
+    font-family: 'metaplus_bold_romanregular';
+    src: url('fonts/metanormal-webfont.eot');
+    src: url('MetaPlusBold-Roman.otf');
+    src: url('fonts/metanormal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/metanormal-webfont.woff') format('woff'),
+         url('fonts/metanormal-webfont.ttf') format('truetype'),
+         url('fonts/metanormal-webfont.svg#metanormalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+img{border:0px; outline:none;}
+a{outline:none; text-decoration:none; color:#0090c6;}
+a:hover{text-decoration:underline;}
+ol, ul{list-style: none;} 
+ol li,ul li{list-style-type:none;} 
+form,fieldset,input{border:0px none; margin:0px; padding:0px;}
+table{border-collapse: collapse; border-spacing:0;}
+p{font-size:16px; font-weight:normal; color:#707070; text-align:left; margin:0px; padding:0px 0px 20px 0px; font-family: Arial, Helvetica, sans-serif; line-height:22px;}
+h1{font-size:24px; font-weight:normal; color:#333333; text-transform:uppercase; text-align:left; margin:0px 0px 15px 0px; padding:0px; line-height:35px; 
+font-family:'metaplus_bold_romanregular';}
+h2{font-size:24px; font-weight:normal; color:#0090c6; text-align:left; margin:0px 0px 15px 0px; padding:0px; line-height:35px;}
+h3{font-size:24px; font-weight:normal; color:#333; text-align:left; margin:0px; padding:0px 0px 20px 0px; line-height:16px;}
+
+#wrapper{float:left; margin:0px; padding:0px; width:100%;} 
+.mobile_layout{display:none;}
+.blank{width:100%; float:left; margin:0px; padding:15px 0px;}
+.hr{width:100%; height:26px;  position: absolute; background:url("images/shadow.png") no-repeat scroll center top; left: 0px !important; top: -13px !important;}
+.hide_desktop, mobile_logo, .mobile_social_icon{display:none;}
+
+/* ===== Header CSS Start ===== */
+#header{width:100%; height:auto; float:left; margin:0px; padding:0px; position:relative; z-index:3;}
+.header_top{width:100%; height:59px; float:left; margin:0px; padding:0px; background-color:#cf0000; position:fixed; z-index:9; left:0px; top:0px;}
+.header_top_contain{width:990px; height:40px;  margin:0px auto; padding:0px; position:relative;}
+#logo_block{float:left; margin:0px; padding:0px; width:338px; height:561px; background:url(images/Company_Logo_bg01.png) no-repeat left top; position:relative; left:0px; top:0px; text-align:center;}
+.logo{margin:0px; padding:4px 0px 0px 0px; width:96%; height:80px; float:left; text-align:center;}
+.txt_around{width:70%; float:left; margin:0px 0px 0px 47px; padding:25px 0px 3px 0px; font-size:28px; font-weight:400; text-align:center; color:#880101; 
+border-bottom:2px solid #910600;}
+.map{margin:0px 0px 0px -5px; padding:10px 0px 0px 0px;}
+#accordion-container{background-color:#8E0000; border-radius:5px 5px 5px 5px; color:#FFFFFF; font-size:13px; height:31px; left:18px; margin:0px 0 0 5px; padding:0; position:absolute; text-align:left; top:330px; width:280px; z-index:1000;}
+.accordion-header{background-color:#8E0000; border-radius:5px 5px 5px 5px; color:#FFFFFF; cursor:pointer; font-size:14px; height:100%; margin:0; 
+padding:0px; text-align:center; text-transform:none; width:280px; text-transform:uppercase; font-weight:400; line-height:32px;}
+#header #accordion-container a:hover{text-decoration: none;}
+.inactive-header{background: url("images/arrow_normal.png") no-repeat scroll 252px 7px #8E0000; color:#FFFFFF;}
+.inactive-header:hover{background: url("images/arrow_normal_hv01.png") no-repeat scroll 252px 9px #F0F0F0; color:#9A1517;}
+.txt_variety{width:75%; float:left; margin:0px 0px 0px 40px; padding:40px 0px 0px; font-size:13px; font-weight:normal; text-align:center; color:#fffefe; 
+font-family: Arial, Helvetica, sans-serif;}
+.btn_donate{width:270px; height:43px; float:left; margin:0px; padding:0px; position:absolute; left:31px; bottom:100px; cursor:pointer;}
+
+/* ===== Nav CSS Start ===== */
+.nav{width:497px; height:auto; float:left; margin:0px 0px 0px 23px; padding:0px; position:relative;}
+.nav ul{width:100%; float:left; margin:0px; padding:0px;}
+.nav ul li{height:59px; line-height:59px; list-style-type:none; float:left; margin:0px; padding:0px; position:relative;}
+.nav ul li a{	font-family:'metaplus_bold_romanregular'; font-size:14px; color:#FFFFFF; text-transform:uppercase; margin:0px; padding:22px 15px 21px;}
+.nav ul li a:hover, .nav ul li.current-menu-item a, .nav ul li.current-menu-ancestor a, .nav ul li:hover a{background-color: #FFFFFF; color:#cf0000; text-decoration:none; opacity:0.9;}
+.nav ul li ul{display:none;}
+.nav ul li:hover ul{width:185px; height:auto; float:left; background-color:#f0f0f0; display:block; position:absolute; left:0px; top:59px; padding:0px 0px 0px 20px; margin:0px; opacity: 0.9; z-index:1;}
+.nav ul li ul li{float:left; width:100%; height:auto; background:none !important; border:none; margin:0px; padding:6px 0px; /*line-height:30px;*/ line-height:normal;}
+.nav ul li ul li a{background:none !important; color:#CF0000 !important; font-size: 12px; text-transform:uppercase; margin:0px; padding:0px;} 
+.nav ul li ul li a:hover, .nav ul li ul li.current-menu-item a, .nav ul li ul li:hover a{color:#0090C6 !important; text-decoration:none; background-color: none
+!important;}
+/* ===== Nav CSS End ===== */
+
+.search_block{width:125px; height:auto; float:right; margin:17px 0px; padding:0px; position: relative;}
+.search_bar{width:125px; height:25px; background-color:#FFFEFE; float:left; margin:0px; padding:0px; border-radius: 15px; }
+.search_bar input{width:115px; height:25px; float:left; margin:0px; padding:0px 0px 0px 10px; font-size:12px; font-weight:normal; text-align:left; color:#666666; line-height: 25px;}
+.btn_search{width:15px; height:19px; float:left; background:url(images/serach_icon.png) no-repeat 0px 0px; position:absolute; right:12px; top:3px; 
+margin: 0px; padding: 0px; cursor: pointer;}
+.dl-trigger{display:none;}
+
+/* ===== Slider CSS Start ===== */
+.slider{width:100%; height:auto; float:left;  margin:59px 0px 0px 0px; padding:0px; z-index:-1000; position:relative; text-align:center;}
+/* ===== Slider CSS End ===== */
+
+/* ===== Header CSS End ===== */
+
+/*Right Sidebar*/
+/* #sidebar{width:65px; height:615px; background-image:url(images/right_img.png); float:right; position:fixed; right:0px; top:14%; margin:0px; padding:0px; z-index:100;} */
+
+#sidebar {width:65px; height:615px; background-image: url(images/right_img.png);float: right;position: absolute;right: 0px;overflow: hidden;z-index: 1000;margin: 0px;padding: 0px;}
+#sidebar.topbari {
+top: 220px;
+}
+#sidebar.topbarh {
+top: 495px;
+}
+#sidebar ul{margin:0px; padding:0px;}
+#sidebar ul li{list-style:none; float:right; margin:0px; padding:0px;}
+#sidebar .social{width:40px; height:auto; float:left; margin:0px; padding:0px; position:absolute; right:0px; bottom:5px;}
+#sidebar .social .youtube, #sidebar .social .twitter, #sidebar .social .facebook,  #sidebar .social .skype{width:35px; /*height: 24px;*/ float:right; display:block; margin:0px 0px 12px 0px; padding:0px; float:left;}
+#sidebar .donate a{width:40px; height:135px; float:left; display: block; position:absolute; left:26px; top:75px;}
+#sidebar .location a{width:40px; height:227px; float:left; display: block; position:absolute; left:26px; top:243px;}
+/*siderbar hover classes start*/
+#sidebar .donate a:hover{background: url(images/right_img_hv.png) no-repeat -26px -75px;}
+#sidebar .location a:hover{background: url(images/right_img_hv.png) no-repeat -26px -243px;}
+#sidebar .social .facebook{height: 27px;}
+#sidebar .social .twitter{height: 25px;}
+#sidebar .social .youtube{height: 25px;}
+#sidebar .social .facebook:hover{background: url(images/right_img_hv.png) no-repeat -25px -497px;}
+#sidebar .social .twitter:hover{background: url(images/right_img_hv.png) no-repeat -25px -536px;}
+#sidebar .social .youtube:hover{background: url(images/right_img_hv.png) no-repeat -25px -573px;}
+/*siderbar hover classes end*/
+
+/*Right Sidebar End*/
+
+/* ===== Middle CSS Start ===== */
+#middle {width:100%; height:auto; float:left; position:relative; margin:0px; padding:0px;}
+.home_page_middle{top:0px;}
+.border{width:100%; height:26px; float:left; background: url(images/shadow.png) no-repeat center -12px; position:absolute; top:-1px; left:0px; z-index:1;}
+.border01{width:100%; height:26px; float:left; background: url(images/shadow02.png) no-repeat center -12px; position:absolute; top:-1px; left:0px;}
+.border02{width:100%; height:26px; float:left; background: url(images/border_shadow02.png) no-repeat center 0px; position:absolute; bottom:-1px; left:0px;}
+
+/* ===== Section_BLock CSS Start ===== */
+.section_block{width:100%; height:auto; float:left; background-color:#EEEEEE; margin:0px; padding:85px 0px 47px 0px; position:relative;}
+.section_in{width:880px; margin:0px auto; padding:0px;}
+.home_sprite{width:180px; height:145px; float:left; background:url(images/home_sprite.png) no-repeat left top;}
+.block_01{width:185px; height:auto; float:left; margin:0px 0px 0px 26px; padding:0px;}
+.block_01:first-child{margin-left:0px;}
+.home_page_middle .block_01{min-height:265px;}
+.maping{width:100%; height:170px; display:block; position: absolute; left: 0px; top: 0px;}
+.ttl01{width:100%; float:left; color:#0090c6; font-size:22px; margin:0px; padding:5px 0px 0px 0px; font-weight:400; text-align:center; line-height:20px; text-transform:uppercase;}
+.block_01 p{text-align: center; float: left; padding: 10px 7px 0px 7px; margin: 0px; color:#a2a2a2; font-size:14px; line-height:normal;}
+.link_block{width: 100%; float: left; margin: 0px; padding: 0px;}
+.who_box{background-position: 0 0;} 
+.link_block:hover .who_box{background-position: 0px -147px;}
+.link_block:hover .ttl01{color: #cf0000; text-decoration: none !important;}
+.link_block a:hover{text-decoration: none;}
+.help_box{background-position:-379px 0; position:relative;}
+.link_block:hover .help_box{background-position:-379px -147px;}
+.media_box{background-position:-560px 0; position:relative;}
+.link_block:hover .media_box{background-position:-560px -147px;}
+.support_box{background-position:-191px 0; position:relative;}
+.link_block:hover .support_box{background-position:-192px -147px;}
+/* ===== Section_BLock CSS End ===== */
+
+/* ===== Section_BLock01 CSS Start ===== */
+.section_block01{width:100%; height:auto; float:left; margin:0px; padding:25px 0px 0px 0px; background-color:#FFFFFF; position: relative;}
+.section_block01_in{width:930px; height:auto; margin:0px auto; padding:0px;}
+.news_block{width:100%; float:left; margin:0px 0px 10px 0px; padding:0px}
+.education_block{width:100%; float:left; margin:0px; padding:0px}
+.education_block .mobile img{float:left; margin-right:20px; width:233px;}
+.news_date{width:72%; float:left; font-size:14px; font-style:italic; color:#707070; font-family:Arial,Helvetica,sans-serif; margin:0px 0px 10px 0px; 
+padding:0px;}
+a.read_more, a.link{font-size:14px; color:#cf0000; font-family:Arial,Helvetica,sans-serif; text-decoration:underline;}
+a.read_more:hover, a.link:hover{text-decoration:none;}
+.media_block{margin-bottom:20px;}
+.facebook_block, .twitter_block{float:left;}
+.twitter_block{margin-left:30px;}
+.adv_block{float:right;}
+
+.donate_block{width:430px; float:left; margin:0px; padding:0px;}
+.donate_textlink{width:225px; float:left; font-size:18px; color:#0090C6; margin:0px; padding:50px 0px 53px 0px;}
+.ttl03{width:185px; float:left; color:#0090c6; font-size:24px; margin:0px; padding:5px 0px 0px 0px; text-align:center; text-transform:uppercase;}
+.donate_box{width:190px; height:145px; float:left; background-position:-742px 0;}
+.link_block:hover .donate_box{background-position:-742px -147px; }
+.link_block:hover .ttl03{color:#cf0000; text-decoration:none !important;}
+.link_block:hover .donate_textlink{color:#cf0000; text-decoration:none !important;}
+.volunteer_box{width:190px; height:145px; float:left; background-position:-928px 0;}
+.link_block:hover .volunteer_box{background-position:-928px -147px;}
+/* ===== Section_BLock01 CSS End ===== */
+
+/* ===== Footer CSS Start ===== */
+#footer{width:100%; height:auto; float:left; margin:0px; padding:30px 0px 0px 0px;}
+#footer_top{width: 100%; height: 35px; float: left; background-color:#CF0000; margin: 0px; padding: 0px;}
+#footer_top_in{width:990px; height:auto; margin:0 auto; padding:0px;}
+.footer_nav{width:97%; float:left; margin:0px; padding:0 0 0 3%;}
+.footer_nav li{list-style-type:none; float:left; margin:0px 128px 0px 0px; padding:0px; position:relative;}
+.footer_nav li a{float:left; text-decoration:none; color:#FFFFFF; font-size:14px; margin:0px; padding:10px 9px 9px; text-transform:uppercase;}
+.footer_nav li a:hover{color:#0090C6;}
+.footer_nav li a:hover, .footer_nav li.current-menu-item a, .footer_nav li.current-menu-ancestor a, .footer_nav li:hover a{background-color: #FFFFFF; color:#cf0000; text-decoration:none; opacity:0.9;}
+.footer_nav li ul{display:none;}
+.footer_nav li:hover ul{width:185px; height:auto; float:left; background-color:#f0f0f0; display:block; position:absolute; left:0px; bottom:35px; padding:0px 0px 0px 20px; margin:0px; opacity: 0.9; z-index:1;}
+.footer_nav li ul li{float:left; width:100%; height:auto; background:none !important; border:none; margin:0px; padding:6px 0px; line-height:normal;}
+.footer_nav li ul li a{background:none !important; color:#CF0000 !important; font-size: 12px; text-transform:uppercase; margin:0px; padding:0px;} 
+.footer_nav li ul li a:hover, .footer_nav li ul li.current-menu-item  a, .footer_nav li ul li:hover a{color:#0090C6 !important; text-decoration:none; background-color: none}
+#footer_bottom{width:100%; height:100px; float:left; background-color:#c8c8c8; margin:0px; padding:0px;}
+#footer_bottom_in{width:990px; height:auto; margin:0 auto; padding:0px;}
+.footer_logo{width:350px; height:auto; float:left; margin:0px 0px 0px 25px; padding:5px 0px;}
+.footer_bottom_nav{width:585px; height:auto; float:left; margin:0px; padding:30px 0px 5px 0px;}
+.footer_bottom_nav li{list-style-type:none; float:left; margin:0px; padding:0px;}
+.footer_bottom_nav li a{text-decoration:none; color:#666666; font-size:16px; margin:0px; padding:0px 20px;}
+.footer_bottom_nav li a:first-child{padding-left:0px;}
+.footer_bottom_nav li a:hover{color:#FFFFFF;}
+.copy{float:left; color:#737373; font-family:Arial, Helvetica, sans-serif; font-size:11px; margin:0px; padding:0px;}
+.charity_logo{float:right; position:relative; top:-45px;}
+/* ===== Footer CSS End ===== */
+
+/* ===== Who We Are Page CSS Start ===== */
+body.subpages_bg{width:100%; float:left; background-color:#FFFFFF; margin:0px; padding:0px;}
+#subpages_logo_block{width:336px; height:115px; float:left; background:url(images/suppages_logo_bg.png) no-repeat left top;}
+.subpages_logo{width:230px; height:52px; float:left; margin:0px; padding:5px 0px 0px 70px;}
+#subpages_banner{width:100%; height:auto; float:left; background:url(images/subpages_banner_bg.png) repeat left top; border-bottom:1px solid #C4C4C4; margin:59px 0px 0px 0px; padding:50px 0px; position:relative; z-index:-1;}
+#subpages_banner_in{width:990px; height:auto; text-align:center; margin:0 auto; padding:0px;}
+#subpages_middle{width:990px; height:auto; margin:0 auto; padding:0px;}
+#subpages_middle_in{width:100%; float:left; margin:0px; padding:0px;}
+.subpage_block01{width:990px; height:auto; float:left; margin:0px 0px 30px 0px; padding:50px 0px 65px 0px; background-color:#cf0000; text-align:center; position:relative;}
+.block01{width:100%; float:left; position:relative; margin:0px 0px 35px 0px; padding:0px;}
+.grid01{width:862px; float:left; margin:0px 0px 0px 40px; padding:0px;}
+.grid02{width:440px; float:left; margin:0px 0px 0px 40px; padding:0px;}
+.ttl_ourmission{width:377px; height:55px; background:url(images/ttl_our-mission.png) no-repeat left top; margin:0px 0px 20px 0px; padding:0px;}
+.ttl_ourmission span{display:none;}
+.subheading{font-family:'metaplus_bold_romanregular'; font-size:19px; color:#cf0000; line-height:normal; margin:0px 0px 20px 0px; padding:0px;}
+.about_dis{width:200px; float:left; font-size:16px; color:#cf0000; line-height:24px; margin:0px 40px 0px 0px; padding:0px;}
+.last_mg{margin:0px !important;}
+/*=== Icon css ===*/
+.border_top_block{width:100%; float:left; position:relative; border-top:1px solid #C4C4C4; margin:0px; padding:45px 0px 100px 0px;}
+.border_top_block .section_in{width:930px;}
+.icon_block{min-height:210px; width:215px; float:left; height:auto; margin:0px 0px 0px 22px; padding:0px;}
+.icon_block .home_sprite{margin-left:17px;}
+.icon_block .ttl01 a{color:#0090c6; text-decoration:none;}
+.icon_block:hover .ttl01 a{color:#cf0000;}
+.history_icon{background-position:-1116px 0px;}
+.programs_icon{background-position:-1302px 0px;}
+.organizations_icon{background-position:-1489px 0px;}
+.financials_icon{background-position:-1672px 0px;}
+.board_icon{background-position:-930px 0px;}
+.sponsors_icon{background-position:-190px 0px;}
+.family_icon{background-position:-1861px 0px;}
+.support_icon{background-position:-2046px 0px;}
+/*=== Hover icon ===*/
+.icon_block:hover .history_icon{background-position:-1116px -147px;}
+.icon_block:hover .programs_icon{background-position:-1302px -148px;}
+.icon_block:hover .organizations_icon{background-position:-1489px -147px;}
+.icon_block:hover .financials_icon{background-position:-1672px -147px;}
+.icon_block:hover .board_icon{background-position:-930px -147px;}
+.icon_block:hover .sponsors_icon{background-position:-191px -147px;}
+.icon_block:hover .family_icon{background-position:-1861px -147px;}
+.icon_block:hover .support_icon{background-position:-2046px -147px;}
+.border03{width:100%;height:26px; float:left; background:url(images/border_shadow02.png) no-repeat center 0px; position:absolute; bottom:-15px; left:0px;}
+.border04{width:100%; height:26px; float:left; background:url(images/border_shadow03.png) no-repeat center 0px; position:absolute; top:-1px; left:0px; z-index:2;}
+
+/* ===== Who We Are Page CSS Start ===== */
+.ttl02{font-size:36px; text-align:center; margin:40px 0px;}
+.fundrasing_page #subpages_middle{width:675px;}
+.fundrasing_groups_icon{width:455px; margin:30px auto 0px auto;}
+.fpo_icon{background-position:0px -306px;}
+.icon_block:hover .fpo_icon{background-position:0px -455px;}
+.border05{width:100%; float:left; border-bottom: 1px solid #E1E1E1; margin-bottom:30px;}
+.carousel_slider_block{width:990px; margin:0 auto;}
+.caroufredsel_wrapper { top: 15px !important;  left: 42px !important;  /*width: 91% !important; */}
+.list_carousel { width: 100% !important; float: left; position: relative; margin-bottom:25px;}
+.list_carousel ul { margin: 0; padding: 0; list-style: none; display: block; z-index:auto !important;}
+.list_carousel li {width:205px; color:#999; text-align:center; padding:0; margin:6px; display:block; float:left;}
+.list_carousel.responsive { width: auto !important; margin-left: 0; }
+.clearfix { float: none; clear: both; }
+.prev { float: left; margin-left: 10px; position: absolute; top: 40%; left: 0px; display:block !important;}
+.next { float: right; margin-right: 10px; position: absolute; top: 40%; right: 0px; display:block !important;}
+.golf_icon{background-position:-192px -306px;}
+.races_icon{background-position:-380px -306px;}
+.poker_icon{background-position:-560px -306px;}
+.heart_icon{background-position:-744px -306px;}
+.icon_block:hover .golf_icon{background-position:-192px -455px;}
+.icon_block:hover .races_icon{background-position:-380px -455px;}
+.icon_block:hover .poker_icon{background-position:-560px -455px;}
+.icon_block:hover .heart_icon{background-position:-744px -455px;}
+
+.gold_hearts{background-position:-381px -616px;}
+.gold_hearts:hover{background-position:-381px -765px;}
+
+.lifetime{background-position:-192px -616px;}
+.lifetime:hover{background-position:-192px -765px;}
+
+.pool{background-position:-2047px -307px;}
+.pool:hover{background-position:-2047px -456px;}
+
+.auction{background-position:-3px -616px;}
+.auction:hover{background-position:-3px -765px;}
+
+.kid{background-position:-559px -616px;}
+.kid:hover{background-position:-559px -766px;}
+
+/* ===== News/Media Page CSS Start ===== */
+.groups_block{width:695px; margin:0 auto;}
+.news_article_block{width:100%; float:left; margin:0px; padding:0px}
+.ttl04{width:100%; float:left; color:#cf0000; margin:0px; padding:10px 0px 25px 0px; font-size:36px;}
+.news_article_block .ttl04{text-transform:capitalize;}
+.news_article{width:100%; float:left; margin:0px; padding:0px  0px 0px 0px;}
+.small_ttl{width:100%; float:left; margin:0px; padding:0px; font-size:18px; text-align:left; font-family: 'metanormalregular';}
+.news_article .news_date{width:100%; text-align:left;}
+.news_article p{padding-bottom:5px; text-align:left;}
+
+/* ===== Support Page CSS Start ===== */
+.support_page .groups_block{width:930px;}
+
+/* ===== Contact Us Page CSS Start ===== */
+.contact_block{width:100%; float:left; position:relative; margin:0px; padding:50px 0px 50px 0px;}
+.contact_block .inner{width:700px; overflow:hidden; margin:0px auto; padding:0px;}
+.contact_block .bottom_border_box{margin:0px 0px 45px 0px; padding:0px 0px 50px 0px;}
+.map_box{width:330px; height:190px; float:left; border:1px solid #a2a2a2; margin:0px 18px 0px 0px; padding:5px;}
+.contact_detail{width:315px; float:right; margin:30px 0px 0px 0px; padding:0px}
+.contact_block h2{font-size:20px; text-align:left; color:#363636; margin:0px; padding:0px 0px 5px 0px; line-height:22px; text-transform:capitalize;}
+.email_detail{width:100%; float:left; margin:30px 0px 0px 0px; padding:0px;}
+.email_detail div{width:50%; float:left;}
+.email_detail a{font-family: Arial, Helvetica, sans-serif; font-weight:400; color:#cf0000; font-size:16px; text-decoration:underline;}
+.email_detail a:hover{text-decoration:none;}
+.email_detail p{padding-bottom:5px;}
+.contact_block p em{font-size:18px;}
+.contactform{width:100%; float:left; margin:10px 0px 30px 0px; padding:0px;}
+.contactform .row{width:100%; float:left; margin:0px 0px 15px 0px; padding:0px;} 
+.contactform .box1{width:222px; float:left; margin:0px 22px 0px 0px; padding:0px;}
+.contactform .box2{width:172px; float:left; margin:0px 22px 0px 0px; padding:0px;}
+.contactform .box3{width:90px;float: left; margin:0px 22px 0px 0px; padding:0px;}
+.label01{float:left; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#707070; margin:0px; padding:0px;}
+.radiobtn{float:left;}
+.radiobtn{margin:3px 5px 0px 0px;}
+.radiobtn label{float:left; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#707070; margin:0 10px 0 0; padding:0px;}
+.field01, .field02, .field03, .field04{width:212px; height:23px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#707070; 
+border:1px solid #7a7a7a; line-height:23px; border-radius:5px; background-color:#FFFFFF; margin:0px; padding: 0px 3px;}
+.field01:focus, .field02:focus, .field03:focus, .field04:focus, .field_phone:focus, .field_phone1:focus{background-color:#F9F9F9;}
+.field02{width:162px;}
+.field03{width:80px;}
+.field04{width:690px; height:136px;}
+.field_phone{width:34px !important;}
+.field_phone1{width:46px !important;}
+.phonenobox{width:222px; float:left;} 
+.divider{width:16px; float:left; font-family:Arial, Helvetica, sans-serif; text-align:center; font-size:15px; color:#000; margin:0px; padding:2px 0px 0px;}
+.radiogroup{width:auto; float:left; margin:0px 15px; padding:0px;}
+.btn_submit{float:left; background-color:#0091c8; font-family:'metaplus_bold_romanregular'; font-size:18px; color:#FFFEFE; border-radius:4px; cursor:pointer;
+margin:0px 15px 0px 0px; padding:7px 30px; -webkit-appearance:none; -webkit-text-size-adjust: none; -ms-text-size-adjust: none;}
+.btn_submit:hover{background:#cf0000;} 
+.star{color:#cf0000;}
+.error, .thnx{width:600px; height:auto; font-family:Arial, Helvetica, sans-serif; font-size:14px; background-color:#FFFFFF; border-radius:5px;
+margin:0px 0px 20px 0px; padding:10px; display:none;}
+.error{border:1px solid red;} 
+.thnx{border:1px solid green;}
+
+/* ===== Grants Page CSS Start ===== */
+.grants_page, .about_dis_box{width:675px; margin:0px auto; padding:0px;} 
+.grants_page .ttl04{text-align:center; text-transform:capitalize; padding:40px 0px; font-size:36px;}
+.subheading01 p{color: #CF0000; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:normal; margin:0 0 20px; padding:0; text-align:center;}
+.download_block{width:350px; margin:40px auto 50px auto;}
+.download_block img{float:left; margin-right:20px;}
+.financials_page .download_link{float:right; width:250px;}
+.download_link h2{color:#707070; line-height:28px; margin-bottom:10px;}
+.download_link h2 a{color:#707070;}
+.grant_dwnld_link {padding: 0;margin: 0 0 0 86px;}
+/*.kids_program_block{width:100%; float:left; margin:30px 0px 70px 0px; padding:0px;}*/
+.kids_program_block{width:100%; float:left; margin:40px auto 50px auto; padding:0px;}
+.kids_program_block img{float:left; margin-left:10px;}
+.kids_program_block .download_block{width:410px; /* float:right;  margin:0px 0px 30px 0px;*/ margin:0px auto 20px; padding:0px;}
+.grants_page .img_block{width:100%; float:left; margin:0px 0px 10px 0px; padding:0px; text-align:center;}
+
+/* ===== Special Programs Page CSS Start ===== */
+.special_programs_page .heading_line{font-weight:700; text-align:center; color:#FFFFFF;}
+.heading_line{color:#ffffff;}
+.special_programs_page .about_dis_box{width:690px;}
+.sponsors_page .about_dis_box{width:690px !important;}
+/*.jr_page .about_dis_box { width: 690px !important;}*/
+/*.about_dis_box p{text-align:left; line-height:20px;}*/
+.ttl05{width:100%; float:left; font-size:28px; font-style:italic; color:#ffffff; font-weight:700; margin:0px 0px 5px 0px; padding:0px; text-align:center;}
+.fpo_icon01{background-position:-930px -307px;}
+.icon_block:hover .fpo_icon01{background-position:-930px -456px;}
+.border06{width:100%; float:left; border-bottom:3px solid #cf0000; margin:50px 0px 0px; padding:0px;}
+#middle.special_programs_page{padding-bottom:50px;}
+
+/* ===== Healthcare Page CSS Start ===== */
+.healthcare .block01{margin:35px 0px;}
+.small_banner{width:100%; float:left; margin:10px 0px 15px 0px; padding:0px; text-align:center;}
+.inner_block{width:100%; float:left; margin:0px 0px 30px; padding:0px; border-top:1px solid #C4C4C4;}
+.inner02{width:862px; height:302px; margin:auto; padding:0px; background: url(images/shape_img01.png) no-repeat left top; position:relative;}
+.inner02 h2{color:#FFFEFE; font-size:36px; margin:0px; padding:70px 0px 0px 0px; line-height:35px; text-align:center; text-transform:uppercase;}
+.inner03{width:862px; height:auto; margin:0px auto; padding:40px 0px; position:relative;}
+.inner03 p{color:#FFFEFE;}
+.list_01{width: 100%; float: left; margin: 0px; padding: 40px 0px 0px 0px; text-align: center;}
+.list_01 ul{width: 100%; float: left; margin: 0px; padding: 0px;}
+.list_01 ul li{width:100%; list-style-type:none; float:left; margin:0px; padding:0px 0px 30px 0px; color:#000000; font-size:21px; text-transform:uppercase;}
+.list_01 ul li a{text-decoration:none; color:#000000; font-size:21px; text-transform:uppercase; margin:0px; padding:0px;}
+.list_01 ul li a:hover{color:#CF0000;}
+
+/* ===== Education Page CSS Start ===== */
+.education .block01{margin:30px 0px;}
+.education .link_block{width:100%; float:left; text-align:center; margin:0px 0px 20px 0px; padding:0px;}
+.education  .border05{margin-top:20px;}
+
+/* ===== Variety Boys &amp; Girls Club Page CSS Start ===== */
+.video_bg_block{width:100%; float:left; height:auto; background:#000000; position:relative; margin:0px; padding:10px 0px 25px 0px;}
+.video{width:100%; float:left; margin:0px; padding:0px; text-align:center;}
+.images_block{width:100%; float:left; margin:30px 0px; padding:0px;}
+.images_block ul{width:100%; float:left; margin:0px; padding:0px;}
+.images_block ul li.row_01{float:left; margin:0px 0px 20px 0px; padding:0px;}
+.images_block ul li.row_02{float:left; margin:0px 0px 20px 20px; padding:0px;}
+.images_block .ttl04{font-size:30px; text-align:center;}
+
+/* ===== Young Page CSS Start ===== */
+.young_page .block01{margin-top:30px;}
+.bottom_border_box{width:100%; float:left; border-bottom:1px solid #e3e3e3; margin: 0px 0px 25px 0px; padding:0px 0px 7px 0px;}
+.young_page h2{font-family:'metaplus_bold_romanregular'; text-transform:uppercase; font-size:18px; color:#cf0000; font-weight:normal; text-align:left; margin:0px; padding:0px 0px 6px 0px;}
+.young_page h3{font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#707070; font-weight:700; font-style:italic; margin:0px; 
+padding:0px 0px 5px 0px;}
+.young_page .boxleft{width:336px; float:left; margin:0px; padding:0px;}
+.young_page .boxright{width:250px; float:right; margin:0px; padding:0px 0px 0px 86px;}
+.young_page .boxleft p, .young_page .boxright p{font-style:italic; font-size:16px;}
+.young_page .boxleft ul{width:100%; float:left; margin:0px 0px 10px 0px; padding:0px;}
+.young_page .boxleft ul li{width:100%; float:left; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#707070; font-weight:400; font-style:italic; margin:0px; padding:0px 0px 10px 0px;}
+.young_page .boxleft ul li p{padding-bottom:0px;}
+.subpage_slider01{width:100%; float:left; margin:0px; padding:0px; position:relative;}
+
+/* Gold Papers Hearts Page CSS Start */
+.golf_logo{width:100%; float:left; margin:0px; padding:0px; text-align:center;}
+.gold_hearts_block{width:100%; float:left; margin:0px 0px 30px 0px; padding:0px; border-top:1px solid #C4C4C4; background-color:#cf0000; position:relative;}
+.container{width:990px; margin:0 auto; padding:0px;}
+.gold_papers_hearts_page .ttl05{font-style:normal; margin-bottom:30px; text-transform:capitalize; font-size:35px;}
+.gold_hearts_block_in{width:100%; height:auto; float:left;}
+.gold_hearts_block_in .left{width:475px; float:left; margin:0px; padding:0px;}
+.gold_hearts_block_in .left p{color:#FFFFFF; text-align:Left;}
+.gold_hearts_block_in .right{width:430px; height:auto; float:right; margin:0px; padding:38px 0px 0px 0px;}
+.hearts_img_block{width:430px; height:430px; float:left; background-color:#FFFEFE; border-radius:50%; margin:0px; padding:0px;}
+.hearts_img_block img{padding:72px 0px 0px 0px;}
+.hearts_img_block .copy{width:100%; float:left;}
+.papers_block{width:100%; float:left; margin:0px; padding:0px;}
+.papers_block .gold_hearts_block_in .left, .papers_block .gold_hearts_block_in .right{width:320px; padding:35px 0px;}
+
+/* Press Releases Page CSS Start */
+.news_media_page .heading_line{text-align:left; color:#FFFFFF;}
+.press_releases_page .news_block{margin:40px 0px 0px; border-bottom: 1px solid #C4C4C4; padding:0px 0px 35px 0px;}
+.allnews_img{float: left;height: auto;margin: 0;padding: 0;text-align: center;width: 200px;}
+.allnews_text{float: right;height: auto;margin: 0;padding: 0;width: 650px;}
+.allnews_text .small_ttl{font-size:24px; line-height:24px;}
+.allnews_text a.read_more{color:#0090C6;}
+.border07{border:0px !important;}
+.back_link{width:96%; float:left; color:#CF0000; text-decoration:none; margin:0px; padding:13px 0px 0px 4%;}
+.back_link img{width:18px; height:18px; float:left; margin:0px; padding:0px 5px 0px 0px;}
+
+/* Financials Page CSS Start */
+.financials_page .download_block{width:335px; float:left; margin:0px; padding:0px;}
+
+/* Variety Board Page CSS Start */
+.board_page .boxleft p{font-size:15px; padding:0px;}
+
+/* Sponsors &amp; Supporters Page CSS Start */
+.sponsors_box{width:153px; height: auto; float: left; text-align:center; margin: 0px 0px 26px 26px; padding: 0px;}
+.sponsors_box:first-child{margin-left: 0px;}
+.sponsors_logo{width: 141px; height: 141px; float: left; border: 1px solid #A2A2A2; margin: 0px; padding: 5px;}
+/*.sponsors_box span{width: 100%; float: left; text-align:center; color:#363636; font-size:18px; margin: 0px; padding: 10px 0px 5px 0px;}
+span.year_name{width: 100%; float: left; font-size: 28px; color: #CF0000; margin: 0px; padding: 0px;}
+span.recipients_name{color: #707070; float: left; font-size: 18px; margin: 0; padding: 0px; text-align: center; width: 100%; font-family: Arial, Helvetica, sans-serif; 
+font-style: italic;}*/
+
+/* Jr.Variety Page CSS Start */
+.jr_page .heading_line{text-align:left; margin-bottom:20px;}
+.jr_page .ttl05 a{color:#FFFFFF; font-family:Arial,Helvetica,sans-serif; font-style:normal;}
+.jr_logo{float:right; margin:70px 0px 0px;}
+.jr_img{float:left;}
+.jr_page .block01 .ttl04{padding-top:0px;}
+.list_img{float:left; margin:0px; padding:0px 10px;}
+.list_img li{float:left; margin:5px; padding:0px;}
+.jr_page .left{width:50%; float:left; margin:0px; padding:0px;}
+.jr_page .left p{text-align:left; font-size:18px; padding:0 20px;}
+.jr_page .left a{color:#CF0000; text-decoration:underline;}
+.jr_page .left a:hover{text-decoration:none;}
+ul.jrlogo {float:left; margin:0px; padding:0px;}
+ul.jrlogo li{list-style:none; float:left; padding:12px; min-height:135px;} /*//Utsav 3rd July,2014*/
+ul.jrlogo li a {display:block;}
+ul.jrlogo li .jrinner {height:140px; display:table-cell; vertical-align:middle;}
+.bottom_border_jr { border-bottom: 1px solid #E3E3E3; float: left; margin: 0; padding: 0px 0 30px; width: 100%;}
+.jr_page .block01 .camp_block img{width:100%;}
+
+/* Kids Auctios Page CSS Start */
+.kids_auctios {padding: 40px 0;  text-align: center;  text-transform: capitalize; color: #CF0000; float:left; width:100%; font-size:25px; font-style: italic;}
+
+/* Event Clendar Page CSS Start */
+.event_clendar{float:left; width:100%;}
+.event_clendar p{color:#707070; float:left; font-family:Arial,Helvetica,sans-serif; font-size:18px; font-style:italic; font-weight:400; margin:0; padding:0 0 10px; width:100%;}
+.event_clendar .row{padding:10px 0px; float:left; width:100%;}
+.event_clendar .row .btn_submit{text-transform:uppercase;}
+
+/*21April2014*/
+
+.minheight{min-height:500px;}
+.search_block01{width:100%; float:left; margin:0px; padding:0px;}
+.search_block01 h2{padding:40px 0 20px; text-align:left; color:#CF0000; margin:0px;}
+.search_page .search_block01 h1{text-align:left; color:#CF0000; margin:0px; padding:40px 0 20px; font-size:24px; text-transform:capitalize;}
+.search_page .search_block01 h2{padding:0px;}
+
+/*13May2014*/
+.subpages_banner{width:100%; height:auto; float:left; background:url(images/subpages_banner_bg.png) repeat left top; border-bottom:1px solid #C4C4C4; margin:0px; padding:50px 0px; position:relative; border-top:4px solid #CF0000;}
+.subpages_banner_in{width:990px; height:auto; text-align:center; margin:0 auto; padding:0px;}
+.subpages_middle{width:990px; height:auto; margin:0 auto; padding:0px;}
+.subpages_middle_in{width:100%; float:left; margin:0px; padding:0px;}
+.subpages_middle_in .link_block{text-align:center; padding-bottom:20px;}
+
+/*17May2014*/
+.young_icon{background-position:-1488px -307px;}
+.icon_block:hover .young_icon{background-position:-1488px -456px;}
+
+.jr_icon{background-position:-1117px -307px;}
+.icon_block:hover .jr_icon{background-position:-1117px -456px;}
+
+.healthcare_icon{background-position:-1674px -307px;}
+.icon_block:hover .healthcare_icon{background-position:-1674px -456px;}
+
+.education_icon{background-position:-1860px -307px;}
+.icon_block:hover .education_icon{background-position:-1860px -456px;}
+
+.mobility_icon{background-position:-1302px -307px;}
+.icon_block:hover .mobility_icon{background-position:-1302px -456px;}
+
+/*23JUn2014*/
+
+.lifetime_achievement_awards .ttl04{font-size:24px; text-align:left; padding-bottom:25px;}
+.lifetime_achievement_awards .allnews_text{width:450px;}
+.sub_ttl{width:100%; float:left; color:#cf0000; font-size:21px; padding:20px 0px;}
+.lifetime_achievement_awards.gold_hearts_block p{color:#FFFFFF;}
+.lifetime_achievement_awards.gold_hearts_block .ttl05{font-style:normal; font-size:21px; text-align:left; font-weight:400;}
+.lifetime_achievement_awards .list{width:100%; float:left; text-align:left; margin:0px; padding:15px 0px 0px 0px;}
+.lifetime_achievement_awards .list span{font-size:18px; color:#ffffff; font-weight:400; padding-bottom:15px; width:100%; float:left;}
+.lifetime_achievement_awards .list li{width:100%; float:left; font-size:16px; color:#ffffff; font-weight:400; font-family:Arial,Helvetica,sans-serif; list-style-type:disc; list-style-position:inside; margin:0px; padding:0px 0px 2px 0px;}
+.lifetime_achievement_awards.gold_hearts_block .subpage_block01{padding-bottom:10px;}
+.lifetime_achievement_awards .news_block img{float:left; margin-right:25px;}
+.lifetime_achievement_awards .kids_program_block .download_block{width:100%;}
+.lifetime_achievement_awards .kids_program_block .ttl02{font-size:24px; text-align:left;}
+.lifetime_achievement_awards .kids_program_block .link_01{font-size:24px; font-family:'metaplus_bold_romanregular'; color:#cf0000; margin-left:93px;}
+
+.new_sponsors_page .boxleft{width:190px !important;}
+.new_sponsors_page h2{font-size:24px;}
+.young_page .boxright, .young_page .boxmiddle{padding-left:50px;}
+.new_sponsors_page .bottom_border_box{border-bottom:0px;}
+
+/*23 June 2014 Hardik*/
+#floattop {width: 36px;height: 53px;float: left;background: url(images/goto_top_img_03.png) no-repeat left top;position: fixed;bottom: 0;right: 0px;cursor: pointer;}
+.hasScrolled{display:block !important;}
+.hasScrolled1{display:none !important;}
+.home_page_middle .section_block{padding-top:75px;}
+
+/*1July2014*/
+.newsletter_icon{background-position:-744px -616px;}
+.icon_block:hover .newsletter_icon{background-position:-744px -765px;}
+
+.press_releases_icon{background-position:-930px -616px;}
+.icon_block:hover .press_releases_icon{background-position:-930px -765px;}
+
+/*8July2014*/
+.contact_icon{background-position:-1116px -616px;}
+.icon_block:hover .contact_icon{background-position:-1116px -765px;}
+
+.volunteer_icon{background-position:-1302px -616px;}
+.icon_block:hover .volunteer_icon{background-position:-1302px -765px;}
+
+.grants_icon{background-position:-1488px -616px;}
+.icon_block:hover .grants_icon{background-position:-1488px -765px;}
+
+/*fdsfdff*/
+.home_logo{width:340px; float:left; position:relative;}
+.home_logo #subpages_logo_block{position:absolute; left:0px; top:0px;}
+.home_logo #logo_block{position:absolute;}
+.home_menu{position:absolute; right:132px;}
+*+html .flex-direction-nav{bottom:-44px;}
+
+/*9July2014*/
+.gold_hearts_block01 {background-color: #cf0000; float: left; margin: -4px 0px 0px 0px;  padding: 15px 0px;   position: relative;  width: 100%;}
+.wight {color:#fff; text-align:center; font-size:21px;  font-weight:bold;}
+.reaces_page .inner{width:725px; margin:0 auto; padding:0px;}
+.reaces_page .left{width:280px; float:left; margin:0px; padding:0px;}
+.reaces_page .right{width:445px; float:left; margin:0px; padding:0px;}
+.event_sponsors{width:100%; float:left; margin:0px; padding:0px; text-align:center;}
+.reaces_page .ttl04{font-size:36px; padding: 25px 0 15px 0px; text-align: center; text-transform: capitalize;}
+.box01{width:100%; float:left; margin:0px; padding:20px 0px 50px 0px;}
+.reaces_page .download_block{width:100%; float:left; margin:0px; padding:0px}
+.reaces_page .download_block .grant_dwnld_link{margin-top:10px;}
+.youngmid {float:left; width:100%; margin-top:30px;}
+.youngmid .left {float:left; width:70%;}
+.youngmid .left h2 {padding-bottom:0px; text-transform:capitalize; line-height:normal;}
+.youngmid .left ul {margin:0px 0 20px 0;}
+.youngmid .left ul li {color:#707070; padding-bottom:5px; padding-left:15px; font-family:Arial,Helvetica,sans-serif; background:url(images/bullet_01.jpg) no-repeat left 8px; font-size:16px;}
+.youngmid .right {float:left; width:30%;}
+.rsvp {float:left; width:100%; text-align:center; font-size:16px; color:#707070;}
+.rsvp a { color:#707070; text-decoration:underline;}
+.reaces_page .ttl04{font-size:26px;}
+.reaces_page .text{text-align:center;}
+.reaces_page .link{color:#707070; text-align:center;}
+.poker_page .youngmid .left{width:100%;}
+.family_page .inner{width:795px; margin:0 auto;}
+.family_page .block01{margin:0px; padding:50px 0px;}
+
+.poker_logo_block{width:720px; margin:0 auto;}
+ul.poker_logo li{min-height:100px !important; padding:15px 30px;}
+ul.poker_logo li .jrinner{height:100px !important;} 
+
+/*5Aug2014*/
+.ttl06{color:#CF0000; padding-top:30px; text-align:left;}
+h4.ttl06{color:#0090c6; text-align:left; padding:0px 0px 5px 0px; font-weight:400; text-transform:uppercase;}
+
+.postimg{width:100%; text-align: center;}
+.postimg img{max-width:100%;}
+
+.wp-pagenavi{float:left; width:100%; border-top:1px solid #cccccc; margin-top:15px;}
+.wp-pagenavi .prev, .wp-pagenavi .next{position:relative; left:0px; top:0px;}
+.page-numbers{color: #0090C6 !important; background:#eeeeee; margin-top: 10px !important; float: left; padding: 3px 10px; margin-right: 10px;}
+
+.current{background:#0090C6; color:#ffffff !important;}
+.btn_buynow{background-color: #0090c6;
+    border: medium none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+    font-family: "metaplus_bold_romanregular";
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 8px;
+    padding: 0 !important;
+    text-align: center;
+    width: 155px;}

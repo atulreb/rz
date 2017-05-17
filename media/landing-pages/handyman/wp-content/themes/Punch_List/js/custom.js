@@ -1,0 +1,1 @@
+$('div.circle').css("height",$('div.circle').width()+"px");

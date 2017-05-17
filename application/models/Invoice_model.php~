@@ -1,0 +1,109 @@
+<?php
+
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
+
+/*
+ *  Class will do all necessary action for blog functionalities
+ */
+
+class Invoice_model extends CI_Model
+{
+    /*
+     * START :: Write function which fetches blog to displys on front-end :
+     */
+
+    function getAllInvoices( $user_id )
+    {
+
+        $this->db->select("inv.*");
+		
+        $this->db->from( 'tbl_invoices as inv');
+		
+    	$this->db->where('inv.user_id',  $user_id );
+        $this->db->order_by('inv.invoice_date', 'desc');
+  	  
+        $query = $this->db->get();
+		
+        return $query->result_array();
+    }
+
+    function getInviceDetails( $post_id )
+    {
+        $this->db->select("os.*,s.name as state, c.name as city, od.ord_det_item_fk, od.ord_det_item_name, od.ord_det_quantity, od.ord_det_non_discount_quantity, od.ord_det_discount_quantity, od.ord_det_stock_quantity, od.ord_det_price, od.ord_det_price_total, od.ord_det_discount_price, od.ord_det_discount_price_total, od.ord_det_discount_description,inv.invoice_date,inv.invoice_number");
+		
+		$this->db->from( 'tbl_invoices as inv');
+        $this->db->join(TABLES::$ORDER_SUMMARY . ' as os', 'os.ord_order_number = inv.order_number');
+		$this->db->join(TABLES::$ORDER_DETAILS . ' as od', 'os.ord_order_number = od.ord_det_order_number_fk');
+		$this->db->join('tbl_states as s', 's.id = os.ord_bill_state');
+		$this->db->join('tbl_cities as c', 'c.id = os.ord_bill_city');
+		$this->db->where('inv.invoice_id',  $post_id );
+        $this->db->order_by('os.ord_date', 'desc');
+		 
+  	   // $this->db->group_by(array("os.ord_order_number"));
+        $query = $this->db->get();
+		/*echo $this->db->last_query();
+		 die; */
+     
+        return $query->result_array();
+    }
+
+	function getOrderById($post_id)
+    {
+         $this->db->select("os.*,s.name as state, c.name as city, od.ord_det_item_fk, od.ord_det_item_name, od.ord_det_quantity, od.ord_det_non_discount_quantity, od.ord_det_discount_quantity, od.ord_det_stock_quantity, od.ord_det_price, od.ord_det_price_total, od.ord_det_discount_price, od.ord_det_discount_price_total, od.ord_det_discount_description");
+		
+        $this->db->from(TABLES::$ORDER_SUMMARY . ' as os');
+		$this->db->join(TABLES::$ORDER_DETAILS . ' as od', 'os.ord_order_number = od.ord_det_order_number_fk');
+		$this->db->join('tbl_states as s', 's.id = os.ord_bill_state');
+		$this->db->join('tbl_cities as c', 'c.id = os.ord_bill_city');
+		$this->db->where('os.ord_order_number',  $post_id );
+        $this->db->order_by('os.ord_date', 'desc');
+
+        $query = $this->db->get();
+     
+        return $query->result_array();
+    }
+    
+	function fetchPaperDetailsbyOrders( $user_id ) {
+		
+		$this->db->select("od.*, p.*, os.ord_date, os.ord_order_number");
+		$this->db->from(TABLES::$ORDER_SUMMARY . ' as os');
+        $this->db->join(TABLES::$ORDER_DETAILS . ' as od', 'os.ord_order_number = od.ord_det_order_number_fk');
+		$this->db->join(TABLES::$MST_PRODUCTS . ' as p', 'od.ord_det_item_fk = p.product_id');
+		$this->db->where('os.user_id',  $user_id );
+		$this->db->group_by(array("p.product_id", "os.ord_order_number"));
+        $this->db->order_by('os.ord_date', 'DESC');
+
+        $query = $this->db->get();
+    /* echo $this->db->last_query();
+		 die;*/
+        return $query->result_array();
+	}
+        
+        function getInvoiceNumber()
+        {
+            $this->db->select("invoice_id, LPAD(invoice_id+1,7,'0') as number ");
+            $this->db->from('tbl_invoices');
+                    $this->db->limit('1');
+            $query = $this->db->get();
+
+            return $query->result_array();
+        }
+		
+		function getInvoiceData($id){
+			$this->db->select("od.*,os.order_number,oss.ord_bill_address_01,oss.ord_bill_post_code,(select name from tbl_cities where id=oss.ord_bill_city) as bill_city");
+		$this->db->from('tbl_invoices as os');
+        $this->db->join(TABLES::$ORDER_DETAILS . ' as od', 'os.order_number = od.ord_det_order_number_fk');
+        $this->db->join(TABLES::$ORDER_SUMMARY . ' as oss', 'oss.ord_order_number = od.ord_det_order_number_fk');
+		$this->db->where('os.invoice_id',  $id );
+
+        $query = $this->db->get();
+    /* echo $this->db->last_query();
+		 die;*/
+        return $query->result_array();
+		}
+        
+        
+        
+
+}

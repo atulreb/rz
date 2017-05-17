@@ -1,0 +1,1 @@
+jQuery(function(i){i(".dropdown-menu li").hoverIntent({sensitivity:3,interval:100,timeout:400,over:function(){i("ul:first",this).slideDown(350)},out:function(){i("ul:first",this).hide()}}),i(".sub-menu li:has(ul)").find("a:first").addClass("standard_dropdown_arrow")});

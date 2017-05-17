@@ -1,0 +1,258 @@
+/* CSS Document */
+
+.page-template-page-landing-page .dropdown-select {width: 100%;}
+.landing-page .lp-heading {
+    margin: 30px 0px;
+	padding: 60px 0px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.landing-page h1 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #e00000;
+}
+
+.landing-page h2 {
+    font-size: 30px;
+    line-height: 36px;
+    color: #545454;
+	text-transform: none;
+}
+
+.landing-page .lp-content ul {
+	list-style-type: circle important;
+    padding-left: 30px;
+	margin-bottom: 30px;
+}
+
+.lp-content ul li {
+    padding-left: 15px;
+}
+
+.lp-form h2 {
+    text-align: left;
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    text-transform: none;
+    color: #e00000;
+    padding: 0px 15px 0px 15px;
+}
+
+.lp-form p {
+    text-align: left;
+    padding: 0px 15px 0px 15px;
+}
+
+.landing-page .lp-form {
+    background: #efefef;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.landing-page .form-group.frm_submit {
+    margin-bottom: 0px;
+    padding: 0px 15px 0px 15px;
+}
+
+.landing-page div#frm_form_12_container {
+    margin-top: 30px;
+}
+
+.landing-page .lp-content h2 {
+	color: #000;
+    font-size: 22px;
+	line-height: 26px;
+}
+
+ul.fa-ul.lp-list {
+    margin-bottom: 30px;
+	margin-left: 0px;
+	padding-left:0px;
+}
+
+ul.lp-list li {
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 3px;
+	margin-left: 30px;
+	padding-left:0px;
+    color: #000;
+    font-weight: 400;
+}
+
+.fa-check-square:before {
+    content: "\f14a";
+    font-size: 22px;
+    line-height: 32px;
+    color: #023c75;
+}
+
+.lp-review blockquote {
+    color: #59595b;
+    padding: 15px 30px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+}
+
+.landing-page .lp-content h3 {
+    font-family: Oswald,Arial, Helvetica, sans-serif;
+    line-height: 34px;
+    font-weight: 400;
+    color: #e00000;
+    font-size: 24px;
+    text-align: left;
+}
+
+.landing-page .lp-content h3 span.red {
+    font-weight: bold;
+}
+
+.landing-page .lp-content hr {margin-top: 15px;margin-bottom: 15px;}
+
+.landing-page blockquote:before {color: #023c75;}
+.landing-page blockquote {border-color: #023c75;}
+
+.landing-page blockquote p {
+    font-size: inherit;
+    min-height: 30px;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container.landing-page {
+    margin-bottom: 30px;
+    padding-bottom: 60px;
+}
+
+.landing-page .frm_hidden {display: none!important;}
+
+.page-template-page-landing-page h3 {
+    font-size: 28px;
+    line-height: 36px;
+    margin: 15px;
+    text-transform: none;
+    letter-spacing: .5px;
+}
+
+.page-template-page-landing-page .featured-image {
+    margin-bottom: 30px;
+}
+
+.page-template-page-landing-page .gform_wrapper {
+    padding-bottom: 15px;
+}
+
+.page-template-page-landing-page a.btn.btn-primary {
+    width: 100%;
+    text-align: center;
+    background-color: #e00000;
+    border-color: #e00000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.page-template-page-landing-page a.btn.btn-primary:hover {
+    background-color: #5772e3;
+    border-color: #5772e3;
+}
+
+.lp-disclaimer p {
+    text-align: center;
+    font-style: italic;
+}
+
+.lp-disclaimer {
+    margin-top: 30px;
+}
+
+.landing-page .gform_wrapper .col-md-12 span.dropdown-select {
+    width: 100%;
+}
+
+/*GENERIC LANDING PAGE CSS*/
+#lp-generic .lp-form .gform_wrapper ul {
+    padding-left: 0;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0px auto;
+}
+#lp-generic .gform_wrapper .button, #lp-generic .gform_button {
+    margin: 0px auto;
+    margin-left: 15px;
+}
+#lp-generic .gform_body {margin: 30px auto;}
+#lp-generic label.gfield_label {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px auto;
+    margin-bottom: 5px;
+}
+#lp-generic .lp-form p.form-intro {font-size: 16px; line-height: 28px;}
+
+
+
+
+/* FLEX CONTENT ON LP'S */
+
+.page-template-page-landing-page h4.panel-title a {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0px;
+    margin: 0px auto;
+    height: auto;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+.page-template-page-landing-page h4.panel-title {
+    line-height: 18px!important;
+    margin-bottom: 0px!important;
+    margin: 0px auto;
+    padding: 0px!important;
+    border: 0px!important;
+}
+.page-template-page-landing-page .panel-default>.panel-heading {
+    color: #ffffff;
+    background-color: #023c75;
+    border-color: #023c75;
+}
+.page-template-page-landing-page .landing-page .panel-body h2 {
+    margin: 0px auto;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #e00000;
+}
+.page-template-page-landing-page .panel-body p {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #000;
+}
+.page-template-page-landing-page .flexpage h2.heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+

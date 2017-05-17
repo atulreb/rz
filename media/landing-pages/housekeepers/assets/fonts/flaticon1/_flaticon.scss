@@ -1,0 +1,63 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/04/2017 13:00
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-furniture-1:before { content: "\f100"; }
+.flaticon-washbasin:before { content: "\f101"; }
+.flaticon-toilet:before { content: "\f102"; }
+.flaticon-bathtub:before { content: "\f103"; }
+.flaticon-stove:before { content: "\f104"; }
+.flaticon-furniture:before { content: "\f105"; }
+.flaticon-man-vacuuming:before { content: "\f106"; }
+.flaticon-base:before { content: "\f107"; }
+.flaticon-fan:before { content: "\f108"; }
+.flaticon-feather-duster:before { content: "\f109"; }
+.flaticon-cleaner:before { content: "\f10a"; }
+.flaticon-vacuum-cleaner:before { content: "\f10b"; }
+    
+    $font-Flaticon-furniture-1: "\f100";
+    $font-Flaticon-washbasin: "\f101";
+    $font-Flaticon-toilet: "\f102";
+    $font-Flaticon-bathtub: "\f103";
+    $font-Flaticon-stove: "\f104";
+    $font-Flaticon-furniture: "\f105";
+    $font-Flaticon-man-vacuuming: "\f106";
+    $font-Flaticon-base: "\f107";
+    $font-Flaticon-fan: "\f108";
+    $font-Flaticon-feather-duster: "\f109";
+    $font-Flaticon-cleaner: "\f10a";
+    $font-Flaticon-vacuum-cleaner: "\f10b";

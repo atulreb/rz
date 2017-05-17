@@ -1,0 +1,266 @@
+<?php
+
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
+
+class Invoice extends CI_Controller
+{
+
+    function __construct()
+    {
+        parent::__construct();
+        $this->load->model("common_model");
+        $this->load->model("blog_model");
+         $this->load->library('M_pdf');
+		 
+		 $data['user_session'] = $this->session->userdata('user_account');
+		//echo $this->session->userdata['user_account']['username']; die;
+		
+		if ($data['user_session']['role_id'] == '1') {
+            $this->sidebar = 'partials/sidebar';
+        } else {
+            $this->sidebar = 'partials/user_sidebar';
+        }
+		
+        if (!$this->common_model->isLoggedIn()) {
+            redirect(base_url());
+        }
+//        $this->load->library('form_validation');
+    }
+
+    /* Frontend : Manage Blog Start */
+
+    public function index()
+    {
+        $this->load->model("Invoice_model");    
+        $data['global'] = $this->common_model->getGlobalSettings();
+        $data = $this->common_model->commonFunction();
+        $data['user_session'] = $this->session->userdata('user_account');
+        
+       // $orders = $this->common_model->getRecords(TABLES::$ORDER_SUMMARY,"*", array('ord_user_fk' => $data['user_session']['user_id'] ));
+        $invices = $this->Invoice_model->getAllInvoices($data['user_session']['user_id']);
+
+        $this->template->set('page', 'bloglist');
+        $this->template->set('invices', $invices);
+        $this->template->set('global', $data['global']);
+        $this->template->set('user_session', $data['user_session']);
+        $this->template->set_theme('default_theme');
+        $this->template->set_layout('backend')
+                ->title('Razorclean | Orders')
+                ->set_partial('header', 'partials/header')
+                ->set_partial('sidebar', $this->sidebar)
+                ->set_partial('footer', 'partials/footer');
+        $this->template->build('invoice/invoice_list');
+    }
+    
+    public function orderDetails($id){
+        
+        $this->load->model("Order_model");
+        $data['global'] = $this->common_model->getGlobalSettings();
+        $data = $this->common_model->commonFunction();
+        
+         if (!$this->common_model->isLoggedIn()) {
+            $this->session->set_userdata('error_msg', "Please sign in to post your blog.");
+            redirect('product-list');
+        }
+		
+        $data = $this->common_model->commonFunction();
+		
+        $arrOrderData = $this->Order_model->getOrderDetails($id);
+        $order = $this->Order_model->getOrderById($id);
+        $data['user_session'] = $this->session->userdata('user_account');  
+       
+        $this->template->set('page', 'bloglist');
+        $this->template->set('global', $data['global']);
+        $this->template->set('post_info', $arrOrderData);
+	$this->template->set('order', $order);
+        
+        $this->template->set('user_session', $data['user_session']);
+        $this->template->set_theme('default_theme');
+        $this->template->set_layout('backend')
+                ->title('Razorclean | Order Details')
+                ->set_partial('header', 'partials/header')
+                ->set_partial('sidebar', $this->sidebar)
+                ->set_partial('footer', 'partials/footer');
+        $this->template->build('order-details/order_details');
+    }
+
+    public function view_invoice( $id )
+    {
+        $this->load->model("Invoice_model"); 
+		$this->load->model("Order_model");	
+		
+        $data['global'] = $this->common_model->getGlobalSettings();
+        $data = $this->common_model->commonFunction();
+        $data['user_session'] = $this->session->userdata('user_account');
+        
+       // $orders = $this->common_model->getRecords(TABLES::$ORDER_SUMMARY,"*", array('ord_user_fk' => $data['user_session']['user_id'] ));
+        $invoices = $this->Invoice_model->getInviceDetails($id);
+		//print_r($invoices);die();
+		$invoicedata = $this->Invoice_model->getInvoiceData($id);
+		
+		$arrOrderData = $this->Order_model->getOrderDetails($id);
+		//print_r($invoicedata);die();
+		
+       // echo FCPATH;die;
+     // $file = FCPATH.'uploads/invoice pdf files/abc@gmail.com/Invoice123.pdf';
+        
+         /*$order_table = "<table border='1' style='border:1px solid #000;padding:8px;border-collapse:collapse'><tr><th style='padding:5px'>Sr No</th><th style='padding:5px'>Item Name</th><th style='padding:5px'>Quantity</th><th style='padding:5px'>Price</th>";
+                $sr = 0;
+              
+                    $order_table .= "<tr><td style='padding:5px'>" . $sr . "</td><td style='padding:5px'>dsfsdf</td><td style='padding:5px'>dsfsdfsdf</td><td style='padding:5px'>sdfsdfsdfsdf</td></tr>";
+                
+                $order_table .= "</table>";
+
+                $data['global'] = $this->common_model->getGlobalSettings();
+
+         
+                $html1 = $order_table;*/
+        
+      
+                $order_table = '<body>';
+
+                $order_table .= '<div class="logo" style="position: absolute;  float: left; right: 0; top: 0; margin: 0;">';
+                $order_table .= '<img style="height:150px;" src="">';
+                $order_table .= '</div>';
+
+                $order_table .= '<div class="logo" style="float: left; width: 54%; margin-top:15px; margin-bottom: 0pt; ">';
+                $order_table .= '<img src="'.  frontend_asset_url().'img/logob.png">';
+                $order_table .= '</div>';
+
+                $order_table .= '<div class="address" style="text-align: right;">';
+                $order_table .= '<br/>';
+                $order_table .= '<br/>';
+                $order_table .= '<br/>';
+                $order_table .= '</div>';
+
+                $order_table .= '<div class="" style="margin-top:30 opt; background-color:#EEE;">';
+                $order_table .= '<div class="title" style="font-weight: bold; font-size: 150%;">Invoice #'.$invoices[0]['invoice_number'].'</div>';
+                
+                $order_table .= 'Invoice Date: '.date('d M Y', strtotime($invoices[0]['invoice_date'])).'<br/>';
+               
+                $order_table .= '</div>';
+
+                $order_table .= '<div class="" style="margin-top:30 opt; ">';
+                $order_table .= '<div class="" style="font-weight: bold; font-size: 150%;">Shipping Details</div>';
+                $order_table .= $invoicedata[0]['ord_bill_address_01'].'<br/>';
+                $order_table .= $invoicedata[0]['bill_city'].'<br/>';
+                $order_table .= $invoicedata[0]['ord_bill_post_code'].'<br/>';
+                $order_table .= '<br/>';
+                $order_table .= '<br/>';
+                $order_table .= '</div>';
+                $order_table .= '<br/>';
+               // $order_table .= '<table border="1" cellPadding="9" cellspacing="0" >';
+                //$order_table .= '<tbody>';
+               // $order_table .= '<tr>';
+               // $order_table .= '<th style="width:150%">Description</th>';
+              //  $order_table .= '<th>Total</th>';
+              //  $order_table .= '</tr>';
+
+				/*$sub_total = 0;
+				if(isset($invoice_details)){
+					foreach ($invoice_details as $key => $value) {
+						$product_detals = get_row_array('tbl_voro_store_products', array('id'=>$value['prod_id']));
+								$total = $value["price"]*$value['prod_qty'];
+				$sub_total = $sub_total + $total;
+
+				$sub_total_sum = number_format((float)$sub_total, 2, '.', '');
+
+				'<tr>';
+				$order_table .= '<td></td>';
+				$order_table .= '<td> USD</td>';
+
+				$order_table .= '</tr>';
+
+				}
+				}*/
+/*
+$credit = '0';
+$credit = number_format((float)$credit, 2, '.', '');
+$total= $sub_total - $credit;
+$total = number_format((float)$total, 2, '.', '');
+
+$order_table .= '<tr>';
+$order_table .= '<td class="table-description" align="right">Sub Total</td>';
+$order_table .= '<td class="table-description">USD</td>';
+$order_table .= '</tr>';
+
+$order_table .= '<tr>';
+$order_table .= '<td class="table-description" align="right">Credit</td>';
+$order_table .= '<td class="table-description">USD</td>';
+$order_table .= '</tr>';
+
+$order_table .= '<tr>';
+$order_table .= '<td class="table-description" align="right">Total</td>';
+$order_table .= '<td class="table-description">USD</td>';
+$order_table .= '</tr>';
+$order_table .= '</tbody>';
+$order_table .= '</table>';
+*/
+$order_table .= '<h3>Order Details</h3>';
+
+$order_table .= '<table border="1" cellPadding="9" cellspacing="0" width="100%">';
+$order_table .= '<tbody>';
+$order_table .= '<tr>';
+$order_table .= '<th>Name</th>';
+$order_table .= '<th>Price</th>';
+$order_table .= '<th>Quantity</th>';
+$order_table .= '<th width="20%">Total</th>';
+$order_table .= '</tr>';
+
+/*if(isset($transaction_details)){
+	foreach ($transaction_details as $key => $value) {*/
+
+	$order_table .= '<tr>';
+	$order_table .= '<td>'.$invoicedata[0]['ord_det_item_name'].'</td>';
+	$order_table .= '<td>$'.$invoicedata[0]['ord_det_price'].'</td>';
+	$order_table .= '<td>'.$invoicedata[0]['ord_det_item_fk'].'</td>';
+	$order_table .= '<td>$'.$invoicedata[0]['ord_det_price_total'].'</td>';
+	$order_table .= '</tr>';
+
+	/*}
+}
+else{
+
+$order_table .= '<tr>';
+$order_table .= '<td colspan="4" align="center">No Related Transactions Found</td>';
+$order_table .= '</tr>';
+}*/
+
+$order_table .= '<tr>';
+$order_table .= '<td colspan="3" class="table-description" align="right">Total</td>';
+$order_table .= '<td class="table-description">$'.$invoicedata[0]['ord_det_price_total'].'</td>';
+$order_table .= '</tr>';
+$order_table .= '</tbody>';
+$order_table .= '</table>';
+$order_table .= '<br/>';
+
+$order_table .= '<div class="center">';
+$order_table .= 'PDF Generated on';
+$order_table .= '</div>';
+
+$order_table .= '</body>';
+ $html1 = $order_table;
+                $pdfFilePath = "output_pdf_name.pdf";
+                $this->m_pdf->pdf->mirrorMargins = 1;
+
+                $this->m_pdf->pdf->SetHTMLHeader('<div style="text-align: right; font-weight: bold;">Invoice</div>', 'O');
+
+                $this->m_pdf->pdf->SetHTMLHeader('<div style="border-bottom: 1px solid #000000;">My document</div>', 'E');
+
+                $this->m_pdf->pdf->SetHTMLFooter('<table width="100%" style="vertical-align: bottom; font-family: serif; font-size: 8pt; color: #000000; font-weight: bold; font-style: italic;"><tr><td width="33%"><span style="font-weight: bold; font-style: italic;">{DATE j-m-Y}</span></td><td width="33%" align="center" style="font-weight: bold; font-style: italic;">{PAGENO}/{nbpg}</td>
+<td width="33%" style="text-align: right; ">My document</td></tr></table>');
+                $this->m_pdf->pdf->SetHTMLFooter('<table width="100%" style="vertical-align: bottom; font-family: serif; font-size: 8pt; color: #000000; font-weight: bold; font-style: italic;"><tr>
+<td width="33%"><span style="font-weight: bold; font-style: italic;">My document</span></td><td width="33%" align="center" style="font-weight: bold; font-style: italic;">{PAGENO}/{nbpg}</td>
+<td width="33%" style="text-align: right; ">{DATE j-m-Y}</td></tr></table>', 'E');
+                $html = mb_convert_encoding($html1, 'UTF-8', 'UTF-8');
+                $this->m_pdf->pdf->WriteHTML($html);
+             
+        $this->m_pdf->pdf->Output($pdfFilePath, 'F'); 
+        $this->m_pdf->pdf->Output();
+    }
+    
+}
+
+/* End of file home.php */
+/* Location: ./application/controllers/home.php */

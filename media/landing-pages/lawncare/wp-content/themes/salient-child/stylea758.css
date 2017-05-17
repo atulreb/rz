@@ -1,0 +1,33 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+@import url("../salient/style.css");
+
+
+
+a#logo {
+  float: left;
+}
+@media only screen and (max-width: 1000px) and (min-width: 1px) {
+  body header#top #logo img {
+    height: 25px!important;
+  }
+.parallax_slider_outer.first-section .swiper-slide .content, .nectar-slider-wrap.first-section .swiper-slide .content {
+  top: -33px !important;
+  }
+}
+
+header#top #logo img {
+  max-height: 56px;
+}
+
+.small-nav header#top #logo img {
+  max-height: 45px;
+}

@@ -1,0 +1,67 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/04/2017 10:54
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-bench:before { content: "\f100"; }
+.flaticon-waste-pipe:before { content: "\f101"; }
+.flaticon-plant:before { content: "\f102"; }
+.flaticon-leaves:before { content: "\f103"; }
+.flaticon-sprout:before { content: "\f104"; }
+.flaticon-water:before { content: "\f105"; }
+.flaticon-price-tag:before { content: "\f106"; }
+.flaticon-nature:before { content: "\f107"; }
+.flaticon-mower:before { content: "\f108"; }
+.flaticon-bathtub:before { content: "\f109"; }
+.flaticon-home:before { content: "\f10a"; }
+.flaticon-check-square:before { content: "\f10b"; }
+.flaticon-communication:before { content: "\f10c"; }
+.flaticon-loupe:before { content: "\f10d"; }
+    
+    $font-Flaticon-bench: "\f100";
+    $font-Flaticon-waste-pipe: "\f101";
+    $font-Flaticon-plant: "\f102";
+    $font-Flaticon-leaves: "\f103";
+    $font-Flaticon-sprout: "\f104";
+    $font-Flaticon-water: "\f105";
+    $font-Flaticon-price-tag: "\f106";
+    $font-Flaticon-nature: "\f107";
+    $font-Flaticon-mower: "\f108";
+    $font-Flaticon-bathtub: "\f109";
+    $font-Flaticon-home: "\f10a";
+    $font-Flaticon-check-square: "\f10b";
+    $font-Flaticon-communication: "\f10c";
+    $font-Flaticon-loupe: "\f10d";

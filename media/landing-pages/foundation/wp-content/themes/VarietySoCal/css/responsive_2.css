@@ -1,0 +1,495 @@
+
+/*@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) { 
+	#logo_block{background-size:100%; width:280px; height:460px; margin-right:56px;}
+	#logo_block .logo{width:100%;}
+	#logo_block .logo img{width:65%;}
+	.txt_around{font-size:18px; margin-left:40px; padding-top:22px;}
+	.map{width:92%; margin-left:-3px;}
+	.txt_variety{padding:0px; font-size:13px; line-height:14px; margin-left:18px; margin-top:27px;}
+	#accordion-container{width:215px; margin:30px 0px 0px 13px; height:25px; top:270px;}
+	.accordion-header{line-height:25px; width:215px; padding-left:5px; font-size:12px;}
+	.inactive-header{background-position:196px 4px;}
+	.inactive-header:hover{background-position:196px 4px;}
+	.btn_donate{width:210px; bottom:28px; left:33px;}
+	.btn_donate img{width:100%;}
+	
+}*/
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+	/*.home_page_middle .section_block{padding-top:240px;}*/
+	.flex-control-nav{right:494px !important;}
+	.flex-direction-nav{right:400px !important;}
+	#logo_block{background-size:100%; width:275px; height:420px; margin-right:86px;}
+	#logo_block .logo{width:100%; height:70px;}
+	#logo_block .logo img{width:65%;}
+	.txt_around{font-size:18px; margin-left:40px; padding-top:15px;}
+	.map{width:85%; margin-left:-5px;}
+	.txt_variety{padding:0px; font-size:11px; line-height:12px; margin-left:32px; margin-top:32px;}
+	#accordion-container{width:225px; height:25px; top:270px;}
+	.accordion-header{line-height:25px; width:225px; padding-left:5px; text-align:left; font-size:13px;}
+	.inactive-header{background-position:195px 4px;}
+	.inactive-header:hover{background-position:195px 4px;}
+	.btn_donate{width:190px; bottom:30px; left:40px;}
+	.btn_donate img{width:100%;}
+	.flexslider .slides > li{background-size:100% auto !important;}
+	.flex-viewport{min-height:223px !important; height:298px !important;}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+	.header_top_contain, #footer_top_in, #subpages_banner_in, #footer_bottom_in, .container, .press_releases_page .section_in, .subpages_middle, .subpages_banner_in{width:750px;}	
+	/* Reponisve Menu CSS Start */
+	#logo_block, a.button_01.none_block, #subpages_logo_block{display:none;}
+	.hide_desktop{display:block;}
+	.mobile_logo{width:320px; float:left; margin:0px 0px 0px 55px; padding:0px; text-align:center;}
+	.mobile_logo a{width:100%; height:129px; float:left; background:url(../images/mobile_logo.png) no-repeat center top;}
+	.hide_desktop{width:100%; display:block; margin:0px; padding:0px; float:left; text-align:center;}
+	a.button_01{height:50px; background-color:#0090c6; font-size:23px; color:#FFFFFF; margin:0px 5px; padding:0px 12px; line-height:50px; text-transform:uppercase; border-radius:3px; display:inline-block; overflow:hidden;}
+	a.button_01:hover{background-color:#CF0000; text-decoration:none;}
+	a.menu_icon{width:30px; padding:0px 12px; background:#CF0000 url(../images/listview_icon.png) no-repeat center center; position:absolute; left:0; top:5px;}
+	.nav{width:320px; min-height:320px; position:absolute; display:none; z-index:1000; margin:0px 0px 0px 56px; padding:0px; min-height:479px;}
+	.nav ul{background-color:#FFFFFF; margin-left:6px; width:96%;}
+	.nav ul li{width:100%; text-align:center; height:auto; line-height:normal; border-bottom:1px solid #e3e3e3;}
+	.nav ul li a{width:100%; float:left; color:#cf0000; font-size:20px; margin:0px; padding:10px 0px;}
+	.nav ul li:hover ul{position:static;}
+	.nav ul li:hover ul{width:100%;}
+	.nav ul li:hover ul{padding:0px;}
+	.nav ul li:hover ul{background-color:#FFF;}
+	.nav ul li ul li{line-height:normal; padding:0px;}
+	.nav ul li ul li a{font-family: 'metanormalregular'; font-size:20px; padding:10px 0px; font-weight:normal;  border-bottom:1px solid #e3e3e3;}
+	.nav ul li ul li:last-child a{border-bottom:0;}
+	
+	ul.mobile_social_icon{float:left; padding:0px; text-align:center;}
+	ul.mobile_social_icon li{width:auto; margin:15px 26px 15px 26px; padding:0px; border:0px;}
+	ul.mobile_social_icon li a{padding:0px;}
+	/* Reponisve Menu CSS End */
+	
+	/*.slider{height:353px;}*/
+	.flexslider{height:auto !important;}
+	.flex-control-nav{right:365px !important;}
+	.flex-direction-nav{right:275px !important;}
+	.search_block, .search_bar{width:146px;position: absolute;right: 0; top: 0;}
+	.search_bar input{width:136px;}
+	.section_in, .border_top_block .section_in, .support_page .groups_block, .special_programs_page .about_dis_box{width:575px;}
+	.section_block{padding:55px 0px 0px;}
+	.home_page_middle .block_01{min-height:265px;}
+	.block_01, .block_01:first-child, .icon_block{width:200px; margin: 0 35px 35px !important;}
+	.section_block01_in{width:630px;}
+	.news_date{width:59%;}
+	.facebook_block, .twitter_block{min-height:200px;}
+	.adv_block{float:left;}
+	.donate_block{width:265px; margin:0px 25px;}
+	.donate_textlink{font-size:22px; width:100%; padding:35px 0px; text-align:center;}
+	.donate_box, .volunteer_box{margin-left:40px;}
+	.link_block{position:relative;}
+	.ttl03{position:absolute; left:35px; top:140px;}
+	#footer{padding:0px;}
+	.footer_logo{width:250px;}
+	.footer_bottom_nav{width:465px;}
+	.footer_menu{width:370px;}
+	
+	/* Who We Are Page CSS Start */
+	#subpages_middle, .subpage_block01, .inner02{width:725px;}
+	.organizations_page #subpages_banner_in img{width:100%;}
+	.grid02{width:94%; margin-left:0px; padding:0 3%;}
+	.ttl_ourmission{background-position:center top; width:100%;}
+	.about_dis{width:100%; margin:0px;}
+	.border_top_block{padding-bottom:50px;}
+	
+	/* Fundrasing Groups Page CSS Start */
+	.fundrasing_groups_icon{width:540px;}
+	.carousel_slider_block{width:675px;}
+	
+	/* Healthcare Page CSS Start */
+	.subpage_slider01 img, .education .section_in, .images_block ul li.row_01 img, .images_block ul li.row_02 img, .family_page .inner{width:100%;}
+	.inner02{background-size:100% 100%;}
+	
+	/* Gold Papers Hearts Page CSS Start */
+	.gold_hearts_block_in .left{width:350px; margin-left:20px;}
+	.gold_hearts_block_in .right{width:300px;}
+	.hearts_img_block{width:300px; height:300px;}
+	.hearts_img_block img{width:230px; padding-top:55px;}
+	
+	/* Press Releases Page CSS Start */
+	.allnews_text{width:500px; float:left; margin-left:10px;}
+	
+	/* Sponsors Page CSS Start */
+	.sponsors_page .special_programs_page .about_dis_box, .jr_page .about_dis_box{width:690px;}
+	/*.jr_page .list_img li {width:46%;}*/
+	/*.jr_page .list_img img{width:100%;}	*/
+	
+	.boxleft, .boxright{width:48% !important;}
+	.young_page .boxright{padding-left:23px;}
+	.volunteer_page #middle{min-height:550px;}
+	#subpages_banner_in img{max-width:100%;}
+	
+	/*23April2014*/
+	
+	.footer_nav li{margin-right:70px;}
+	.footer_nav li:nth-child(4) ul{left:-128px;}
+	
+	/*13May2014*/
+	.video img{width:100%;}
+	.images_block .about_dis_box{width:690px !important;}
+	.subpage_slider01 img{height:auto}
+	#sidebar.topbarh{top:270px;}
+	
+	/*1July2014*/
+	.list_carousel li{margin:0px;width: 220px;}
+	.icon_block .home_sprite{margin-left:6px;}
+	
+	/*.jnrimages li{width:100% !important; margin:0px 0px 10px 0px;}*/
+	.family_page .inner .block01 img{width:100%;}
+	.video iframe{width:100%;}
+	.special_programs_page .special_programs_icon{width:645px;}
+	
+	.home_menu{right:375px;}
+	.flexslider .slides > li{background-size:125% auto !important;}
+	.flex-viewport{min-height:280px !important; height:280px !important;}
+	
+	.poker_logo_block{width:675px; margin:0 auto;}
+	ul.poker_logo li{padding-left:22px; padding-right:22px;}
+} 
+
+/* All Mobile Sizes (devices and browser) / all under Tablet */
+@media only screen and (max-width: 767px) {
+	.mobile_layout, .mobile_ttl, .mobile_layout span, .about_dis, .donate_textlink, #subpages_middle, .subpage_block01, #subpages_banner_in, .fundrasing_page
+	#subpages_middle, .copy, .subpage_slider01 img, .golf_logo img, .gold_hearts_block_in .left, .gold_hearts_block_in .right, .papers_block
+	.gold_hearts_block_in .left, .papers_block .gold_hearts_block_in .right, .video img, .grants_page .img_block img, .header_top_contain, .footer_menu,.subpages_banner_in, .subpages_middle{width:100%;}
+	.mobile_layout{display:none; float:left; background-color:#EEEEEE; padding:30px 0px; position:relative; margin-top:200px;}
+	.mobile_layout span{font-size:30px; color:#252525; font-family: 'metanormalregular'; float:left; text-align:center; margin-bottom:20px;}
+	.mobile_ttl{float:left; text-align:center; font-size:33px; color:#252525; text-transform:uppercase;}
+	.mobile_layout .border01{top:189px;}
+	.home_page_middle{top:0px;}
+	
+	/* Reponisve Menu CSS Start */
+	#logo_block, #sidebar, .search_block, #subpages_logo_block{display:none;}
+	.mobile_logo{width:100%; float:left; margin:0px; padding:0px; text-align:center;}
+	.hide_desktop{width:100%; display:block; margin:0px 0px 10px; padding:0px; float:left; text-align:center;}
+	.mobile_logo a{width:100%; height:129px; float:left; background:url(../images/mobile_logo.png) no-repeat center top;}
+	a.button_01{height:50px; background-color:#0090c6; font-size:23px; color:#FFFFFF; margin:0px 5px; padding:0px 12px; line-height:50px; text-transform:uppercase; border-radius:3px; display:inline-block; overflow:hidden; float:left;}
+	a.button_01:hover{background-color:#CF0000; text-decoration:none;}
+	a.menu_icon{width:30px; padding:0px 12px; background:#0090c6 url(../images/listview_icon.png) no-repeat center center;}
+	.header_top{height:auto; position:absolute; background-color:#FFFFFF;}
+	
+	.nav{width:100%; position:absolute; display:none; z-index:1000; margin:0px; padding:0px; min-height:372px;}
+	.nav ul{background-color:#FFFFFF; width:96%; margin:0px 0px 0px 6px;}
+	.nav ul li{width:100%; text-align:center; height:auto; line-height:normal; border-bottom:1px solid #e3e3e3;}
+	.nav ul li a{width:100%; float:left; color:#cf0000; font-size:20px; margin:0px; padding:10px 0px;}
+	.nav ul li:hover ul{position:static;}
+	.nav ul li:hover ul{width:100%;}
+	.nav ul li:hover ul{padding:0px;}
+	
+	.nav ul li:hover ul{background-color:#FFF;}
+	.nav ul li ul li{line-height:normal; padding:0px;}
+	.nav ul li ul li a{font-family: 'metanormalregular'; font-size:20px; padding:10px 0px; font-weight:normal;  border-bottom:1px solid #e3e3e3;}
+	.nav ul li ul li:last-child a{border-bottom:0;}
+	
+	ul.mobile_social_icon{float:left; padding:0; text-align:center; width:96.4%; display:block;}
+	ul.mobile_social_icon li{width:auto; margin:15px 29px 15px 29px; padding:0px; border:0px;}
+	ul.mobile_social_icon li a{padding:0px;}
+	
+	/* Reponisve Menu CSS End */
+	
+	/* Who We Are Page CSS Start */
+	#subpages_banner, .subpage_block01{padding:25px 0px;}
+	#subpages_banner{margin-top:200px;}
+	#subpages_banner_in img{width:260px;}
+	.grid02{width:90%; margin:0px; padding:0 5%;}
+	.ttl_ourmission{background-position:center top !important; width:100%;}
+	.about_dis{margin:0px;}
+	.border_top_block{padding-bottom:50px;}
+	.about_dis_box{width:90%;}
+	
+	/* Fundrasing Groups Page CSS Start */
+	.caroufredsel_wrapper{left:25px !important; /* width:100% !important; */}
+	.fundrasing_page p{padding:0 20px;}
+	
+	/* News/Media Page CSS Start */
+	.groups_block{width:95%;}
+	.news_article p{padding:0px 0px 5px 0px; font-size:14px;}
+	
+	/* Contact Page CSS Start */
+	.map_box{width:97%; margin:0px;}
+	.map_box iframe, .contact_detail{width:100%;}
+	.email_detail{margin:0px;}
+	.contact_block .bottom_border_box{padding-bottom:30px; margin-bottom:30px;}
+	
+	/* Grants Page CSS Start */
+	.grants_page .border05{margin-bottom:0px;}
+	
+	/* Healthcare Page CSS Start */
+	.inner02{background-size:100% 100%; height:200px;}
+	
+	/* Gold Papers Hearts Page CSS Start */
+	.papers_block .gold_hearts_block_in .left{text-align:center;}
+	
+	/* Financials Page CSS Start */
+	.financials_page .download_block{margin-bottom:25px; width:100%;}
+
+	#subpages_banner_in img{max-width:100%;}
+	.grant_wrapper .img_block img{width:auto;}
+	
+	/*13May2014*/
+	.images_block ul li.row_01, .images_block ul li.row_02{width:100%; text-align:center; margin-left:0px;}
+	img.boys_ttl{width:100%;}
+	
+	.subpage_slider01 img{height:auto}
+	/*5Jun2014*/
+	.gold_hearts_block_in .left p{color:#FFFFFF; text-align:center;}
+	
+	/*23Jun2014*/
+	.new_sponsors_page .boxleft{width:100% !important;}
+	.young_page .boxright, .young_page .boxmiddle{padding-left:0px;}
+	#floattop{right:0px;}
+	.fundrasing_page{margin-top:20px;}
+	.jr_page .list_img li {width: 100%; margin: 0px 0px 15px 0px;} /*By Utsav, 3nd July, 2014*/
+	
+	/*9July2014*/
+	.reaces_page .left{width:100%; text-align:center;}
+	.reaces_page .right, .event_sponsors img{width:100%;}
+	.reaces_page .right p{font-size:16px;}
+	.box01{padding:0px 0px 20px 0px;}
+	.youngmid .left {width:100%;}
+	.youngmid .right {width:100%; text-align:center;} 
+	.poker_page .youngmid .left ul li{text-align:left;}
+	.family_page .inner .block01 img{width:100%;}
+	.video iframe{width:100%;}
+	
+	/*5Aug2014*/
+	.pokerimages{padding:0px;}
+	.pokerimages li{margin-left:0px; margin-right:0px; width:100%;}
+	.pokerimages li img{width:100%;}
+	
+	.event_sponsors iframe{width:100%; height:180px;}
+	.postimg img{width:100%; height:auto;}
+	.postimg iframe{width:100%; height:auto;}
+ }
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header_top_contain, #footer_top_in, .section_in, .section_block01_in, #footer_bottom_in, .border_top_block .section_in, .support_page .groups_block, 
+	.special_programs_page .about_dis_box, .contact_block .inner, .grants_page, .about_dis_box, .inner02, .carousel_slider_block, .container{width:450px;}
+	.sponsors_page .about_dis_box, .reaces_page .inner, .family_page .inner{width:450px !important;}
+	.mobile, .news_date, .allnews_img img{width:100%;}
+	.search_block, .search_bar{width:146px;}
+	.search_bar input{width:136px; position: absolute;right: 0; top:0;}
+	.section_block{padding-bottom:0px; background-color:#FFFFFF;}
+	.block_01, .block_01:first-child{margin:0px 20px 35px 20px;}
+	.education_block .mobile img{width:320px;}
+	.mobile{margin:0px 0px 10px 0px; float:left;}
+	.facebook_block, .twitter_block{min-height:200px; margin-left:0px;}
+	.adv_block{float:left;}
+	.donate_block{width:210px; margin:0px;}
+	.donate_textlink{font-size:20px; padding:35px 0px; text-align:center;}
+	.donate_box, .volunteer_box{margin-left:10px;}
+	.link_block{position:relative;}
+	.ttl03{position:absolute; left:10px; top:140px;}
+	#footer{padding:0px;}
+	.footer_nav li a{padding-left:12px; padding-right:12px; font-size:12px;}
+	.footer_logo{width:150px; margin-left:0px;}
+	.footer_bottom_nav{width:225px;}
+	.footer_bottom_nav li a{padding:0px 10px; font-size:13px;}
+	.copy{text-align:center; width:85%;}
+	.mobile_layout span{padding:0px 60px; width:auto;}
+	
+	/* Reponisve Menu CSS Start */
+	.nav{width:320px; margin-left:65px;}
+	/* Reponisve Menu CSS End */
+	
+	/* Fundrasing Groups Page CSS Start */
+	.fundrasing_groups_icon{width:440px;}
+	.prev, .next{margin:0px;}
+	
+	/* Who We Are Page CSS Start */
+	.icon_block{width:215px; margin-left:0px;}
+	
+	/* Contact Page CSS Start */
+	.contactform .box1{margin:0px;}
+	.contactform .box2{width:130px; margin-right:10px;}
+	.field01, .field02, .field03, .field04{width:205px;}
+	.field02{width:130px;}
+	.contactform .box3{width:80px; margin:0px;}
+	.field03{width:70px;}
+	.field04{width:98%;}
+	
+	/* Grants Page CSS Start */
+	/*.kids_program_block .download_block{width:230px;}*/
+	.download_block img{margin-right:10px;}
+	.download_link h2{font-size:18px; margin-bottom:10px;}
+	
+	/* Healthcare Page CSS Start */
+	.inner02 h2{font-size:22px; padding-top:35px;}
+	
+	/* Young Page CSS Start */
+	.young_page .boxleft{width:225px;}
+	.young_page .boxright{width:200px; padding-left:25px;}
+	
+	/* Press Releases Page CSS Start */
+	.allnews_img{width:125px;}
+	.allnews_text{width:315px;}
+	
+	.sponsors_page.special_programs_page .about_dis_box .sponsors_box, .sponsors_page.special_programs_page .about_dis_box .sponsors_box:first-child{margin-left:50px !important;}
+	.jr_page .list_img li {width: 100%; margin: 0px 0px 15px 0px;} /*By Utsav, 3nd July, 2014*/
+	.jr_page .list_img img{width:100%;}	
+	
+	/*23April2014*/
+	.footer_nav{width:100%; padding:0px;}
+	.footer_nav li{margin-right:14px;}
+	.footer_nav li a{padding:11px 9px 10px 9px; font-size:12px;}
+	.footer_nav li:nth-child(3) ul{left:-115px;}
+	.footer_nav li:nth-child(4) ul{left:-136px;}
+	.charity_logo{text-align:center; top:-65px; width:75px;}
+	.charity_logo img{width:100%;}
+	.hide_desktop01{width:auto; display:block; margin:0px 0px 10px 78px; padding:0px; float:left; text-align:center;}
+	.jr_logo{width:100%; text-align:center;}
+	.jr_img{width:100%; text-align:center;}
+	
+	.subpage_slider01 img{height:auto}
+	
+	/*23Jun2014*/
+	.lifetime_achievement_awards .allnews_text{width:310px;}
+	
+	/*By Utsav, 27th June, 2014*/
+	ul.jrlogo li .jrinner{height:141px;}
+	.list_carousel li .icon_block{width:100%;}
+	.icon_block .home_sprite{margin-left:0px;}
+	
+	/*By Utsav, 3nd July, 2014*/
+	ul.jrlogo li{padding:10px;}
+	
+	.home_menu{right:64px;}
+	.flexslider .slides > li{background-size:143% auto !important; background-position:-145px 0 !important;}
+	.flex-viewport{min-height:200px !important; height:200px !important;}
+	.slider{margin-top:189px;}
+	.flex-control-nav{right:42% !important;}
+	.flex-direction-nav{right:25% !important;}
+	
+	.poker_logo_block{width:400px; margin:0 auto;}
+	ul.poker_logo li{padding-left:21px; padding:10px;}
+	
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	.section_in, #footer_bottom_in, .border_top_block .section_in, .support_page .groups_block, .special_programs_page .about_dis_box, .contact_block .inner,
+	.grants_page, .about_dis_box, .inner02, .container, .reaces_page .inner, .family_page .inner{width:95%;}
+	.jr_page .about_dis_box{width:95% !important;}
+	.sponsors_page .about_dis_box{width:95% !important;}
+	.block_01, .icon_block, .section_block01_in, .flexslider .slides img, a.read_more, .footer_logo, .donate_block, .email_detail div, .contactform .box1,
+	.label01, .download_block, .kids_program_block .download_block, .small_banner img, .fundrasing_groups_icon, .carousel_slider_block, .gold_hearts_block_in .left img, .allnews_img, .allnews_text, .nav, #subpages_logo_block{width:100%;}
+	
+	.contactform .row, .footer_logo, .copy{margin:0px;}
+	.section_block{background-color:#FFFFFF; padding-bottom:0px;}
+	.section_block01{padding-top:50px;}
+	.block_01, .icon_block{margin:0px 0px 40px 0px;}
+	.block_01 p{font-size:17px;}
+	.link_block{/*width:60%;*/ margin:0 auto; float:none;}
+	.home_page_middle .link_block{width:60%;}
+	.education_block .mobile img{width:318px; margin-bottom:30px;}
+	h1{font-size:30px;}
+	.media_block h1{font-size:24px; padding:0 10px; width:auto;}
+	h1, h2, .news_date, .facebook_block, .twitter_block, .adv_block{width:100%; text-align:center;}
+	p{text-align:center; padding-left:10px; padding-right:10px; font-size:18px;}
+	a.read_more{font-size:18px; float:left;}
+	.twitter_block{margin:20px 0px;}
+	.donate_block .link_block{width:85%; position:relative;}
+	.ttl03{position:absolute; left:45px; top:140px;}
+	.donate_textlink{font-size:22px; padding:35px 0px; text-align:center;}
+	.donate_box, .volunteer_box{margin-left:45px;}
+	#footer_top{display:none;}
+	.footer_bottom_nav{width:99%; padding-top:0px; margin-left:10px;}
+	.footer_logo{text-align:center; padding:15px 0px;}
+	#footer_bottom{height:auto;}
+	.copy{text-align:center; padding:0px 0px 25px 0px;}
+	.ttl05{font-size:24px;}
+	.ttl04{font-size:30px;}
+	.carousel_slider_block .ttl01{width:100%;}
+	
+	/* Who We Are Page CSS Start */
+	.ttl_ourmission{background:url(../images/ttl_our-mission_mobile.png) no-repeat left top; margin-bottom:5px;}
+	.icon_block .home_sprite{margin-left:66px !important;}
+	.icon_block{min-height:180px;}
+	
+	/* Contact Page CSS Start */
+	.map_box{width:96%;}
+	.contact_block h2{font-size:18px; padding-left:10px;}
+	.contact_block p{text-align:left; font-size:16px;}
+	.email_detail a{padding-left:10px;}
+	.contactform{width:97%; padding-left:3%;}
+	.contactform .box1{margin-bottom:15px;}
+	.radiogroup .label01{width:60px;}
+	.field04{width:95%; margin-bottom:15px;}
+	.radiogroup{margin:0px 0px 15px;}
+	
+	/* Grants Page CSS Start */
+	.download_link h2{text-align:left; font-size:20px;}
+	.kids_program_block img{margin-bottom:25px;}
+	.kids_program_block .download_block, .kids_program_block{margin-bottom:30px;}
+	.inner02 h2{font-size:16px; line-height:22px; padding-top:45px;}
+	
+	/* ===== Young Page CSS Start ===== */
+	.young_page .boxleft{width:150px;}
+	.young_page .boxright{width:140px; padding-left:10px;}
+	.young_page .boxleft p, .young_page .boxright p{padding-left:0px; padding-right:0px; text-align:left;}
+	.young_page h3, .young_page .boxleft ul li{font-size:16px;}
+	
+	/* Gold Papers Hearts Page CSS Start */
+	.hearts_img_block{width:300px; height:300px;}
+	.hearts_img_block img{width:230px; padding-top:65px;}
+	
+	/* Press Releases Page CSS Start */
+	.allnews_text .small_ttl{font-size:18px; margin-top:20px;}
+	
+	/* Sponsors Page CSS Start */
+	.sponsors_page.special_programs_page .about_dis_box .sponsors_box, .sponsors_page.special_programs_page .about_dis_box .sponsors_box:first-child{margin-left:75px !important; 
+	margin-bottom:25px !important;}
+
+	.event_clendar .row .btn_submit {text-transform:uppercase; margin: 0 5px 0 0; padding: 7px 10px; font-size:15px;}
+	.jr_page .left {width:100%;}
+	.jr_page .boxleft {width:138px;}
+	.jr_page .list_img img{width:100%;}	
+	.jr_page .block01 img{width:100%;}
+	.jr_page ul.jrlogo li {width:100%; padding:0px;}
+	/*.jr_page ul.jrlogo li .jrinner {width:100%; text-align:center; display:inherit;}*/
+	.jr_page ul.jrlogo li .jrinner{margin: 0 auto; text-align: center !important; width: 65%;} /*By Utsav, 27th June, 2014*/
+	
+	.charity_logo{width:100%; text-align:center; top:-10px;}
+	.hide_desktop01{width:95%; display:block; margin:0px 0px 10px 13px; padding:0px; float:left; text-align:center;}
+	
+	/*13May2014*/
+	.images_block ul li.row_01 img, .images_block ul li.row_02 img{width:100%;}
+	
+	.subpage_slider01 img{height:auto}
+	
+	/* 03-06-2014*/
+	.last_mg {
+   		margin: 0 0 40px !important;
+	}
+	
+	/*23Jun2014*/
+	.lifetime_achievement_awards .allnews_text{width:100%;}
+	.lifetime_achievement_awards .news_block p{text-align:left !important; padding-left:0px !important;}
+	.list_carousel li{width:250px !important;}
+	.caroufredsel_wrapper{left:30px !important; /* width:100% !important; */}
+	.list_carousel li .icon_block .home_sprite{margin-left:35px !important;}
+	.youngmid .left {width:100%;}
+	
+	.home_menu{right:0px;}
+	.flexslider .slides > li{background-size:214% auto !important; background-position:-255px top !important;}
+	.flex-viewport{min-height:200px !important; height:200px !important;}
+	.slider{margin-top:189px;}
+	.flex-control-nav{right:35% !important;}
+	.flex-direction-nav{right:10% !important;}
+	
+	.poker_logo_block{width:65%; margin:0 auto;}
+	ul.poker_logo li{padding:10px;}
+}
