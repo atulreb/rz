@@ -241,7 +241,7 @@
                             <section class="av_textblock_section" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
                                 <div class="avia_textblock " itemprop="text">
                                     <ul>
-                                        <li>Our mission is to make you and your family happy and healthy by providing first-class residential services. RazorClean House Cleaning is fully insured and team members are background checked, so you won't have to worry about letting us into your home.</li>
+                                        <li>Our mission is to make you and your family happy and healthy by providing first-class residential services. RazorClean Housekeepers is fully insured and team members are background checked, so you won't have to worry about letting us into your home.</li>
                                         <li>We offer a 100% satisfaction guarantee. If at any time you're not satisfied with our services, we will try to make it up to you or refund your money!</li>
                                         <li>Our professional team of service providers are background checked, fully vetted, trained and tested, so you won't have to worry about letting us into your home. RazorClean The Circle Of Trust</li>
                                         

@@ -735,6 +735,9 @@
                         </div>
                         <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
                             <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+							<h4>Residential Storage</h4>
+							<p>We understand that sometimes residential moves require unique storage solutions before, during, or after the relocation. If you need help storing your furniture or other belongings, we have good working relationships with local storage businesses and we’d be happy to help you find the right unit to fit your needs.</p>
+							<p>Do you have questions about the best way to store your residential goods? Contact RazorClean Movers & Transport and we can find the best option for you.</p>
                                 <h4>Commercial Storage Services</h4>
 								
                                 <p>Sometimes the businesses we move require unique storage solutions before, during,
@@ -987,7 +990,7 @@ RazorClean Movers &amp; Transport home to so many great people, and our best ass
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
                     </div>
                     <div style="    overflow-y: auto;
-    height: 515px;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
+    height: 625px;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
                         <h2>Auto Transport  AT </h2>
                         <p>When you choose to ship a car with RazorClean Movers & Transport you are paired with a dedicated shipping coordinator to help you navigate the paperwork, scheduling and billing from start to finish. Your coordinator will help you understand your pickup, shipping and delivery options and will work with you to schedule load and delivery times.</p>
 						<h3>Door to Door</h3>
@@ -1010,7 +1013,7 @@ RazorClean Movers &amp; Transport home to so many great people, and our best ass
                 </div>
             </div>
             <div  class="row  section"   >
-                <div id="mslide1" style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/slide5-1-img.jpg) center center no-repeat;" class="row  slide slide13"  data-tooltip="OWNER OPERATORS" >
+                <div id="mslide1" style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/black-guy-in-truck.jpg) center center no-repeat;" class="row  slide slide13"  data-tooltip="OWNER OPERATORS" >
                     <style scoped>.box-584 .box-primary{}</style><div class="cherry-box title_box box-584"><div class="box-primary inner">
                             <h2>Owner</h2>
                             <h2>Operators</h2>
@@ -1038,7 +1041,7 @@ RazorClean Movers &amp; Transport home to so many great people, and our best ass
                     </div>
                 </div>
                 <div id="mslide3" class="row  slide slide14"  data-tooltip="INDEPENDENT CONTRACTORS WANTED" >
-                    <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/slide3-img.jpg) center center no-repeat;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
+                    <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/lease_purchase.jpg) center center no-repeat;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
                         <div class="contact-page contact-page-new"><div class="my_order_service_form"><form name="my-orderservice-form" class="my-orderservice-form" id="my-orderservice-form" method="post"><div class="my_order_service_form_box"><div class="field-box field-full"><input class="full-name" id="ord_name" name="name" type="text" placeholder="Full Name" onkeypress="return enterText(event)" required/><input class="full-name phoneno" id="ord_phoneno" name="phoneno" type="text" placeholder="Mobile Phone #"/><div id="dform2" class="captcha"></div></div><div class="btn-contact apply_btn"><input class="contact-submit" name="btn" type="submit" value="Apply Now" /><input type="hidden" value="mycontact_orderservice_send_mail"  name="action" ><img id="ajaxloader" class="loader" src="<?php echo base_url() ?>media/landing-pages/transport/wp-content/plugins/save-contact-number/loader.gif" alt="loading" style="display:none"/></div></div></form></div></div>
                     </div>
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
@@ -1053,7 +1056,7 @@ RazorClean Movers &amp; Transport home to so many great people, and our best ass
                     </div>
                 </div>
                 <div id="mslide4"  class="row  slide slide14"  data-tooltip="INDEPENDENT CONTRACTORS WANTED" >
-                    <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/applynow.png) center center no-repeat / 100%;background-position: 0 6%;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
+                    <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/driver_require.png) center center no-repeat / 100% 60%;background-position: 0 0%;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
                         <div class="contact-page contact-page-new"><div class="my_order_service_form"><form name="my-orderservice-form" class="my-orderservice-form" id="my-orderservice-form" method="post"><div class="my_order_service_form_box"><div class="field-box field-full"><input class="full-name" id="ord_name" name="name" type="text" placeholder="Full Name" onkeypress="return enterText(event)" required/><input class="full-name phoneno" id="ord_phoneno" name="phoneno" type="text" placeholder="Mobile Phone #"/><div id="dform3" class="captcha"></div></div><div class="btn-contact apply_btn"><input class="contact-submit" name="btn" type="submit" value="Apply Now" /><input type="hidden" value="mycontact_orderservice_send_mail"  name="action" ><img id="ajaxloader" class="loader" src="<?php echo base_url() ?>media/landing-pages/transport/wp-content/plugins/save-contact-number/loader.gif" alt="loading" style="display:none"/></div></div></form></div></div>
                     </div>
                     <div  class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
@@ -1336,7 +1339,7 @@ RazorClean Movers &amp; Transport home to so many great people, and our best ass
                 </div>
             </div>
             <div  class="row  section"   >
-                <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/join-our-family-cover.jpg) center center no-repeat / 100% 100%;background-position: 100% 100%;" id="mslide1" class="row  slide slide8"  data-tooltip="JOIN OUR Family" >
+                <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/white-moving-truck2.jpg) center center no-repeat / 100% 100%;background-position: 100% 100%;" id="mslide1" class="row  slide slide8"  data-tooltip="JOIN OUR Family" >
                     <style scoped>.box-777 .box-primary{}</style><div class="cherry-box title_box dark box-777"><div class="box-primary inner">
                             <h2>Join our</h2>
                             <h2>Family</h2>

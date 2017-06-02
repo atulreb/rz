@@ -246,7 +246,7 @@
 
         li.slide {
             //box-sizing:border-box;
-            //border: 10px solid #16BBF0;
+            //border: 10px solid #bd252c;
             width: 10%;
             height: 400px;
             z-index: -1;
@@ -348,14 +348,14 @@
         }
 
         #slider_container div:nth-child(1):hover {
-            background-color: #16BBF0;
+            background-color: #bd252c;
             height: 60px;
             z-index: 1;
             margin-top: 365px;
         }
 
         #slider_container div:nth-child(2):hover {
-            background-color: #16BBF0;
+            background-color: #bd252c;
             height: 60px;
             z-index: 1;
             margin-top: 365px;
@@ -367,7 +367,7 @@
         }
 
         #slider_container div:nth-child(3):hover {
-            background-color: #16BBF0;
+            background-color: #bd252c;
             height: 60px;
             z-index: 1;
             margin-top: 365px;
@@ -379,7 +379,7 @@
         }
 
         #slider_container div:nth-child(4):hover {
-            background-color: #16BBF0;
+            background-color: #bd252c;
             height: 60px;
             z-index: 1;
             margin-top: 365px;
@@ -391,7 +391,7 @@
         }
 
         #slider_container div:nth-child(5):hover {
-            background-color: #16BBF0;
+            background-color: #bd252c;
             height: 60px;
             z-index: 1;
             margin-top: 365px;
@@ -403,7 +403,7 @@
         }
 
         #slider_container div:nth-child(6):hover {
-            background-color: #16BBF0;
+            background-color: #bd252c;
             height: 60px;
             z-index: 1;
             margin-top: 365px;
@@ -415,7 +415,7 @@
         }
 
         #slider_container div:nth-child(7):hover {
-            background-color: #16BBF0;
+            background-color: #bd252c;
             height: 60px;
             z-index: 1;
             margin-top: 365px;
@@ -427,7 +427,7 @@
         }
 
         #slider_container div:nth-child(8):hover {
-            background-color: #16BBF0;
+            background-color: #bd252c;
             height: 60px;
             z-index: 1;
             margin-top: 365px;
@@ -445,7 +445,7 @@
             vertical-align: middle;
             font-family: 'Titillium Web', sans-serif;
             font-size: 22px;
-            background-color: #00AFF0;
+            background-color: #bd252c;
             transition: background-color 0.3s ease;
             margin: 0 auto;
             width: 273px;
@@ -605,14 +605,14 @@
 padding: 0px;
 font-size: 0;
 box-shadow: 0 2px 8px #d5d5d5;
-border: 2px solid #00AFF0;
+border: 2px solid #bd252c;
 position: relative;
 }
 .form_cta
 {
 text-align: center;
 padding-bottom: 10px;
-background-color: #00aff0;
+background-color: #bd252c;
 }
 .privacy_policy
 {
@@ -624,7 +624,7 @@ width: 0;
 height: 0; 
 border-left: 20px solid transparent;
 border-right: 20px solid transparent;
-border-top: 20px solid #00aff0;
+border-top: 20px solid #bd252c;
 margin: 0 auto;
 display: none;
 }
@@ -634,7 +634,7 @@ img.form_arrow
     left: -35px;
     top: -2px;
     width: 35px;
-    background-color: #00AFF0;
+    background-color: #bd252c;
     display:none;
     }
 form
@@ -662,7 +662,7 @@ form
     text-align: center;
     font-size: 22px;
     color: white;
-    background-color: #00aff0;
+    background-color: #bd252c;
     width: 100%;
     padding: 0 20px;
     line-height: 20px;
@@ -742,7 +742,7 @@ textarea
     }
 button, input[type="button"], input[type="reset"], .button, .home-top .more-link
 {
-  background-color: #00AFF0;
+  background-color: #bd252c;
   border: none;
   border-radius: 0;
   color: #fff;
@@ -771,7 +771,7 @@ input[type="submit"]
 input:hover[type="submit"]
     {
         background-color: white;
-        color: #00AFF0;
+        color: #bd252c;
     }
 ::-webkit-input-placeholder {
     color: #646464;
@@ -796,7 +796,7 @@ input:hover[type="submit"]
         {
         display: none;
         position: relative;
-        color: #00aff0;
+        color: #bd252c;
         font-weight: bold;
         text-align: center;
         }

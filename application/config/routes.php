@@ -270,6 +270,7 @@ $route['building-services/industrial-building'] = 'landing-pages/building_servic
 $route['building-services/escalator-cleaning'] = 'landing-pages/building_services/escalatorCleaning';
 $route['building-services/concrete-polishing'] = 'landing-pages/building_services/concretePolishing';
 $route['building-services/sportarea_cleaning'] = 'landing-pages/building_services/sportAreaCleaning';
+$route['building-services/hospitality'] = 'landing-pages/building_services/hospitality';
 
 $route['razor'] = 'landing-pages/razor/index';
 $route['razor/media'] = 'landing-pages/razor/media';

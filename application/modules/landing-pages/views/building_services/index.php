@@ -874,12 +874,12 @@
                                     </div>
                                 </a>
 
-                                <a href="#">
+                                <!--a href="#">
                                     <div class="ind"><span>Hospitality</span>
                                         <br />
                                         <img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/hospitality-sq.png" height="90" width="90" />
                                     </div>
-                                </a>
+                                </a-->
 
                                 <a href="<?php echo base_url()?>building-services/industrial-building">
                                     <div class="ind"><span>Industrial</span>

@@ -12,7 +12,7 @@
         color: #fff;
     }
 	#footer-menu {
-		margin-bottom: 81px;
+		/*margin-bottom: 81px;*/
 	}
 	.scroll-listing {
 		position:absolute;
@@ -40,7 +40,60 @@
 		color: #ab2430;
 		text-align:center;
 	}
-</style><!--Banner-Start-->
+</style>
+
+<style type="text/css" data-type="vc_custom-css">
+
+    .h31 {
+        font-size:50px !important;
+        display: inline-block;
+        padding: 10px;
+        font-weight:bold !important;
+        /*background: #B9121B;*/
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .full-screen1 {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #myDiv img {
+        position:absolute;
+        color:#fff;
+        top:50%;
+        left:50%;
+        padding:15px;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+    #myDiv p {
+        position:absolute;
+        color:#000;
+        top:68%;
+        left:50%;
+        padding:15px;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+    
+    .carousel-caption {top :40% !important}
+</style>
+<div id="myDiv" style="position: fixed;
+     width: 100%;
+     height: 100%;
+     background: #fff;
+     z-index: 999999;
+     top: 0;">
+
+    <img id="myImage" src="<?php echo frontend_asset_url() ?>img/loading/painter.png"><br><br><br>
+    <p>RazorClean, The Circle Of Trust. Save Money, Live RazorClean</p><br>
+    <p style="margin-top:120px !important;"><img class="" style="position:relative;" alt="" src="<?php echo frontend_asset_url() ?>img/loading/ripple.gif"/></p>
+</div>
+<!--Banner-Start-->
 <div id="sticky-anchor"></div>
 <header class='content-section video-section'>
     <!-- div class="header-content">
@@ -92,25 +145,127 @@
 			  </div>
 		</div>
   </div-->
-   <div id="sliderFrame">
-        <div id="slider">
+   <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"></li>
+            <li data-target="#mycarousel" data-slide-to="2"></li>
+            <li data-target="#mycarousel" data-slide-to="3"></li>
+            <li data-target="#mycarousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/1.jpg" data-color="lightblue" alt="First Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Building Services</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/3.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Housekeepers</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/2.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Mobile Detail</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/10.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Termite & Pest Control</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/4.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Lawn Care</h3>
+                </div>
+            </div>
+             <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/14.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Towing</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/5.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Painters</h3>
+                </div>
+            </div>
+             <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/7.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Handyman</h3>
+                </div>
+            </div>
+             <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/8.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Security Services</h3>
+                </div>
+            </div>
+             <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/11.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Pool Cleaning</h3>
+                </div>
+            </div>
+             <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/13.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Movers & Transport</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/6.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Foundation</h3>
+                </div>
+            </div>
            
            
-            <a class="video" href="https://www.youtube.com/watch?v=fdJc1_IBKJA">
-                <b data-src="<?php echo frontend_asset_url() ?>img/contact.jpg">Image Slider</b>
-            </a>
-			
-			 
+            <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/9.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Staffing</h3>
+                </div>
+            </div>
+            
+           
+            <div class="item">
+                <img src="<?php echo frontend_asset_url()?>home_slider/12.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption">
+                    <h3 class="h31">RazorClean Inc.</h3>
+                </div>
+            </div>
            
            
+            
         </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
   
 </header>
 <!--Banner-End-->
 <!--ICon DesktopSlider Start-->
-<a href="<?php echo base_url()?>foundation" target="_blank">
+<!--a href="<?php echo base_url()?>foundation" target="_blank">
 	<div id="div1" class="targetDiv targetDiv1 fadeInUp animated" >
 		<div class="image">
 		<img class="" alt="" src="<?php echo frontend_asset_url() ?>img/loading/foundation.png"/><br>
@@ -291,11 +446,11 @@
 
                 </div>
                 <!--a data-slide="prev" href="#media1" class="left carousel-control"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
-                <a data-slide="next" href="#media1" class="right carousel-control"><i class="fa fa-caret-right" aria-hidden="true"></i></a-->
+                <a data-slide="next" href="#media1" class="right carousel-control"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
-</div>
+</div-->
 <!--ICon Slider End-->
 <!--ICon Mobile Slider Start-->
 <div class="container mobile-only">
@@ -1059,7 +1214,7 @@ $(function(){
 
 <script type="text/javascript">//<![CDATA[
 
-function sticky_relocate() {
+/*function sticky_relocate() {
     var window_top = $(window).scrollTop();
     var div_top = $('#sticky-anchor').offset().top;
     if (window_top > div_top) {
@@ -1074,7 +1229,7 @@ function sticky_relocate() {
 $(function() {
     $(window).scroll(sticky_relocate);
     sticky_relocate();
-});
+});*/
 
 var dir = 1;
 var MIN_TOP = 200;
@@ -1144,11 +1299,6 @@ $(".map-image").click(function() {
 });
 });//]]> 
 
-$(document).ready(function () {
-
-    $(".player").mb_YTPlayer();
-
-});
 
 function showthreeIconContents(id){
 	if(id === 'quality'){
@@ -1175,4 +1325,38 @@ $( ".mout" ).mouseout(function() {
 });
 </script>
 
+<script>
+    var $item = $('.carousel .item');
+    var $wHeight = $(window).height();
+    $item.eq(0).addClass('active');
+    $item.height($wHeight);
+    $item.addClass('full-screen1');
+
+    $('.carousel img').each(function () {
+        var $src = $(this).attr('src');
+        var $color = $(this).attr('data-color');
+        $(this).parent().css({
+            'background-image': 'url(' + $src + ')',
+            'background-color': $color
+        });
+        $(this).remove();
+    });
+
+    $(window).on('resize', function () {
+        $wHeight = $(window).height();
+        $item.height($wHeight);
+    });
+
+    $('.carousel').carousel({
+        interval: 6000,
+        pause: "false"
+    });
+//# sourceURL=pen.js
+</script>
+
+<script>
+    jQuery(document).ready(function () {
+        document.getElementById("myDiv").style.display = "none";  // 5 seconds
+    });
+</script>
 

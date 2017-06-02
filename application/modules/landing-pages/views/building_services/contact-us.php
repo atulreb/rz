@@ -9,6 +9,9 @@
             background-position: center;
             background-repeat: no-repeat;
         }
+.row .text-center #submitfrm{
+background-color:#fff;	
+}
         section {
             padding: 30px 0PX;
         }
