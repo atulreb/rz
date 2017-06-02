@@ -119,7 +119,7 @@
                 <div class="about_our_company" style="margin-bottom: 20px;">
                     <h1 style="color:#fff;">Write Your Message</h1>
                     <div class="titleline-icon"></div>
-                    <p style="color:#fff;">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                    <p style="color:#fff;">Call us at 1-855-GO RZCLN (467-9256) OR contact us by filling below form</p>
                 </div>
             </div>
             <div class="row">
@@ -157,15 +157,11 @@
                     </form>
                 </div>
                 <div class="col-md-4">
-                    <p style="color:#fff;">
-                        <strong><i class="fa fa-map-marker"></i> Address</strong><br>
-                        1216/Mirpur_10 Beach, Dhaka(Bangladesh)
-                    </p>
                     <p style="color:#fff;"><strong><i class="fa fa-phone"></i> Phone Number</strong><br>
-                        (+8801)7123456</p>
+                        1-855 GO RZCLN (467-9256)</p>
                     <p style="color:#fff;">
                         <strong><i class="fa fa-envelope"></i>  Email Address</strong><br>
-                        Email@info.com</p>
+                       signup@rzclnbuildingservices.com</p>
                     <p></p>
                 </div>
             </div>

@@ -141,8 +141,52 @@ class Job extends CI_Controller {
     public function getJobDescription() {
         if ($this->input->post('id') != "") {
             $jobdata = $this->common_model->getRecords(TABLES::$MST_JOBS, '*', array('id' => $this->input->post('id')));
+			$sc = $jobdata[0]['service_category'];
 
-            echo json_encode(array("status" => "1", "msg" => "Status has changed successflly.", "job_title" => $jobdata[0]['job_title'], "short_desc" => $jobdata[0]['short_desc'], "long_desc" => $jobdata[0]['long_desc'], "job_id" => $jobdata[0]['id']));
+            switch ($sc) {
+                case "Towing":
+                    $icon = "img/loading/towing.png";
+                    break;
+                case "Security":
+                     $icon = "img/loading/security.png";
+                    break;
+                case "Mobile Detail":
+                     $icon = "img/loading/mobile-detail.png";
+                    break;
+                case "Building Services":
+                     $icon = "img/loading/building-services.png";
+                    break;
+                case "Housekeepers":
+                     $icon = "img/loading/housekeeper.png";
+                    break;
+                case "Lawn Care":
+                     $icon = "img/loading/lawn-care.png";
+                    break;
+                case "Painters":
+                     $icon = "img/loading/painter.png";
+                    break;
+                case "Pool Cleaning":
+                     $icon = "img/loading/pool-cleaning.png";
+                    break;
+                case "Handyman":
+                     $icon = "img/loading/handyman.png";
+                    break;
+                case "Staffing":
+                     $icon = "img/loading/staffing.png";
+                    break;
+                case "Pest Control":
+                     $icon = "img/loading/pest-control.png";
+                    break;
+                case "Foundation":
+                     $icon = "img/loading/foundation.png";
+                    break;
+                case "Transport":
+                     $icon = "img/loading/transport.png";
+                    break;
+                default:
+                     $icon = "img/loading/Main_Logo.png";
+            }
+            echo json_encode(array("status" => "1", "msg" => "Status has changed successflly.", "job_title" => $jobdata[0]['job_title'], "short_desc" => $jobdata[0]['short_desc'], "long_desc" => $jobdata[0]['long_desc'], "job_id" => $jobdata[0]['id'],"icon"=> frontend_asset_url().$icon));
         } else {
             #if something going wrong providing error message. 
             echo json_encode(array("status" => "0", "error_message" => "Sorry, your request can not be fulfilled this time. Please try again later"));

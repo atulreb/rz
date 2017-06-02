@@ -37,7 +37,7 @@
 
                             <div class="wpb_text_column wpb_content_element ">
                                 <div class="wpb_wrapper">
-                                    <h1>Contact the RasorCleam Company</h1>
+                                    <h1>Contact the RazorClean Company</h1>
 
                                 </div> 
                             </div> 

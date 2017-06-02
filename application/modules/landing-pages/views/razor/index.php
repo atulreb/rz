@@ -14,22 +14,84 @@
 
                             <div class="wpb_text_column wpb_content_element  vc_custom_1463816386051">
                                 <div class="wpb_wrapper">
-                                    <h2>Hello People of the World,</h2>
+                                    <h2>The History of RazorClean Inc.</h2>
+									 <div style='margin-top:30px !important; margin-bottom:40px !important ; ' class='themegasm_hr_wrap left'>
+                                <hr class='themegasm_hr solid thick' style='border-color:#0a0a0a; max-width:60px;'>
+                            </div>
                                     <div style='margin-bottom:15px'></div>
                                     <span style='font-size:17px;'>
-                                        RazorClean Inc. - RazorClean is a management, supply and contracting company.  Our brands play a major part in helping our customers achieve a sustainable future. We take pride in helping improve the overall well -being and financial health of our clients. 
+                                        RazorClean Inc. - RazorClean is a management, supply, and contracting company. Our
+
+brands play a major part in helping our customers achieve a sustainable future. We take
+
+pride in helping improve the overall well-being and financial health of our clients. 
                                     </span>
-                                    </p>
+									<br><br>
+                                     
+  <p>Our operating philosophy has remained simple: Keep costs down and pass the savings
+
+on to our clients. Our large membership base and tremendous serving power, combined
+
+with our never-ending quest for efficiency, results in the most affordable prices for our
+
+clients, and even bigger savings for members. Since the addition and realignment of the
+
+company in 2015, the company has grown throughout the United States. With locations
+
+in 14 of the 50 states, RazorClean is the fastest growing management company in
+
+providing 14 current residential and commercial services in the United States. Today the
+
+name RazorClean is a well-known name and Arkansas’ largest provider of residential
+
+and commercial combined services.  
+  </p>
+
+  <p>
+The company was first founded in 1897 in Thebes, Arkansas, under the Bumblebee
+
+name; it was a small residential serve company. The company expanded to provide
+
+service to Montrose and Rosston, Arkansas. The company has since passed down
+
+through four generations. The company’s name changed to RazorClean in the year of
+
+2011 and incorporated shortly after. RazorClean found it could have a far greater impact
+
+by providing service to businesses and other sectors. The growth of the plus club
+
+industry was born when RazorClean opened its warehouse location in North Little Rock,
+
+Arkansas, in 2015, which serves as the central regional hub.
+</p>    
 
                                 </div>
                             </div>
-                            <div style='margin-top:30px !important; margin-bottom:40px !important ; ' class='themegasm_hr_wrap left'>
-                                <hr class='themegasm_hr solid thick' style='border-color:#0a0a0a; max-width:60px;'>
+							<p></p><p></p>
+							
+							 <div class="wpb_text_column wpb_content_element  vc_custom_1463816386051">
+                                <div class="wpb_wrapper">
+                                    <h2 style="text-align:center">The Services That RazorClean, Inc Offers</h2>
+									 
+                                    <div style='margin-bottom:15px'></div>
+                                    <!--span style='font-size:17px;'>
+                                        RazorClean Inc. - RazorClean is a management, supply and contracting company.  Our brands play a major part in helping our customers achieve a sustainable future. We take pride in helping improve the overall well -being and financial health of our clients. 
+                                    </span-->
+                                     
+
+<div style='margin-bottom:60px'></div>
+
+                                </div>
                             </div>
+                           
                         </div>
                     </div>
                 </div>
             </div>
+			
+
+			
+			
             <div class="vc_row wpb_row vc_row-fluid">
                 <div class="wpb_column vc_column_container vc_col-sm-12">
                     <div class="vc_column-inner ">
@@ -192,7 +254,7 @@
 
 
                                                         <div class="form-group">
-                                                            <label for="state"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> State</label>
+                                                            <label for="state"><i class="fa fa-globe fa-lg" aria-hidden="true"></i> State</label>
                                                             <select name="state" required  onchange="selectCity(this.options[this.selectedIndex].value)" class="form-control" >
                                                                 <option value="-1"></option>
                                                                 <?php
@@ -203,13 +265,13 @@
                                                             </select>
                                                         </div>
                                                         <div class="form-group">
-                                                            <label for="state"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> City</label>
+                                                            <label for="state"><i class="fa fa-map fa-lg" aria-hidden="true"></i> City</label>
                                                             <select id="city_dropdown" name="city" required class="form-control">
 
                                                             </select>
                                                         </div>
                                                         <div class="form-group">
-                                                            <label for="state"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> Service</label>
+                                                            <label for="state"><i class="fa fa-files-o fa-lg" aria-hidden="true"></i> Service</label>
                                                             <select name="service" required="required" class="form-control input-md" autocomplete="off">
                                                                 <option value=""></option>
                                                                 <option value="Foundation">Foundation</option>

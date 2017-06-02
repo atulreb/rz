@@ -10,7 +10,7 @@
         </div>
     
 </div>
-<div class="container_wrap footer_color" id="footer">
+<!--<div class="container_wrap footer_color" id="footer">
     <div class="container">
         <div class="flex_column av_one_fourth  first el_before_av_one_fourth">
             <section id="text-4" class="widget clearfix widget_text">
@@ -282,20 +282,21 @@
         </div>
     </div>
 
-</div>
+</div>-->
 <footer class="container_wrap socket_color" id="socket" role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
     <div class="container">
-        <span class="copyright">&copy; Copyright <?php echo date("Y")?> - RazorClean Inc. </span>
-        <ul class="noLightbox social_bookmarks icon_count_3">
-            <li class="social_bookmarks_twitter av-social-link-twitter social_icon_1"><a target="_blank" href="<?php echo $global_setting['twitter_link']?>" aria-hidden="true" data-av_icon="?" data-av_iconfont="entypo-fontello" title="Twitter"><span class="avia_hidden_link_text">Twitter</span></a>
+        <span class="copyright" style='margin-right:150px'>&copy; Copyright <?php echo date("Y")?> - RazorClean Inc. </span>
+        <span class="copyright" style='margin-right:150px'>Call- 1-855 GO RZCLN (467-9256)</span>
+        <span class="copyright">Email- signup@rzclnhousecleaning.com</span>
+       <ul class="noLightbox social_bookmarks icon_count_3">
+            <li class="social_bookmarks_twitter av-social-link-twitter social_icon_1"><a target="_blank" href="<?php echo $global_setting['facebook_link']?>" class="icon-facebook-1" title="Twitter"></a>
             </li>
-            <li class="social_bookmarks_facebook av-social-link-facebook social_icon_2"><a target="_blank" href="<?php echo $global_setting['facebook_link']?>" aria-hidden="true" data-av_icon="?" data-av_iconfont="entypo-fontello" title="Facebook"><span class="avia_hidden_link_text">Facebook</span></a>
+            <li class="social_bookmarks_facebook av-social-link-facebook social_icon_2"><a target="_blank" href="<?php echo $global_setting['twitter_link']?>" class="icon-twitter-2" ></a>
             </li>
-            <li class="social_bookmarks_gplus av-social-link-gplus social_icon_3"><a target="_blank" href="<?php echo $global_setting['google_link']?>" aria-hidden="true" data-av_icon="?" data-av_iconfont="entypo-fontello" title="Gplus"><span class="avia_hidden_link_text">Gplus</span></a>
+            <li class="social_bookmarks_gplus av-social-link-gplus social_icon_3"><a target="_blank" href="<?php echo $global_setting['google_link']?>" class="icon-gplus-1" title="Gplus"></a>
             </li>
         </ul>
     </div>
-
 </footer>
 
 </div>
@@ -347,9 +348,11 @@
 <script type="text/javascript" src="<?php echo base_url()?>media/landing-pages/housekeepers/js/mediaelement-and-player.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url()?>media/landing-pages/housekeepers/js/wp-mediaelement.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url()?>media/landing-pages/housekeepers/js/wp-embed.min.js"></script>
-<a href="https://downtownmaid.com/about/#top" title="Scroll to top" id="scroll-top-link" aria-hidden="true" data-av_icon="?" data-av_iconfont="entypo-fontello"><span class="avia_hidden_link_text">Scroll to top</span></a>
+<a href="https://downtownmaid.com/about/#top" title="Scroll to top" class="" id="scroll-top-link " ><span class="avia_hidden_link_text icon-arrow-up">Scroll to top</span></a>
 <div id="fb-root"></div>
 
+<div style="clear:both"></div>
+		<iframe src="<?php echo base_url()?>razorclean/stickyfooter" style="left: 0;width: 100%;height: 66px;padding-top: 0px;position: fixed;bottom: 0;background: rgba(0, 0, 0, 0.45);z-index: 99999;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0"></iframe>
 
 
 </body>

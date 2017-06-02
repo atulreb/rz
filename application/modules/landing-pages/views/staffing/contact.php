@@ -14,7 +14,7 @@
 				<div class="row-fluid">
 										<div class="inner_container thumbnail">
 												
-						<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/embed?mid=1kk77CEzinrKX-9L07b87QEyDoZY&amp;output=embed"></iframe>											</div>
+						<iframe src="https://www.google.com/maps/d/embed?mid=1r1MyzfM0m-KZnMDHl_zLDRRHGqY" width="100%" height="480"></iframe>											</div>
 				</div>
 			</div>
 		</div>

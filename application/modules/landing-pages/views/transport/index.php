@@ -66,13 +66,13 @@
         <script type='text/javascript' src='<?php echo base_url() ?>media/landing-pages/transport/wp-content/plugins/Review-Plugin/js/custome-rating8a54.js?ver=1.0.0'></script>
         <script type='text/javascript' src='<?php echo base_url() ?>media/landing-pages/transport/wp-content/plugins/save-contact-number/myajax5fbd.js?ver=1.2.50'></script>
         <script type='text/javascript' src='../www.google.com/recaptcha/api083f.js?onload=myCallBack&amp;render=explicit&amp;ver=4.7.3'></script>
-        <link rel='https://api.w.org/' href='<?php echo base_url()?>media/landing-pages/transport/wp-json/index.html' />
+        <link rel='https://api.w.org/' href='<?php echo base_url() ?>media/landing-pages/transport/wp-json/index.html' />
         <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
         <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="<?php echo base_url() ?>media/landing-pages/transport/wp-includes/wlwmanifest.xml" /> 
         <link rel="canonical" href="index.html" />
         <link rel='shortlink' href='index.html' />
-        <link rel="alternate" type="application/json+oembed" href="<?php echo base_url()?>media/landing-pages/transport/wp-json/oembed/1.0/embed7587.json?url=http%3A%2F%2Fwww.protransportusa.com%2F" />
-        <link rel="alternate" type="text/xml+oembed" href="<?php echo base_url()?>media/landing-pages/transport/wp-json/oembed/1.0/embedad64?url=http%3A%2F%2Fwww.protransportusa.com%2F&amp;format=xml" />
+        <link rel="alternate" type="application/json+oembed" href="<?php echo base_url() ?>media/landing-pages/transport/wp-json/oembed/1.0/embed7587.json?url=http%3A%2F%2Fwww.protransportusa.com%2F" />
+        <link rel="alternate" type="text/xml+oembed" href="<?php echo base_url() ?>media/landing-pages/transport/wp-json/oembed/1.0/embedad64?url=http%3A%2F%2Fwww.protransportusa.com%2F&amp;format=xml" />
 
 
 
@@ -135,7 +135,7 @@
             jQuery(document).ready(function() {
             jQuery('#fullpage').fullpage({
             sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
-                    anchors: ['slide1', 'slide2', 'slide3', 'slide4', 'slide5', 'slide6', 'slide7', 'slide8', 'slide9','slide10'],
+                    anchors: ['slide1', 'slide2', 'slide3', 'slide4', 'slide5', 'slide6', 'slide7', 'slide8', 'slide9', 'slide10'],
                     menu: '#menu-main-menu',
                     slidesNavigation: true,
                     //easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
@@ -179,10 +179,10 @@
                     case 9:
                             document.title = 'RazorClean | Need A Quote';
                     break;
-					case 10:
+                    case 10:
                             document.title = 'RazorClean | Join our Legacy';
                     break;
-					case 11:
+                    case 11:
                             document.title = 'RazorClean | Loadboard';
                     break;
                     }
@@ -279,33 +279,33 @@
             var map51 = new google.maps.Map(map5, mapOptions5);
             // Let's also add a marker while we're at it
             var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(25.871325, - 80.3513617),
-                    map: map,
+            //position: new google.maps.LatLng(25.871325, - 80.3513617),
+            map: map,
                     title: 'Snazzy!'
             });
             var marker2 = new google.maps.Marker({
-            position: new google.maps.LatLng(32.9095871, - 80.0691014),
-                    map: map,
+            //position: new google.maps.LatLng(32.9095871, - 80.0691014),
+            map: map,
                     map: map21,
                     title: 'Snazzy!'
             });
             var marker3 = new google.maps.Marker({
-            position: new google.maps.LatLng(30.450384, - 81.6222447),
-                    map: map,
+            //position: new google.maps.LatLng(30.450384, - 81.6222447),
+            map: map,
                     map: map31,
                     title: 'Snazzy!'
             });
             var marker4 = new google.maps.Marker({
-            position: new google.maps.LatLng(32.083132, - 81.1310047),
-                    map: map,
+            //position: new google.maps.LatLng(32.083132, - 81.1310047),
+            map: map,
                     map: map41,
                     title: 'Snazzy!'
             });
             var marker5 = new google.maps.Marker({
-            position: new google.maps.LatLng(27.932071, - 82.4042567),
-                    map: map,
+            // position: new google.maps.LatLng(27.932071, - 82.4042567),
+            map: map,
                     map: map51,
-                    title: 'Snazzy!'
+                    title: 'RazorClean Inc.!'
             });
             }
         </script>
@@ -356,8 +356,8 @@
                                   HEADER
         =========================================================-->
 
-       
-        
+
+
         <!-- menu -->
         <?php $this->load->view('partials/l_header') ?>
         <?php $this->load->view('partials/l_leftpanel') ?>
@@ -389,8 +389,9 @@
                         <a class="logo-head" target=""><br />
                             <img src="<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/logo-main.png" alt="" /><br />
                         </a><br />
-                        <span class="head-txt">RazorClean Movers & Transport is a leading national moving and transportation trucking provider. With six major terminals located throughout the United States and 100’s of RazorClean dedicated employees and sub- operators to service your transportation needs.</span><br />
-                        <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url()?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-521{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-521"></span></a>
+                        <span class="head-txt">RazorClean Movers &amp; Transport is a leading national moving and transportation trucking provider. With several terminals located
+                            throughout the United States and 100’s of RazorClean dedicated employees and sub- operators to service your transportation needs.</span><br />
+                        <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url() ?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-521{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-521"></span></a>
                     </div></div>
                 <div class="scroll-bottom"><a class="page-scroll" href="#slide2" target=""><br />
                         <span class="bottom-arrow"><br />
@@ -398,30 +399,81 @@
                         </span> Scroll down</a>
                 </div>
             </div>
+
+
             <div  class="row  section second-slide"   >
                 <div id="mslide1" class="row  slide slide1"  data-tooltip="ABOUT" >
                     <style scoped>.box-751 .box-primary{}</style><div class="cherry-box title_box dark box-751"><div class="box-primary inner">
                             <h2>About</h2>
                             <p>Comprised of an increasing network of terminals, RazorClean Movers & Transport is proud to be serving residential and commercial clients; our team has earned a reputation for excellence. How? By providing high-quality local service that fits your needs, schedule and your budget. </p>
-							<p>RazorClean Movers & Transport is a dependable family of the transportation industry, with an outstanding customer service representation, state-of-the-art equipment, innovative technology, and an astounding reputation for prompt, reliable delivery. We understand how important it is to keep your life moving – even while it’s moving someplace new. That’s why our team works closely with you to plan, pack and transport your valuables with the least amount of downtime and the most possible care. </p>
-                            <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url()?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-235{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-235"></span></a>
+                            <p>RazorClean Movers & Transport is a dependable family of the transportation industry, with an outstanding customer service representation, state-of-the-art equipment, innovative technology, and an astounding reputation for prompt, reliable delivery. We understand how important it is to keep your life moving – even while it’s moving someplace new. That’s why our team works closely with you to plan, pack and transport your valuables with the least amount of downtime and the most possible care. </p>
+                            <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url() ?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-235{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-235"></span></a>
                         </div></div>
                 </div>
-                <div id="mslide2" class="row  slide slide2"  data-tooltip="MISSION STATEMENT" >
+                <!--div id="mslide2" class="row  slide slide2"  data-tooltip="MISSION STATEMENT" >
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col person-left">
                     </div>
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col person-right specialist_right">
                         <h4>Mission Statement</h4>
                         <p>We are a company committed to sustaining treasured relationships with long-established customers and founding new partnerships with future clientele. Our mission is to provide reliable, expeditious transportation solutions while fusing together the cultivation of a profitable environment with elements of safety, trust, and respect. The RazorClean Movers & Transport family values the open door policy, team collaborations, and spirited attitudes.</p>
-                        <p><img class="sign" src="<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/Signature-Oscar.png" alt="" /></p>
+
+                    </div>
+                </div-->
+				<div id="mslide2" class="row  slide slide2"  data-tooltip="MISSION STATEMENT" >
+                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col ">
+                        <div class="row" style="margin-top:85px">
+           
+            <div class="col-md-4 col-sm-4 text-center test mout">
+                <div class="qualitiesIcon1" data-toggle="tooltip" onmouseover="showthreeIconContents('quality')">
+
+                </div>
+                <h3 style="font-weight:800;text-align:center;font-family: 'KlavikaRegular-Plain';">Quality</h3>
+				
+			</div>
+            <div class="col-md-4 col-sm-4 text-center mout" data-toggle="tooltip" onmouseover="showthreeIconContents('service')">
+                <div class="qualitiesIcon2">
+                </div>
+                <h3 style="font-weight:800;text-align:center;font-family: 'KlavikaRegular-Plain';">Service</h3>
+				</div>
+            <div class="col-md-4 col-sm-4 text-center mout" onmouseover="showthreeIconContents('trust')" data-toggle="tooltip">
+                <div class="qualitiesIcon3">
+                </div>
+                <h3 style="font-weight:800;text-align:center;font-family: 'KlavikaRegular-Plain';">Trust</h3>
+				</div>
+        </div>
+		<div id="quality" style="display:none;    text-align: center;
+    color: #bd252c;
+    padding: 20px;">
+				<p><b>Stewardship</b><br>RazorClean is fulfilling our obligation of building a better, stronger and more durable company for the future. Protecting the RazorClean brands while providing quality, service and trust to our clients. Always developing our people and helping improve communities and the global environment.</p>
+				<p><b>Best People</b><br>we believe in attracting, developing and retaining the best talent for our brands. We believe in always challenging our people, demonstrating a â€œcan-doâ€? attitude and fostering a collaborative and mutually supportive environment. </p>
+				</div>
+				<div id="service" style="display:none;    text-align: center;
+    color: #bd252c;
+    padding: 20px;">
+				<p><b>Customer/Member Value Creation</b><br>RazorClean focus on building relationships by being responsive and relevant by consistently delivering value to our customers. </p>
+				<p><b>One Global Network</b><br>we believe in leveraging the power of insight, relationship collaboration and learning to deliver exceptional customer service to our clients. </p>
+            
+				</div>
+				<div id="trust" style="display:none;    text-align: center;
+    color: #bd252c;
+    padding: 20px;">
+				<p><b>Respect for the Individual</b><br>RazorClean value diversity and unique contributions, fostering a trusting, open and inclusive environment and treating each person in a manner that reflects RazorClean values.</p>
+				<p><b>Integrity</b><br>we strive to always be ethically unyielding, honest and inspiring trust by saying and doing right by our fellow man/women.</p>
+            
+				</div>
+                    </div>
+                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col person-right specialist_right">
+                        <h4>Mission Statement</h4>
+                        <p>We are a company committed to sustaining treasured relationships with long-established customers and founding new partnerships with future clientele. Our mission is to provide reliable, expeditious transportation solutions while fusing together the cultivation of a profitable environment with elements of safety, trust, and respect. The RazorClean Movers & Transport family values the open door policy, team collaborations, and spirited attitudes.</p>
+
                     </div>
                 </div>
                 <div id="mslide3" class="row  slide slide3 third-slide"  data-tooltip="TRANSPORTATION PROVIDER OFFERING LEADING-EDGE SOLUTIONS" >
-                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col specialist_left">
+                    <div style="background-size: 100% 100%;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col specialist_left">
                     </div>
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col specialist_right">
                         <h4>Transportation Provider Offering Leading-Edge Solutions</h4>
-                        <p>At RazorClean Movers & Trasport, our family of employees are driven to reach and excel beyond client expectations. Aimed to deliver qualified service and definable safety, we ensure premier shipment of your cargo. Our company has operated through local, regional, and national territories; seamlessly merging capability and accountability for our customer satisfaction. As an imminent company in the industry, we are ever pleased to inform you of our guaranteed service and that you can rest assured the RazorClean Movers & Trasport team is best suited to move your cargo.</p>
+                        <p>At RazorClean Movers & Transport, our family of employees are driven to reach and excel beyond client expectations. Aimed to deliver qualified service and definable safety, we ensure premier shipment of your cargo. Our company has operated through local, regional, and national territories; seamlessly merging capability and accountability for our customer satisfaction. As an imminent company in the industry, we are ever pleased to inform you of our guaranteed service and that you can rest assured the RazorClean Movers & Transport team is best suited to move your cargo.</p>
                     </div>
                 </div>
                 <div id="mslide4" class="row  slide slide4 fourth-slide"  data-tooltip="WHY OUR CARRIER SYSTEM?" >
@@ -429,7 +481,7 @@
                     </div>
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col specialist_right">
                         <h4>Why Our Carrier System?</h4>
-                        <p>All of us at RazorClean Movers & Trasport humbly pride ourselves on the accurate and efficient delivery of your customized transportation needs. Our team of hard-working professionals directly engage with you; from offering low-cost services to administering shipment updates per your request. Dedicated to our work and your success, we are determined to resource our customers with the most precise and cut rate transportation agreements the trucking industry has to offer.</p>
+                        <p>All of us at RazorClean Movers & Transport humbly pride ourselves on the accurate and efficient delivery of your customized transportation needs. Our team of hard-working professionals directly engage with you; from offering low-cost services to administering shipment updates per your request. Dedicated to our work and your success, we are determined to resource our customers with the most precise and cut rate transportation agreements the trucking industry has to offer.</p>
                     </div>
                 </div>
                 <div id="mslide5" class="row  slide slide5 five-slide"  data-tooltip="SAFETY AND SECURITY" >
@@ -437,69 +489,412 @@
                     </div>
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col specialist_right">
                         <h4>Safety and Security</h4>
-                        <p>Safety has been the chief root of success at RazorClean Movers & Trasport. Since opening, the safety of our professional staff, valued customers, and transporting public takes precedence above all else. In our line of work, we recognize the importance of delivering cargo promptly and securely.</p>
+                        <p>Safety has been the chief root of success at RazorClean Movers & Transport. Since opening, the safety of our professional staff, valued customers, and transporting public takes precedence above all else. In our line of work, we recognize the importance of delivering cargo promptly and securely.</p>
                         <p>24 Hour Remote Video Surveillance<br />
-                            All RazorClean Movers & Trasport terminals are equipped to handle trans-loading and container storage attentively.<br />
+                            All RazorClean Movers & Transport terminals are equipped to handle trans-loading and container storage attentively.<br />
                     </div>
                 </div>
             </div>
-			<div  class="row  section "   >
-                <div id="mslide1" class="row  slide fp-slide fp-table active" data-tooltip="NEWS" style="background: url(<?php echo base_url()?>media/landing-pages/transport/wp-content/themes/template510730/img/lmtruck.jpg) center center no-repeat;width:20%"><div class="fp-tableCell" style="height:455px;">
-                    <style scoped="">.box-832 .box-primary{}</style><div class="cherry-box title_box box-832"><div class="box-primary inner">
-                            <h2>RazorClean Moving</h2>
-                            <p>Whether you’re moving down the street or across the country, our moving professionals<br> can help you manage your relocation decision. <br>RazorClean moving services provide you with:</p>
-                            
-							<ul class="service-list">
-                            <li>Fully bonded, insured and licensed move</li>
-                            <li>Local and long-distance moving options</li>
-                            <li>Packing and unpacking services</li>
-                            <li>Friendly, professional, and courteous staff</li>
-                            <li>Clean trucks with proper equipment</li>
-                        </ul>
-							<a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="http://54.209.190.106/Razorclean/transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped="">.icon-900{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-900"></span></a>
-                        </div></div>
-                </div></div>
+            <div  class="row  section "   >
+                <div id="mslide1" class="row  slide fp-slide fp-table active" data-tooltip="NEWS" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/trans.jpg) center center no-repeat;width:20%"><div class="fp-tableCell" style="height:455px;">
+                        <style scoped="">.box-832 .box-primary{}</style><div class="cherry-box title_box box-832"><div class="box-primary inner">
+                                <h2>RazorClean Moving</h2>
+                                <p>Whether you're moving down the street or across the country, our moving professionals
+                                    can help you manage your relocation decision. <br>
+                                    RazorClean moving services provide you with:</p>
+
+                                <ul class="service-list">
+                                    <li>Fully bonded, insured and licensed move</li>
+                                    <li>Local and long-distance moving options</li>
+                                    <li>Packing and unpacking services</li>
+                                    <li>Friendly, professional, and courteous staff</li>
+                                    <li>Clean trucks with proper equipment</li>
+                                </ul>
+                                <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url() ?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped="">.icon-900{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-900"></span></a>
+                            </div></div>
+                    </div></div>
                 <div id="mslide2" class="row  slide slide27"  >
                     <div class="address-box">
-                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url()?>media/landing-pages/transport/wp-content/themes/template510730/img/trans.jpg) no-repeat scroll center center / cover;">
-                           
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/black-lady-in-office.jpg) no-repeat scroll center center / 100% 100%;">
+
                         </div>
                         <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
-                            <div class="address-right-in">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
                                 <h2>Moving Services</h2>
-                               <p>RazorClean Movers & Transport professional ready staff can handle any type of residential or corporate relocation. 
-							   RazorClean Movers & Transport has you covered. It’s no secret that moving an entire household or business is stressful, and we’re here to help you with managing your relocation decision. Whether it’s Interstate or local our expert moving teams will go the distance to get the job done.  With a high referral rating from customers who refer 
-							   us to friends and family, is one reason why RazorClean Movers & Transport continues to keep moving forward. </p>
-							   <h4>RazorClean Movers & Transport a moving company equipped to handle moves of any size.</h4>
-							   
-							   <p>We start with two men per truck; our trucks are ready to move you anywhere thought out the central region (Arkansas, 
-							   Louisiana, Mississippi, Oklahoma, and Texas). With our up-to-date licensing and registration through the DOT and the Federal Motor Carrier 
-							   Safety Administration, we are authorized to transport your belongings safety to your designated location.</p>
-							   
-							   <p>We do a wide variety of local moves, including apartments, single-family homes, 
-							   retirement communities, dorms, condos, and many more. Our movers are trained to protect your belongings 
-							   and your home – all pieces of furniture are padded and stretch wrapped free of charge, ensuring your items 
-							   and home are damage-free at the end of your move. Having added stress about packing up your home prior to 
-							   moving?
-							   We’ve got you covered with our full-service packing and unpacking services,
-							   RazorClean the circle of trust. </p>
+                                <p>RazorClean Movers & Transport professional ready staff can handle any type of residential or corporate relocation. 
+                                    RazorClean Movers & Transport has you covered. It’s no secret that moving an entire household or business is stressful, and we’re here to help you with managing your relocation decision. Whether it’s Interstate or local our expert moving teams will go the distance to get the job done.  With a high referral rating from customers who refer 
+                                    us to friends and family, is one reason why RazorClean Movers & Transport continues to keep moving forward. </p>
+                                <h4>RazorClean Movers & Transport a moving company equipped to handle moves of any size.</h4>
+
+                                <p>We start with two men per truck; our trucks are ready to move you anywhere thought out the central region (Arkansas, 
+                                    Louisiana, Mississippi, Oklahoma, and Texas). With our up-to-date licensing and registration through the DOT and the Federal Motor Carrier 
+                                    Safety Administration, we are authorized to transport your belongings safety to your designated location.</p>
+
+                                <p>We do a wide variety of local moves, including apartments, single-family homes, 
+                                    retirement communities, dorms, condos, and many more. Our movers are trained to protect your belongings 
+                                    and your home – all pieces of furniture are padded and stretch wrapped free of charge, ensuring your items 
+                                    and home are damage-free at the end of your move. Having added stress about packing up your home prior to 
+                                    moving?
+                                    We’ve got you covered with our full-service packing and unpacking services,
+                                    RazorClean the circle of trust. </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="mslide3" class="row  slide slide28"   >
                     <div class="address-box">
-                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url()?>media/landing-pages/transport/wp-content/themes/template510730/img/trans2.jpg) no-repeat scroll center center / cover;">
-                            
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/slide4-img.jpg) no-repeat scroll center center / 100% 100%;">
+
                         </div>
                         <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
-                            <div class="address-right-in">
-                                <h4>Our long-distance moving options have you covered.</h4>
-                                <p>We offer moving services at reasonable rates you can afford. When you call to speak with one of our agents or submit your moving information a sales representative will get with you in order to give you a quote tailored to your specific moving needs. Additionally, we may send a representative to your location to perform an in-home/business walk through. This will give us a better idea of how much you need moved and how long it will take, enabling us to provide you with a
-								more accurate quote. With our transparent pricing, you’ll never run into any hidden fees, guaranteed.</p>
-                            <h4>Expedited Long-Distance</h4>
-							<p>We are a fully insured moving company with industry experience. When you move with razorclean movers & transport, not only are YOU’RE belongings in experienced and capable hands, but you have the peace of mind that your belongings are safe and protected.</p>
-							</div>
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Our long distance moving services includes
+
+                                    the following:</h4>
+                                <ul class="service-list">
+                                    <li>Long Term Storage, Temporary Storage (Hold Over)</li>
+                                    <li>Packing Services</li>
+                                    <li>Packing Supplies</li>
+                                    <li>Piano Moving and Other Specialty Items (Hot Tubs, Gun Safes)</li>
+                                    <li>Loading and Unloading (using high quality furniture moving quilts and materials)</li>
+                                    <li>Furniture Disassembly and Reassembly</li>
+                                    <li>Moving and Setting Up Items in your New Location</li>
+                                    <li>Unpacking</li>
+                                    <li>Replacement Cost Protection</li>
+                                    <li>Professional Friendly Staff and Moral Support</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/local_moving_truck.jpg)  no-repeat scroll -86px 4px / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Local Moving Services</h4>
+                                <p>We fully support the Local Move Movement.</p>
+                                <h4>Our local moving services include the following:</h4>
+                                <ul class="service-list">
+                                    <li>Storage</li>
+                                    <li>Packing Services</li>
+                                    <li>Packing Supplies</li>
+                                    <li>Piano Moving and Other Specialty Items</li>
+                                    <li>Loading and Unloading (using high quality furniture moving quilts and materials)</li>
+                                    <li>Load or Unload Your Rental Truck</li>
+                                    <li>Furniture Disassembly and Reassembly</li>
+                                    <li>Moving and Setting Up Items in your New Location</li>
+                                    <li>Unpacking</li>
+                                    <li>Replacement Cost Protection</li>
+                                    <li>Free, No-Obligation Estimates</li>
+                                    <li>On-Time Pickup and Delivery</li>
+                                    <li>Fully Insured</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/Apartment-moving.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Apartment Moving Services</h4>
+                                <p>Moving into or out of an apartment is usually tricky - parking can be a problem and more often than not there are lots of stairs to consider. Lucky for you, maneuvering your heavy furniture up and down multiple flights with the grace of a butterfly is our specialty.</p>
+                                <p>RazorClean Movers & Transport employees have the experience needed to move our customers in and out of apartment buildings of all sizes. But heavy lifting isn't all we do - we can pack and unpack, load, and transport your entire apartment in a matter of hours. Are you simply trying to get rid of something you can't carry by yourself? We can remove anything from your place and take it anywhere it needs to go - full disassembly and reassembly included.</p>
+                                <p>Whether your move is local or long distance, let us handle all the details of getting you into (or out of) your new apartment. Call today for a free no obligation quote based on our unique pricing system. Our commitment to you is that all foreseeable costs and fees are transparent and up-front so that you know exactly what you're paying for before we even get started - quality service with no hidden charges.</p>
+                                <h4>RazorClean Moving & Transport expertise includes:</h4>
+                                <ul class="service-list">
+                                    <li>Local</li>
+                                    <li>Long Distance</li>
+                                    <li>Senior Moving</li>
+                                    <li>Piano Moving</li>
+                                    <li>Load / Unload</li>
+                                    <li>Pack / Unpack</li>
+                                    <li>In-House Shuffle</li>
+                                    <li>Storage</li>
+                                    <li>Boxes & Supplies</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/senior-moving.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Senior Moving Services</h4>
+                                <p>Do you have a senior friend or family member that is in need of moving assistance? Our polite, professional movers will help every step of the way that's how mama raised us.</p>
+                                <h4>5 Simple Tips for Seniors Who are Moving:</h4>
+                                <ul class="service-list">
+                                    <li>Don't do it alone! Enlist the help of a friend or relative to help you prepare for your move - from making phone calls to labeling boxes. Remember, RazorClean Movers & Transport offers an entire range of senior moving services and packing supplies to fit your needs. We are here for you.</li>
+                                    <li>Clear the clutter! Moving is a great excuse to get rid of some of the junk that may be lingering in your attic, garage, closets, or guest bedrooms. Host a garage sale or donate unwanted items to charity</li>
+                                    <li>Arrange for storage space in advance if necessary.</li>
+                                    <li>Keep any prescriptions or medical documents unpacked and accessible while in transit.</li>
+                                    <li>Take photos of your old home to give the movers a reference if you would like your new surroundings set up in a similar fashion. Pay attention to everything from arrangement of living room furniture to placement of knick-knacks and family photos. This will make the transition easier so it feels more like home.</li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/piano-moving.png) no-repeat scroll left center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Piano Moving Services</h4>
+                                <p>Do you have a senior friend or family member that is in need of moving assistance? Our polite, professional movers will help every step of the way that's how mama raised us.</p>
+                                <h4>5 Simple Tips for Seniors Who are Moving:</h4>
+                                <ul class="service-list">
+                                    <li>Don't do it alone! Enlist the help of a friend or relative to help you prepare for your move - from making phone calls to labeling boxes. Remember, RazorClean Movers & Transport offers an entire range of senior moving services and packing supplies to fit your needs. We are here for you.</li>
+                                    <li>Clear the clutter! Moving is a great excuse to get rid of some of the junk that may be lingering in your attic, garage, closets, or guest bedrooms. Host a garage sale or donate unwanted items to charity</li>
+                                    <li>Arrange for storage space in advance if necessary.</li>
+                                    <li>Keep any prescriptions or medical documents unpacked and accessible while in transit.</li>
+                                    <li>Take photos of your old home to give the movers a reference if you would like your new surroundings set up in a similar fashion. Pay attention to everything from arrangement of living room furniture to placement of knick-knacks and family photos. This will make the transition easier so it feels more like home.</li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/loading-and-unloading.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Loading & Unloading Services</h4>
+                                <p>Feeling a little DIY? If you plan on renting a truck or trailer and driving it yourself, you can still leave the heavy lifting to RazorClean Movers & Transport. We put the same care and expertise into loading or unloading your rental as we do with all of our moves. Fill out a free quote form and let us know how we can help you!</p>
+                                <p>Our crew even has a few tips to make your rental and moving process go as smoothly as possible:</p>
+                                <h4>Preparation & Loading</h4>
+                                <p>If you're not sure what size truck you'll need, just ask your RazorClean Movers & Transport salesperson and we'll help you calculate all your belongings safely. </p>
+                                <p>Be sure to rent your truck or trailer in advance, especially during the busy summer months, and have it on site before your movers are scheduled to begin loading. It's also essential that you purchase or rent moving pads to protect your items. We can help you figure out how many you need if needed.</p>
+                                <p>Check your insurance policies to make sure your rental vehicle is covered. </p>
+                                <h4>Driving</h4>
+                                <p>Avoid tricky situations where you must back up your rental vehicle, especially if you are towing a trailer. If you need to put it in reverse, ask someone to spot you.</p>
+                                <p>When driving a rental truck, remember it's much taller than what you're used to. Watch out for tall trees and etc. </p>
+                                <h4>Unloading</h4>
+                                <p>If RazorClean Movers & Transport are not loading your items into the truck, be sure whoever handles this part of the process uses moving pads to protect every item and strap everything in safely.</p>
+                                <p>When calculating your arrival, allow for more time than you would a regular vehicle. Be sure to have your keys to the new place before RazorClean Movers & Transport are scheduled to start unloading.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/packing-and-unpacking.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Pack / Unpack</h4>
+                                <p>We can bubble wrap your items for safety. </p>
+                                <p>Depending on the size of your home or office, we can usually have everything packed up and ready to load in a couple days. We take extra caution with your belongings to properly secure and label all fragile items so they arrive safely and in one piece. We pack similar items together, keeping in mind how they will likely be unpacked and organized at the new place. Best of all, we have a streamlined system in place so that every box is clearly labeled and items are easy to find.</p>
+                  
+                                <p>We can pack it all or just the stuff you want to pack. In some situations, we have even been asked to pack and unpack everything and get it organized in the new place. Whatever you're packing needs, RazorClean Movers & Transport is here to help. </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/in-house-shuffle.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>In-House Shuffle Services</h4>
+                                <p>Sometimes you just need an extra hand re-organizing heavy things around the house. Think of RazorClean Movers & Transport as the helpful hands needed. </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/storage.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Commercial Storage Services</h4>
+								
+                                <p>Sometimes the businesses we move require unique storage solutions before, during,
+
+or after they relocate. Generally, commercial storage happens in concordance with
+
+some sort of warehouse service, but that&#39;s not always the case. If you need help
+
+storing your office furniture or large equipment, we have a good working relationship
+
+with local storage businesses and we&#39;d be happy to help you find the right unit to fit
+
+your needs.</p>
+                                <p>Do you have questions about the best way to store your commercial goods? Contact
+
+your nearest Little Guys Movers and we can discuss issues like when to opt for
+
+climate-controlled units and how to wrap bulky items.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/boxes-supplies.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Boxes & Supply Services</h4>
+                                <p>We have all of the necessary moving boxes & supplies available for sale, including:</p>
+                                    <ul class="service-list">
+                                        <li>Boxes of all different shapes and sizes - if we don't have it, we can get it!</li>
+                                        <li>Boxes of all different shapes and sizes - if we don't have it, we can get it!</li>
+                                        <li>Bubble Wrap</li>
+                                        <li>Packing Paper</li>
+                                        <li>Peanuts</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div-->
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/in-office-shuffle.png) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>In- Office Shuffle Services</h4>
+                                <p>When it comes to your business, we mean business.</p>
+                                <p>If it's a commercial in-office shuffle you're looking for, look no further.Our professional movers have been trained in the art of office feng shui and they will help you rearrange desks, cabinets, and conference tables if needed. </p>
+                                <p>Call or email RazorClean Movers & Transport today to speak with one of our managers. Our moving experts are dedicated to making your in-office shuffle as easy as it could possibly. We'll meet you at your place of business to conduct an on-site estimate for the job as you walk us through what needs to be done. In order to ensure a seamless transition, we will coordinate with your office manager and IT department to set up a plan for the best time and in order to get started. We understand that time is money - having this all mapped out up front means that your company can get back up and running as soon as possible.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/office-pack-unpack.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Office Pack & Unpack Services</h4>
+                                <p>We'll pack up and unpack your entire office for you. </p>
+                                <p>Some say packing and unpacking are the worst parts about a commercial move. </p>
+                                <p>An office pack/unpack job is successful when it is organized. As an experienced commercial mover, we know that the best place to start is to coordinate with the company project overseer, about the order in which all office supplies and special equipment should be packed and loaded. We make sure to put similar items together, keeping in mind how they will likely be unpacked and organized at the new office building. Most importantly, we're firm believers in the power of labeling - each moving box is clearly marked so that everything is easy to locate during all stages of the move.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/warehouse-storage.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Warehouse Services</h4>
+                                <p>RazorClean Movers & Transport, can help you with your storing needs? </p>
+                                <p>On some occasions, companies or distributors will only deliver goods to locations that function as a warehouse.  As a part of our professional moving and warehouse services, RazorClean Movers & Transport can receive crated shipments of commercial or oversized goods on your behalf. After a thorough inspection, we'll deliver the shipment to your business, unload, and unpack everything. Additionally, you can hire us to pick up large goods and ship them to you. We'll procure and carefully palletize and prepare your commercial items for safe travel. Once packed, we'll ship your item ourselves or hire one of our trusted freight members to ship the pallets to you. </p>
+                                <p>If your office is ordering new furniture or your business is expecting large, specialized equipment and you're having trouble getting it delivered directly to you, call or email RazorClean Movers & Transport to speak to one of our managers about how we can help. We understand that running a company is a full-time job. As an experienced, fully-insured moving company, we're here to help make your business a success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/storage_1.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Commercial Storage Services</h4>
+                                <p>Sometimes the businesses we move require unique storage solutions before, during, or after they relocate. Generally, commercial storage happens in concordance with some sort of warehouse service, but that's not always the case. If you need help storing your office furniture or large equipment, we have a good working relationship with local storage businesses and we'd be happy to help you find the right unit to fit your needs.</p>
+                                <p>Do you have questions about the best way to store your commercial goods? Contact your nearest Little Guys Movers and we can discuss issues like when to opt for climate-controlled units and how to wrap bulky items.</p></div>
+                        </div>
+                    </div>
+                </div-->
+                <div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/boxes-supplies_1.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4>Boxes & Supplies</h4>
+                                <p style="padding:0">We've got everything you need to get your business on the move.</p>
+                                <p style="padding:0">The thought of trying to keep your business running at max capacity while you pack and prepare for a big office move can be overwhelming. RazorClean Movers & Transport has increasingly focused on one thing - making the moving process easier for our customers, including those who are business owners. The fulfillment of this company philosophy can be seen in many ways, one of which is our commitment to providing the right tools for the job.</p>
+                                <p style="padding:0">We are fully equipped with moving boxes and moving supplies that you'll need for your next commercial move: the contents of your filing cabinets travel safely and conveniently in designated cardboard file boxes, and we also have bubble wrap for moving fragile items. If you're looking for a more economical option, ask us about renting E-Crates - heavy duty stacking plastic bins with lids that roll on their own dolly (included), sparing you the discomfort of shuffling your heavy boxes around the office. We even deliver the bins to your door. </p>
+                                <p style="padding:0">Are you looking for some pointers on how to pack and prepare your office efficiently? We'd be happy to spend some time talking to you about it. Give us a call or stop in any time during office hours. (If you would rather leave the packing for our professionals, we can help).</p>
+                                <p style="padding:0"><strong>We have all of the necessary packing supplies available for sale, including:</strong></p>
+                                    <ul class="service-list">
+                                        <li>Boxes</li>
+                                        <li>E-Crates</li>
+                                        <li>Packing Tape</li>
+                                        <li>Bubble Wrap</li>
+                                        <li>Packing Paper</li>
+                                        <li>Peanuts</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div id="mslide3" class="row  slide slide28"   >
+                    <div class="address-box">
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-left" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/black-familiy-unpacking.jpg) no-repeat scroll center center / cover;">
+
+                        </div>
+                        <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
+                            <div class="address-right-in" style='height:450px;overflow-y:scroll;'>
+                                <h4> Moving Tips</h4>
+                                <p>For you DIY’s, over the years we’ve managed to pick up a few tricks of the trade. We would like to help in any way possible; therefore we are listing a couple in order to help you with your next move. </p>
+                                    <p>RazorClean The Circle Of Trust. </p>
+									<ul class="service-list">
+                                        <li>Clearly label all of your boxes according to their content and handling instructions (e.g.: “Fragile,” “Top Load Only”). You can also categorize the boxes by room using color-coordinated sticker dots.</li>
+                                        <li>Towels and linens make excellent packing materials for fragile items.</li>
+                                        <li>Use closet space to store packed boxes.</li>
+                                        <li>If you are moving into storage, arrange your storage unit in advance. If you have antiques, you may want to reserve a climate controlled storage unit.</li>
+                                        <li>If you are renting a truck, do it as early as possible. Don’t forget to rent plenty of moving blankets! (About 2 blankets per item.)</li>
+                                        <li>Cloth items can be left in drawers.</li>
+                                        <li>Bundle garden tools, fishing poles and the like together.</li>
+                                        <li>When packing breakables use a lot of newsprint, bubble wrap, and other packing materials. There’s no such thing as being too cautious when it comes to your fragile valuables.</li>
+                                        <li>Use linens or blankets for wrapping mirrors, pictures and such.</li>
+                                        <li>Stage coolers on top of the fridge/freezer for when they have to be emptied on moving day.</li>
+                                        <li>Always move cash, jewelry, and other precious items yourself.</li>
+                                        <li>Empty lateral file cabinets.</li>
+                                        <li>Movers should not move any flammable materials such as gas, propane, ammo, etc.</li>
+                                        <li>Pack a box of cleaning supplies and keep it under the sink so it’s not misplaced on moving day.</li>
+                                        <li>Arrange all transfer of utilities well in advance. You might think about leaving your phone connected until the moving date so we still can contact you if we have to.</li>
+                                        <li>Your change of address info is available at no charge at your local post office. Change your address online here at www.moversguide.usps.com.</li>
+                                        <li>Once reconnected in your new place, always run the washer and dryer before the movers leave.</li>
+                                        <li>Be careful not to schedule any important engagements on the evening or day of the move.</li>
+                                        <li>In an apartment situation, save space for the moving van by blocking a parking spot with your car overnight.</li>
+                                        <li>Pack things you will need right away (clothes, toiletries, phone, keys, current bills, important papers, et cetera) and move these yourself.</li>
+                                <p>Looking for more moving tips? Check out our blog for ideas on how to make your move safer and less stressful. Happy moving! </p>
+								</ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -508,15 +903,16 @@
                 <div id="mslide1" class="row  slide slide7 seven-slide"  data-tooltip="SERVICES" >
                     <style scoped>.box-550 .box-primary{}</style><div class="cherry-box title_box box-550"><div class="box-primary inner">
                             <h2>Services</h2>
-                            <p>Business of professionals with the capacity to move. We are RazorClean Movers & Trasport!</p>
-                            <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url()?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-820{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-820"></span></a>
+                            <p>Business of professionals with the capacity to move. We are RazorClean Movers & Transport!</p>
+                            <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url() ?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-820{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-820"></span></a>
                         </div></div>
                 </div>
-                <div id="mslide2" class="row  slide slide72 seven-slide"  data-tooltip="DESCRIPTION" >
-                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
+                <div  id="mslide2" class="row  slide slide72 seven-slide"  data-tooltip="DESCRIPTION" >
+                    <div style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/truckload-operation.jpg) no-repeat scroll center center / cover;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
                     </div>
-                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
-					<h2>Truckload Operation (TO)</h2>
+                    <div style="height: 515px;
+    overflow-y: auto;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
+                        <h2>Truckload Operation (TO)</h2>
                         <p>TO consists of our tractors a combination of company drivers and owner-operators. Equipment includes air ride dry van trailers, and 48-foot flatbeds and etc. To insure dependability, our equipment is routinely brought to the terminal where mechanics, applies our RzCln Inspection Service (RIS) in order to maintain the equipment to the manufacturer’s specifications. All of our company tractors are equipped with satellite communications for tracking purposes, optional for owner-operators and all drivers have cellular telephones for any emergencies that may arise.</p>
                         <ul class="service-list">
                             <li>Long Haul Transport Division (LHTD) - Operates primarily into Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, and West Virginia.</li>
@@ -533,9 +929,75 @@
                 <div id="mslide3" class="row  slide slide72 seven-slide"  data-tooltip="DESCRIPTION" >
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
                     </div>
-                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
-					<h2>Owner Operator Division (OOD) </h2>
-                        <p>ODD is one of our fastest growing divisions, and has some of the best entrepreneurs in the business. Their drive and determination, combined with the teamwork of our truckload dispatch assures them of the opportunity for success. They also enjoy the welcoming family atmosphere that makes RazorClean Movers & Transport home to so many great people, and our best asset.</p>
+                    <div style="height: 515px;
+    overflow-y: auto;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
+                        <h2>Owner Operator Division (OOD) </h2>
+                        <!--p>ODD is one of our fastest growing divisions, and has some of the best entrepreneurs in the business.
+
+Their drive and determination, combined with the teamwork of our truckload dispatch assures them
+
+of the opportunity for success. They also enjoy the welcoming family atmosphere that makes
+
+RazorClean Movers &amp; Transport home to so many great people, and our best asset.</p>
+<p>Items We Ship for Commercial, Industrial & Residential Customers:</p>
+                        <ul class="service-list">
+                            <li>Computer & Server Equipment</li>
+                            <li>Industrial Equipment & Machinery</li>
+                            <li>Medical Equipment</li>
+                            <li>Military Equipment</li>
+                            <li>Telecom Equipment</li>
+                            <li>Trade Show Materials</li>
+                            <li>Art</li>
+                            <li>Antiques</li>
+                            <li>Household Items</li>
+                            <li>Etc.</li>
+                        </ul>
+						
+						<p>Single Source Responsibility Solutions including:</p>
+ <ul class="service-list">
+                            <li>Shipping</li>
+<li>Delivery</li>
+<li>Insurance</li>
+<li>Pick-up</li>
+<li>Packaging</li>
+<li>Crating</li></ul>
+
+<p>How does it work if your items are unpacked?</p>
+ <ul class="service-list">
+                            <li>You describe the items you want to ship.</li>
+<li>We prepare a thorough quote.</li>
+<li>Our expert fragile goods handlers go to your business or residence.</li>
+<li>We prepare your freight for safe transport to our packaging facility.</li>
+<li>We professionally package/crate your items for safe and secure transport.</li>
+<li>We ship your goods to their final destination - safely and on time.</li>
+</ul>
+<p><b>We're experts at Freight Shipping Solutions.</b></p-->
+ <p>When you choose to ship a car with RazorClean Movers & Transport you are paired with a dedicated shipping coordinator to help you navigate the paperwork, scheduling and billing from start to finish. Your coordinator will help you understand your pickup, shipping and delivery options and will work with you to schedule load and delivery times.</p>
+						<h3>Door to Door</h3>
+						<p>Unless you specify otherwise, all RazorClean Movers & Transport car shipping quotes are presumed to be door-to-door. This means whenever possible, our driver will pick up and deliver your vehicles at your residence, office or any other place you designate.</p>
+						<p>RazorClean Movers & Transport only offers door-to-door auto transport service when it is permitted by local ordinances.  Because many cities and municipalities restrict oversize vehicles (car carriers) from making deliveries in residential neighborhoods, your RazorClean Movers & Transport shipping coordinator will work with you to explore alternatives.</p>
+						<p>Our trucks can be up to 75 feet long, so drivers need lots of room to maneuver and turn around. When access to your residence is restricted by narrow streets, low-hanging trees, speed bumps or tight turns, the driver may ask that you designate an alternative delivery site or a terminal pickup.</p>
+						<h3>Terminal to Terminal </h3>
+						<p>Many movers prefer auto shipping terminals because they allow for flexible drop-off and storage before and after transportation.  Discuss your terminal to terminal car shipping options with your RazorClean Movers & Transport move coordinator when obtaining quotes to find out if a shipping terminal is convenient for you.</p>
+						<h3>Auto Transport FAQ</h3>
+						<p>Have questions about shipping your car? Browse the Auto Transport FAQs or contact RazorClean Movers & Transport and one of our dedicated auto transport coordinators will help you understand the process, start-to-finish.</p>
+                    </div>
+                </div>
+                <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/slide3-1-img.jpg) no-repeat scroll center center / cover" id="mslide55"  class="row  slide slide73 seven-slide"  data-tooltip="DESCRIPTION" >
+                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
+                    </div>
+                    <div style="    overflow-y: auto;
+    height: 515px;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
+                        <h2>Auto Transport  AT </h2>
+                        <p>When you choose to ship a car with RazorClean Movers & Transport you are paired with a dedicated shipping coordinator to help you navigate the paperwork, scheduling and billing from start to finish. Your coordinator will help you understand your pickup, shipping and delivery options and will work with you to schedule load and delivery times.</p>
+						<h3>Door to Door</h3>
+						<p>Unless you specify otherwise, all RazorClean Movers & Transport car shipping quotes are presumed to be door-to-door. This means whenever possible, our driver will pick up and deliver your vehicles at your residence, office or any other place you designate.</p>
+						<p>RazorClean Movers & Transport only offers door-to-door auto transport service when it is permitted by local ordinances.  Because many cities and municipalities restrict oversize vehicles (car carriers) from making deliveries in residential neighborhoods, your RazorClean Movers & Transport shipping coordinator will work with you to explore alternatives.</p>
+						<p>Our trucks can be up to 75 feet long, so drivers need lots of room to maneuver and turn around. When access to your residence is restricted by narrow streets, low-hanging trees, speed bumps or tight turns, the driver may ask that you designate an alternative delivery site or a terminal pickup.</p>
+						<h3>Terminal to Terminal </h3>
+						<p>Many movers prefer auto shipping terminals because they allow for flexible drop-off and storage before and after transportation.  Discuss your terminal to terminal car shipping options with your RazorClean Movers & Transport move coordinator when obtaining quotes to find out if a shipping terminal is convenient for you.</p>
+						<h3>Auto Transport FAQ</h3>
+						<p>Have questions about shipping your car? Browse the Auto Transport FAQs or contact RazorClean Movers & Transport and one of our dedicated auto transport coordinators will help you understand the process, start-to-finish.</p>
                         <!--ul class="service-list">
                             <li>Overweight and Refrigerated Cargo / Containers</li>
                             <li>53 Dry Van / Flatbeds / Lowboy / Step Decks</li>
@@ -547,13 +1009,13 @@
                     </div>
                 </div>
             </div>
-			<div  class="row  section"   >
-                <div id="mslide1" class="row  slide slide13"  data-tooltip="OWNER OPERATORS" >
+            <div  class="row  section"   >
+                <div id="mslide1" style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/slide5-1-img.jpg) center center no-repeat;" class="row  slide slide13"  data-tooltip="OWNER OPERATORS" >
                     <style scoped>.box-584 .box-primary{}</style><div class="cherry-box title_box box-584"><div class="box-primary inner">
                             <h2>Owner</h2>
                             <h2>Operators</h2>
                             <p>Drive with us and be your own boss!</p>
-                            <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url()?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-989{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-989"></span></a>
+                            <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url() ?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-989{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-989"></span></a>
                         </div></div>
                 </div>
                 <div id="mslide2" class="row  slide slide14"  data-tooltip="PRO TRANSPORT KEY BENEFITS" >
@@ -561,7 +1023,7 @@
                         <div class="contact-page contact-page-new"><div class="my_order_service_form"><form name="my-orderservice-form" class="my-orderservice-form" id="my-orderservice-form" method="post"><div class="my_order_service_form_box"><div class="field-box field-full"><input class="full-name" id="ord_name" name="name" type="text" placeholder="Full Name" onkeypress="return enterText(event)" required/><input class="full-name phoneno" id="ord_phoneno" name="phoneno" type="text" placeholder="Mobile Phone #"/><div id="dform1" class="captcha"></div></div><div class="btn-contact apply_btn"><input class="contact-submit" name="btn" type="submit" value="Apply Now" /><input type="hidden" value="mycontact_orderservice_send_mail"  name="action" ><img id="ajaxloader" class="loader" src="<?php echo base_url() ?>media/landing-pages/transport/wp-content/plugins/save-contact-number/loader.gif" alt="loading" style="display:none"/></div></div></form></div></div>
                     </div>
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
-                        <h3 class="head-large">RazorClean Movers & Trasport Key Benefits</h3>
+                        <h3 class="head-large">RazorClean Movers & Transport Key Benefits</h3>
                         <ul class="service-list">
                             <li>Fuel surcharge paid on all miles</li>
                             <li>Company paid drug screens</li>
@@ -572,11 +1034,11 @@
                             <li>Weekly settlements</li>
                             <li>Weekend Work Available</li>
                         </ul>
-                        <p><a class="apply-link" href="<?php echo base_url()?>transport/contact-us" target="">APPLY NOW!</a><br />
+                        <p><a class="apply-link" href="<?php echo base_url() ?>transport/contact-us" target="">APPLY NOW!</a><br />
                     </div>
                 </div>
-                <div id="mslide3" class="row  slide slide15"  data-tooltip="INDEPENDENT CONTRACTORS WANTED" >
-                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
+                <div id="mslide3" class="row  slide slide14"  data-tooltip="INDEPENDENT CONTRACTORS WANTED" >
+                    <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/slide3-img.jpg) center center no-repeat;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
                         <div class="contact-page contact-page-new"><div class="my_order_service_form"><form name="my-orderservice-form" class="my-orderservice-form" id="my-orderservice-form" method="post"><div class="my_order_service_form_box"><div class="field-box field-full"><input class="full-name" id="ord_name" name="name" type="text" placeholder="Full Name" onkeypress="return enterText(event)" required/><input class="full-name phoneno" id="ord_phoneno" name="phoneno" type="text" placeholder="Mobile Phone #"/><div id="dform2" class="captcha"></div></div><div class="btn-contact apply_btn"><input class="contact-submit" name="btn" type="submit" value="Apply Now" /><input type="hidden" value="mycontact_orderservice_send_mail"  name="action" ><img id="ajaxloader" class="loader" src="<?php echo base_url() ?>media/landing-pages/transport/wp-content/plugins/save-contact-number/loader.gif" alt="loading" style="display:none"/></div></div></form></div></div>
                     </div>
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
@@ -587,14 +1049,14 @@
                             <li>Diverse customer base including steamship lines, domestic intermodal partners, fortune 500 companies, railroads, freight forwarders and custom brokers</li>
                             <li>Local, regional and OTR work</li>
                         </ul>
-                        <p><a class="apply-link" href="<?php echo base_url()?>transport/contact-us" target="">APPLY NOW!</a><br />
+                        <p><a class="apply-link" href="<?php echo base_url() ?>transport/contact-us" target="">APPLY NOW!</a><br />
                     </div>
                 </div>
-                <div id="mslide4" class="row  slide slide16"  data-tooltip="INDEPENDENT CONTRACTORS WANTED" >
-                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
+                <div id="mslide4"  class="row  slide slide14"  data-tooltip="INDEPENDENT CONTRACTORS WANTED" >
+                    <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/applynow.png) center center no-repeat / 100%;background-position: 0 6%;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
                         <div class="contact-page contact-page-new"><div class="my_order_service_form"><form name="my-orderservice-form" class="my-orderservice-form" id="my-orderservice-form" method="post"><div class="my_order_service_form_box"><div class="field-box field-full"><input class="full-name" id="ord_name" name="name" type="text" placeholder="Full Name" onkeypress="return enterText(event)" required/><input class="full-name phoneno" id="ord_phoneno" name="phoneno" type="text" placeholder="Mobile Phone #"/><div id="dform3" class="captcha"></div></div><div class="btn-contact apply_btn"><input class="contact-submit" name="btn" type="submit" value="Apply Now" /><input type="hidden" value="mycontact_orderservice_send_mail"  name="action" ><img id="ajaxloader" class="loader" src="<?php echo base_url() ?>media/landing-pages/transport/wp-content/plugins/save-contact-number/loader.gif" alt="loading" style="display:none"/></div></div></form></div></div>
                     </div>
-                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
+                    <div  class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
                         <h3 class="head-large">INDEPENDENT CONTRACTORS WANTED</h3>
                         <h4>DRIVER REQUIREMENTS</h4>
                         <ul class="service-list">
@@ -603,11 +1065,11 @@
                             <li>Drug test required</li>
                             <li>Pass or have a current long form physical exam</li>
                         </ul>
-                        <p><a class="apply-link" href="<?php echo base_url()?>transport/contact-us" target="">APPLY NOW!</a><br />
+                        <p><a class="apply-link" href="<?php echo base_url() ?>transport/contact-us" target="">APPLY NOW!</a><br />
                     </div>
                 </div>
-                <div id="mslide5" class="row  slide slide17"  data-tooltip="COMPENSATION PROGRAM" >
-                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
+                <div id="mslide5" class="row  slide slide14"  data-tooltip="COMPENSATION PROGRAM" >
+                    <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/redusa.jpg) center center no-repeat / 100% 100%;background-position: 0 6%;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
                         <div class="contact-page contact-page-new"><div class="my_order_service_form"><form name="my-orderservice-form" class="my-orderservice-form" id="my-orderservice-form" method="post"><div class="my_order_service_form_box"><div class="field-box field-full"><input class="full-name" id="ord_name" name="name" type="text" placeholder="Full Name" onkeypress="return enterText(event)" required/><input class="full-name phoneno" id="ord_phoneno" name="phoneno" type="text" placeholder="Mobile Phone #"/><div id="dform4" class="captcha"></div></div><div class="btn-contact apply_btn"><input class="contact-submit" name="btn" type="submit" value="Apply Now" /><input type="hidden" value="mycontact_orderservice_send_mail"  name="action" ><img id="ajaxloader" class="loader" src="<?php echo base_url() ?>media/landing-pages/transport/wp-content/plugins/save-contact-number/loader.gif" alt="loading" style="display:none"/></div></div></form></div></div>
                     </div>
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
@@ -616,13 +1078,13 @@
                         <ul class="service-list">
                             <li>Flat rates based on mileage bands</li>
                             <li>Accessorial pay competitive to industry standards</li>
-                            <li>Click on the <a href="#slide7" target="">terminal locations</a> link to view addresses and contact information for RazorClean Movers & Trasport terminals</li>
+                            <li>Click on the <a href="#slide7" target="">terminal locations</a> link to view addresses and contact information for RazorClean Movers & Transport terminals</li>
                         </ul>
-                        <p><a class="apply-link" href="<?php echo base_url()?>transport/contact-us" target="">APPLY NOW!</a><br />
+                        <p><a class="apply-link" href="<?php echo base_url() ?>transport/contact-us" target="">APPLY NOW!</a><br />
                     </div>
                 </div>
-                <div id="mslide6" class="row  slide slide20"  data-tooltip="COMPENSATION PROGRAM" >
-                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
+                <div id="mslide6" class="row  slide slide14"  data-tooltip="COMPENSATION PROGRAM" >
+                    <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/owner-operator-help.jpg) center center no-repeat / 100% 100%;background-position: 0 6%;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
                         <div class="contact-page contact-page-new"><div class="my_order_service_form"><form name="my-orderservice-form" class="my-orderservice-form" id="my-orderservice-form" method="post"><div class="my_order_service_form_box"><div class="field-box field-full"><input class="full-name" id="ord_name" name="name" type="text" placeholder="Full Name" onkeypress="return enterText(event)" required/><input class="full-name phoneno" id="ord_phoneno" name="phoneno" type="text" placeholder="Mobile Phone #"/><div id="dform5" class="captcha"></div></div><div class="btn-contact apply_btn"><input class="contact-submit" name="btn" type="submit" value="Apply Now" /><input type="hidden" value="mycontact_orderservice_send_mail"  name="action" ><img id="ajaxloader" class="loader" src="<?php echo base_url() ?>media/landing-pages/transport/wp-content/plugins/save-contact-number/loader.gif" alt="loading" style="display:none"/></div></div></form></div></div>
                     </div>
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
@@ -632,18 +1094,18 @@
                             <li>Percentage and Per mile rates paid on all loaded, empty and bobtail miles (check with terminals)</li>
                             <li>Toll reimbursement in some lanes</li>
                             <li>Accessorial pay competitive to industry standards</li>
-                            <li>Click on the <a href="#slide7" target="">terminal locations</a> link to view addresses and contact information for RazorClean Movers & Trasport terminals</li>
+                            <li>Click on the <a href="#slide7" target="">terminal locations</a> link to view addresses and contact information for RazorClean Movers & Transport terminals</li>
                         </ul>
-                        <p><a class="apply-link" href="<?php echo base_url()?>transport/contact-us" target="">APPLY NOW!</a><br />
+                        <p><a class="apply-link" href="<?php echo base_url() ?>transport/contact-us" target="">APPLY NOW!</a><br />
                     </div>
                 </div>
-                <div id="mslide7" class="row  slide slide21"  data-tooltip="COMPENSATION PROGRAM" >
-                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
+                <div id="mslide7" class="row  slide slide14"  data-tooltip="COMPENSATION PROGRAM" >
+                    <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/white-moving-truck2.jpg) center center no-repeat / 100% 100%;background-position: 100% 100%;" class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
                         <div class="contact-page contact-page-new"><div class="my_order_service_form"><form name="my-orderservice-form" class="my-orderservice-form" id="my-orderservice-form" method="post"><div class="my_order_service_form_box"><div class="field-box field-full"><input class="full-name" id="ord_name" name="name" type="text" placeholder="Full Name" onkeypress="return enterText(event)" required/><input class="full-name phoneno" id="ord_phoneno" name="phoneno" type="text" placeholder="Mobile Phone #"/><div id="dform6" class="captcha"></div></div><div class="btn-contact apply_btn"><input class="contact-submit" name="btn" type="submit" value="Apply Now" /><input type="hidden" value="mycontact_orderservice_send_mail"  name="action" ><img id="ajaxloader" class="loader" src="<?php echo base_url() ?>media/landing-pages/transport/wp-content/plugins/save-contact-number/loader.gif" alt="loading" style="display:none"/></div></div></form></div></div>
                     </div>
-                    <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
+                    <div  class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
                         <h3 class="head-large">COMPENSATION PROGRAM</h3>
-                        <h4>RazorClean Movers & Trasport</h4>
+                        <h4>RazorClean Movers & Transport</h4>
                         <ul class="service-list">
                             <li>Roadside inspection bonus program
                                 <ul class="sub-list">
@@ -654,18 +1116,18 @@
                             </li>
                             <li>Owner operator loyalty bonus</li>
                         </ul>
-                        <h4>Earn up to $500 after your first year with RazorClean Movers & Trasport</h4>
-                        <p><a class="apply-link" href="<?php echo base_url()?>transport/contact-us" target="">APPLY NOW!</a><br />
+                        <h4>Earn up to $500 after your first year with RazorClean Movers & Transport</h4>
+                        <p><a class="apply-link" href="<?php echo base_url() ?>transport/contact-us" target="">APPLY NOW!</a><br />
                     </div>
                 </div>
             </div>
-			
-			<div  class="row  section"   >
+
+            <div  class="row  section"   >
                 <div id="mslide1" class="row  slide slide18"  data-tooltip="NEWS" >
                     <style scoped>.box-832 .box-primary{}</style><div class="cherry-box title_box box-832"><div class="box-primary inner">
                             <h2>News</h2>
                             <p>The transportation industry influences our world. Stay in the now!</p>
-                            <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url()?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-900{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-900"></span></a>
+                            <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url() ?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-900{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-900"></span></a>
                         </div></div>
                 </div>
                 <div id="mslide2" class="row  slide slide22 news-slide"  data-tooltip="American Trucker" >
@@ -673,9 +1135,9 @@
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 collapse-col term_right">
                         <div class="news-box">
-                            <h3>New: International RH Class 8 regional haul tractor</h3>
-                            <small><label>Source: </label>American Trucker</small>
-                            <img class="news-img rr" src="../trucker.com/site-files/trucker.com/files/uploads/2017/04/nav-rh1.jpg"/>
+                            <h3>RazorClean Moving</h3>
+                            <small><label>Source: </label>Fleet Owner</small>
+
                             <div class="new-desp">
                                 <span class="date">Category : Equipment News </span>
                                 <span class="date">Date: 20 April 2017 | 12:10 pm</span>
@@ -696,7 +1158,7 @@
                         <div class="news-box">
                             <h3>Mack brings burly front axle to Canada</h3>
                             <small><label>Source: </label>Fleet Owner</small>
-                            <img class="news-img rr" src="../fleetowner.com/site-files/fleetowner.com/files/uploads/2017/04/mackpnwork.jpg"/>
+
                             <div class="new-desp">
                                 <span class="date">Category : Equipment News </span>
                                 <span class="date">Date: 20 April 2017 | 10:24 pm</span>
@@ -721,13 +1183,13 @@
                     </div>
                 </div>
                 <div id="mslide4" class="row  slide slide24 news-slide"  data-tooltip="Fleet Owner(Video)" >
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 collapse-col term_left">
+                    <div style="background-position:100% 100%" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 collapse-col term_left">
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 collapse-col term_right">
+                    <div  class="col-xs-6 col-sm-6 col-md-6 col-lg-6 collapse-col term_right">
                         <div class="news-box">
                             <h3>Driving Trucks on Hell's Highway</h3>
                             <small><label>Source: </label>Fleet Owner(Video)</small>
-                            <img class="news-img rr" src="../fleetowner.com/site-files/fleetowner.com/files/processed_video/ArmyTruckCombat.jpg"/>
+
                             <div class="new-desp">
                                 <span class="date">Category : Driver Management Resource Center News Video </span>
                                 <span class="date">Date: 8 February 2017 | 11:18 am</span>
@@ -746,41 +1208,41 @@
                         <div class="news-box">
                             <h3>Data For 04/17/17</h3>
                             <small><label>Source: </label>EIA Fuel Prices</small>
-                            <img class="news-img tt" src="<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/eia_logo_250.png"/>
+
                             <div class="new-desp">
                                 <span class="date">Category : Fuel Prices</span>
                                 <span class="date">Date: 18 April 2017 | 5:22 pm</span>
                                 <p>
-                                    On-Highway Diesel Fuel Retail Price  &lt;br&gt;
-                                    (Dollars  per Gallon) 			&lt;br&gt;
-                                    2.597  .. U.S.  				&lt;br&gt;
-                                    2.631  ... East Coast  		&lt;br&gt;
-                                    2.638  ....  New England  	&lt;br&gt;
-                                    2.783  ....  Central Atlantic	&lt;br&gt;
-                                    2.522 ....  Lower Atlantic	&lt;br&gt;
-                                    2.536 ... Midwest			&lt;br&gt;
-                                    2.458 ... Gulf Coast		&lt;br&gt;
-                                    2.652 ... Rocky Mountain	&lt;br&gt;
-                                    2.877 ... West Coast		&lt;br&gt;
-                                    2.791 ... West Coast less California&lt;br&gt;
-                                    2.946 .... California		&lt;br&gt;			</p>
+                                    On-Highway Diesel Fuel Retail Price  
+                                    (Dollars  per Gallon) 			
+                                    2.597  .. U.S.  				
+                                    2.631  ... East Coast  		
+                                    2.638  ....  New England  	
+                                    2.783  ....  Central Atlantic	
+                                    2.522 ....  Lower Atlantic	
+                                    2.536 ... Midwest			
+                                    2.458 ... Gulf Coast		
+                                    2.652 ... Rocky Mountain	
+                                    2.877 ... West Coast		
+                                    2.791 ... West Coast less California
+                                    2.946 .... California				</p>
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
-			
-			<div  class="row  section last-slide"   >
+
+            <div  class="row  section last-slide"   >
                 <div id="mslide1" class="row  slide last-slide1 terminal"  data-tooltip="Our Terminals" >
                     <div class="address-list">
                         <div class="addresses-bx">
                             <h4>RazorClean Inc Transport & Movers</h4>
-							<p>signup@rzclntransport.com</p><br>
+                            <p>signup@rzclntransport.com</p><br>
                             <p>
                                 <span>Office: <span class="faxnum">1-855</span>.<span class="faxnum">GO RZCLN</span>(467-9256)</span><br />
-                               <br />
-                                </p>
+                                <br />
+                            </p>
                         </div>
 
 
@@ -794,11 +1256,11 @@
                         </div>
                         <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
                             <div class="address-right-in">
-                               <h4>RazorClean Inc Transport & Movers</h4>
-							<p>signup@rzclntransport.com</p><br>
-                            <p>
-                                <span>Office: <span class="faxnum">1-855</span>.<span class="faxnum">GO RZCLN</span>(467-9256)</span><br />
-                               <br />
+                                <h4>RazorClean Inc Transport & Movers</h4>
+                                <p>signup@rzclntransport.com</p><br>
+                                <p>
+                                    <span>Office: <span class="faxnum">1-855</span>.<span class="faxnum">GO RZCLN</span>(467-9256)</span><br />
+                                    <br />
                                 </p>
                             </div>
                         </div>
@@ -811,11 +1273,11 @@
                         </div>
                         <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
                             <div class="address-right-in">
-                               <h4>RazorClean Inc Transport & Movers</h4>
-							<p>signup@rzclntransport.com</p><br>
-                            <p>
-                                <span>Office: <span class="faxnum">1-855</span>.<span class="faxnum">GO RZCLN</span>(467-9256)</span><br />
-                               <br />
+                                <h4>RazorClean Inc Transport & Movers</h4>
+                                <p>signup@rzclntransport.com</p><br>
+                                <p>
+                                    <span>Office: <span class="faxnum">1-855</span>.<span class="faxnum">GO RZCLN</span>(467-9256)</span><br />
+                                    <br />
                                 </p>
                             </div>
                         </div>
@@ -829,10 +1291,10 @@
                         <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
                             <div class="address-right-in">
                                 <h4>RazorClean Inc Transport & Movers</h4>
-							<p>signup@rzclntransport.com</p><br>
-                            <p>
-                                <span>Office: <span class="faxnum">1-855</span>.<span class="faxnum">GO RZCLN</span>(467-9256)</span><br />
-                               <br />
+                                <p>signup@rzclntransport.com</p><br>
+                                <p>
+                                    <span>Office: <span class="faxnum">1-855</span>.<span class="faxnum">GO RZCLN</span>(467-9256)</span><br />
+                                    <br />
                                 </p>
                             </div>
                         </div>
@@ -846,10 +1308,10 @@
                         <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
                             <div class="address-right-in">
                                 <h4>RazorClean Inc Transport & Movers</h4>
-							<p>signup@rzclntransport.com</p><br>
-                            <p>
-                                <span>Office: <span class="faxnum">1-855</span>.<span class="faxnum">GO RZCLN</span>(467-9256)</span><br />
-                               <br />
+                                <p>signup@rzclntransport.com</p><br>
+                                <p>
+                                    <span>Office: <span class="faxnum">1-855</span>.<span class="faxnum">GO RZCLN</span>(467-9256)</span><br />
+                                    <br />
                                 </p>
                             </div>
                         </div>
@@ -862,11 +1324,11 @@
                         </div>
                         <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col address-right">
                             <div class="address-right-in">
-                               <h4>RazorClean Inc Transport & Movers</h4>
-							<p>signup@rzclntransport.com</p><br>
-                            <p>
-                                <span>Office: <span class="faxnum">1-855</span>.<span class="faxnum">GO RZCLN</span>(467-9256)</span><br />
-                               <br />
+                                <h4>RazorClean Inc Transport & Movers</h4>
+                                <p>signup@rzclntransport.com</p><br>
+                                <p>
+                                    <span>Office: <span class="faxnum">1-855</span>.<span class="faxnum">GO RZCLN</span>(467-9256)</span><br />
+                                    <br />
                                 </p>
                             </div>
                         </div>
@@ -874,70 +1336,70 @@
                 </div>
             </div>
             <div  class="row  section"   >
-                <div id="mslide1" class="row  slide slide8"  data-tooltip="JOIN OUR Family" >
+                <div style="background: url(./media/landing-pages/transport/wp-content/themes/template510730/img/join-our-family-cover.jpg) center center no-repeat / 100% 100%;background-position: 100% 100%;" id="mslide1" class="row  slide slide8"  data-tooltip="JOIN OUR Family" >
                     <style scoped>.box-777 .box-primary{}</style><div class="cherry-box title_box dark box-777"><div class="box-primary inner">
                             <h2>Join our</h2>
                             <h2>Family</h2>
                             <p>RazorClean Movers & Transport: Regional/Local Moving Division (RLMD) - Operates primarily in Arkansas as a 2 person per truck operation. Since our first delivery, we have captured every opportunity to flourish as a professional carrier and acquire a better understanding of what our esteemed customers, shippers, and consignees expect from us as a moving company. </p>
-<p>The significant importance of hard work to meet our client expectations daily propels us to work harder. Our commitment, proficiency and strength constitute the route we journey through to help our clients have a successful move.</p>                           
-						   <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url()?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-829{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-829"></span></a>
+                            <p>The significant importance of hard work to meet our client expectations daily propels us to work harder. Our commitment, proficiency and strength constitute the route we journey through to help our clients have a successful move.</p>                           
+                            <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url() ?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-829{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-829"></span></a>
                         </div></div>
                 </div>
                 <div id="mslide2" class="row  slide slide9"  data-tooltip="LET THE PROS MOVE IT" >
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_left">
                     </div>
                     <div class="col-xs-6 col-sm-5 col-md-6 col-lg-6 collapse-col term_right">
-                        <p>We, at RazorClean Movers & Trasport, humbly pride ourselves on the precise and efficient delivery of your customized needs. Our team of hardworking professionals directly engage with you to guarantee your success. We are determined to resource our customers with advanced agreements and leading-edge solutions. High levels of customer satisfaction are the result of exceptional service and our people embrace that philosophy every day in every way.</p>
+                        <p>We, at RazorClean Movers & Transport, humbly pride ourselves on the precise and efficient delivery of your customized needs. Our team of hardworking professionals directly engage with you to guarantee your success. We are determined to resource our customers with advanced agreements and leading-edge solutions. High levels of customer satisfaction are the result of exceptional service and our people embrace that philosophy every day in every way.</p>
                         <p>Welcoming the opportunity to join our family and help build our business in the years to come.</p>
-                        <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url()?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-552{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-552"></span></a>
+                        <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_self" href="<?php echo base_url() ?>transport/contact-us"><span class="cherry-btn-content-wrap">CONTACT US</span><style scoped>.icon-552{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-552"></span></a>
                     </div>
                 </div>
             </div>
-			
-			 <div  class="row  section"   >
-                <div id="mslide1" class="row  slide slide9" style="background: url(<?php echo base_url()?>media/landing-pages/transport/wp-content/themes/template510730/img/loadboard.jpg) center center no-repeat;"  data-tooltip="JOIN OUR Family" >
+
+            <div  class="row  section"   >
+                <div id="mslide1" class="row  slide slide9" style="background: url(<?php echo base_url() ?>media/landing-pages/transport/wp-content/themes/template510730/img/loadboard.jpg) center center no-repeat;"  data-tooltip="JOIN OUR Family" >
                     <style scoped>.box-777 .box-primary{}</style><div class="cherry-box title_box dark box-777"><div class="box-primary inner">
                             <h2>Your Next Load is Just
-One Click Away</h2>
+                                One Click Away</h2>
                             <p>Start searching and instantly
-find loads near you.</p>                           
-						   <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_blank" href="https://ww3.jbhunt.com/loadboard"><span class="cherry-btn-content-wrap">Find a Load</span><style scoped>.icon-829{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-829"></span></a>
+                                find loads near you.</p>                           
+                            <a class="cherry-btn cherry-btn-primary cherry-btn-medium cherry-btn-inline cherry-btn-fade title_btn" target="_blank" href="javascript:;"><span class="cherry-btn-content-wrap">Find a Load</span><style scoped>.icon-829{}</style><span class="fa fa-thumbs-up cherry-btn-icon icon-position-right icon-829"></span></a>
                         </div></div>
                 </div>
-				
-                
+
+
             </div>
-			
-           
-            
-            
-			
-			
+
+
+
+
+
+
 
 
 
 
 
         </div>
-		<div id="customHeading" style="
-    background: #001d2e;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    z-index: 999;
-    right: 0;
-    width: 95%;
-    float: left;
-">
-    
-        <div class="">
+        <div id="customHeading" style="
+             background: #001d2e;
+             padding: 20px 0;
+             position: fixed;
+             bottom: 66px;
+             z-index: 9;
+             right: 0;
+             width: 94.18%;
+             float: left;
+             ">
+
             <div class="">
-                <h2 style="font-size:30px;color:#fff" class="section-heading"><marquee><i class="fa fa-angle-double-left" aria-hidden="true"></i> RazorClean, The Circle of Trust. Save Money, Live RazorClean</marquee></h2>
+                <div class="">
+                    <h2 style="font-family: sans-serif;font-size:30px;color:#fff" class="section-heading"><marquee><< RazorClean, The Circle of Trust. Save Money, Live RazorClean</marquee></h2>
+                </div>
             </div>
         </div>
-    </div>
 
-       
+
         <!--End of Tawk.to Script--><script type='text/javascript'>
             /* <![CDATA[ */
             var ajax_object = {"ajaxurl":"http:\/\/www.protransportusa.com\/wp-admin\/admin-ajax.php"};
@@ -963,6 +1425,30 @@ find loads near you.</p>
             window.location.href = hrfe;
             });
             });
+			
+			function showthreeIconContents(id){
+	if(id === 'quality'){
+	jQuery("#quality").show();
+	jQuery("#service").hide();
+		jQuery("#trust").hide();
+	}else if(id==='trust'){
+		jQuery("#trust").show();
+		jQuery("#service").hide();
+		jQuery("#quality").hide();
+	}else if(id==='service'){
+		jQuery("#service").show();
+		jQuery("#trust").hide();
+		jQuery("#quality").hide();
+	}else{
+		jQuery("#service").hide();
+		jQuery("#trust").hide();
+		jQuery("#quality").hide();
+	}
+}
+
+jQuery( ".mout" ).mouseout(function() {
+  jQuery( "#quality, #service, #trust" ).hide();
+});
         </script>
 
     </body>

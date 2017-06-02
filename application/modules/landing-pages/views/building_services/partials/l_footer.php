@@ -1,3 +1,10 @@
+<div style="background: #000;padding:13px 0;color:#fff;float:left;width: 100%;">
+        <div style="width:80%;margin: 0 auto;">
+            <h2 style="font-size:30px;color: #fff;" class="section-heading">
+			<marquee><i class="fa fa-angle-double-left" aria-hidden="true"></i> RazorClean, The Circle of Trust. Save Money, Live RazorClean</marquee>
+			</h2>
+        </div>
+</div>
 <div class="footer-widgets">
     <div class="wrap">
         <div class="footer-widgets-1 widget-area"></div>
@@ -444,7 +451,7 @@
                                 #nav_tab_phone
                                 {
                                     display: inline-block;
-                                    background-color: #00aff0;
+                                    background-color: #bd252c;
                                     float: right;
                                     padding: 0 10px;
                                     text-transform: uppercase;
@@ -590,7 +597,7 @@
                             .kjs-menu-button {
                                 display: inline-block;
                                 padding: 10px;
-                                background: #00aff0;
+                                background: #bd252c;
                                 color: white;
                             }
                             .kjs-menu-button:hover {
@@ -878,21 +885,25 @@
                         </style>
 
                         <div class="page_footer">
-                            <div class="footer_column">
-                                <a href="http://www.bbb.org/dallas/business-reviews/cleaning-services-commercial-office/knight-janitorial-services-in-richardson-tx-90015963#bbbseal" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.bbb.org/dallas/business-reviews/cleaning-services-commercial-office/knight-janitorial-services-in-richardson-tx-90015963#bbbseal', '');" id="bbblink" class="ruhzbul" title="Knight Janitorial Services, Inc., Cleaning Services  Commercial Office, Richardson, TX" style="display: block;position: relative;overflow: hidden; width: 200px; height: 90px; margin: 0 auto; padding: 0px; margin: 0 auto;"><img style="padding: 0px; border: none;" id="bbblinkimg" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/06/seal-for-90015963.png" width="400" height="90" alt="Knight Janitorial Services, Inc., Cleaning Services  Commercial Office, Richardson, TX" /></a>
-                                <script type="text/javascript">
-                                    var bbbprotocol = (("https:" == document.location.protocol) ? "https://" : "http://");
-                                    document.write(unescape("%3Cscript src='" + bbbprotocol + 'seal-dallas.bbb.org' + unescape('logo/knight-janitorial-services-90015963.html') + "' type='text/javascript'%3E%3C/script%3E"));
-                                </script>
-                            </div>
-
-                            <div class="footer_column">
-                                <div class="footer_column_title">Areas Serviced</div>
-                                <div class="footer_column_cities"></div>
-                            </div>
+                            <!--                            <div class="footer_column">
+                                                            <a href="http://www.bbb.org/dallas/business-reviews/cleaning-services-commercial-office/knight-janitorial-services-in-richardson-tx-90015963#bbbseal" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.bbb.org/dallas/business-reviews/cleaning-services-commercial-office/knight-janitorial-services-in-richardson-tx-90015963#bbbseal', '');" id="bbblink" class="ruhzbul" title="Knight Janitorial Services, Inc., Cleaning Services  Commercial Office, Richardson, TX" style="display: block;position: relative;overflow: hidden; width: 200px; height: 90px; margin: 0 auto; padding: 0px; margin: 0 auto;"><img style="padding: 0px; border: none;" id="bbblinkimg" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/06/seal-for-90015963.png" width="400" height="90" alt="Knight Janitorial Services, Inc., Cleaning Services  Commercial Office, Richardson, TX" /></a>
+                                                            <script type="text/javascript">
+                                                                var bbbprotocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+                                                                document.write(unescape("%3Cscript src='" + bbbprotocol + 'seal-dallas.bbb.org' + unescape('logo/knight-janitorial-services-90015963.html') + "' type='text/javascript'%3E%3C/script%3E"));
+                                                            </script>
+                                                        </div>-->
                             <div class="footer_column">
                                 <p class="copyright_notice">&copy; <?php echo date('Y') ?> RazorClean Inc. Building Services</p>
+                                
                             </div>
+                            <div class="footer_column">
+                                <p class="copyright_notice">Email - signup@rzclnbuildingservices.com</p>
+                            </div>
+                             <div class="footer_column">
+                              
+                                <p class="copyright_notice">Phone - 1-855 GO RZCLN (467-9256)</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -955,9 +966,9 @@
         $('html').css('cssText', 'margin: 0px !important');
         document.getElementById("wpadminbar").style.display = "none";
     }
-    $("#menu-mainmenu").append('<li id="nav_tab_phone" ><a href="http://www.knightjanitorial.com/get-a-quote/" style="color: white; padding-top: 10px; text-align: center;"><span style="margin: 0;">(877) 588-9779 <br> Get a free quote!</span></a></li>');
+    //$("#menu-mainmenu").append('<li id="nav_tab_phone" ><a href="http://www.knightjanitorial.com/get-a-quote/" style="color: white; padding-top: 10px; text-align: center;"><span style="margin: 0;">(877) 588-9779 <br> Get a free quote!</span></a></li>');
 
-    $("#menu-mainmenu").prepend('<li id="knight-logo"><img src="http://www.knightjanitorial.com/<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/2015/06/cropped-320x80-logo.png" style="height: 60px; background-color:white;"></li>');
+    //$("#menu-mainmenu").prepend('<li id="knight-logo"><img src="http://www.knightjanitorial.com/<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/2015/06/cropped-320x80-logo.png" style="height: 60px; background-color:white;"></li>');
 
     $('head').append('<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">');
 
@@ -992,6 +1003,9 @@
         });
     });
 </script>
+<div style="clear:both"></div>
+<iframe src="<?php echo base_url()?>razorclean/stickyfooter" style="left: 0;width: 100%;height: 66px;padding-top: 0px;position: fixed;bottom: 0;background: rgba(0, 0, 0, 0.45);z-index: 99999;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0"></iframe>
+
 </body>
 
 <!-- Mirrored from www.knightjanitorial.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2017 08:48:31 GMT -->

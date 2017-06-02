@@ -1,16 +1,5 @@
-<div id="customHeading" style="
-    background: #1c1c1c;
-    padding: 13px 0;
-">
-    
-        <div class="">
-            <div class="">
-                <h2 style="font-size:30px;color:#fff" class="section-heading"><marquee><i class="fa fa-angle-double-left" aria-hidden="true"></i> RazorClean, The Circle of Trust. Save Money, Live RazorClean</marquee></h2>
-            </div>
-        </div>
-    
-</div>
-<div id="footer-outer" data-midnight="light" data-using-widget-area="true">
+
+<!--div id="footer-outer" data-midnight="light" data-using-widget-area="true">
 	
 	
 			
@@ -22,32 +11,28 @@
 				
 								
 				<div class="col span_3">
-				      <!-- Footer widget area 1 -->
-		              <div id="ttp_text-8" class="widget ttp-text"><div class='textwidget'><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d397165.3822043966!2d-94.45303367753907!3d38.950151136906854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1427379815134" width="350" height="325" frameborder="0" style="border:0"></iframe></div></div>				</div><!--/span_3-->
+				     
+		              <div id="ttp_text-8" class="widget ttp-text"><div class='textwidget'><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d397165.3822043966!2d-94.45303367753907!3d38.950151136906854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1427379815134" width="350" height="325" frameborder="0" style="border:0"></iframe></div></div>				</div>
 				
 				<div class="col span_3">
-					 <!-- Footer widget area 2 -->
+					
 		             <div id="ttp_text-7" class="widget ttp-text"><h4>Service Areas</h4><div class='textwidget'>Blue Springs<br>Grain Valley<br>Independence <br>Kansas City<br>Liberty<br>Lee's Summit<br>Lone Jack<br>Overland Park<br>Pleasant Hill<br>Raymore<br>Raytown<br>Warrensburg<br>North Kansas City<br>Gladstone<br>Oak Grove</div></div>				     
-				</div><!--/span_3-->
+				</div>
 				
 									<div class="col span_3">
-						 <!-- Footer widget area 3 -->
+						
 			              <div id="ttp_text-2" class="widget ttp-text">
 						  <div class='textwidget'><h4>Contact Us</h4>
-<b><!--strong>Office Center:</strong></b>
-<br>17200 Chenal Parkway <br>
-<strong>Suite 300-272 Little Rock,<br>
-<strong>AR 72223<br>
-</strong-->
+<b>
 Phone  1-855 GO RZCLN (467-9256)<br></strong>
 
 
 
 </div></div>					     
-					</div><!--/span_3-->
+					</div>
 								
 									<div class="col span_3">
-						 <!-- Footer widget area 4 -->
+						
 			              <div id="social-widget-2" class="widget Social_Widget"><h4>Follow Us!</h4><div class="socialmedia-buttons smw_left"><a href="<?php echo $global_setting['facebook_link']?>" rel="nofollow" target="_blank"><img width="32" height="32" src="<?php echo base_url()?>media/landing-pages/lawncare/wp-content/plugins/social-media-widget/images/default/32/facebook.png" 
 				alt="Follow Us on Facebook" 
 				title="Follow Us on Facebook"  class="scale" /></a><a href="<?php echo $global_setting['google_link']?>" rel="publisher" target="_blank"><img width="32" height="32" src="<?php echo base_url()?>media/landing-pages/lawncare/wp-content/plugins/social-media-widget/images/default/32/googleplus.png" 
@@ -61,13 +46,13 @@ Phone  1-855 GO RZCLN (467-9256)<br></strong>
 		<div id="ttp_text_title-2" class="widget ttp-text"><h4>
 		<img class="alignleft size-full wp-image-2758" src="<?php echo base_url()?>media/landing-pages/lawncare/wp-content/uploads/2014/03/bbb-rating-a-logo-150x88-centerd1-200x180.png" alt="bbb rating" width="100" height="80" /><br /></h4>
 		</div>					     
-					</div><!--/span_3-->
+					</div>
 								
-			</div><!--/row-->
+			</div>
 			
-		</div><!--/container-->
+		</div>
 	
-	</div><!--/footer-widgets-->
+	</div>
 	
 	
 	
@@ -79,20 +64,132 @@ Phone  1-855 GO RZCLN (467-9256)<br></strong>
 					
 											<p>&copy; <?php echo date("Y")?> RazorClean Inc.</p>
 										
-				</div><!--/span_5-->
+				</div>
 				
 				<div class="col span_7 col_last">
 					<ul id="social">
 																																																																																																																							</ul>
-				</div><!--/span_7-->
+				</div>
 			
-			</div><!--/container-->
+			</div>
 			
-		</div><!--/row-->
+		</div>
 		
 		
-</div><!--/footer-outer-->
+</div-->
 
+<style>
+.main-footer {
+	background-color: #444444;
+	width: 100%;
+	float:left;
+}
+
+.copyright-text {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 61px;
+}
+
+.social-links {
+	list-style:none;
+	margin-top: 15px;
+}
+
+.social-links li { 
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #272727;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	margin-right: 5px;
+}
+
+.social-links li a {
+	color:#fff;
+} 
+
+.social-links .facebook:hover {
+	background: #5c7ff6;
+} 
+
+.social-links .twitter:hover {
+	background: #22d5e3;
+}
+
+.social-links .google:hover {
+	background: #f82d2d;
+}
+
+.copyright-text, .social-links {
+	width: 23%;
+	float:left;
+}
+
+.leftDiv1 {
+	width: 8%;
+    float: left;
+}
+
+@media only screen and (max-width: 425px) and (min-width: 200px) {
+  .copyright-text {
+		width: 100%;
+		line-height: 30px;
+  }
+  
+  .leftDiv1 {
+	  margin:10px 5px;
+	  }
+  
+  
+  .social-links {
+	    padding-left: 35%;
+		margin-botttom:20px;
+		width: 100%;
+		line-height: 30px;
+  }
+}
+</style>
+
+<div style="background: #000;padding:13px 0;color:#fff;float:left;width: 100%;">
+        <div style="width:80%;margin: 0 auto;">
+            <h2 style="font-size:30px;color: #fff;" class="section-heading">
+			<marquee><i class="fa fa-angle-double-left" aria-hidden="true"></i> RazorClean, The Circle of Trust. Save Money, Live RazorClean</marquee>
+			</h2>
+        </div>
+</div>
+<footer class="main-footer">
+    <div class="">
+	      <div class="leftDiv1">&nbsp;</div>
+	
+           <span class="copyright-text">© Copyright 2017 - RazorClean Inc. </span>
+           
+		   <span class="copyright-text">Call- 1-855 GO RZCLN (467-9256)</span>
+        
+		   <span class="copyright-text">Email- signup@rzclnlawncare.com</span>
+		   
+		   <ul class="social-links">
+				<li class="facebook">
+					<a target="_blank" href="http://facebook.com/razorclean">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="twitter">
+					<a target="_blank" href="http://twitter.com">
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="google">
+					<a target="_blank" href="http://plus.google.com">
+					<i class="fa fa-google-plus" aria-hidden="true"></i>
+					</a>
+				</li>
+			</ul>
+    </div>
+</footer>
 
 
 	<div id="slide-out-widget-area-bg" class="slide-out-from-right dark"></div>
@@ -289,9 +386,10 @@ var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a
 
 <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/lawncare/wp-content/themes/salient/js/infinitescroll5152.js?ver=1.0'></script>
 
+<div style="clear:both"></div>
+<iframe src="<?php echo base_url()?>razorclean/stickyfooter" style="left: 0;width: 100%;height: 66px;padding-top: 0px;position: fixed;bottom: 0;background: rgba(0, 0, 0, 0.45);z-index: 99999;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0"></iframe>
 
 
 </body>
 
-<!-- Mirrored from olympiclawn.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Apr 2017 11:16:01 GMT -->
-</html><!-- WP Fastest Cache file was created in 1.25083208084 seconds, on 18-04-17 10:24:12 -->
+</html>

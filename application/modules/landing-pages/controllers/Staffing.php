@@ -59,10 +59,13 @@ public function MeetTeam() {
     }
 	
 	public function opportunities() {
+		 $condition  = "id IN (3960,3970,3922,3939,3947,3919,3974,3930,3931,3938,3957,3966,3969,3976)";
+        $states = $this->common_model->getRecords(TABLES::$STATES,'*',$condition);
+        $data['states'] = $states;
         $data['global_setting'] = $this->global_setting;
         $data['page'] = 'Towing';
 		$data['footer_jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS, '', array('service_category' => 'Staffing'), 'id desc', '3');
-		$data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS, '', array('service_category' => 'Staffing'), 'id desc', '3');
+		$data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS, '','', 'id desc');
         $data['footer_blog'] = $this->common_model->getRecords(TABLES::$MST_BLOG_POSTS, '*', array('status' => '1','service_category'=>'Staffing'),'','4');
         $this->load->view('staffing/opportunities', $data);
     }

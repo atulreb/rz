@@ -18,29 +18,46 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="<?php echo base_url()?>media/landing-pages/pool-cleaning/wp-content/uploads/revslider/home/1.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="<?php echo base_url()?>media/landing-pages/pool-cleaning/wp-content/uploads/revslider/home/1.jpg" alt="" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="<?php echo base_url()?>media/landing-pages/pool-cleaning/wp-content/uploads/revslider/home/2.jpg" alt="Chicago" style="width:100%;">
+        <img src="<?php echo base_url()?>media/landing-pages/pool-cleaning/wp-content/uploads/revslider/home/2.jpg" alt="" style="width:100%;">
       </div>
     
       <div class="item">
-        <img src="<?php echo base_url()?>media/landing-pages/pool-cleaning/wp-content/uploads/revslider/home/3.jpg" alt="New york" style="width:100%;">
+        <img src="<?php echo base_url()?>media/landing-pages/pool-cleaning/wp-content/uploads/revslider/home/3.jpg" alt="" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="<?php echo base_url()?>media/landing-pages/pool-cleaning/wp-content/uploads/revslider/home/4.jpg" alt="" style="width:100%;">
+      </div>
+	  
+	   <div class="item">
+        <img src="<?php echo base_url()?>media/landing-pages/pool-cleaning/wp-content/uploads/revslider/home/5.jpg" alt="" style="width:100%;">
+      </div>
+	   <div class="item">
+        <img src="<?php echo base_url()?>media/landing-pages/pool-cleaning/wp-content/uploads/revslider/home/6.jpg" alt="" style="width:100%;">
+      </div>
+	   <div class="item">
+        <img src="<?php echo base_url()?>media/landing-pages/pool-cleaning/wp-content/uploads/revslider/home/7.jpg" alt="" style="width:100%;">
       </div>
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <a class="left carousel-control" style="background:transparent" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <a class="right carousel-control" style="background:transparent" href="#myCarousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -220,39 +237,9 @@
                     </div>
                 </div>
             </div>
-            <div id="home_row_video" class="vc_row vc_row-fluid vc_custom_1466693833213 vc_row-has-fill">
-                <div class="vcsp_container vcsp_row_container vcsp_container_desktop">
-                    <div class="wpb_column vc_column_container vcsp_col vc_col-sm-12">
-                        <div class="vc_column-inner ">
-                            <div class="wpb_wrapper">
-                                <div class="sa_vc_popup ">
-                                    <a href="https://www.youtube.com/watch?v=xKLnnrVNmoQ" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.youtube.com/watch?v=xKLnnrVNmoQ', '\n				\n			');" class="popup-youtube popup-youtube-3946">
-
-                                        <img src="<?php echo base_url() ?>media/landing-pages/pool-cleaning/wp-content/uploads/home-26.png" class="sa_vc_popup_image" />	</a>
-                                </div>
-                                <script type="text/javascript">
-                                    jQuery(function ($) {
-                                        jQuery('.popup-youtube-3946').magnificPopup({
-                                            type: 'iframe',
-                                            mainClass: 'mfp-fade',
-                                            preloader: false,
-                                            closeBtnInside: false,
-                                            iframe: {
-                                                patterns: {
-                                                    youtube: {
-                                                        index: 'youtube.com',
-                                                        id: 'v=',
-                                                        src: '//www.youtube.com/embed/%id%?rel=0&autoplay=0'
-                                                    }
-                                                }
-                                            }
-                                        });
-                                    });
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div id="home_row_video" style="padding:0" class="vc_row vc_row-fluid vc_custom_1466693833213 vc_row-has-fill">
+                <iframe width="100%" height="360px" src="https://www.youtube.com/embed/sp8pdupsbU8">
+</iframe>
             </div>
             <div id="home_row_rollover" class="vc_row vc_row-fluid">
                 <div class="vcsp_container vcsp_row_container vcsp_container_desktop">

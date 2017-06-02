@@ -90,6 +90,67 @@ class Building_services extends CI_Controller {
         $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
         $this->load->view('building_services/careers', $data);
     }
+	 public function airport() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/airport', $data);
+    }
+	public function commercialBuilding() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/commercial_building_cleaning', $data);
+    }
+    public function educationaliBuilding() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/educational_building_cleaning', $data);
+    }
+    public function financialBuilding() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/financial_building_cleaning', $data);
+    }
+    public function healthcareBuilding() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/healthcare_building_cleaning', $data);
+    }
+    public function windowCleaning() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/window_cleaning', $data);
+    }
+    public function retailBuilding() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/retail_building', $data);
+    }
+    public function religiousBuilding() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/religious_building', $data);
+    }
+    public function industrialBuilding() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/industrial_building', $data);
+    }
+    public function escalatorCleaning() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/escalator_cleaning', $data);
+    }
+    public function concretePolishing() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/concrete-polishing', $data);
+    }
+	
+	 public function sportAreaCleaning() {
+        $data['global_setting'] = $this->global_setting;
+        $data['jobs'] = $this->common_model->getRecords(TABLES::$MST_JOBS . ' as mj', 'mj.*,(select name from ' . TABLES::$STATES . ' where id=mj.state) as state_name', array('service_category' => 'Building Services'), 'id desc', '5');
+        $this->load->view('building_services/sportarea_cleaning', $data);
+    }
 
     public function loadMoreJobs() {
         if (isset($_POST['page'])):

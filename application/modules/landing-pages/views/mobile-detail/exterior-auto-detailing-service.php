@@ -41,7 +41,7 @@
 </ul>
 <p></div>
 </div>
-<a class="btn btn-primary btn-lg  " href="../schedule-appointment/index.html"  rel=""  target="_self"><i class="glyphicon glyphicon-pencil" ></i> Schedule an Appointment</a>
+<a class="btn btn-primary btn-lg  " href="<?php echo base_url()?>mobile-detail/contact"  rel=""  target="_self"><i class="glyphicon glyphicon-pencil" ></i> Schedule an Appointment</a>
 </div>
 					</div><!--col 9-->
 	</div><!--row-->

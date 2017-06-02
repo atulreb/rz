@@ -19,7 +19,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="page_header">On-Site Detailing Customer Testimonials</h1>
+                <h1 class="page_header">RazorClean Mobile Detailing Customer Testimonials</h1>
                 <div id="lessonCatDesc"><div class="clear"></div></div>
 
 

@@ -4,7 +4,7 @@
     <div class="title-wrapper text- background-cover with-overlay top-padding">
 
 
-        <div class="bg-image" style="background-image:url(&#039;<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/commercial-painting.jpg&#039;);"></div>
+        <div class="bg-image" style="background-image:url(&#039;<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/commercial-painting.jpg&#039;);"></div>
 
 
 
@@ -53,7 +53,7 @@
 
                                             <figure class="wpb_wrapper vc_figure">
                                                 <div class="vc_single_image-wrapper   vc_box_border_grey">
-												<img width="640" height="640" src="<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/commercial-page-main.jpg" class="vc_single_image-img attachment-full" alt="" srcset="<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/commercial-page-main.jpg" sizes="(max-width: 640px) 100vw, 640px" /></div>
+                                                    <img width="640" height="640" src="<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/commercial-page-main.jpg" class="vc_single_image-img attachment-full" alt="" srcset="<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/commercial-page-main.jpg" sizes="(max-width: 640px) 100vw, 640px" /></div>
                                             </figure>
                                         </div>
 
@@ -71,8 +71,8 @@
 
                                             </div> 
                                         </div> <div class="vc_empty_space"  style="height: 5px" ><span class="vc_empty_space_inner"></span></div>
-                                        <a class="button round"  style="border-color:#e00000;background-color:#e00000;"  href="#"  title="Schedule a Painting Quote Today">
-                                            Commercial Bid Request</a>
+                                        <!--a class="button round"  style="border-color:#e00000;background-color:#e00000;"  href="#"  title="Schedule a Painting Quote Today">
+                                            Commercial Bid Request</a-->
                                     </div> 
                                 </div> 
                             </div><div class="row wpb_row">
@@ -89,14 +89,14 @@
                                     </div> 
                                 </div> 
                             </div>
-                           
+
                         </div> 
                     </div> 
                 </div>
-				</div>
-				</section>
-				
-				
+            </div>
+        </section>
+
+
     </div>
 
 

@@ -21,7 +21,11 @@ class Location extends CI_Controller
         if ($result->num_rows() > 0) {
             foreach ($result->result() as $list) {
                 $HTML.="<option value='" . $list->id . "'>" . $list->name . "</option>";
+				
             }
+			if($_POST['loadType'] =='city'){
+					$HTML.="<option value='other'>Other</option>";
+				}
         }
         echo $HTML;
     }

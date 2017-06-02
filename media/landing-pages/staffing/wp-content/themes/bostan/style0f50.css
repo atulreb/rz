@@ -3405,3 +3405,125 @@ start mobile menu
 /* --------
 end mobile menu
 ------------------------------------------- */
+
+.left-tab {
+	position: relative;
+    margin: 1em;
+    padding: 1em 3em;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+ .image-top{
+	position: absolute;
+    top: -40px;
+    left: -34px;
+    padding: 10px;
+    border: 3px solid #ab2430;
+    border-radius: 10px;
+    background-color: #ffffff;
+ }
+ 
+ .right-tab {
+	     background-image: url(tab.png);
+		 height:373px;
+		 background-size:100% 100%;
+		 padding: 41px 3px 43px 76px;
+ }
+ 
+ .left-tab  .left-main-description {
+	 max-height: 300px;
+     margin-bottom: 20px;
+ }
+ 
+  .left-tab .main-heading h3 {
+	  margin-left: 32px !important;
+      margin: 0;
+ }
+ 
+ .main-heading h6 {
+	 color: #777;
+	 margin:0;
+ }
+ 
+ .cbutton {
+	 max-height: 300px;
+ }
+ 
+ .all-right-description {
+	  max-height: 300px;
+ }
+ 
+ 
+a.list-btn {
+    padding: 10px;
+    border: 2px solid #ada8a8;
+    text-transform: uppercase;
+    display: block;
+    color: #717171;
+    margin-bottom: 13px;
+    margin-top: 13px;
+	text-decoration:none;
+	text-align: center;
+}
+
+a.list-btn:hover {
+	background: #bf1e2d;
+    border: 2px solid #bf1e2d;
+    color: #fff;
+}
+
+.all-right-description {
+	margin-left:0px;
+}
+
+.job_list_icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: #bf1e2d;
+    padding: 0;
+    text-align: center;
+    font-size: 34px;
+    color: #fff;
+	line-height: 47px;
+	float: left;
+}
+
+.listing-job ul {
+	list-style:none;
+}
+
+.listing-job ul > li:nth-of-type(odd) {
+    background: #efefef;
+}
+
+.listing-job li {
+    float: left;
+    padding: 10px;
+}
+
+.listing-description {
+    float: left;
+    width: 84%;
+    margin-left: 13px;
+}
+
+.listing-description h3 {
+	margin:0;
+	    color: #ed1c24;
+}
+
+.listing-description h6 {
+	margin:0;
+	color: #25aae1;
+}
+
+.red-text {
+	color: #ed1c24;
+}
+
+.grey-text {
+	color: #777;
+}
+

@@ -6,17 +6,17 @@
                             <article class="post-2573 page type-page status-publish entry" itemscope itemtype="http://schema.org/CreativeWork">
                                 <header class="entry-header"><h1 class="entry-title" itemprop="headline">Floor Maintenance</h1> 
                                 </header>
-<div class="entry-content" itemprop="text"><a href="http://www.knightrestoration.com/"><img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/4/0/3/6/40363377/1434735781.png" alt="Knight Restoration Logo" /></a>
+<div class="entry-content" style="padding:50px 0" itemprop="text">
 
 <br>
 
-To further support our customers we also have a sister company <a href="http://www.knightrestoration.com/" target="_blank">Knight Restoration</a> that is a 24-hour-365 emergency response company that handles restoration services such as:
+To further support our customers we also have a sister company <a href="<?php echo base_url()?>building-services" target="_blank">Razorclean  Restoration</a> that is a 24-hour-365 emergency response company that handles restoration services such as:
 
 <h2>Water and Flood Restoration</h2>
-At Knight Restoration Services we use the most advanced chemicals, equipment, and processes in the industry to get your property and possessions back to how they were.  It is our promise to leave your place looking like it never happened and get back to normal.
+At Razorclean building services we use the most advanced chemicals, equipment, and processes in the industry to get your property and possessions back to how they were.  It is our promise to leave your place looking like it never happened and get back to normal.
 
 <h2>Fire and Smoke Restoration</h2>
-Knight Restoration Services use specialty chemicals and processes to make sure that all of your possessions are cleaned and restored as quickly as possible. We use the most advanced specialty chemicals, equipment, and processes in the industry.
+Razorclean building services use specialty chemicals and processes to make sure that all of your possessions are cleaned and restored as quickly as possible. We use the most advanced specialty chemicals, equipment, and processes in the industry.
 
 <h2>Mold Remediation</h2>
 Excessive moisture accumulates in buildings or on building materials, and mold growth will often occur, particularly if the moisture problem remains undiscovered.  It can create huge problems and we have the training, and technical skills to handle any size mold job and remove the problem.

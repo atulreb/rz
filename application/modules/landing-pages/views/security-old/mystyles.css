@@ -1,0 +1,241 @@
+
+body {
+	color:#000000; 
+	background-color: #333333;
+	font-size: 13px;
+	line-height: 18px;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+
+html, body {
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	background-color: #fff;
+	margin: 0 auto;
+	width: 1000px;
+	vertical-align:top;
+	min-height:100%;
+}
+#header {
+	background-color: #FFF;
+	margin: 0 auto;
+	width: 942px;
+	height:159px;
+	vertical-align:top;
+}
+
+
+#panels {
+	background-color: #FFF;
+	padding-top:6px;
+	margin: 0 auto;
+	top:164px;
+	width: 942px;
+	min-height:275px;
+
+}
+
+
+
+
+#sidenav {
+	float:left;
+	background-color: #FFF;
+	margin: 0 auto;
+	top:160px;
+	width: 251px;
+	min-height:275px;
+	vertical-align:top;
+	
+}
+
+#security {
+background:url('images/sidenavbg_off.gif');
+background-repeat:no-repeat;
+	
+}
+#security:hover {
+background:url('images/sidenavbg_on.gif');
+background-repeat:no-repeat;
+
+}
+
+#investigations {
+background:url('images/sidenavbg_off.gif');
+background-repeat:no-repeat;
+	
+}
+#investigations:hover {
+background:url('images/sidenavbg_on.gif');
+background-repeat:no-repeat;
+
+}
+
+
+#permits {
+background:url('images/sidenavbg_off.gif');
+background-repeat:no-repeat;
+	
+}
+#permits:hover {
+background:url('images/sidenavbg_on.gif');
+background-repeat:no-repeat;
+
+}
+
+
+#securityarrow {
+	float:left;
+	background-color: #FFF;
+	margin: 0 auto;
+	top:160px;
+	width: 7px;
+	height:94px;
+	vertical-align:top;
+}
+
+#investigationsarrow {
+	float:left;
+	background-color: #390;
+	margin: 0 auto;
+	top:254px;
+	width: 7px;
+	height:88px;
+	vertical-align:top;
+}
+#permitsarrow {
+	float:left;
+	background-color: #FFF;
+	margin: 0 auto;
+	top:348px;
+	width: 7px;
+	height:88px;
+	vertical-align:top;
+}
+
+#photo {
+	float:right;
+	background-color: #FFF;
+	margin: 0 auto;
+	top:160px;
+	width: 684px;
+	min-height:276px;
+}
+
+#bottompanels {
+	background-color: #FFF;
+	padding-top:7px;
+	margin-left:29px;
+	width: 942px;
+}
+
+
+h1,h2 {
+	font-size: 12px;
+	line-height: 14px;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: #000;
+	font-weight : bold;
+	font-style: normal;
+	text-decoration: none;
+	margin: 0 0 0 0;
+
+}
+h3 {
+	font-size: 12px;
+	line-height: 18px;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: #000066;
+	font-weight : bold;
+	font-style: normal;
+	text-decoration: none;
+		margin: 0 auto;
+}
+h6 {
+	font-size: 12px;
+	line-height: 16px;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: #000066;
+	font-weight : bold;
+	font-style: normal;
+	text-decoration: none;
+		margin: 0 auto;
+}
+.sidepanelcopy {
+	font-size: 12px;
+	line-height: 18px;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: #000066;
+	font-weight : bold;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.orangecallout {
+	font-size: 19px;
+	line-height: 23px;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: #f75f00;
+	font-weight : bold;
+	font-style: normal;
+	text-decoration: none;
+	text-align:center;
+}
+.orangecallout18 {
+	font-size: 18px;
+	line-height: 22px;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: #f75f00;
+	font-weight : bold;
+	font-style: normal;
+	text-decoration: none;
+	text-align:center;
+}
+.orangecallout16 {
+	font-size: 16px;
+	line-height: 20px;
+	font-family:  Arial, Helvetica, sans-serif;
+	color: #f75f00;
+	font-weight : bold;
+	font-style: normal;
+	text-decoration: none;
+	text-align:center;
+}
+
+.tahoma11 {
+	color:#000; 
+	font-size: 11px;
+	line-height: 13px;
+	font-family:  Tahoma,Arial, Helvetica, sans-serif;
+	color: #000;
+	font-weight : normal;
+	font-style: normal;
+	text-decoration: none;
+	
+}
+
+.footerlinks { color: #000066;font-family: Arial, Helvetica, Sans-serif; font-size: 11px; line-height: 16px; font-style: bold; font-weight: bold;text-decoration: none;}
+.footerlinks A:link { color: #000066;font-family: Arial, Helvetica, Sans-serif; font-size: 11px; line-height: 16px; font-style: bold; font-weight: bold;text-decoration: none;}
+.footerlinks A:visited { color: #000066;font-family: Arial, Helvetica, Sans-serif; font-size: 11px; line-height: 16px; font-style: bold; font-weight: bold;text-decoration: none;}
+.footerlinks A:active { color: #000066;font-family: Arial, Helvetica, Sans-serif; font-size: 11px; line-height: 16px; font-style: bold; font-weight: bold;text-decoration: underline;}
+.footerlinks A:hover{ color: #000066;font-family: Arial, Helvetica, Sans-serif; font-size: 11px; line-height: 16px; font-style: bold; font-weight: bold;text-decoration: underline;}
+
+.copylink { color: #000000;font-family: Arial, Helvetica, Sans-serif; font-size: 13px; line-height: 18px; font-style: normal; font-weight: normal;text-decoration: none;}
+.copylink A:link { color: #000000;font-family: Arial, Helvetica, Sans-serif; font-size: 13px; line-height: 18px; font-style: normal; font-weight: normal;text-decoration: none;}
+.copylink A:visited { color: #000000;font-family: Arial, Helvetica, Sans-serif; font-size: 13px; line-height: 18px; font-style: normal; font-weight: normal;text-decoration: none;}
+.copylink A:active { color: #000000;font-family: Arial, Helvetica, Sans-serif; font-size: 13px; line-height: 18px; font-style: normal; font-weight: normal;text-decoration: none;}
+.copylink A:hover { color: #000000;font-family: Arial, Helvetica, Sans-serif; font-size: 13px; line-height: 18px; font-style: normal; font-weight: normal;text-decoration: none;}
+
+.copylinkbold { color: #000000;font-family: Arial, Helvetica, Sans-serif; font-size: 13px; line-height: 18px; font-style: normal; font-weight: bold;text-decoration: none;}
+.copylinkbold A:link { color: #000000;font-family: Arial, Helvetica, Sans-serif; font-size: 13px; line-height: 18px; font-style: normal; font-weight: bold;text-decoration: none;}
+.copylinkbold A:visited { color: #000000;font-family: Arial, Helvetica, Sans-serif; font-size: 13px; line-height: 18px; font-style: normal; font-weight: bold;text-decoration: none;}
+.copylinkbold A:active { color: #000000;font-family: Arial, Helvetica, Sans-serif; font-size: 13px; line-height: 18px; font-style: normal; font-weight: bold;text-decoration: none;}
+.copylinkbold A:hover { color: #000000;font-family: Arial, Helvetica, Sans-serif; font-size: 13px; line-height: 18px; font-style: normal; font-weight: bold;text-decoration: none;}
+

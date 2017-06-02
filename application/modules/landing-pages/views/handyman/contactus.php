@@ -11,7 +11,7 @@
                     </li>
                 </ul>
             </div>
-            <h1>Contact Your Trusted Chicago Handyman</h1>
+            <h1>Contact Your Trusted RazorClean Handyman</h1>
             <div id="wufoo-p15d7r9c004gvnb">
                 <div id="container" class="ltr">
 
@@ -112,12 +112,12 @@
             <p>
                 <br clear="all">
             </p>
-            <h3>If you are looking to contact a Chicago Handyman then please call 1-855 GO RZCLN (467-9256) or complete our <a title="Contact Us" href="contact-us.html">online request form</a>.</h3>
+            <h3>If you are looking to contact a RazorClean Handyman then call 1-855 GO RZCLN (467-9256).</h3>
         </div>
         <?php $this->load->view('partials/l_sidebar') ?>
     </div>
     <div id="body-bottom" class="section hide-from-tablet">
-        <img src="<?php echo base_url() ?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/body-bottom.jpg" alt="Chicago Handyman" />
+        <img src="<?php echo base_url() ?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/body-bottom.jpg" alt="RazorClean Handyman" />
     </div>
     <div id="cert" class="section hide-from-tablet"></div>
 </div>

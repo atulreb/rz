@@ -23,6 +23,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <title>RazorClean Staffing</title>
     <link rel="profile" href="http://gmpg.org/xfn/11" />
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- favicon -->
     <!--link rel="shortcut icon" href="<?php echo base_url()?>media/landing-pages/staffing/wp-content/uploads/favicon.png" title="Favicon" />
@@ -147,6 +149,7 @@
     <link rel='stylesheet' id='asalah_owl_carousel_css-css' href='<?php echo base_url()?>media/landing-pages/staffing/wp-content/themes/bostan/js/owl-carousel/owl.carousel125b.css?ver=4.7.4' type='text/css' media='all' />
     <link rel='stylesheet' id='asalah_owl_theme_css-css' href='<?php echo base_url()?>media/landing-pages/staffing/wp-content/themes/bostan/js/owl-carousel/owl.theme125b.css?ver=4.7.4' type='text/css' media='all' />
     <link rel='stylesheet' id='asalah_main_style-css' href='<?php echo base_url()?>media/landing-pages/staffing/wp-content/themes/bostan/style0f50.css?ver=6.14' type='text/css' media='all' />
+    <link rel='stylesheet' id='asalah_main_style-css' href='<?php echo base_url()?>media/landing-pages/staffing/wp-content/themes/bostan/scroll.css' type='text/css' media='all' />
     <link rel='stylesheet' id='asalah_responsive_css-css' href='<?php echo base_url()?>media/landing-pages/staffing/wp-content/themes/bostan/responsivea361.css?ver=2.3' type='text/css' media='all' />
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/staffing/wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/staffing/wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
@@ -155,6 +158,19 @@
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/staffing/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.minb6f0.js?ver=5.2.5.1'></script>
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/staffing/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.minb6f0.js?ver=5.2.5.1'></script>
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/staffing/wp-content/themes/bostan/js/modernizr125b.js?ver=4.7.4'></script>
+    <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/staffing/wp-content/themes/bostan/js/scroll1.js'></script>
+    <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/staffing/wp-content/themes/bostan/js/scroll2.js'></script>
+	<script>
+		(function($){
+			$(window).on("load",function(){
+				
+				$("#content-1").mCustomScrollbar({
+					theme:"minimal"
+				});
+				
+			});
+		})(jQuery);
+	</script>
 
     <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="<?php echo base_url()?>media/landing-pages/staffing/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
     <!--[if IE  8]><link rel="stylesheet" type="text/css" href="<?php echo base_url()?>media/landing-pages/staffing/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->
@@ -551,7 +567,7 @@
                         <!-- start contact info span -->
                         <div class="contact_info_holder">
                             <div class="contact_info_line">
-                                <i class="icon-mail contact_info_icon"></i> <span class="mail_address contact_info_item"> abc@gmail.com</span>
+                                <i class="icon-mail contact_info_icon"></i> <span class="mail_address contact_info_item"> signup@rzclnstaffing.com</span>
 
                                 <i class="icon-phone-outline contact_info_icon"></i> <span class="phone_number contact_info_item">1-855 GO RZCLN (467-9256)</span>
 
@@ -598,10 +614,20 @@
                                             <li id="menu-item-24076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24076 dropdown"><a href="<?php echo base_url()?>staffing/jobseeker" data-hover="dropdown" class="dropdown-toggle"><span class="menu_icon"><i class="icon-pencil"></i></span>Job Seekers <i class="icon-down-open"></i></a>
                                                 <ul role="menu" class=" dropdown-menu">
                                                     <li id="menu-item-24103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24103"><a href="<?php echo base_url()?>staffing/opportunities">Job Opportunities</a></li>
+                                                    
+                                                    <li id="menu-item-24103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24103"><a href="<?php echo base_url()?>staffing/workforce-solutions">Workforce Solutions</a></li>
+                                                    <li id="menu-item-24103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24103"><a href="<?php echo base_url()?>staffing/workforce-tools">Workforce Tools</a></li>
+                                                     <!--li id="menu-item-24115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24115"><a href="#">Job Board</a></li-->
                                                      <!--li id="menu-item-24115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24115"><a href="#">Job Board</a></li-->
                                                 </ul>
                                             </li>
-                                            <li id="menu-item-24075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24075"><a href="<?php echo base_url()?>staffing/employers"><span class="menu_icon"><i class="icon-puzzle"></i></span>Employers</a></li>
+                                            
+                                            <li id="menu-item-24076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24076 dropdown"><a href="<?php echo base_url()?>staffing/employers" data-hover="dropdown" class="dropdown-toggle"><span class="menu_icon"><i class="icon-pencil"></i></span>Employers <i class="icon-down-open"></i></a>
+                                                <ul role="menu" class=" dropdown-menu">
+                                                    <li id="menu-item-24103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24103"><a href="<?php echo base_url()?>staffing/recruitment-process">Recruitment Process</a></li>
+                                                </ul>
+                                            </li>
+                                       
 											<li id="menu-item-24075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24075"><a href="<?php echo base_url()?>staffing/blog"><span class="menu_icon"><i class="icon-news"></i></span>Blogs</a></li>
                                             <!--li id="menu-item-24113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24113"><a href="#"><span class="menu_icon"><i class="icon-mail"></i></span>Apply Now</a></li>
                                             <li id="menu-item-24114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24114"><a href="#"><span class="menu_icon"><i class="icon-home"></i></span>Web Services</a></li-->

@@ -2,7 +2,7 @@
 <DIV id="panels">
     <DIV id="sidenav">
         <div id="security" style="  height:94px;  width: 241px;
-    margin-bottom: 5px;" onmouseover="ShowContent('securitypanel'); return true;" onmouseout="HideContent('securitypanel'); return true;" onclick="javascript:ReverseContent('securitypanel')">
+    margin-bottom: 5px;" onmouseover="ShowContent('securitypanel'); return true;" onmouseout="HideContent('securitypanel'); return true;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -10,14 +10,14 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies in NYC</h1></TD>
+                    <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies</h1></TD>
                 </TR>
 
             </TABLE>	
         </div>
 
         <div id="investigations" style="  height:94px;  width: 241px;
-    margin-bottom: 5px;" onmouseover="ShowContent('investigationspanel'); return true;" onmouseout="HideContent('investigationspanel'); return true;" onclick="javascript:ReverseContent('investigationspanel')">
+    margin-bottom: 5px;" onmouseover="ShowContent('investigationspanel'); return true;" onmouseout="HideContent('investigationspanel'); return true;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -25,13 +25,13 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies in NYC</h2></TD>
+                    <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies</h2></TD>
                 </TR>
             </TABLE>
         </div>
 
         <div id="permits"  style="  height:94px;  width: 241px;
-    margin-bottom: 5px;" onmouseover="ShowContent('permitspanel'); return true;" onmouseout="HideContent('permitspanel'); return true;" onclick="javascript:ReverseContent('permitspanel')">
+    margin-bottom: 5px;" onmouseover="ShowContent('permitspanel'); return true;" onmouseout="HideContent('permitspanel'); return true;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -39,7 +39,7 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h2>Your source for NYC event permits anywhere in the city</h2></TD>
+                    <TD ALIGN="left" VALIGN="top"><h2>Your source for event permits anywhere in the city</h2></TD>
                 </TR>
 
             </TABLE>
@@ -296,60 +296,84 @@
                     <TR>
                         <TD ALIGN="left" VALIGN="top" colspan=3><BR>
                     <CENTER>
-                        <span class="orangecallout">New York City Private Detective Agencies Investigate Employee Fraud and Asset Misuse to Limit Legal Exposure and Identify Corporate Corruption</span>
+                        <span class="orangecallout">RazorClean Security Services, Private Detective Agencies Investigate Employee Fraud and Asset Misuse to Limit Legal Exposure and Identify Corporate Corruption </span>
                         <BR><BR><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="0" BORDER="0"><BR><BR></CENTER>
             </TD>
         </TR>
 
         <TR>
-            <TD ALIGN="left" VALIGN="top" WIDTH="15"></TD>
-            <TD ALIGN="left" VALIGN="top"><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/investigations/business.jpg" ALT="" WIDTH="175" HSPACE="0" VSPACE="0" BORDER="0" ALIGN="left">
-                New York City corporations today are more alert to the realities of the many faces of crime and are re-drawing their internal standards to be better able to identify problems early. <FONT COLOR="#000000"><B>MG Security Services LLC provides some of the largest Manhattan firms with <A HREF="http://en.wikipedia.org/wiki/Private_investigator" TARGET="_blank"  class="copylinkbold">private investigator services</A> and sophisticated private detective strategies and tools</B></FONT> so enterprises and executives with large assets at risk can have protection on every front -- from international terrorism to garden-variety <A HREF="http://en.wikipedia.org/wiki/White-collar_crime" TARGET="_blank"  class="copylink"> white collar crime.</A></TD>
+            <TD ALIGN="left" VALIGN="top" colspan=3>
+        <CENTER><BR>
+			
+			
+                		<IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/investigations/corporation_building_photo.jpg" ALT="" HEIGHT="180"  WIDTH="600" HSPACE="0" VSPACE="0" BORDER="0" ALIGN="left">
+				
+
+			<BR><BR></CENTER>
+        </TD>
+        </TR>
+		
+        <TR>
+		
+            <TD ALIGN="left" VALIGN="top" colspan=3>
+			
+			Corporations are growing more alert regarding the realities of crime, and re-drawing their internal standards to be better able to identify problems early.
+				<FONT COLOR="#000000"><B>RazorClean Security Services provides firms with <A HREF="http://en.wikipedia.org/wiki/Private_investigator" TARGET="_blank"  class="copylinkbold">private investigator services</A>and sophisticated private detective strategies tools</B></FONT> so enterprises and executives with large assets at risk can have protection on every front.
+				</TD>
             <TD ALIGN="left" VALIGN="top" WIDTH="20"></TD>
         </TR>
-        <TR>
+		
+		<TR>
             <TD ALIGN="left" VALIGN="top" colspan=3>
         <CENTER><BR><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="0" BORDER="0"><BR><BR>
-            <span class="orangecallout">Our Private Investigators Have Access to Information That Your Firm Needs to Make Decisions</span>
+            <span class="orangecallout">Our Private Investigators Have Access to Information That’s Needed to Make Decisions</span>
             <BR><BR><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="0" BORDER="0"><BR><BR></CENTER>
         </TD>
         </TR>
         <TR>
             <TD ALIGN="left" VALIGN="top" WIDTH=15></TD>
-            <TD ALIGN="left" VALIGN="top">Your business runs on information. Like-wise there are forces that are actively working against your firm's best interest and their business runs on information, too. <FONT COLOR="#000000"><B>Our highly-trained private detectives and private investigators can assess your business practices and identify weaknesses in your information and document systems, exposing vulnerabilities.</B></FONT> A <A HREF="http://en.wikipedia.org/wiki/Background_check" TARGET="_blank"  class="copylink">sensitively conducted employee review</A> can expose any unknown issues relative to your <A HREF="http://en.wikipedia.org/wiki/Position_of_trust" TARGET="_blank"  class="copylink">current staff and trusted others who have access</A> to your firm's physical plant and/or other properties. Future relations -- with future employees, future vendors, or future business partnerships -- can be thoroughly examined through hard-to-access databases that are off-limits to the general population but are accessible to our licensed private investigators. Without identifying who they represent, our private detective is able to interview strategically placed persons and collect relevant documents, activities that would be difficult or impossible for a company staffer to replicate.</TD>
+            <TD ALIGN="left" VALIGN="top">Your business runs on information. Like-wise there are forces that are actively working against your firm's best interest. <FONT COLOR="#000000"><B>Our highly-trained private detectives and private investigators can protect your business practices and identify it weaknesses.  
+				
+				
+				
+				<BR><BR>
+				
+				</B></FONT> A <A HREF="http://en.wikipedia.org/wiki/Background_check" TARGET="_blank"  class="copylink">sensitively conducted employee review</A> can expose any unknown issues relative to your <A HREF="http://en.wikipedia.org/wiki/Position_of_trust" TARGET="_blank"  class="copylink">current staff and trusted others who have access</A> to your firm's physical plant and/or other properties. Future relations -- with future employees, future vendors, or future business partnerships -- can be thoroughly examined through hard-to-access databases that are off-limits to the general population but are accessible to our licensed private investigators. Without identifying who they represent, our private detective is able to interview strategically placed persons and collect relevant documents, activities that would be difficult or impossible for a company staffer to replicate.</TD>
             <TD ALIGN="left" VALIGN="top" WIDTH=20></TD>
         </TR>
         <TR>
             <TD ALIGN="left" VALIGN="top" colspan=3><BR>
         <CENTER><BR><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="0" BORDER="0"><BR><BR>
-            <span class="orangecallout">New York City Professional Private Detectives are a Contemporary Solution to Modern Crime</span>
+            <span class="orangecallout">RazorClean Security Services, Professional Private Detectives are a Contemporary Solution to Modern Crime.</span>
             <BR><BR><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="0" BORDER="0"><BR><BR></CENTER>
         </TD>
         </TR>
 
-        <TR>
-            <TD ALIGN="left" VALIGN="top" WIDTH=15></TD>
-            <TD ALIGN="left" VALIGN="top"><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/investigations/ittech.jpg" ALT="" WIDTH="200" HSPACE="0" VSPACE="0" BORDER="0" ALIGN="right"><A HREF="http://en.wikipedia.org/wiki/Computer_hacking" TARGET="_blank" class="copylink">Computer hacking is a common crime</A> that bleeds millions of dollars from American businesses both large and small every day. Most of this criminal and destructive activity goes unnoticed and unabated. <A HREF="http://en.wikipedia.org/wiki/Intellectual_property" TARGET="_blank" class="copylink">Intellectual property theft</A> is a high art form in every industry and can involve trade secrets, clients lists, process information, access to proprietary vendor agreements and even unannounced marketing plans. Our professionals are familiar with how criminals operate and can address your firm's concerns quickly.</TD>
-            <TD ALIGN="left" VALIGN="top" WIDTH=20></TD>
+		    <TR>
+            <TD ALIGN="left" VALIGN="top" colspan=3>
+        <CENTER><BR>
+			
+			
+                		<IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/investigations/invistigation_hacked.jpg" ALT="" HEIGHT="180"  WIDTH="600" HSPACE="0" VSPACE="0" BORDER="0" ALIGN="left">
+				
+
+			<BR><BR></CENTER>
+        </TD>
         </TR>
+				
+        <TR>
+			<TD ALIGN="left" VALIGN="top" colspan=3>
+							<A HREF="http://en.wikipedia.org/wiki/Computer_hacking" TARGET="_blank" class="copylink">Computer hacking is a common crime</A> that bleeds millions of dollars from American businesses both large and small every day. Most of this criminal and destructive activity goes unnoticed and unabated. <A HREF="http://en.wikipedia.org/wiki/Intellectual_property" TARGET="_blank" class="copylink"> Intellectual property theft</A> is a high art form in every industry and can involve trade secrets, client’s lists, process information, access to proprietary vendor agreements and even unannounced marketing plans. Our professionals are familiar with how criminals operate and can address your firm's concerns quickly.
+				</TD>
+        </TR>
+		
         <TR>
             <TD ALIGN="left" VALIGN="top" colspan=3><BR>
         <CENTER><BR><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="0" BORDER="0"><BR><BR>
-            <span class="orangecallout">Quietly Addressing Security Concerns of Businesses and High-Net-Worth Individuals Every Day</span>
+            <span class="orangecallout">Quietly Addressing Security Concerns of Businesses and High-Net-Worth Individuals Every Day </span>
             <BR><BR><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="0" BORDER="0"><BR><BR></CENTER>
         </TD>
         </TR>
-
-
-
-
-
-
-
-
-
-
-
 
 
         <TR>
@@ -374,7 +398,7 @@
                         <TD ALIGN="left" VALIGN="top"><FONT COLOR="#000000"><B><A HREF="http://en.wikipedia.org/wiki/Resume_and_employee_fraud" TARGET="_blank" class="copylinkbold">- Fraud Prevention and Detection</A></B></FONT></TD>
                     </TR>
                     <TR>
-                        <TD ALIGN="left" VALIGN="top"><FONT COLOR="#000000"><B><A HREF="http://en.wikipedia.org/wiki/Corporate_corruption" TARGET="_blank" class="copylinkbold">- Computer Fraud and Corporate Abuse Investigation</A></B></FONT></TD>
+                        <TD ALIGN="left" VALIGN="top"><FONT COLOR="#000000"><B><A HREF="http://en.wikipedia.org/wiki/Corporate_corruption" TARGET="_blank" class="copylinkbold">- Computer Fraud/Corporate Abuse Investigation</A></B></FONT></TD>
                         <TD ALIGN="left" VALIGN="top"><FONT COLOR="#000000"><B><A HREF="http://en.wikipedia.org/wiki/Crisis_Management" TARGET="_blank" class="copylinkbold">- Crisis Management</A></B></FONT></TD>
                     </TR>
                     <TR>
@@ -390,17 +414,20 @@
         <TR>
             <TD ALIGN="left" VALIGN="top" colspan=3><BR>
         <CENTER><BR><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="0" BORDER="0"><BR><BR>
-            <span class="orangecallout">Speak with One of our Security Specialists</span>
+            <span class="orangecallout">Speak with One of our Security Specialists </span>
             <BR><BR><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="0" BORDER="0"><BR><BR></CENTER>
         </TD>
         </TR>
         <TR>
             <TD ALIGN="left" VALIGN="top" WIDTH=15></TD>
             <TD ALIGN="left" VALIGN="top">		
-                Our investigation teams are drawn from the ranks of security and law enforcement agencies and organizations including military intelligence, FBI, police and Special Forces as well as lawyers and business executives from various industries. We have <A HREF="http://en.wikipedia.org/wiki/International_Cybercrime" TARGET="_blank" class="copylink">computer specialists and espionage experts.</A>
+               Our investigation teams are drawn from the ranks of security and law enforcement agencies and organizations including military intelligence, FBI, police and Special Forces as well as lawyers and business executives from various industries. We have<A HREF="http://en.wikipedia.org/wiki/International_Cybercrime" TARGET="_blank" class="copylink"> computer specialists and espionage experts.</A>
                 <BR><BR>
-                <span class="orangecallout" style="font-size:18px;"><FONT COLOR="#000000">Call our Investigation Services Department at 212-242-6477 with any questions about our 
-                    methods. Our team will advise you on the next steps you can take to effectively and ethically close your security vulnerabilities.</FONT></span>
+                <span class="orangecallout" style="font-size:18px;"><FONT COLOR="#000000">Call our Investigation Services Department at 
+				</FONT>
+				<FONT COLOR="#bd252c">1-855-GO RZCLN (467-9256) 
+				</FONT>
+				<FONT COLOR="#000000">with any questions about our methods. Our team will advise you on the next steps you can take to effectively and ethically close your security vulnerabilities. </FONT></span>
                 <BR><BR></TD>
             <TD ALIGN="left" VALIGN="top" WIDTH=20></TD>
         </TR>

@@ -2,7 +2,7 @@
 <DIV id="panels">
     <DIV id="sidenav">
         <div id="security" style="  height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'security.html'">
+    margin-bottom: 5px;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -13,7 +13,7 @@
                 <TR>
                     <TD WIDTH="10"></TD>
                     <TD ALIGN="left" VALIGN="top">
-                        <h1>One of the most respected security companies in NYC</h1>
+                        <h1>One of the most respected security companies</h1>
                     </TD>
                 </TR>
 
@@ -21,7 +21,7 @@
         </div>
 
         <div id="investigations" style="  height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'investigations.html'">
+    margin-bottom: 5px;">
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -32,14 +32,14 @@
                 <TR>
                     <TD WIDTH="10"></TD>
                     <TD ALIGN="left" VALIGN="top">
-                        <h2>One of the premier private detective agencies in NYC</h2>
+                        <h2>One of the premier private detective agencies</h2>
                     </TD>
                 </TR>
             </TABLE>
         </div>
 
         <div id="permits" style="  height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'eventpermits.html'">
+    margin-bottom: 5px;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -50,7 +50,7 @@
                 <TR>
                     <TD WIDTH="10"></TD>
                     <TD ALIGN="left" VALIGN="top">
-                        <h2>Your source for NYC event permits anywhere in the city</h2>
+                        <h2>Your source for event permits anywhere in the city</h2>
                     </TD>
                 </TR>
 
@@ -67,7 +67,7 @@
         <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
             <TR>
                 <TD ALIGN="center" VALIGN="middle" HEIGHT="44" BGCOLOR="#000066" colspan="5">
-                    <IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/careers/careers.gif" ALT="Careers at MG Security" WIDTH="80" HEIGHT="14" HSPACE="0" VSPACE="0" BORDER="0">
+                    <IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/careers/careers.gif" ALT="" WIDTH="80" HEIGHT="14" HSPACE="0" VSPACE="0" BORDER="0">
                 </TD>
             </TR>
             <TR>
@@ -107,7 +107,7 @@
                 <TD ALIGN="left" VALIGN="top" WIDTH="20"></TD>
                 <TD ALIGN="left" VALIGN="top">
                     <BR>
-                    <span style="font-family: Arial, Helvetica, Sans-serif; font-size: 28px; line-height: 28px; font-style: bold; font-weight: bold;text-decoration: none;color:#000066">Contact MG Security Services</span>
+                    <span style="font-family: Arial, Helvetica, Sans-serif; font-size: 28px; line-height: 28px; font-style: bold; font-weight: bold;text-decoration: none;color:#000066">Contact RazorClean Security Services</span>
                     <BR>
                     <BR>
                 </TD>

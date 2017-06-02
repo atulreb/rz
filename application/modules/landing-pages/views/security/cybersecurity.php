@@ -1,7 +1,7 @@
 <?php $this->load->view('partials/l_header') ?>
 <DIV id="panels">
     <DIV id="sidenav">
-        <div id="security" style="cursor:pointer; height:94px; width:251px;" onmouseover="ShowContent('securitypanel'); return true;" onmouseout="HideContent('securitypanel'); return true;" onclick="javascript:ReverseContent('securitypanel')">
+        <div id="security" style="cursor:pointer; height:94px; width:251px;" onmouseover="ShowContent('securitypanel'); return true;" onmouseout="HideContent('securitypanel'); return true;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -9,13 +9,13 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies in NYC</h1></TD>
+                    <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies</h1></TD>
                 </TR>
 
             </TABLE>	
         </div>
 
-        <div id="investigations" style="cursor:pointer; height:94px; width:251px;" onmouseover="ShowContent('investigationspanel'); return true;" onmouseout="HideContent('investigationspanel'); return true;" onclick="javascript:ReverseContent('investigationspanel')">
+        <div id="investigations" style="cursor:pointer; height:94px; width:251px;" onmouseover="ShowContent('investigationspanel'); return true;" onmouseout="HideContent('investigationspanel'); return true;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -23,12 +23,12 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies in NYC</h2></TD>
+                    <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies</h2></TD>
                 </TR>
             </TABLE>
         </div>
 
-        <div id="permits" style="cursor:pointer; height:88px; width:251px;" onmouseover="ShowContent('permitspanel'); return true;" onmouseout="HideContent('permitspanel'); return true;" onclick="javascript:ReverseContent('permitspanel')">
+        <div id="permits" style="cursor:pointer; height:88px; width:251px;" onmouseover="ShowContent('permitspanel'); return true;" onmouseout="HideContent('permitspanel'); return true;">
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -36,7 +36,7 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h2>Your source for NYC event permits anywhere in the city</h2></TD>
+                    <TD ALIGN="left" VALIGN="top"><h2>Your source for event permits anywhere in the city</h2></TD>
                 </TR>
 
             </TABLE>

@@ -1,0 +1,30 @@
+HTTrack3.48-22+htsswf+htsjava launched on Wed, 26 Apr 2017 16:48:58 at http://www.onsitedetailing.net/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.onsitedetailing.net/ -O1 "C:\Users\RebeluteUser\Desktop\Mobile Detail\mobile" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:50:25	Error: 	"Method Not Allowed" (405) at link www.onsitedetailing.net/xmlrpc.php (from www.onsitedetailing.net/)
+16:52:03	Warning: 	Moved Permanently for www.onsitedetailing.net/?p=2
+16:52:03	Warning: 	File has moved from www.onsitedetailing.net/?p=2 to http://www.onsitedetailing.net/about-mobile-auto-detailing/
+16:52:04	Warning: 	Moved Permanently for www.onsitedetailing.net/?p=10
+16:52:04	Warning: 	File has moved from www.onsitedetailing.net/?p=10 to http://www.onsitedetailing.net/schedule-appointment/
+16:52:04	Warning: 	Moved Permanently for www.onsitedetailing.net/?p=16
+16:52:04	Warning: 	File has moved from www.onsitedetailing.net/?p=16 to http://www.onsitedetailing.net/interior-auto-detailing/
+16:52:04	Warning: 	Moved Permanently for www.onsitedetailing.net/?p=13
+16:52:04	Warning: 	File has moved from www.onsitedetailing.net/?p=13 to http://www.onsitedetailing.net/freshen-up-auto-detail-service/
+16:52:04	Warning: 	Moved Permanently for www.onsitedetailing.net/?p=31
+16:52:04	Warning: 	File has moved from www.onsitedetailing.net/?p=31 to http://www.onsitedetailing.net/ultimate-auto-detail-service/
+16:52:04	Warning: 	Moved Permanently for www.onsitedetailing.net/?p=29
+16:52:04	Warning: 	File has moved from www.onsitedetailing.net/?p=29 to http://www.onsitedetailing.net/full-auto-detail-service/
+16:52:04	Warning: 	Moved Permanently for www.onsitedetailing.net/?p=25
+16:52:04	Warning: 	File has moved from www.onsitedetailing.net/?p=25 to http://www.onsitedetailing.net/exterior-auto-detailing/
+16:52:04	Warning: 	Moved Permanently for www.onsitedetailing.net/?p=88
+16:52:04	Warning: 	File has moved from www.onsitedetailing.net/?p=88 to http://www.onsitedetailing.net/contact-us/
+16:52:04	Warning: 	Moved Permanently for www.onsitedetailing.net/?p=117
+16:52:04	Warning: 	File has moved from www.onsitedetailing.net/?p=117 to http://www.onsitedetailing.net/special-offers/
+
+HTTrack Website Copier/3.48-22 mirror complete in 3 minutes 8 seconds : 110 links scanned, 99 files written (4957082 bytes overall) [4486375 bytes received at 23863 bytes/sec], 721097 bytes transferred using HTTP compression in 45 files, ratio 29%, 6.2 requests per connection
+(1 errors, 18 warnings, 0 messages)

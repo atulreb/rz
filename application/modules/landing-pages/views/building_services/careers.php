@@ -214,7 +214,7 @@
         <div class="careers-page-container">
             <div class="collage-container" style="margin: 0 auto;">
                 <h2 class="careers title">Join the team</h2>
-                <h3 class="careers description">At Knight Janitorial we don&#8217;t just work hard, we play hard too! Be a part of a team that will nourish your development through hands on training and career opportunities.</h3>
+                <h3 class="careers description">At Razorclean building services we don&#8217;t just work hard, we play hard too! Be a part of a team that will nourish your development through hands on training and career opportunities.</h3>
                 <div class="collage-one-two-container"><img class="collage-one-two-big hidden" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2016/09/Peter-Presentation-2.jpg" />
                     <div class="collage-one-two-big">
                         <iframe class="youtubevid" frameborder="0" src="https://www.youtube.com/embed/UUbARkVxCp8?modestbranding=1&amp;rel=0&amp;showinfo=0&amp;controls=0&amp;vq=hd720&amp;playlist=UUbARkVxCp8;loop=0" style="z-index: 0;"></iframe>

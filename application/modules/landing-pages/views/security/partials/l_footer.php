@@ -13,23 +13,7 @@
         </div>
     </div>
 </div>
-    <CENTER>
-        <BR>
-        <span class="footerlinks">
-                        <A HREF="<?php echo base_url()?>security/cybersecurity">Cyber Security</A>  &nbsp; &nbsp;|&nbsp; &nbsp; <A HREF="<?php echo base_url()?>security/investigations">Private Investigator</A>  &nbsp; &nbsp;|&nbsp; &nbsp; <A HREF="<?php echo base_url()?>security/eventpermits">Event Permits</A> &nbsp; &nbsp;|&nbsp; &nbsp; <A HREF="<?php echo base_url()?>security/mediacenter">Media Center</A><BR>
-                        <A HREF="<?php echo base_url()?>security/mediacenter">Press Release Archive</A>  &nbsp; &nbsp;|&nbsp; &nbsp; <A HREF="<?php echo base_url()?>security/about">About Us</A>  &nbsp; &nbsp;|&nbsp; &nbsp; <A HREF="<?php echo base_url()?>security/contact">Contact</A>  &nbsp; &nbsp;|&nbsp; &nbsp; <A HREF="<?php echo base_url()?>security/privacy">Privacy Statement</A>
-                        <BR>&copy; <?php echo date("Y")?> RazorClean Security Services  &nbsp; &nbsp;|&nbsp; &nbsp; </A>
-                        <BR><BR>
-                        <TABLE BORDER="0" CELLSPACING="4" CELLPADDING="0">
-                            <TR>
-                                <TD ALIGN="center" VALIGN="top"><A HREF="<?php echo $global_setting['facebook_link']?>" TARGET="_blank"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/facebook.jpg" ALT="MG Security on Facebook" WIDTH="30" HSPACE="0" VSPACE="0" BORDER="0"></A></TD>
-                                <TD ALIGN="center" VALIGN="top"><A HREF="<?php echo $global_setting['twitter_link']?>" TARGET="_blank"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/twitter.jpg" ALT="MG Security on Twitter" WIDTH="30" HSPACE="0" VSPACE="0" BORDER="0"></A></TD>
-                                <TD ALIGN="center" VALIGN="top"><A HREF="#" TARGET="_blank"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/linkedin.jpg" ALT="MG Security on LinkedIn" WIDTH="30" HSPACE="0" VSPACE="0" BORDER="0"></A></TD>
-                            </TR>
-
-                        </TABLE>
-                    </span>
-    </CENTER>
+    
 </DIV>
 
 </DIV>
@@ -64,6 +48,119 @@
     });
 </script>
 <!-- END WRAPPER DIV -->
+
+
+
+
+<style>
+.main-footer {
+	background-color: #444444;
+	width: 100%;
+	float:left;
+}
+
+.copyright-text {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 61px;
+}
+
+.social-links {
+	list-style:none;
+	margin-top: 15px;
+}
+
+.social-links li { 
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #272727;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	margin-right: 5px;
+}
+
+.social-links li a {
+	color:#fff;
+} 
+
+.social-links .facebook:hover {
+	background: #5c7ff6;
+} 
+
+.social-links .twitter:hover {
+	background: #22d5e3;
+}
+
+.social-links .google:hover {
+	background: #f82d2d;
+}
+
+.copyright-text, .social-links {
+	width: 22%;
+	float:left;
+}
+
+.leftDiv1 {
+	width: 8%;
+    float: left;
+}
+
+@media only screen and (max-width: 425px) and (min-width: 200px) {
+  .copyright-text {
+		width: 100%;
+		line-height: 30px;
+  }
+  
+  .leftDiv1 {
+	  margin:10px 5px;
+	  }
+  
+  
+  .social-links {
+	    padding-left: 35%;
+		margin-botttom:20px;
+		width: 100%;
+		line-height: 30px;
+  }
+}
+</style>
+
+
+<footer class="main-footer">
+   <div class="">
+	      <div class="leftDiv1">&nbsp;</div>
+	
+           <span class="copyright-text">© Copyright 2017 - RazorClean Inc. </span>
+           
+		   <span class="copyright-text">Call- 1-855 GO RZCLN (467-9256)</span>
+        
+		   <span class="copyright-text">Email- signup@rzclnsecurityservices.com</span>
+		   
+		   <ul class="social-links">
+				<li class="facebook">
+					<a target="_blank" href="http://facebook.com/razorclean">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="twitter">
+					<a target="_blank" href="http://twitter.com">
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="google">
+					<a target="_blank" href="http://plus.google.com">
+					<i class="fa fa-google-plus" aria-hidden="true"></i>
+					</a>
+				</li>
+			</ul>
+    </div>
+</footer>
+<div style="clear:both"></div>
+<iframe src="<?php echo base_url()?>razorclean/stickyfooter" style="left: 0;width: 100%;height: 66px;padding-top: 0px;position: fixed;bottom: 0;background: rgba(0, 0, 0, 0.45);z-index: 99999;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0"></iframe>
+
 </BODY>
 
 </html>

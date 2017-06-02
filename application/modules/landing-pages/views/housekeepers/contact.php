@@ -11,7 +11,7 @@
                                     <div class="slideshow_inner_caption">
                                         <div class="slideshow_align_caption">
                                             <h2 style="font-size:28px; " class="avia-caption-title" itemprop="name">Contact Us</h2>
-                                            <br><a href="https://downtownmaid.com/book-now/" class="avia-slideshow-button avia-button avia-color-orange avia-multi-slideshow-button" data-duration="800" data-easing="easeInOutQuad">Book Now</a><a href="https://downtownmaid.com/services-pricing/" class="avia-slideshow-button avia-button avia-color-green avia-multi-slideshow-button avia-slideshow-button-2" data-duration="800" data-easing="easeInOutQuad">Services</a>
+                                            <br><a href="<?php echo base_url()?>housekeepers/contact" class="avia-slideshow-button avia-button avia-color-orange avia-multi-slideshow-button" data-duration="800" data-easing="easeInOutQuad">Book Now</a><a href="<?php echo base_url()?>housekeepers/contact" class="avia-slideshow-button avia-button avia-color-green avia-multi-slideshow-button avia-slideshow-button-2" data-duration="800" data-easing="easeInOutQuad">Services</a>
                                         </div>
                                     </div>
                                 </div>
@@ -40,21 +40,21 @@
                                     <p class=" first_form  form_element form_element_half" id="element_avia_1_1">
                                         <label for="avia_1_1">Name <abbr class="required" title="required">*</abbr>
                                         </label>
-                                        <input name="contact_name" class="text_input is_empty" type="text" id="" value="">
+                                        <input name="contact_name" required class="text_input is_empty" type="text" id="" value="">
                                         <input name="service_category" class="text_input is_empty" type="hidden" id="" value="Housekeepers">
                                     </p>
                                     <p class=" form_element form_element_half" id="element_avia_2_1">
                                         <label for="avia_2_1">E-Mail <abbr class="required" title="required">*</abbr>
                                         </label>
-                                        <input name="contact_email" class="text_input is_email" type="text" id="" value="">
+                                        <input name="contact_email" required class="text_input is_email" type="text" id="" value="">
                                     </p>
                                     <p class=" form_element form_element_half" id="element_avia_2_1">
                                         <label for="avia_2_1">Phone <abbr class="required" title="required">*</abbr>
                                         </label>
-                                        <input name="contact_phone" class="text_input is_email" type="text" id="" value="">
+                                        <input name="contact_phone" required class="text_input is_email" type="text" id="" value="">
                                     </p>
                                     <p class=" first_form  form_element form_fullwidth av-last-visible-form-element" id="element_avia_3_1">
-                                        <label style="position:initial" for="avia_3_1" class="">Message <abbr class="required" title="required">*</abbr>
+                                        <label style="position:initial" required for="avia_3_1" class="">Message <abbr class="required" title="required">*</abbr>
                                         </label>
                                         <textarea name="contact_message" class="text_area is_empty" cols="40" rows="7" id=""></textarea>
                                     </p>

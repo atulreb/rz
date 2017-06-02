@@ -68,10 +68,36 @@
                                                                <div class="wpb_wrapper">
                                                                     <h3>ESTIMATE PROCESS</h3>
                                                                     <ol>
-                                                                        <li>After calling RazorClean Painters, a rep will request your information and setup a time for our service planner to meet you. Your phone call will be answered with flexibility and a helpful attitude regarding a date and time. Once you decide upon a date and time you will receive a conformation email. The service planner will then arrive to your project site to provide a free quote on the date requested.</li>
-                                                                        <li>Once the service planner arrives he/she will ask for permission to walk the property with you to address any concerns or questions you may have. Service planner will leave you with a no pressure quote. Then you will have the pleasure of time to decide if our services are right for you.</li>
-                                                                        <li>Once you decide to schedule with us just call our office at 1-855-GO RZCLN, one of our reps will schedule your job. Please know if a color consultant is needed we can provide you with that help in order to pick colors out.</li>
-                                                                        <li>Prior to your start date we will call you and email you to confirm your job details. Please review the forms and confirm the details prior to our arrival to start the job.
+                                                                        <li>After calling RazorClean Painters, a rep will request your information and setup
+
+a time for our service planner to meet you. Your phone call will be answered
+
+with flexibility and a helpful attitude regarding a date and time. Once you decide
+
+upon a date and time you will receive a conformation email. The service planner
+
+will then arrive to your project site to provide a free quote on the date
+
+requested.</li>
+                                                                        <li>Once the service planner arrives he/she will ask for permission to walk the
+
+property with you to address any concerns or questions you may have. Service
+
+planner will leave you with a no pressure quote. Then you will have the pleasure
+
+of time to decide if our services are right for you.</li>
+                                                                        <li>Once you decide to schedule with us just call our office at 1-855- GO RZCLN
+
+(467-9256), one of our reps will schedule your job. Please know if a color
+
+consultant is needed we can provide you with that help in order to pick colors
+
+out.</li>
+                                                                        <li>Prior to your start date we will call you and email you to confirm your job
+
+details. Please review the forms and confirm the details prior to our arrival to
+
+start the job.
 </li>                                                                        
                                                                     </ol>
 

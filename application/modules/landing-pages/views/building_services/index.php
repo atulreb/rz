@@ -1,8 +1,8 @@
 <?php $this->load->view('partials/l_header') ?>
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
     <link rel='dns-prefetch' href='http://s.w.org/' />
-    <link rel="alternate" type="application/rss+xml" title="Knight Janitorial &raquo; Feed" href="feed/index.html" />
-    <link rel="alternate" type="application/rss+xml" title="Knight Janitorial &raquo; Comments Feed" href="comments/feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="RazorClean Building Services" href="feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="RazorClean Building Services" href="comments/feed/index.html" />
     <script type="text/javascript">
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/",
@@ -69,23 +69,7 @@
     <link rel='stylesheet' id='google-fonts-css' href='http://fonts.googleapis.com/css?family=Lato%3A300%2C700%2C300italic%7CTitillium+Web%3A600&amp;ver=2.1.1' type='text/css' media='all' />
     <link rel='stylesheet' id='sccss_style-css' href='index0f4b.html?sccss=1&amp;ver=4.7.4' type='text/css' media='all' />
     <!-- This site uses the Google Analytics by MonsterInsights plugin v6.0.11 - Using Analytics tracking - https://www.monsterinsights.com/ -->
-    <script type="text/javascript" data-cfasync="false">
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '../www.google-analytics.com/analytics.js', '__gaTracker');
-
-        __gaTracker('create', 'UA-36981905-1', 'auto');
-        __gaTracker('set', 'forceSSL', true);
-        __gaTracker('send', 'pageview');
-    </script>
+    
     <!-- / Google Analytics by MonsterInsights -->
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/building-services/wp-content/plugins/wp-gfycat/js/gfycat_test_125b.js?ver=4.7.4'></script>
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/building-services/wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
@@ -368,6 +352,10 @@
                                     position: absolute;
                                     left: 90%;
                                 }
+								#slider li:nth-child(11) {
+                                    position: absolute;
+                                    left: 100%;
+                                }
                                 
                                 #slider_container div:nth-child(1):hover ~ #slider {
                                     animation: paused;
@@ -375,7 +363,7 @@
                                 }
                                 
                                 #slider_container div:nth-child(1):hover {
-                                    background-color: #16BBF0;
+                                    background-color: #bd252c;
                                     height: 60px;
                                     z-index: 1;
                                     margin-top: 365px;
@@ -463,6 +451,42 @@
                                 #slider_container div:nth-child(8):hover ~ #slider {
                                     animation: paused;
                                     transform: translateX(-80%);
+                                }
+								
+								#slider_container div:nth-child(9):hover {
+                                    background-color: #16BBF0;
+                                    height: 60px;
+                                    z-index: 1;
+                                    margin-top: 365px;
+                                }
+                                
+                                #slider_container div:nth-child(9):hover ~ #slider {
+                                    animation: paused;
+                                    transform: translateX(-90%);
+                                }
+								
+								#slider_container div:nth-child(10):hover {
+                                    background-color: #16BBF0;
+                                    height: 60px;
+                                    z-index: 1;
+                                    margin-top: 365px;
+                                }
+                                
+                                #slider_container div:nth-child(10):hover ~ #slider {
+                                    animation: paused;
+                                    transform: translateX(-100%);
+                                }
+								
+								#slider_container div:nth-child(11):hover {
+                                    background-color: #16BBF0;
+                                    height: 60px;
+                                    z-index: 1;
+                                    margin-top: 365px;
+                                }
+                                
+                                #slider_container div:nth-child(11):hover ~ #slider {
+                                    animation: paused;
+                                    transform: translateX(-110%);
                                 }
                                 
                                 h4.banner_home_button_link {
@@ -666,7 +690,7 @@
                                     }
                                     #nav_tab_phone {
                                         display: inline-block;
-                                        background-color: #00aff0;
+                                        background-color:#bd252c;
                                         float: right;
                                         padding: 0 10px;
                                         text-transform: uppercase;
@@ -702,50 +726,55 @@
                                     }
                                 }
                             </style>
-                            <div class="poster_photo"><img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space">
+                            <div class="poster_photo"><!-- img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space" -->
                                 <div class="poster_title slider_text">The experts in janitorial services
                                     <div class="subtext"></div>
                                 </div>
                             </div>
                             <div class="slider_window">
                                 <section id="slider_container">
-                                    <a href="additional-services/office-cleaning-service/index.html">
+                                    <a href="<?php echo base_url()?>building-services/office-cleaning-services">
                                         <div class="tab t1"><i class="material-icons">headset_mic</i>
                                             <h3 class="tab_label">Office</h3></div>
                                     </a>
-                                    <a href="services/janitorial-cleaning-services/healthcare/index.html">
+                                    <a href="<?php echo base_url()?>building-services/healthcare-building">
                                         <div class="tab t2"><i class="material-icons">local_pharmacy</i>
                                             <h3 class="tab_label">Healthcare</h3></div>
                                     </a>
-                                    <a href="services/janitorial-cleaning-services/educational/index.html">
+                                    <a href="<?php echo base_url()?>building-services/educational-building">
                                         <div class="tab t3"><i class="material-icons">school</i>
                                             <h3 class="tab_label">Education</h3></div>
                                     </a>
-                                    <a href="services/janitorial-cleaning-services/industrial/index.html">
+                                    <a href="<?php echo base_url()?>building-services/industrial-building">
                                         <div class="tab t4"><i class="material-icons">location_city</i>
                                             <h3 class="tab_label">Industrial</h3></div>
                                     </a>
-                                    <a href="services/janitorial-cleaning-services/financial/index.html">
+                                    <a href="<?php echo base_url()?>building-services/financial-building">
                                         <div class="tab t5"><i class="material-icons">attach_money</i>
                                             <h3 class="tab_label">Financial</h3></div>
                                     </a>
-                                    <a href="services/janitorial-cleaning-services/religious/index.html">
+                                    <a href="<?php echo base_url()?>building-services/religious-building">
                                         <div class="tab t6"><i class="material-icons">account_balance</i>
                                             <h3 class="tab_label">Religious</h3></div>
                                     </a>
-                                    <a href="services/janitorial-cleaning-services/commercial/index.html">
+                                    <a href="<?php echo base_url()?>building-services/commercial-building">
                                         <div class="tab t7"><i class="material-icons">business</i>
                                             <h3 class="tab_label">Commercial</h3></div>
                                     </a>
-                                    <a href="services/janitorial-cleaning-services/retail/index.html">
+                                    <a href="<?php echo base_url()?>building-services/retail-building">
                                         <div class="tab t8"><i class="material-icons">shopping_cart</i>
                                             <h3 class="tab_label">Retail</h3></div>
                                     </a>
+									
 
                                     <ul id="slider">
                                         <li class="slide">
-                                            <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/oval-office-100.jpg" alt="">
-                                            <h1 class="secondline slider_text"></h1>
+                                            <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/football.jpg" alt="">
+                                            <h1 class="secondline slider_text">IN STADIUM/AREANA BUILDINGS</h1>
+                                        </li>
+										<li class="slide">
+                                            <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/airport_slider.jpg" alt="">
+                                            <h1 class="secondline slider_text">in airport buildings</h1>
                                         </li>
                                         <li class="slide">
                                             <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space">
@@ -780,15 +809,27 @@
                                             <h1 class="secondline slider_text">in retail buildings</h1>
                                         </li>
                                         <li class="slide">
-                                            <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/oval-office-100.jpg" alt="">
+                                            <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/basket-ball-court.jpg" alt="">
+                                            <h1 class="secondline slider_text"> IN STADIUM/AREANA BUILDINGS</h1>
+                                        </li>
+										
+										
+										<!--li class="slide">
+                                            <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/tool.jpg" alt="">
                                             <h1 class="secondline slider_text"></h1>
                                         </li>
+										
+										
+										<li class="slide">
+                                            <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/oval-office-100.jpg" alt="">
+                                            <h1 class="secondline slider_text"></h1>
+                                        </li-->
                                     </ul>
                                 </section>
                                 <div class="slider_info">
                                     <h1 class="title slider_text">The experts in janitorial services<br><div class="subtext"></div></h1>
-                                    <a href="index.html" onclick="__gaTracker('send', 'event', 'outbound-widget', 'index.html', '\n            knightjanitorial.com\n        ');" class="slider_home_button" target="_blank">
-                                        <h4 class="banner_home_button_link" style="padding:0 !important">knightjanitorial.com</h4>
+                                    <a href="index.html" onclick="__gaTracker('send', 'event', 'outbound-widget', 'index.html', '\n            \n        ');" class="slider_home_button" target="_blank">
+                                        <h4 class="banner_home_button_link" style="padding:0 !important">RazorClean Building Services</h4>
                                     </a>
                                 </div>
                             </div>
@@ -812,56 +853,56 @@
                                 }
                             </style>
                             <div style="text-align:center;margin-left:20px;">
-                                <a href="services/janitorial-cleaning-services/commercial/index.html">
+                                <a href="<?php echo base_url()?>building-services/airport">
+                                    <div class="ind"><span>Airport</span>
+                                        <br />
+                                        <img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/airport-sq.png" height="90" width="90" />
+                                    </div>
+                                </a>
+
+                                <a href="<?php echo base_url()?>building-services/commercial-building">
                                     <div class="ind"><span>Commercial</span>
                                         <br />
                                         <img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/commercial-sq.png" height="90" width="90" />
                                     </div>
                                 </a>
 
-                                <a href="services/janitorial-cleaning-services/educational/index.html">
-                                    <div class="ind"><span>Educational</span>
+                                <a href="<?php echo base_url()?>building-services/deep-clean-services">
+                                    <div class="ind"><span>Construction</span>
                                         <br />
-                                        <img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/education-sq.png" height="90" width="90" />
+                                        <img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/construction-sq.png" height="90" width="90" />
                                     </div>
                                 </a>
 
-                                <a href="services/janitorial-cleaning-services/financial/index.html">
-                                    <div class="ind"><span>Financial</span>
-                                        <br />
-                                        <img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/financial-sq.png" height="90" width="90" />
-                                    </div>
-                                </a>
-
-                                <a href="services/janitorial-cleaning-services/hospitality/index.html">
+                                <a href="#">
                                     <div class="ind"><span>Hospitality</span>
                                         <br />
                                         <img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/hospitality-sq.png" height="90" width="90" />
                                     </div>
                                 </a>
 
-                                <a href="services/janitorial-cleaning-services/industrial/index.html">
+                                <a href="<?php echo base_url()?>building-services/industrial-building">
                                     <div class="ind"><span>Industrial</span>
                                         <br />
                                         <img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/industrial-sq.png" height="90" width="90" />
                                     </div>
                                 </a>
 
-                                <a href="services/janitorial-cleaning-services/healthcare/index.html">
+                                <a href="<?php echo base_url()?>building-services/healthcare-building">
                                     <div class="ind"><span>Healthcare</span>
                                         <br />
                                         <img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/medical-sq.png" height="90" width="90" />
                                     </div>
                                 </a>
 
-                                <a href="services/janitorial-cleaning-services/religious/index.html">
+                                <a href="<?php echo base_url()?>building-services/religious-building">
                                     <div class="ind"><span>Religious</span>
                                         <br />
                                         <img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/religious-sq.png" height="90" width="90" />
                                     </div>
                                 </a>
 
-                                <a href="services/janitorial-cleaning-services/retail/index.html">
+                                <a href="<?php echo base_url()?>building-services/retail-building">
                                     <div class="ind"><span>Retail</span>
                                         <br />
                                         <img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/retail-sq.png" height="90" width="90" />
@@ -886,7 +927,7 @@
                                         <img class="kjs-menu-photo" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2016/06/Mop-Bucket-200-services.jpg" alt="">
                                     </div>
                                     <div class="kjs-menu-description">
-                                        <h4 class="kjs-description">You need building maintenance and Knight Janitorial delivers – with superior communication between our account management and operations team.</h4>
+                                        <h4 class="kjs-description">Our general cleaning services can maintain any type of building facility because our cleaning teams are incredibly thorough and professional.</h4>
                                         <a href="<?php echo base_url()?>building-services/services">
                                             <div class="kjs-menu-button">Read More</div>
                                         </a>
@@ -898,7 +939,7 @@
                                         <img class="kjs-menu-photo" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2016/06/floor-maintenance-200-services.jpg" alt="">
                                     </div>
                                     <div class="kjs-menu-description">
-                                        <h4 class="kjs-description">You need building maintenance and Knight Janitorial delivers – with superior communication between our account management and operations team.</h4>
+                                        <h4 class="kjs-description">We offer a variety of services for hard surface flooring and carpet flooring. RBS utilizes the best swing machines, floor pads, and other floor equipment to strip & wax, spray buff, polish, and scrub all types of hard surface flooring.Â </h4>
                                         <a href="<?php echo base_url()?>building-services/floor-maintainance-services">
                                             <div class="kjs-menu-button">Read More</div>
                                         </a>
@@ -910,7 +951,7 @@
                                         <img class="kjs-menu-photo" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2016/06/HVAC-Clean-services-200.jpg" alt="">
                                     </div>
                                     <div class="kjs-menu-description">
-                                        <h4 class="kjs-description">You, your staff, and your tenants will breathe easier with air duct cleaning from Knight Janitorial. Our state of the art tools clean your air ducts and help keep them clean longer.</h4>
+                                        <h4 class="kjs-description">You, your staff, and your tenants will breathe easier with air duct cleaning from RazorClean Building Services. Our state of the art tools clean your air ducts and help keep them clean longer.</h4>
                                         <a href="<?php echo base_url()?>building-services/hvac-cleaning">
                                             <div class="kjs-menu-button">Read More</div>
                                         </a>
@@ -922,8 +963,8 @@
                                         <img class="kjs-menu-photo" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2016/06/Polished-Concrete-200-services.jpg" alt="">
                                     </div>
                                     <div class="kjs-menu-description">
-                                        <h4 class="kjs-description">Concrete floors are an important investment – keep them well maintained with our polishing services. You tell us your schedule and we will work around it so you’ll have minimal downtime for your staff.</h4>
-                                        <a href="<?php echo base_url()?>building-services/floor-maintainance-services">
+                                        <h4 class="kjs-description">Concrete floors are an important investment - keep them well maintained with our polishing services. You tell us your schedule and we will work around it so you'll have minimal downtime for your staff.</h4>
+                                        <a href="<?php echo base_url()?>building-services/concrete-polishing">
                                             <div class="kjs-menu-button">Read More</div>
                                         </a>
                                     </div>
@@ -941,13 +982,51 @@
                                     </div>
                                 </div>
                                 <div class="kjs-menu-item">
-                                    <div class="photoncaption">
+                                    <div class="photoncaption">ssociation Involvement
                                         <h2 class="kjs-title">Power Washing</h2>
                                         <img class="kjs-menu-photo" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2016/06/Power-Washing-200-services.jpg" alt="">
                                     </div>
                                     <div class="kjs-menu-description">
-                                        <h4 class="kjs-description">Sometimes the job calls for more than basic cleaning – that’s when you need to hire Knight Janitorial to handle your power washing and striping needs. We’re here to help.</h4>
+                                        <h4 class="kjs-description">A clean and professional looking facility will attract more people to visit, lease, and stay. One of the best ways to get that first positive impression is by regular scheduled power washing. </h4>
                                         <a href="<?php echo base_url()?>building-services/power-washing">
+                                            <div class="kjs-menu-button">Read More</div>
+                                        </a>
+                                    </div>
+                                </div>
+								<div class="kjs-menu-item">
+                                    <div class="photoncaption">ssociation Involvement
+                                        <h2 class="kjs-title">Escalator Cleaning</h2>
+                                        <img class="kjs-menu-photo" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2016/07/escalator_cover.jpg" alt="">
+                                    </div>
+                                    <div class="kjs-menu-description">
+                                        <h4 class="kjs-description">Escalator Slip and Fall Accidents in the US Escalator accidents due to infrequent cleaning or unresolved slippery surfaces are a serious safety concern that can also open the door to legal exposure and liability.</h4>
+                                        <a href="<?php echo base_url()?>building-services/escalator-cleaning">
+                                            <div class="kjs-menu-button">Read More</div>
+                                        </a>
+                                    </div>
+                                </div>
+								
+								<div class="kjs-menu-item">
+                                    <div class="photoncaption">ssociation Involvement
+                                        <h2 class="kjs-title">Window Cleaning</h2>
+                                        <img class="kjs-menu-photo" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2016/07/window_cover.jpg" alt="">
+                                    </div>
+                                    <div class="kjs-menu-description">
+                                        <h4 class="kjs-description">Getting your windows cleaned in your place of business is important. We are very efficient at the process of commercial window cleaning. All our professional window cleaners have been trained directly to uphold high quality standards.</h4>
+                                        <a href="<?php echo base_url()?>building-services/window-cleaning">
+                                            <div class="kjs-menu-button">Read More</div>
+                                        </a>
+                                    </div>
+                                </div>
+								
+								<div class="kjs-menu-item">
+                                    <div class="photoncaption">ssociation Involvement
+                                        <h2 class="kjs-title">Sports Area Cleaning</h2>
+                                        <img class="kjs-menu-photo" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2016/07/stadium_cover.jpg" alt="">
+                                    </div>
+                                    <div class="kjs-menu-description">
+                                        <h4 class="kjs-description">With RBS event cleaning and stadium cleaning services, you can rest assure that in addition to your sports team taking care of business on the field, RBS will be defending its championship off the field as well</h4>
+                                        <a href="<?php echo base_url()?>building-services/sportarea_cleaning">
                                             <div class="kjs-menu-button">Read More</div>
                                         </a>
                                     </div>
@@ -1014,12 +1093,12 @@
                                 .kjs-menu-button {
                                     display: inline-block;
                                     padding: 10px;
-                                    background: #00aff0;
+                                    background:#bd252c;
                                     color: white;
                                 }
                                 
                                 .kjs-menu-button:hover {
-                                    background-color: #17526D;
+                                    background-color: #bd252c;
                                 }
                                 /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
                                 
@@ -1067,7 +1146,7 @@
                                             <p class="testimonial-customer"> -Aui Contractors </p>
                                         </li>
                                         <li class="testimonial_slide"><i class="material-icons testimonial-quotation-mark">format_quote</i>
-                                            <p class="testimonial-text">Knight Janitorial Sprvices, Inc. would be a great asset to any facility. First impressions are lasting impressions and when the public, your clients, walk into a facility they judge everything that will happen with them by their surroundings and how they are treated. </p>
+                                            <p class="testimonial-text">RBS, Inc. would be a great asset to any facility. First impressions are lasting impressions and when the public, your clients, walk into a facility they judge everything that will happen with them by their surroundings and how they are treated. </p>
                                             <p class="testimonial-customer"> -Doctors Surgery Center </p>
                                         </li>
                                         <li class="testimonial_slide"><i class="material-icons testimonial-quotation-mark">format_quote</i>
@@ -1079,7 +1158,7 @@
                                             <p class="testimonial-customer"> -Austin Schools of Massage </p>
                                         </li>
                                         <li class="testimonial_slide"><i class="material-icons testimonial-quotation-mark">format_quote</i>
-                                            <p class="testimonial-text">We at Park Investments, LLC appreciate the great and responsive customer service we have received while working with Knight Janitorial Services. We have received positive comments from our tenants and from visitors to our building. </p>
+                                            <p class="testimonial-text">We at Park Investments, LLC appreciate the great and responsive customer service we have received while working with RBS. We have received positive comments from our tenants and from visitors to our building. </p>
                                             <p class="testimonial-customer"> -Park Investments </p>
                                         </li>
                                         <li class="testimonial_slide"><i class="material-icons testimonial-quotation-mark">format_quote</i>
@@ -1111,7 +1190,7 @@
                                     display: inline-block;
                                     background: white;
                                     border-radius: 50%;
-                                    color: #00aff0;
+                                    color: #bd252c;
                                     margin-right: 20px;
                                     vertical-align: top;
                                 }
@@ -1147,7 +1226,7 @@
                                     margin: 0 auto;
                                     border-bottom-right-radius: 30px;
                                     border-top-left-radius: 30px;
-                                    background: #00aff0;
+                                    background: #bd252c;
                                     color: white;
                                     box-shadow: 2px 3px 3px #d5d5d5;
                                     border: 1px solid #d5d5d5;
@@ -1235,15 +1314,9 @@
             <div class="wrap">
                 <div class="content-sidebar-wrap">
                     <main class="content">
-                        <div class="home-top widget-area industry">
-                            <section id="text-11" class="widget widget_text">
-                                <div class="widget-wrap">
-                                    <div class="textwidget"></div>
-                                </div>
-                            </section>
-                        </div>
+                       
                     </main>
-                    <aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+                    <!--aside style="float:none;margin-left:33%"class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar">
                         <section id="text-7" class="widget widget_text">
                             <div class="widget-wrap">
                                 <div class="textwidget">
@@ -1251,25 +1324,8 @@
                                 </div>
                             </div>
                         </section>
-                        <section id="text-2" class="widget widget_text">
-                            <div class="widget-wrap">
-                                <h4 class="widget-title widgettitle">Association Involvement</h4>
-                                <div class="textwidget">
-                                    <p style="padding-left:70px;">
-                                        <a href="http://www.bbb.org/" target="_blank"><img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/bbb-aplus-rating1.jpg" alt="Better Business Bureau" style="
-    width: 125px;
-    margin-left: -26px;
-"></a>
-                                    </p>
-
-                                    <p style="
-padding-left:50px;
-width: 170px;"><img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/02/CPAA_logo.jpg" alt="CPAA Certified" /></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                    </aside>
+                       
+                    </aside-->
                 </div>
                 <aside class="sidebar sidebar-secondary widget-area" role="complementary" aria-label="Secondary Sidebar" itemscope itemtype="http://schema.org/WPSideBar"></aside>
             </div>

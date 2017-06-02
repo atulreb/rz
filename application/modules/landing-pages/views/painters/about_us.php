@@ -46,14 +46,41 @@
                                         </div> 
                                         <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
-                                                <h2 class="internal-page">RazorClean Painting Company has been in business since 2001. We have two office locations, one in Tucson, AZ and the other in Chandler AZ. We pride ourselves in being the company that sets the standard for all other painting companies in Phoenix and Tucson to strive for.</h2>
-                                                <p>None of our work is subcontracted out, its all done by employees who pass our rigorous training program and ongoing monthly skill building training we do with them. We also background check and drug test all employees so you can feel save and secure when we are working on your property.</p>
-                                                <p>Our main company goal in 2016 is to build a company culture of success and amazing customer service. We have set a goal with our painters in Tucson and Phoenix to reach over 500 5-Star reviews in 2016 and we believe that we have the right guys in place to reach that goal.</p>
+                                                <h2 class="internal-page">Welcome to RazorClean Painters</h2>
+                                                <p>RazorClean Painters strive for excellence is powered by providing great customer
+
+painting service. Our painters specialize in extensive prep work for the best finished
+
+painting results. We respond quickly to customer requests for estimates and job starts.
+
+We have earned our reputation as one of the best painting company in our service area.</p>
+                                                <p>RazorClean Painters is a painting contractor serving our noted region on central and
+
+Southwest states.</p>
+<p>We paint all types of projects — interior and exterior residential, commercial, public, and
+
+industrial buildings. Our expert painters are dedicated to providing our clients with
+
+prompt, professional, quality work. For years, we have provided friendly service at
+
+affordable rates. Our goal at RazorClean Painters is to meet all your expectations so that
+
+you know you are always our number one focus.</p>
+<p>Only employees who pass our rigorous training program and ongoing monthly
+
+skill building training are considered RazorClean Painters. We also background
+
+check and drug test all employees so you can feel safe and secure when we are
+
+working on your property.</p>
+<p>Our company goal is to build a company culture of success and amazing
+
+customer service.</p>
 
                                             </div> 
                                         </div> <div class="vc_empty_space"  style="height: 5px" ><span class="vc_empty_space_inner"></span></div>
-                                        <a class="button round"  style="border-color:#e00000;background-color:#e00000;"  href="#"  title="Schedule a Painting Quote Today">
-                                            Schedule a Painting Quote Today</a>
+                                        <!--a class="button round"  style="border-color:#e00000;background-color:#e00000;"  href="#"  title="Schedule a Painting Quote Today">
+                                            Schedule a Painting Quote Today</a-->
                                     </div> 
                                 </div> 
 

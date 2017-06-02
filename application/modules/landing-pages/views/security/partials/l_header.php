@@ -5,13 +5,14 @@
         <script type="text/javascript" src="http://www.shrfbdg004.com/js/65509.js" ></script>
     <noscript><img src="http://www.shrfbdg004.com/65509.png" style="display:none;" /></noscript>
     <META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
-    <title>MG Security Services: New York, New Jersey, Washington DC – Investigations, Event Permits, Security Guards</title>
-    <META NAME="keywords" CONTENT="mg security services,security guard,NJ,NYC,Washington DC,security services,events,investigations,New York City,event permits,Manny Gomez,CBS,private investitgators in new york,private detectives,protection services,bodyguards,bodyguard,NYC permits">
-    <META NAME="description" CONTENT="MG Security Services LLC is one of the premier detective agencies in NYC as well as the most respected security companies. MG Security your one source for event permits.">
+    <title>RazorClean Security Services</title>
+    <META NAME="keywords" CONTENT="">
+    <META NAME="description" CONTENT="">
     <META NAME="robots" CONTENT="index,follow">
     <META NAME="copyright" content="MG Security Services LLC">
     <META NAME="author" content="Outside The Box Interactive/Frank DeMarco, Lauren Schwartz">
-
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
     <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>media/landing-pages/security/mystyles.css">
     <style>
         
@@ -460,6 +461,11 @@
             contactoff = new Image();
             contactoff.src = "<?php echo base_url()?>media/landing-pages/security/images/nav/contact_off.gif";
 
+            expertiseon = new Image();
+            expertiseon.src = "<?php echo base_url()?>media/landing-pages/security/images/nav/expertise_on.gif";
+            expertiseoff = new Image();
+            expertiseoff.src = "<?php echo base_url()?>media/landing-pages/security/images/nav/expertise_off.gif";
+
         }
         function img_act(imgName) {
 
@@ -503,7 +509,7 @@
                     <TD ALIGN="center" VALIGN="top" COLSPAN="14" HEIGHT="26"></TD>
                 </TR>
                 <TR>
-                    <TD WIDTH="251" HEIGHT="133" ALIGN="left" VALIGN="middle" BGCOLOR="#666666" rowspan=4><A HREF="index.html"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/mgsecurityservices.png" ALT="" WIDTH="198" HEIGHT="" HSPACE="14" VSPACE="0" BORDER="0"></A></TD>
+                    <TD WIDTH="270" HEIGHT="133" ALIGN="left" VALIGN="middle" BGCOLOR="#666666" rowspan=4><A HREF="<?php echo base_url()?>security"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/mgsecurityservices.png" ALT="" WIDTH="198" HEIGHT="" HSPACE="14" VSPACE="0" BORDER="0"></A></TD>
                     <TD WIDTH="7" ALIGN="center" VALIGN="top" rowspan=4></TD>
                     <TD WIDTH="684" HEIGHT="21" ALIGN="center" VALIGN="top" colspan=12></TD>
                 </TR>
@@ -518,14 +524,23 @@
                     <TD WIDTH="2" ALIGN="center" VALIGN="bottom"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/nav/bar.gif" ALT="" WIDTH="2" HEIGHT="83" HSPACE="0" VSPACE="0" BORDER="0"></TD>
                     <TD ALIGN="center" VALIGN="bottom" WIDTH="113"><a href="<?php echo base_url()?>security/mediacenter" target="_self" onmouseover="img_act('media')" onmouseout="img_inact('media')"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/nav/media_off.gif" ALT="Media Center" WIDTH="80" HEIGHT="16" HSPACE="0" VSPACE="6" BORDER="0" NAME="media"></a></TD>
                     <TD WIDTH="2" ALIGN="center" VALIGN="bottom"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/nav/bar.gif" ALT="" WIDTH="2" HEIGHT="83" HSPACE="0" VSPACE="0" BORDER="0"></TD>
+					
+					
+					
+                    <TD ALIGN="center" VALIGN="bottom" WIDTH="113"><a href="<?php echo base_url()?>security/otherareaexpertise" target="_self" onmouseover="img_act('expertise')" onmouseout="img_inact('expertise')"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/nav/expertise_off.gif" ALT="Other Areas Of Expertise" WIDTH="80" HEIGHT="16" HSPACE="0" VSPACE="6" BORDER="0" NAME="expertise"></a></TD>
+					
+                    <TD WIDTH="2" ALIGN="center" VALIGN="bottom"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/nav/bar.gif" ALT="" WIDTH="2" HEIGHT="83" HSPACE="0" VSPACE="0" BORDER="0"></TD>
+					
+					
+					
                     <TD ALIGN="center" VALIGN="bottom" WIDTH="113"><a href="<?php echo base_url()?>security/contact" target="_self" onmouseover="img_act('contact')" onmouseout="img_inact('contact')"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/nav/contact_off.gif" ALT="Contact MG Security Services" WIDTH="50" HEIGHT="16" HSPACE="0" VSPACE="6" BORDER="0" NAME="contact"></a></TD>
                     <TD WIDTH="2" ALIGN="right" VALIGN="bottom"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/nav/bar.gif" ALT="" WIDTH="2" HEIGHT="83" HSPACE="0" VSPACE="0" BORDER="0"></TD>
                 </TR>
                 <TR>
-                    <TD ALIGN="center" VALIGN="top" COLSPAN="12" HEIGHT="9"></TD>
+                    <TD ALIGN="center" VALIGN="top" COLSPAN="13" HEIGHT="9"></TD>
                 </TR>
                 <TR>
-                    <TD ALIGN="center" VALIGN="top" COLSPAN="12" HEIGHT="20" BGCOLOR="#d2d4d3"></TD>
+                    <TD ALIGN="center" VALIGN="top" COLSPAN="13" HEIGHT="20" BGCOLOR="#d2d4d3"></TD>
                 </TR>
 
             </TABLE>

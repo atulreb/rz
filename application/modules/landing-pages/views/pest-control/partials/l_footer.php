@@ -1,5 +1,5 @@
 <div id="customHeading" style="
-    background: #8a8a8a;
+    background: #bd252c;
     padding:15px 0;
     color: #fff;
 ">
@@ -11,7 +11,118 @@
         </div>
     </div>
 </div>
-<div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+
+
+
+
+<style>
+.main-footer {
+	background-color: #444444;
+	width: 100%;
+	float:left;
+}
+
+.copyright-text {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 61px;
+}
+
+.social-links {
+	list-style:none;
+	margin-top: 15px;
+}
+
+.social-links li { 
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #272727;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	margin-right: 5px;
+}
+
+.social-links li a {
+	color:#fff;
+} 
+
+.social-links .facebook:hover {
+	background: #5c7ff6;
+} 
+
+.social-links .twitter:hover {
+	background: #22d5e3;
+}
+
+.social-links .google:hover {
+	background: #f82d2d;
+}
+
+.copyright-text, .social-links {
+	width: 23%;
+	float:left;
+}
+
+.leftDiv1 {
+	width: 8%;
+    float: left;
+}
+
+@media only screen and (max-width: 425px) and (min-width: 200px) {
+  .copyright-text {
+		width: 100%;
+		line-height: 30px;
+  }
+  
+  .leftDiv1 {
+	  margin:10px 5px;
+	  }
+  
+  
+  .social-links {
+	    padding-left: 35%;
+		margin-botttom:20px;
+		width: 100%;
+		line-height: 30px;
+  }
+}
+</style>
+
+
+<footer class="main-footer">
+    <div class="">
+	      <div class="leftDiv1">&nbsp;</div>
+	
+           <span class="copyright-text">© Copyright 2017 - RazorClean Inc. </span>
+           
+		   <span class="copyright-text">Call- 1-855 GO RZCLN (467-9256)</span>
+        
+		   <span class="copyright-text">Email- signup@rzclnpestcontrol.com</span>
+		   
+		   <ul class="social-links">
+				<li class="facebook">
+					<a target="_blank" href="http://facebook.com/razorclean">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="twitter">
+					<a target="_blank" href="http://twitter.com">
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="google">
+					<a target="_blank" href="http://plus.google.com">
+					<i class="fa fa-google-plus" aria-hidden="true"></i>
+					</a>
+				</li>
+			</ul>
+    </div>
+</footer>
+
+<!--div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
     <div id="zone-preface" class="zone zone-preface clearfix container-12">
         <div class="grid-4 region region-preface-first" id="region-preface-first">
             <div class="region-inner region-preface-first-inner">
@@ -34,102 +145,22 @@
                         </div>
                     </div>
                 </div>  </div>
-        </div><div class="grid-4 region region-preface-second" id="region-preface-second">
-            <div class="region-inner region-preface-second-inner">
-                <div class="block block-block block-7 block-block-7 odd block-without-title" id="block-block-7">
-                    <div class="block-inner clearfix">
-
-                        <div class="content clearfix">
-                            <div id="fb-root"></div>
-                            <div class="fb-page" data-tabs="timeline" data-width="380" data-height="350" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="" class="fb-xfbml-parse-ignore"><a href="">RazorClean Termite & Pest Control</a></blockquote></div>    </div>
-                    </div>
-                </div><div class="block block-block block-13 block-block-13 even block-without-title" id="block-block-13">
-                    <div class="block-inner clearfix">
-
-                        <div class="content clearfix">
-                            <p><img alt="Best of Denton County" src="<?php echo base_url() ?>media/landing-pages/pest-control/images/best-of-denton-county1.png" /><br /></p>
-                        </div>
-                    </div>
-                </div>  </div>
-        </div><div class="grid-4 region region-preface-third" id="region-preface-third">
+        </div>
+        <div class="grid-4 region region-preface-second" id="region-preface-second">
+           
+            <div class="grid-4 region region-preface-third" id="region-preface-third">
             <div class="region-inner region-preface-third-inner">
                 <div class="block block-block block-8 block-block-8 odd block-without-title" id="block-block-8">
                     <div class="block-inner clearfix">
-
+ <p>Copyright <?php echo date("Y")?> RazorClean Termite & Pest Control </p> 
                     </div>
-                </div><div class="block block-block block-12 block-block-12 even block-without-title" id="block-block-12">
-                    <div class="block-inner clearfix">
-
-                        <!--div class="content clearfix">
-                            <h2>Serving:</h2>
-
-                            <ul><li><a href="service-areas.html">Aubrey</a></li>
-                                <li><a href="service-areas.html">Double Oak </a></li>
-                                <li><a href="service-areas.html">Hebron </a></li>
-                                <li><a href="service-areas.html">Hickory Creek </a></li>
-                                <li><a href="service-areas.html">Justin </a></li>
-                                <li><a href="service-areas.html">Krum </a></li>
-                                <li><a href="service-areas.html">Lake Dallas </a></li>
-                                <li><a href="service-areas.html">Northlake </a></li>
-                                <li><a href="service-areas.html">Prosper </a></li>
-                                <li><a href="service-areas.html">C</a>elina</li>
-                                <li><a href="service-areas.html">Roanoke </a></li>
-                                <li><a href="service-areas.html">Sanger </a></li>
-                                <li><a href="service-areas.html">Savannah </a></li>
-                                <li><a href="service-areas.html">Shady Shores </a></li>
-                                <li><a href="service-areas.html">Trophy Club </a></li>
-                                <li><a href="service-areas.html">Westlake </a></li>
-                                <li><a href="service-areas.html">Argyle </a></li>
-                                <li>Far North <a href="service-areas.html">Dallas </a></li>
-                                <li><a href="service-areas.html">Carrollton </a></li>
-                                <li><a href="service-areas.html">Denton </a></li>
-                                <li><a href="service-areas.html">Frisco </a></li>
-                                <li><a href="service-areas.html">McKinney </a></li>
-                                <li><a href="service-areas.html">Plano </a></li>
-                                <li><a href="service-areas.html">Addison </a></li>
-                                <li><a href="service-areas.html">Allen </a></li>
-                                <li>Crossroads</li>
-                                <li><a href="service-areas.html">Coppell </a></li>
-                                <li><a href="service-areas.html">Corinth </a></li>
-                                <li><a href="service-areas.html">Farmers Branch </a></li>
-                                <li><a href="service-areas.html">Flower Mound </a></li>
-                                <li><a href="service-areas.html">Highland Village</a></li>
-                                <li><a href="service-areas.html">Keller </a></li>
-                                <li><a href="service-areas.html">Lewisville </a></li>
-                                <li><a href="service-areas.html">Little Elm </a></li>
-                                <li><a href="service-areas.html">The Colony</a></li>
-                            </ul>    </div-->
-                    </div>
-                </div>  </div>
+                </div> </div>
         </div>  </div>
 </div></section>    
-</div> 
-<footer id="section-footer" class="section section-footer">
-    <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
-        <div id="zone-footer" class="zone zone-footer clearfix container-12">
-            <div class="grid-12 region region-footer-first" id="region-footer-first">
-                <div class="region-inner region-footer-first-inner">
-                    <div class="block block-block block-6 block-block-6 odd block-without-title" id="block-block-6">
-                        <div class="block-inner clearfix">
+</div--> 
+</div>  
 
-                            <div class="content clearfix">
-                                <div class="block block-menu-block block-1 block-menu-block-1 odd block-without-title" id="block-menu-block-1">
-                                    <ul class="menu"><li class="first leaf"><a href="careers.html">Careers</a></li>
-                                        <li class="leaf"><a href="pest-free-guarantee.html">Pest Free Guarantee</a></li>
-                                        <li class="leaf"><a href="privacy-policy.html">Privacy Policy</a></li>
-                                    </ul></div>
-
-                                <p>Copyright <?php echo date("Y")?> RazorClean Termite & Pest Control 
-
-                                <p><a href="<?php echo $global_setting['facebook_link']?>"><img alt="facebook" src="<?php echo base_url() ?>media/landing-pages/pest-control/images/facebook.png" /></a> <a href="<?php echo $global_setting['twitter_link']?>"><img alt="twitter" src="<?php echo base_url() ?>media/landing-pages/pest-control/images/twitter.png" /></a> <a href="<?php echo $global_setting['google_link']?>"><img alt="google" src="<?php echo base_url() ?>media/landing-pages/pest-control/images/google.png" /></a></p>
-                            </div>
-                        </div>
-                    </div>  </div>
-            </div>  </div>
-    </div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
-    <div class="region-inner region-page-bottom-inner">
-    </div>
-</div><script type="text/javascript" src="<?php echo base_url() ?>media/landing-pages/pest-control/sites/default/files/js/js_5idECjjAo-X5YdkT65CaIiodkWmZlZv-WjSkHlWhoYk.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>media/landing-pages/pest-control/sites/default/files/js/js_5idECjjAo-X5YdkT65CaIiodkWmZlZv-WjSkHlWhoYk.js"></script>
 
 <script>
                                 jQuery("#webform-client-form-107").submit(function (e) {
@@ -157,6 +188,10 @@
                                     });
                                 });
 </script>
+
+<div style="clear:both"></div>
+<iframe src="<?php echo base_url()?>razorclean/stickyfooter" style="left: 0;width: 100%;height: 66px;padding-top: 0px;position: fixed;bottom: 0;background: rgba(0, 0, 0, 0.45);z-index: 99999;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0"></iframe>
+
 </body>
 
 </html>

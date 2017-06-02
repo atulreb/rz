@@ -2,7 +2,7 @@
 <DIV id="panels">
     <DIV id="sidenav">
         <div id="security" style="height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'security.html'">
+    margin-bottom: 5px;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -10,14 +10,14 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies in NYC</h1></TD>
+                    <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies</h1></TD>
                 </TR>
 
             </TABLE>	
         </div>
 
         <div id="investigations" style="height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'investigations.html'">
+    margin-bottom: 5px;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -25,13 +25,13 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies in NYC</h2></TD>
+                    <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies</h2></TD>
                 </TR>
             </TABLE>
         </div>
 
         <div id="permits"  style="height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'eventpermits.html'">
+    margin-bottom: 5px;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -39,7 +39,7 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h2>Your source for NYC event permits anywhere in the city</h2></TD>
+                    <TD ALIGN="left" VALIGN="top"><h2>Your source for event permits anywhere in the city</h2></TD>
                 </TR>
 
             </TABLE>
@@ -116,13 +116,13 @@
                 <TD ALIGN="left" VALIGN="top" WIDTH="20"></TD>
                 <TD ALIGN="left" VALIGN="top"><BR>
                     <span style="font-family: Arial, Helvetica, Sans-serif; font-size: 22px; line-height: 28px; font-style: bold; font-weight: bold;text-decoration: none;color:#000066">
-                        MG Security Services Customer Privacy Statement</span></TD>
+                        RazorClean Security Services Customer Privacy Statement</span></TD>
             </TR>
             <TR>
                 <TD ALIGN="left" VALIGN="top" WIDTH="20"></TD>
 
                 <TD ALIGN="left" VALIGN="top">
-                    <BR>Protecting your privacy is important to MG Security Services. We hope the following policy will help you understand how MG Security Services collects, uses, and safeguards the personal information you provide on our website. 
+                    <BR>Protecting your privacy is important to RazorClean Security Services. We hope the following policy will help you understand how RazorClean Security Services collects, uses, and safeguards the personal information you provide on our website. 
                 </TD>
             </TR>
             <TR>
@@ -137,9 +137,9 @@
                 <TD ALIGN="left" VALIGN="top" WIDTH="20"></TD>
 
                 <TD ALIGN="left" VALIGN="top">
-                    If you browse MG Security Services' website, you do so anonymously. We don't collect personal information including your email address. The only other information automatically provided to us is the type of computer, operating system and monitor resolution you are using. Your browser supplies us with this information. 
+                    If you browse RazorClean Security Services' website, you do so anonymously. We don't collect personal information including your email address. The only other information automatically provided to us is the type of computer, operating system and monitor resolution you are using. Your browser supplies us with this information. 
 
-                    Like many other commercial websites, the MG Security Services website may use a standard technology called a "cookie" to collect information about how you use the site. 
+                    Like many other commercial websites, the RazorClean Security Services website may use a standard technology called a "cookie" to collect information about how you use the site. 
 
                     At times we may request that you voluntarily supply us with personal information, such as your email address, company name and postal address, for purposes such as corresponding with us or participating in an online survey. 
 
@@ -157,9 +157,9 @@
                 <TD ALIGN="left" VALIGN="top" WIDTH="20"></TD>
 
                 <TD ALIGN="left" VALIGN="top">
-                    If you provide us with your name, company name, telephone number, email or postal address, or have done so in the past, we will ask you if we can use it to send you updates on the latest MG Security Services products and promotions. We do not share your personal information with other companies or individuals. If you do not want us to contact you, you can choose to "opt out," and MG Security Services will respect your wishes. 
+                    If you provide us with your name, company name, telephone number, email or postal address, or have done so in the past, we will ask you if we can use it to send you updates on the latest RazorClean Security Services products and promotions. We do not share your personal information with other companies or individuals. If you do not want us to contact you, you can choose to "opt out," and RazorClean Security Services will respect your wishes. 
                     <BR><BR>
-                    When you supply MG Security Services with your personal information, we may use it so that we may learn more about our customers. This will help us to develop better products and services. And if you have given us permission, we may use your personal information to inform you about new products, services, and offers that may be of interest to you. 
+                    When you supply RazorClean Security Services with your personal information, we may use it so that we may learn more about our customers. This will help us to develop better products and services. And if you have given us permission, we may use your personal information to inform you about new products, services, and offers that may be of interest to you. 
 
                 </TD>
             </TR>
@@ -175,7 +175,7 @@
                 <TD ALIGN="left" VALIGN="top" WIDTH="20"></TD>
 
                 <TD ALIGN="left" VALIGN="top">
-                    MG Security Services provides customers with an easy means to decline to receive email offers. Although most customers tell us they appreciate receiving notice of these opportunities, we recognize the importance of providing you with choices. At any time, you may request to discontinue receiving these offers from us by simply replying to the email and informing us of your preferences. All email offers that you receive from MG Security Services will tell you how to decline further email offers. 
+                    RazorClean Security Services provides customers with an easy means to decline to receive email offers. Although most customers tell us they appreciate receiving notice of these opportunities, we recognize the importance of providing you with choices. At any time, you may request to discontinue receiving these offers from us by simply replying to the email and informing us of your preferences. All email offers that you receive from RazorClean Security Services will tell you how to decline further email offers. 
 
                 </TD>
             </TR>
@@ -191,14 +191,14 @@
                 <TD ALIGN="left" VALIGN="top" WIDTH="20"></TD>
 
                 <TD ALIGN="left" VALIGN="top">
-                    MG Security Services is fully committed to data security. To prevent unauthorized access, maintain data accuracy, and ensure the appropriate use of information, we have put in place physical, electronic, and managerial procedures to safeguard and secure the information you provide to us online. However, while we strive to protect your personal information, we cannot ensure the security of the information you transmit to us. In this regard, we urge you to take every precaution to protect your personal data while you are on the Internet. MG Security Services takes appropriate steps to communicate our privacy policy and guidelines to all employees. 
+                    RazorClean Security Services is fully committed to data security. To prevent unauthorized access, maintain data accuracy, and ensure the appropriate use of information, we have put in place physical, electronic, and managerial procedures to safeguard and secure the information you provide to us online. However, while we strive to protect your personal information, we cannot ensure the security of the information you transmit to us. In this regard, we urge you to take every precaution to protect your personal data while you are on the Internet. RazorClean Security Services takes appropriate steps to communicate our privacy policy and guidelines to all employees. 
                     <BR><BR>
-                    MG Security Services' privacy policy is subject to change at any time. MG Security Services will provide notice 30 days prior to implementing any major changes to our privacy policy. 
+                    RazorClean Security Services' privacy policy is subject to change at any time. RazorClean Security Services will provide notice 30 days prior to implementing any major changes to our privacy policy. 
                     <BR><BR>
-                    MG Security Services' website contains links to other websites and is not responsible for privacy practices of those websites. MG Security Services encourages users to learn about the privacy practices of those websites. 
+                    RazorClean Security Services' website contains links to other websites and is not responsible for privacy practices of those websites. RazorClean Security Services encourages users to learn about the privacy practices of those websites. 
                     <BR><BR>
                     Last updated 04/08/2011<BR>
-                    &copy; 2013 MG Security Services. All rights reserved.
+                    &copy; 2013 RazorClean Security Services. All rights reserved.
 
                 </TD>
             </TR>		

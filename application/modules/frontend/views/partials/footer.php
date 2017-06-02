@@ -99,7 +99,7 @@
 
     <ul id="footer-menu" style="text-align:-webkit-center;">
         <li><a href="<?php echo base_url() ?>privacy-policy">Privacy Policy</a> -</li>
-        <li>Copyrights <?php echo date("Y")?> -</li>
+        <li>Copyright <?php echo date("Y")?> by RazorClean, Inc. All rights reserved.</li>
         <li><a href="<?php echo base_url() ?>terms-and-conditions">Terms and Conditions</a></li>
     </ul>
 </div>

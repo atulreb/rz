@@ -6,7 +6,8 @@
         width: 50px;
         height: 50px;
         background: #bf1e2d;
-        padding: 0 10px;
+        padding: 0;
+		text-align: center;
         font-size: 34px;
         color: #fff;
     }
@@ -24,18 +25,20 @@
 	.top-slider a {background: transparent}
 	
 
-#mCSB_2_container .active {    background: #bf1e2d;
-    border: 2px solid #bf1e2d;
-    color: #fff;}
+    #mCSB_2_container .active {    
+		background: #bf1e2d;
+		border: 2px solid #bf1e2d;
+		color: #fff;
+	}
 	
 	#quality, #service, #trust {
-	margin: 0 auto;
-    width: 75%;
-    /*background: rgba(244, 67, 54, 0.82);*/
-    padding: 10px 20px;
-    border-radius: 12px;
-    color: #ab2430;
-	text-align:center;
+		margin: 0 auto;
+		width: 75%;
+		/*background: rgba(244, 67, 54, 0.82);*/
+		padding: 10px 20px;
+		border-radius: 12px;
+		color: #ab2430;
+		text-align:center;
 	}
 </style><!--Banner-Start-->
 <div id="sticky-anchor"></div>
@@ -78,18 +81,31 @@
 
 	
 	
-  <div class="pattern-overlay ">
-  <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=fdJc1_IBKJA',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-            <h1>Welcome to RazorClean, Inc.</h1>  <br>
-        <h3>RazorClean, Inc. A Company Built On Integrity, Quality and Trust.</h3>
-	   </div>
-      </div>
+  <!--div class="pattern-overlay ">
+		<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=fdJc1_IBKJA',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+		<div class="container">
+			  <div class="row">
+				<div class="col-lg-12">
+					<h1>Welcome to RazorClean, Inc.</h1>  <br>
+				<h3>RazorClean, Inc. A Company Built On Integrity, Quality and Trust.</h3>
+			   </div>
+			  </div>
+		</div>
+  </div-->
+   <div id="sliderFrame">
+        <div id="slider">
+           
+           
+            <a class="video" href="https://www.youtube.com/watch?v=fdJc1_IBKJA">
+                <b data-src="<?php echo frontend_asset_url() ?>img/contact.jpg">Image Slider</b>
+            </a>
+			
+			 
+           
+           
+        </div>
     </div>
-  </div>
-  
+
   
 </header>
 <!--Banner-End-->
@@ -392,6 +408,8 @@
 <!---icon-tablet slider end--->
 
 
+
+
 <!--Customer Satisfaction Section Start-->
 <section id="qualities" style="background-color:#f3f3f4;">
     <div class="container">
@@ -402,18 +420,18 @@
                 <hr class="primary" style="display:none;">
             </div>
             <div class="col-md-4 col-sm-4 text-center test mout">
-                <div class="qualitiesIcon1" data-toggle="tooltip" title="Hooray!" onmouseover="showthreeIconContents('quality')">
+                <div class="qualitiesIcon1" data-toggle="tooltip"  onmouseover="showthreeIconContents('quality')">
 
                 </div>
                 <h3 style="font-weight:800;">Quality</h3>
 				
 			</div>
-            <div class="col-md-4 col-sm-4 text-center mout" data-toggle="tooltip" onmouseover="showthreeIconContents('service')" title="Hooray!">
+            <div class="col-md-4 col-sm-4 text-center mout" data-toggle="tooltip" onmouseover="showthreeIconContents('service')" >
                 <div class="qualitiesIcon2">
                 </div>
                 <h3 style="font-weight:800;">Service</h3>
 				</div>
-            <div class="col-md-4 col-sm-4 text-center mout" onmouseover="showthreeIconContents('trust')" data-toggle="tooltip" title="Hooray!">
+            <div class="col-md-4 col-sm-4 text-center mout" onmouseover="showthreeIconContents('trust')" data-toggle="tooltip" >
                 <div class="qualitiesIcon3">
                 </div>
                 <h3 style="font-weight:800;">Trust</h3>
@@ -445,7 +463,7 @@
 
                 <div class="tabLeft">
                     <div class=" tabIcon">
-                        <img src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/Staffing.png" alt="razorclean" height="60" width="60">
+                        <img id="dynicon" src="<?php echo frontend_asset_url()?>img/loading/Main_Logo.png" alt="razorclean" height="60" width="60">
                     </div>
                     <h3  class="demo-text" style="padding-left:10%; color:#ed1c24;"><div id="dyn_job_title"><?php echo $job_data[0]['job_title'] ?></div> <small> Job Description</small></h3>
                     <hr>
@@ -638,9 +656,15 @@
                         </div>
                         <div class="form-group">
                             <label for="state"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> City</label>
-                            <select id="city_dropdown" name="city" class="form-control" id="">
+                            <select id="city_dropdown" name="city" onchange='pickother(this.value);' class="form-control" >
 
                             </select>
+							
+                        </div>
+						 <div class="form-group" id="othercity" style='display:none;'>
+                            <label for="state"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> Other City</label>
+                           
+							<input type="text" class="form-control input-md" name="other_city" />
                         </div>
                         <div class="form-group">
                             <label for="state"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> Service</label>
@@ -678,7 +702,15 @@
                 <h2 class="section-heading text-center p-t-20">Become A Member</h2>
                 <hr class="light">
                 <p class="text-faded mob-center" style="text-align:justify">What Is RazorClean?<br>
-We are several different incorporations manage by one RazorClean Inc., dedicated to bringing our members the best possible prices on quality, brand-name merchandise. With hundreds of locations worldwide, RazorClean provides a wide selection of merchandise, plus the convenience of specialty programs and exclusive member and non-member services, all designed to make your service experience a pleasurable one.</p>
+We are several different companies manage by one RazorClean Inc., dedicated to bringing our members
+
+the best possible prices on quality, brand-name services. With hundreds of locations worldwide,
+
+RazorClean provides a wide selection of services, plus the convenience of specialty programs and
+
+exclusive member and non-member services, all designed to make your service experience a pleasurable
+
+one.</p>
                 <!--a href="<?php echo base_url() ?>user-signup" class="page-scroll btn btn-default btn-xl sr-button col-lg-4 active m-b-10 mob-btn-signup" style="color:#f05f40;">Sign Up!</a -->
                 <a href="<?php echo base_url() ?>user-signup" class="page-scroll btn btn-default btn-xl sr-button mob-btn-mem">Sign Up!</a>
                 <a href="<?php echo base_url()?>razor" class="page-scroll btn btn-default btn-xl sr-button col-lg-offset-1 mob-btn-mem">Why RazorClean</a>
@@ -688,7 +720,7 @@ We are several different incorporations manage by one RazorClean Inc., dedicated
 
     </div>
 </section>
-<!--About Section Start-->
+
 <!--Service section square start-->
 <section class="no-padding" id="portfolio">
     <div class="container-fluid">
@@ -761,7 +793,8 @@ We are several different incorporations manage by one RazorClean Inc., dedicated
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading partner-heading .mob-center"> Partner With Us In These Areas! </h2>
-				<p style="color:#fff">If You Are Interested in Becoming a Sub-Contractor With Us, Click on Your State and Contact Us</p>
+				<p style="color:#fff">If You Are Interested in Becoming a Sub-Contractor With Us or Using Us as a Sub-Contractor, <br>
+Click on Your State and Contact Us</p>
                 <hr class="primary" style="display:none;">
             </div>
             <div class="col-lg-12">
@@ -889,7 +922,8 @@ We are several different incorporations manage by one RazorClean Inc., dedicated
         if (state_id != "-1") {
             loadData('city', state_id);
         } else {
-            $("#city_dropdown").html("<option value='-1'>Select city</option>");
+            $("#city_dropdown").html("<option value='-1'>Select cityss</option>");
+			
         }
     }
     function loadData(loadType, loadId) {
@@ -904,10 +938,18 @@ We are several different incorporations manage by one RazorClean Inc., dedicated
             success: function (result) {
                 $("#" + loadType + "_loader").hide();
                 $("#" + loadType + "_dropdown").html("<option value='-1'>Select " + loadType + "</option>");
+				
                 $("#" + loadType + "_dropdown").append(result);
             }
         });
     }
+	function pickother(val){
+ var element=document.getElementById('othercity');
+ if(val=='other')
+   element.style.display='block';
+ else  
+   element.style.display='none';
+}
 function getJobDesc(id) {
 
         $.ajax({
@@ -925,6 +967,7 @@ function getJobDesc(id) {
                     $("#dyn_job_short_desc").html(response.short_desc);
                     $("#dyn_job_long_desc").html(response.long_desc);
                     $("#dyn_job_id").val(response.job_id);
+					$("#dynicon").attr("src", response.icon);
                 }
             }
         });

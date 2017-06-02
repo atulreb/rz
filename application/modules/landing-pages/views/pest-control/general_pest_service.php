@@ -16,44 +16,28 @@
         <span property="dc:title" content="General Pest Service" class="rdf-meta element-hidden"></span>    
   
   <div class="content clearfix">
-    <div class="field field-name-field-image-basic field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="<?php echo base_url()?>media/landing-pages/pest-control/sites/default/files/styles/large/public/playing561e.jpg?itok=4TzSwezR" width="480" height="320" alt="General Pest Service" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Most home owners don't want uninvited guests crawling around their home, especially at night.  Not only are they annoying, but they can also carry diseases and cause other health problems.  By receiving our <a href="../service-areas.html">General Pest Service</a>, you will receive professional pest control that you can count on, as well as careful inspections, professional advice and friendly service.  MAYCO Pest and Termite Control also includes a full warranty. Make sure you are always ready; always choose <a href="../get-free-estimate.html">MAYCO Pest &amp; Termite Control</a>.</p>
+    <div class="field field-name-field-image-basic field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="<?php echo base_url()?>media/landing-pages/pest-control/images/general-pest-service.jpg" width="480" height="320" alt="General Pest Service" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Most home owners don't want uninvited guests crawling around their home, especially at night.  Not only are they annoying, but they can also carry diseases and cause other health problems.  By receiving our General Pest Service, you will receive professional pest control that you can count on, as well as careful inspections, professional advice and friendly service.  RazorClean Termite & Pest Control also include a full warranty. Make sure you are always ready; always choose RazorClean Termite & Pest Control.</p>
 
 <h3><strong>Service Details and Information:</strong></h3>
 
-<p>We manage the entire outside of your home searching for pests such as ants, spiders, wasps, etc., in addition to looking for signs of rodents and termites.  This part of the General Pest Service is extremely important and something we take very seriously. We take care of the entire exterior of your home to protect against insects who are looking for a way in.  MAYCO Pest &amp; Termite Control's interior service includes treating your plumbing areas, underneath appliances and big pieces of furniture, windows, doors, and corners because we know this is where bugs like to enter the home and where they like to hide.  We treat each accessible room in your home, including your garage and an easily accessible attic to ensure that these areas are free of insect infestation.</p>
+<p>We manage the entire outside of your home searching for Termites also pests such as ants, spiders, wasps, etc.
+This part of the General Pest Service is extremely important and something we take very seriously. We take care of the entire exterior of your home to protect against insects that are looking for a way in.  RazorClean Termite & Pest Control interior service includes treating your plumbing areas, underneath appliances and big pieces of furniture, windows, doors, and corners, because we know this is where bugs like to enter the home and where they like to hide.  We treat each accessible room in your home, including your garage and an easily accessible attic to ensure that these areas are free of insect infestation.</p>
 
-<p>The <a href="../service-areas.html">General Pest Service</a> is highly recommended to be used as a preventative service, as opposed to a resolution service. While it is still effective as a resolution, our main goal is to prevent insects from getting inside in the first place. Pests are always searching for places to live that offer food, shelter, water and an acceptable climate in order to sustain life and breed more pests. As insects forage into your home and cross a treated barrier, they are eliminated preventing reproduction and major infestations.  Make sure to <a href="../get-free-estimate.html">stop the problem before it starts</a>.  This service is the best preventative maintenance there is.</p>
+<p>The General Pest Service is highly recommended to be used as a preventative service, as opposed to a resolution service. While it is still effective as a resolution, our main goal is to prevent insects from getting inside in the first place. Pests are always searching for places to live that offer food, shelter, water and an acceptable climate in order to sustain life and breed more pests. As insects forage into your home and cross a treated barrier, they are eliminated preventing reproduction and major infestations.  Make sure to stop the problem before it starts.  This service is the best preventative maintenance there is.</p>
 
-<p>Our Customized Plan is perfect for clients who have pest problems that can be taken care of in one or two services without routinely scheduled appointments like bee nests, rodents, and bed bugs.  Please contact us for a complete list of customized plans. Limited <a href="../about-us/warranty.html">warranty</a> included.</p>
+<p>Our Customized Plan is perfect for clients who have pest problems that can be taken care of in one or two services without routinely scheduled appointments like bee nests, rodents, and bed bugs.  Please contact us for a complete list of customized plans. Limited warranty included.</p>
 
-<hr /><ul><li>Our trained technicians will <a href="../protection-plans.html">protect</a> your home and family against pests.</li>
+<hr /><ul><li>Our trained technicians will protect your home and family against pests.</li>
 	<li>Technicians are available to service your home quickly.</li>
-	<li>We have years of <a href="../about-us.html">experience</a> treating pests and termites.</li>
+	<li>We have years of experience treating pests and termites.</li>
 	<li>100% satisfaction guaranteed.</li>
 </ul><p>We'll do whatever it takes to solve your pest problems, including call-back services, at no cost, until pests are gone.  </p>
 
-<p><a href="../get-free-estimate.html">Call MAYCO Pest &amp; Termite today at (940) MY-MAYCO.</a></p>
+<p><a href="javascript:;">Call RazorClean Termite & Pest Control today at 1-855-GO RZCLN (467-9256).
+ </a></p>
 
 <p> </p>
 
-<hr /><h3> </h3>
-
-<div style="float:left; margin-right:30px;">
-<h3><strong>Service Includes:</strong></h3>
-
-<ul><li>Free Attic Inspection*</li>
-	<li>Free Insect Inspection</li>
-</ul></div>
-
-<div style="float:left;">
-<h3>Insured For Your Protection</h3>
-
-<ul><li>Appointments Set On The Hour</li>
-	<li>Saturday &amp; Evening Appointments Available</li>
-	<li>Full Warranty</li>
-</ul></div>
-
-<p style="clear:left;">*Free attic inspection for typical/accessible attic spaces – without using special equipment</p>
 </div></div></div>  </div>
   
   <div class="clearfix">

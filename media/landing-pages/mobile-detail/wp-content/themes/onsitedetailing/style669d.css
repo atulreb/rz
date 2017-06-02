@@ -76,7 +76,7 @@ div.page_body {
 
 a {
 
-	color: gold;
+	color: #fff;
 
 	text-decoration: none;
 
@@ -84,9 +84,9 @@ a {
 
 a:hover, a:focus {
 
-	color: gold;
+	color: #fff;
 
-	text-decoration: underline;
+	text-decoration: noen !Important;
 
 }
 
@@ -108,7 +108,7 @@ div.topBannerBG {
 
 header {
 
-	border-bottom: 5px solid gold;
+	border-bottom: 5px solid #bd252c;
 
 }
 
@@ -236,7 +236,7 @@ div.DGblogentry {background-color: #eee; margin: 10px; padding: 5px; border: 1px
 
   font-weight: bold;
 
-  color: gold;
+  color: #fff;
 
   background-color: black;
 
@@ -286,9 +286,9 @@ div.DGblogentry {background-color: #eee; margin: 10px; padding: 5px; border: 1px
 
 .top-contact span.info_telephone {
 
-  background-color: gold;
+  background-color: #bd252c;
 
-  color: black;
+  color: #fff;
 
   -webkit-border-top-left-radius: 0px;
 
@@ -1046,7 +1046,7 @@ h1.page_header, h3.widget_header {
 
 	text-align: left;
 
-	color: gold;
+	color: #fff;
 
 	margin-top: 0px;
 
@@ -1526,7 +1526,7 @@ Bootstrap mods
 
   background-color: #000;
 
-  border-color: gold;
+  border-color: #bd252c;
 
   margin: 20px 0px;
 
@@ -1552,11 +1552,11 @@ Bootstrap mods
 
 .open .dropdown-toggle.btn-primary {
 
-  color: #ffffff;
+  color: #fff;
 
   background-color: #222;
 
-  border-color: gold;
+  border-color: #fff;
 
 }
 

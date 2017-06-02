@@ -2,24 +2,13 @@
 <html lang="en" itemscope itemtype="http://schema.org/ProfessionalService">
 
 <head>
-    <title>Chicago Handyman Services: Punch List</title>
-    <meta name="description" content="Best Handyman in Chicago. Full Service Handyman Services for Lincoln Park, Lakeview, Gold Coast, Andersonville, Lincoln Square &amp; the surrounding areas." />
-    <meta name="robots" content="noodp" />
-    <meta name="keywords" content="Chicago Handyman, Chicago Home Repair, Chicago Electrician, Chicago Remodeling" />
-    <link rel="canonical" href="#" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Chicago Handyman Services: Punch List" />
-    <meta property="og:description" content="Best Handyman in Chicago. Full Service Handyman Services for Lincoln Park, Lakeview, Gold Coast, Andersonville, Lincoln Square &amp; the surrounding areas." />
-    <meta property="og:url" content="" />
-    <meta property="og:site_name" content="Punch List" />
+    <title>RazorClean Handyman Services</title>
+   
     <meta property="og:image" content="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/handyman-services-for-the-home.jpg" />
     <meta property="og:image" content="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/kitchen-and-bathroom-remodeling-services.jpg" />
     <meta property="og:image" content="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/commercial-handyman-professionals.jpg" />
     <script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.yourpunchlist.com\/","name":"Punch List","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.yourpunchlist.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
-    <link rel='dns-prefetch' href='http://r5dallas.leadsdepot.net/' />
-    <link rel='dns-prefetch' href='http://s.w.org/' />
-    <link rel="alternate" type="application/rss+xml" title="Punch List &raquo; Home Comments Feed" href="home/feed/feed.html" />
+   
     <script type="text/javascript">
         /*<![CDATA[*/
         window._wpemojiSettings = {
@@ -85,12 +74,8 @@
     <link rel='stylesheet' id='footbridge-style-css' href='<?php echo base_url()?>media/landing-pages/handyman/theme.css' type='text/css' media='all' />
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/handyman/wp-includes/js/jquery/jquery.js'></script>
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/handyman/wp-includes/js/jquery/jquery-migrate.min.js'></script>
-    <link rel='https://api.w.org/' href='wp-json/wp-json.html' />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.xml" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="<?php echo base_url()?>media/landing-pages/handyman/wp-includes/wlwmanifest.xml" />
-    <link rel='shortlink' href='#' />
-    <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed" />
-    <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed.xml" />
+  
+    
     <script type="text/javascript">
         /*<![CDATA[*/
         (function(url) {
@@ -127,22 +112,9 @@
             }
         })('//www.yourpunchlist.com/?wordfence_logHuman=1&hid=82D1741BFC8274E0835412BC16E9B00E'); /*]]>*/
     </script>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="p:domain_verify" content="631c7eb82117a7232e365a8802c26f0b" />
-    <meta property="og:url" itemprop="url" content="" />
-    <meta property="og:street-address" content="5111 N. Lincoln Ave" />
-    <meta property="og:locality" content="Chicago" />
-    <meta property="og:region" content="IL" />
-    <meta property="og:postal-code" content="60625" />
-    <meta property="og:country-name" content="USA" />
-    <meta property="og:phone_number" itemprop="telephone" content="773-935-7727" />
-    <meta property="og:type" content="company" />
-    <meta property="fb:admins" content="1536762965,595996194" />
     
-    <link rel="author" href="#" />
-    <link rel="shortcut icon" href="<?php echo base_url()?>media/landing-pages/handyman/wp-content/themes/footbridge/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="<?php echo base_url()?>media/landing-pages/handyman/wp-content/themes/footbridge/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo base_url()?>media/landing-pages/handyman/header.png" type="image/x-icon">
+    <link rel="icon" href="<?php echo base_url()?>media/landing-pages/handyman/header.png" type="image/x-icon">
 </head>
 
 <body>
@@ -150,7 +122,7 @@
         <div id="header-background" class="section">
             <div id="header-wrap" class="wrap">
                 <div id="header" class="section hide-from-mobile">
-                    <img src="<?php echo base_url()?>media/landing-pages/handyman/header.png" alt="Chicago Handyman" />
+                    <img src="<?php echo base_url()?>media/landing-pages/handyman/header.png" alt="RazorClean Handyman Services" />
                     <a href="#" class="header-logo"></a>
                     <a href="<?php echo $global_setting['facebook_link']?>" class="header-facebook"> </a>
                     <a href="<?php echo $global_setting['youtube_link']?>" class="header-youtube"> </a>
@@ -159,12 +131,12 @@
                     <a href="tel:1-855 GO RZCLN (467-9256)" class="header-number"></a>
                     <a href="contact-us.html" class="header-button"></a>
                 </div>
-                <div id="tablet-header" class="section"> <img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/mobile/tablet-header.png" alt="Chicago Handyman" />
+                <div id="tablet-header" class="section"> <img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/mobile/tablet-header.png" alt="RazorClean Handyman Services" />
                     <a href="#" class="tablet-logo"></a>
                     <a href="tel:1-855 GO RZCLN (467-9256)" class="tablet-number"></a>
                     <a href="contact-us.html" class="tablet-button"></a>
                 </div>
-                <div id="mobile-header" class="section"> <img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/mobile/tablet-header.png" alt="Chicago Handyman" />
+                <div id="mobile-header" class="section"> <img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/mobile/tablet-header.png" alt="RazorClean Handyman Services" />
                     <a href="#" class="mobile-logo"></a>
                     <a href="tel:1-855 GO RZCLN (467-9256)" class="mobile-number"></a>
                     <a href="contact-us.html" class="mobile-button"></a>

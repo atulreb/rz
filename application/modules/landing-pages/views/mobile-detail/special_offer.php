@@ -24,7 +24,7 @@
 			 
 						
 			<div class="page_content">
-			<div id="lessonCatDesc">						<p>Check our <a href="https://www.facebook.com/pages/On-Site-Detailing/1427621004153114" target="_blank">facebook</a> page, <a href="https://member.angieslist.com/member/store/1934016?ref=search&amp;categoryId=16" target="_blank">Angie’s List</a>, or join our <a href="../contact-us/index.html">email list</a> to be the first to hear about all of our Special Offers!</p>
+			<div id="lessonCatDesc">						<p>Check our <a href="<?php echo $global_setting['facebook_link']?>" target="_blank">facebook</a> page,  or join our <a href="<?php echo base_url()?>mobile-detail/contact">email list</a> to be the first to hear about all of our Special Offers!</p>
 			<div class="clear"></div></div>
 			</div>
 			

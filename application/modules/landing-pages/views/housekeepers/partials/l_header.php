@@ -46,28 +46,17 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <title>House Cleaning and Maid Services | Miami Brickell-Downtown</title>
+        <title>RazorClean Housekeepers</title>
 
-        <meta name="description" content="RazorClean House Cleaning offers professional home cleaning services in the Miami Brickell-Downtown area. Schedule and book your appointment online or call 305-699-MAID">
+        <meta name="description" content="RazorClean Housekeepers offers professional home cleaning services in the Miami Brickell-Downtown area. Schedule and book your appointment online or call 305-699-MAID">
         <meta name="robots" content="noodp">
-        <link rel="canonical" href="https://downtownmaid.com/">
+        <link rel="canonical" href="">
         <link rel="publisher" href="https://plus.google.com/+Downtownmaidmiami">
-        <meta property="og:locale" content="en_US">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="House Cleaning and Maid Services | Miami Brickell-Downtown">
-        <meta property="og:description" content="RazorClean House Cleaning offers professional home cleaning services in the Miami Brickell-Downtown area. Schedule and book your appointment online or call 305-699-MAID">
-        <meta property="og:url" content="https://downtownmaid.com/">
-        <meta property="og:site_name" content="RazorClean House Cleaning">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:description" content="RazorClean House Cleaning offers professional home cleaning services in the Miami Brickell-Downtown area. Schedule and book your appointment online or call 305-699-MAID">
-        <meta name="twitter:title" content="House Cleaning and Maid Services | Miami Brickell-Downtown">
-        <meta name="twitter:site" content="@downtownmaid">
-        <meta name="twitter:creator" content="@downtownmaid">
+       
         <script async="" src="<?php echo base_url() ?>media/landing-pages/housekeepers/js/analytics.js" style=""></script>
         <script src="<?php echo base_url() ?>media/landing-pages/housekeepers/js/941581695887567.js" async=""></script>
         <script async="" src="<?php echo base_url() ?>media/landing-pages/housekeepers/js/fbevents.js"></script>
-        <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/downtownmaid.com\/","name":"RazorClean House Cleaning","alternateName":"RazorClean House Cleaning Miami","potentialAction":{"@type":"SearchAction","target":"https:\/\/downtownmaid.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
-
+       
 
 
         <link rel="stylesheet" id="avia-google-webfont" href="<?php echo base_url() ?>media/landing-pages/housekeepers/css/css.css" type="text/css" media="all">
@@ -108,11 +97,12 @@
         <script type="text/javascript" src="<?php echo base_url() ?>media/landing-pages/housekeepers/js/jquery-ui-1.js"></script>
         <script type="text/javascript" src="<?php echo base_url() ?>media/landing-pages/housekeepers/js/jquery_002.js"></script>
 
-        <link rel="stylesheet" id="avia-custom-css" href="css/fontello.css" type="text/css" media="all">
-        <link rel="stylesheet" id="avia-custom-css" href="css/fontello-codes.css" type="text/css" media="all">
-        <link rel="stylesheet" id="avia-custom-css" href="css/fontello-embedded.css" type="text/css" media="all">
-        <link rel="stylesheet" id="avia-custom-css" href="css/fontello-ie7.css" type="text/css" media="all">
+        <link rel="stylesheet" id="avia-custom-css" href="<?php echo base_url() ?>media/landing-pages/housekeepers/css/fontello.css" type="text/css" media="all">
+        <link rel="stylesheet" id="avia-custom-css" href="<?php echo base_url() ?>media/landing-pages/housekeepers/css/fontello-codes.css" type="text/css" media="all">
+        <link rel="stylesheet" id="avia-custom-css" href="<?php echo base_url() ?>media/landing-pages/housekeepers/css/fontello-embedded.css" type="text/css" media="all">
+        <link rel="stylesheet" id="avia-custom-css" href="<?php echo base_url() ?>media/landing-pages/housekeepers/css/fontello-ie7.css" type="text/css" media="all">
         <style type='text/css'>@font-face{font-family:'entypo-fontello';font-weight:normal;font-style:normal;src:url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo-social.eot');src:url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo-social.eot') format('embedded-opentype'),url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo-social.woff') format('woff'),url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo.ttf') format('truetype'),url('https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0/entypo.svg') format('svg');}#top .avia-font-entypo-fontello,body .avia-font-entypo-fontello,html body [data-av_iconfont='entypo-fontello']:before{font-family:'entypo-fontello';}</style>
+        <style type='text/css'>@font-face{font-family:'entypo-fontello';font-weight:normal;font-style:normal;src:url('<?php echo base_url()?>media/landing-pages/housekeepers/font/entypo-fontello.eot?v=3');src:url('<?php echo base_url()?>media/landing-pages/housekeepers/font/entypo-fontello.eot?v=3#iefix') format('embedded-opentype'),url('<?php echo base_url()?>media/landing-pages/housekeepers/font/entypo-fontello.woff?v=3') format('woff'),url('<?php echo base_url()?>media/landing-pages/housekeepers/font/entypo-fontello.ttf?v=3') format('truetype'),url('https://downtownmaid.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.svg?v=3#entypo-fontello') format('svg');}#top .avia-font-entypo-fontello,body .avia-font-entypo-fontello,html body [data-av_iconfont='entypo-fontello']:before{font-family:'entypo-fontello';}</style>
         <style id="vcht_frontend_styles">
            
 
@@ -301,15 +291,15 @@
             <header id="header" class="all_colors header_color light_bg_color av_header_top av_logo_left av_main_nav_header av_menu_right av_slim av_header_sticky av_header_shrinking av_header_stretch av_mobile_menu_tablet av_header_transparency av_header_searchicon av_header_unstick_top_disabled av_bottom_nav_disabled av_alternate_logo_active av_header_border_disabled" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
                 <div id="header_meta" class="container_wrap container_wrap_meta  av_icon_active_left av_extra_header_active av_phone_active_right av_entry_id_450">
                     <div class="container">
-                        <ul class="noLightbox social_bookmarks icon_count_3">
-                            <li class="social_bookmarks_twitter av-social-link-twitter social_icon_1"><a target="_blank" href="https://twitter.com/downtownmaid" aria-hidden="true" data-av_icon="?" data-av_iconfont="entypo-fontello" title="Twitter"><span class="icon-facebook-1"></span></a>
+                         <ul class="noLightbox social_bookmarks icon_count_3">
+                            <li class="social_bookmarks_twitter av-social-link-twitter social_icon_1"><a target="_blank" href="<?php echo $global_setting['facebook_link']?>" class="icon-facebook-1" title="Twitter"></a>
                             </li>
-                            <li class="social_bookmarks_facebook av-social-link-facebook social_icon_2"><a target="_blank" href="https://www.facebook.com/downtownmaidmiami" aria-hidden="true" data-av_icon="?" data-av_iconfont="entypo-fontello" title="Facebook"><span class="icon-twitter-2"></span></a>
+                            <li class="social_bookmarks_facebook av-social-link-facebook social_icon_2"><a target="_blank" href="<?php echo $global_setting['twitter_link']?>" class="icon-twitter-2" ></a>
                             </li>
-                            <li class="social_bookmarks_gplus av-social-link-gplus social_icon_3"><a target="_blank" href="https://plus.google.com/102833314126388114193/" aria-hidden="true" data-av_icon="?" data-av_iconfont="entypo-fontello" title="Gplus"><span class="icon-google-1"></span></a>
+                            <li class="social_bookmarks_gplus av-social-link-gplus social_icon_3"><a target="_blank" href="<?php echo $global_setting['google_link']?>" class="icon-gplus-1" title="Gplus"></a>
                             </li>
                         </ul>
-                        <div class="phone-info "><span>CALL: <a href="tel:305-699-6243">305-699-6243</a></span>
+                        <div class="phone-info "><span>CALL: <a href="tel:1-855467-9256"> 1-855 GO RZCLN (467-9256)</a></span>
                         </div>
                     </div>
                 </div>

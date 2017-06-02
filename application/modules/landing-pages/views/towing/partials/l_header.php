@@ -16,7 +16,7 @@
     <title>RazorClean Towing</title>
 
     <link rel="pingback" href="xmlrpc.php" />
-
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!--[if IE 6]>
     <script  type="text/javascript" src="http://eugenestowingcompany.com/<?php echo base_url()?>media/landing-pages/towing/wp-content/themes/u-design/scripts/DD_belatedPNG_0.0.8a-min.js"></script>
     <script  type="text/javascript">

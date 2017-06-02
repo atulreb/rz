@@ -103,7 +103,11 @@
                         <br>
                         <br>
                         <br>
-                        <a id="call" href="tel:6159742222"></span>
+                        <a  href="tel:18554679256" style="padding: 10px;
+    background: #bd252c;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 7px;">1-855 GO RZCLN (467-9256)
                         </a>
                     </div>
                 </div>

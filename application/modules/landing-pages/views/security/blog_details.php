@@ -2,7 +2,7 @@
 <DIV id="panels">
     <DIV id="sidenav">
         <div id="security" style="height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'security.html'">
+    margin-bottom: 5px;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -10,14 +10,14 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies in NYC</h1></TD>
+                    <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies</h1></TD>
                 </TR>
 
             </TABLE>	
         </div>
 
         <div id="investigations" style="height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'investigations.html'">
+    margin-bottom: 5px;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -25,13 +25,13 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies in NYC</h2></TD>
+                    <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies</h2></TD>
                 </TR>
             </TABLE>
         </div>
 
         <div id="permits"  style="height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'eventpermits.html'">
+    margin-bottom: 5px;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -39,7 +39,7 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h2>Your source for NYC event permits anywhere in the city</h2></TD>
+                    <TD ALIGN="left" VALIGN="top"><h2>Your source for event permits anywhere in the city</h2></TD>
                 </TR>
 
             </TABLE>

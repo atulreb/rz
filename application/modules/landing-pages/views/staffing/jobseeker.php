@@ -27,7 +27,7 @@
 							<div class="container-fluid new_section"><div class="container"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element ">
 		<div class="wpb_wrapper">
-			<p><img class="wp-image-23977 alignleft" src="<?php echo base_url()?>media/landing-pages/staffing/wp-content/uploads/pic-general-labor.jpg" alt="pic-general-labor" width="276" height="186" />PSC is always adding new opportunities to our <a href="https://jobboard.tempworks.com/PSCStaffing/" target="_blank">job board</a>. Please navigate our open jobs below. Please be mindful when browsing jobs, as we have locations all over the country. Select the right City &amp; State before starting your search.</p>
+			<p><img class="wp-image-23977 alignleft" src="<?php echo base_url()?>media/landing-pages/staffing/wp-content/uploads/pic-general-labor.jpg" alt="pic-general-labor" width="276" height="186" />RazorClean Staffing is always adding new opportunities . Please navigate our open jobs below. Please be mindful when browsing jobs, as we have locations all over the country. Select the right City &amp; State before starting your search.</p>
 <p>If you would like to come in and apply for these positions, you are more than welcomed to! We accept applications from 9am-11am Monday-Wednesday. You must bring 2 forms of I.D. and have clean background and drug test.</p>
 
 		</div>

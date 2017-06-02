@@ -125,6 +125,7 @@ $route['security/mediacenter/(:any)'] = 'landing-pages/Security/mediacenter';
 $route['security/contact'] = 'landing-pages/Security/contact';
 $route['security/cybersecurity'] = 'landing-pages/Security/cybersecurity';
 $route['security/privacy'] = 'landing-pages/Security/privacy';
+$route['security/otherareaexpertise'] = 'landing-pages/Security/otherareaexpertise';
 
 $route['mobile-detail'] = 'landing-pages/Mobile_detail/index';
 $route['mobile-detail/aboutus'] = 'landing-pages/Mobile_detail/aboutUs';
@@ -146,6 +147,14 @@ $route['lawncare/contactus'] = 'landing-pages/lawncare/contactus';
 $route['lawncare/blog'] = 'landing-pages/lawncare/blog';
 $route['lawncare/blog-details/(:any)'] = 'landing-pages/lawncare/blogDetails/$1';
 $route['lawncare/blog/(:any)'] = 'landing-pages/lawncare/blog/$1';
+$route['lawncare/belgium-block-edging-curbing'] = 'landing-pages/lawncare/belgiumBlock';
+$route['lawncare/landscape-curbing-edging'] = 'landing-pages/lawncare/landscapeEdging';
+$route['lawncare/aeration-and-seeding'] = 'landing-pages/lawncare/aerationAndSeeding';
+$route['lawncare/programs'] = 'landing-pages/lawncare/programs';
+$route['lawncare/sprinkler-repair'] = 'landing-pages/lawncare/sprinklerRepair';
+$route['lawncare/our-work'] = 'landing-pages/lawncare/ourWork';
+$route['lawncare/weather-services'] = 'landing-pages/lawncare/weatherServices';
+
 
 $route['handyman'] = 'landing-pages/handyman/index';
 $route['handyman/aboutus'] = 'landing-pages/handyman/aboutus';
@@ -201,8 +210,10 @@ $route['pest-control/termite-inspections-control'] = 'landing-pages/Pest_Control
 $route['pest-control/wildlife-services'] = 'landing-pages/Pest_Control/wildLife';
 $route['pest-control/get-free-estimate'] = 'landing-pages/Pest_Control/getFreeEstimate';
 
+$route['razorclean/stickyfooter'] = 'landing-pages/sticky_footer/index';
+
 $route['painters'] = 'landing-pages/Painters/index';
-$route['painters/residential-painting-services'] = 'landing-pages/Painters/residentialPenting';
+$route['painters/services'] = 'landing-pages/Painters/residentialPenting';
 $route['painters/commercial-painting-services'] = 'landing-pages/Painters/commercialPenting';
 $route['painters/why-choose-us'] = 'landing-pages/Painters/whyChooseUs';
 $route['painters/what-to-expect'] = 'landing-pages/Painters/wantToExpect';
@@ -246,7 +257,19 @@ $route['building-services/office-cleaning-services'] = 'landing-pages/building_s
 $route['building-services/contact-us'] = 'landing-pages/building_services/contactUs';
 $route['building-services/about-us'] = 'landing-pages/building_services/aboutUs';
 $route['building-services/careers'] = 'landing-pages/building_services/carrers';
+$route['building-services/airport'] = 'landing-pages/building_services/airport';
 $route['building-services/job-details/(:any)'] = 'landing-pages/building_services/jobDetails/$1';
+$route['building-services/commercial-building'] = 'landing-pages/building_services/commercialBuilding';
+$route['building-services/educational-building'] = 'landing-pages/building_services/educationaliBuilding';
+$route['building-services/financial-building'] = 'landing-pages/building_services/financialBuilding';
+$route['building-services/healthcare-building'] = 'landing-pages/building_services/healthcareBuilding';
+$route['building-services/window-cleaning'] = 'landing-pages/building_services/windowCleaning';
+$route['building-services/retail-building'] = 'landing-pages/building_services/retailBuilding';
+$route['building-services/religious-building'] = 'landing-pages/building_services/religiousBuilding';
+$route['building-services/industrial-building'] = 'landing-pages/building_services/industrialBuilding';
+$route['building-services/escalator-cleaning'] = 'landing-pages/building_services/escalatorCleaning';
+$route['building-services/concrete-polishing'] = 'landing-pages/building_services/concretePolishing';
+$route['building-services/sportarea_cleaning'] = 'landing-pages/building_services/sportAreaCleaning';
 
 $route['razor'] = 'landing-pages/razor/index';
 $route['razor/media'] = 'landing-pages/razor/media';

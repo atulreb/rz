@@ -45,15 +45,15 @@
                                         <h3 style="text-align: left;">Currently we are accepting in-person applications to fill the follow landscaping jobs:</h3>
                                         <p>&nbsp;</p>
                                         <ul>
-                                            <?php foreach($job_data as $jd){?>
-                                            <li style="text-align: left;">
-                                                <h3><?php echo $jd['job_title']?></h3>
-                                            </li>
-                                            <?php }?>
+                                            <?php foreach ($job_data as $jd) { ?>
+                                                <li style="text-align: left;">
+                                                    <h3><?php echo $jd['job_title'] ?></h3>
+                                                </li>
+                                            <?php } ?>
                                         </ul>
                                         <p>&nbsp;</p>
                                         <p style="text-align: center;">Please bring a resume or other relevant info into the office for the chance to join on of Kansas Cities fastest growing Landscape companies.</p>
-                                        <p style="text-align: center;">Thank you for your interest in Olympic Lawn &amp; Landscape.</p>
+                                        <p style="text-align: center;">Thank you for your interest in RazorClean Lawncare Services</p>
 
                                     </div>
                                 </div>
@@ -90,7 +90,7 @@
                             </div> 
                         </div> 
                     </div></div>
-               
+
 
 
             </div><!--/row-->

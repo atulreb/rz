@@ -5,7 +5,7 @@
     <div class="title-wrapper text- background-cover parallax with-overlay top-padding">
 
 
-        <div class="bg-image" style="background-image:url(&#039;<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/interior-process1.jpg&#039;);"></div>
+        <div class="bg-image" style="background-image:url(&#039;<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/interior-process1.jpg&#039;);"></div>
 
 
 
@@ -46,8 +46,26 @@
                                         </div> 
                                         <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
-                                                <h2 class="internal-page">When searching for a painter in Scottsdale, Phoenix, or Tucson, customers look for two things: quality of service and customer care. At The RazorClean Painting Company, we know that you are not going to trust the spaces in your home or business to just any painter</h2>
-                                                <p>As proof of our talent and dedication to quality, The RazorClean Painting Company gladly welcomes our customers and potential clients to browse our extensive photo gallery. Though we&#8217;ve been named the highest ranked Phoenix painter in terms of customer satisfaction, nothing speaks more to our commitment to quality than our actual work.</p>
+                                                <h2 class="internal-page">When searching for a painter in customers
+
+look for two things: quality of service and
+
+customer care. At RazorClean Painters, we
+
+know that you are not going to trust the
+
+spaces in your home or business to just
+
+any painter</h2>
+                                                <p>As proof of our talent and dedication to quality, RazorClean Painters gladly
+
+welcomes our customers and potential clients to browse our extensive photo
+
+gallery. Though we’ve been named one of the highest ranked painter in our
+
+region in terms of customer satisfaction, nothing speaks more to our
+
+commitment to quality than our actual work.</p>
 
                                             </div> 
                                         </div> 
@@ -152,27 +170,63 @@
                                             </div>
                                             <div class="item-wrapper">
                                                 <ul class="view effect-apollo row">
-                                                    <li class="item width2 height2 commercial">
+												<li class="item width2 height2 commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/strip-mall-02.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/p_gallary1.jpg);"></div>                    <figcaption>
                                                                 <h3>Strip Mall</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="strip-mall.html"></a>
                                                             </figcaption>
                                                         </figure>
                                                     </li>
-                                                    <li class="item commercial">
+													<li class="item width2 height2 commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/F1-11-1024x768.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/p_gallary2.jpg);"></div>                    <figcaption>
+                                                                <h3>Strip Mall</h3>
+                                                                <p>Commercial</p>
+                                                                <a href="strip-mall.html"></a>
+                                                            </figcaption>
+                                                        </figure>
+                                                    </li>
+													<li class="item width2 height2 commercial">
+                                                        <figure>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/p_gallary3.jpg);"></div>                    <figcaption>
+                                                                <h3>Strip Mall</h3>
+                                                                <p>Commercial</p>
+                                                                <a href="strip-mall.html"></a>
+                                                            </figcaption>
+                                                        </figure>
+                                                    </li>
+													<li class="item width2 height2 commercial">
+                                                        <figure>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/p_gallary4.jpg);"></div>                    <figcaption>
+                                                                <h3>Strip Mall</h3>
+                                                                <p>Commercial</p>
+                                                                <a href="strip-mall.html"></a>
+                                                            </figcaption>
+                                                        </figure>
+                                                    </li>
+                                                    <li class="item width2 height2 commercial">
+                                                        <figure>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/strip-mall-02.jpg);"></div>                    <figcaption>
+                                                                <h3>Strip Mall</h3>
+                                                                <p>Commercial</p>
+                                                                <a href="strip-mall.html"></a>
+                                                            </figcaption>
+                                                        </figure>
+                                                    </li>
+                                                    <!--li class="item commercial">
+                                                        <figure>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/F1-11-1024x768.jpg);"></div>                    <figcaption>
                                                                 <h3>F1 Race Factory</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="f1-race-factory.html"></a>
                                                             </figcaption>
                                                         </figure>
-                                                    </li>
+                                                    </li-->
                                                     <li class="item height2 commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/two-brothers-01.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/two-brothers-01.jpg);"></div>                    <figcaption>
                                                                 <h3>Two Brothers Brewing Company</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="two-brothers-brewing-company.html"></a>
@@ -181,7 +235,7 @@
                                                     </li>
                                                     <li class="item commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/country-inn-suites-01.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/country-inn-suites-01.jpg);"></div>                    <figcaption>
                                                                 <h3>Country Inn and Suites</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="country-inn-and-suites.html"></a>
@@ -190,7 +244,7 @@
                                                     </li>
                                                     <li class="item commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/99-cent-store-4.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/99-cent-store-4.jpg);"></div>                    <figcaption>
                                                                 <h3>99 Cent Only Store</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="99-cent-store.html"></a>
@@ -199,7 +253,7 @@
                                                     </li>
                                                     <li class="item commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/val-vista-02.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/val-vista-02.jpg);"></div>                    <figcaption>
                                                                 <h3>Val Vista Lakes Clubhouse</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="val-vista-lakes-clubhouse.html"></a>
@@ -208,7 +262,7 @@
                                                     </li>
                                                     <li class="item commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/pheonix-car-wash-10.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/pheonix-car-wash-10.jpg);"></div>                    <figcaption>
                                                                 <h3>Phoenix Car Wash</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="phoenix-car-wash.html"></a>
@@ -217,7 +271,7 @@
                                                     </li>
                                                     <li class="item residential">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/RI_021.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/RI_021.jpg);"></div>                    <figcaption>
                                                                 <h3>Residential Interior Gallery</h3>
                                                                 <p>Residential</p>
                                                                 <a href="residential-interior-gallery.html"></a>
@@ -226,7 +280,7 @@
                                                     </li>
                                                     <li class="item width2 commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/harmon-ranch-04.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/harmon-ranch-04.jpg);"></div>                    <figcaption>
                                                                 <h3>Harmon Ranch Fence Walls</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="harmon-ranch-fence-walls.html"></a>
@@ -235,16 +289,16 @@
                                                     </li>
                                                     <li class="item width2 height2 residential">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/RE_021.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/RE_021.jpg);"></div>                    <figcaption>
                                                                 <h3>Residential Exterior Gallery</h3>
                                                                 <p>Residential</p>
                                                                 <a href="residential-exterior-gallery.html"></a>
                                                             </figcaption>
                                                         </figure>
                                                     </li>
-                                                    <li class="item commercial">
+                                                    <!--li class="item commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/5343_N_16th_St-04-1-853x768.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/5343_N_16th_St-04-1-853x768.jpg);"></div>                    <figcaption>
                                                                 <h3>The Madison</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="photo-gallery/the-madison/the-madison.html"></a>
@@ -253,7 +307,7 @@
                                                     </li>
                                                     <li class="item residential">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/ba6.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/ba6.jpg);"></div>                    <figcaption>
                                                                 <h3>Before &#038; After Painting Jobs</h3>
                                                                 <p>Residential</p>
                                                                 <a href="photo-gallery/before-after-painting-jobs/before-after-painting-jobs.html"></a>
@@ -262,7 +316,7 @@
                                                     </li>
                                                     <li class="item width2 height2 residential">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/SANY0257-1024x768.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/SANY0257-1024x768.jpg);"></div>                    <figcaption>
                                                                 <h3>Unique Painting Ideas</h3>
                                                                 <p>Residential</p>
                                                                 <a href="photo-gallery/unique-painting-ideas/unique-painting-ideas.html"></a>
@@ -271,7 +325,7 @@
                                                     </li>
                                                     <li class="item commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/Discount-Tire-Regional-Office-2-1024x768.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/Discount-Tire-Regional-Office-2-1024x768.jpg);"></div>                    <figcaption>
                                                                 <h3>Discount Tire RazorClean Regional Office</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="javascript:;"></a>
@@ -280,43 +334,43 @@
                                                     </li>
                                                     <li class="item height2 residential">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/fence-gate3-1024x750.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/fence-gate3-1024x750.jpg);"></div>                    <figcaption>
                                                                 <h3>Fence &#038; Gate Painting Gallery</h3>
                                                                 <p>Residential</p>
                                                                 <a href="fence-gate-painting-gallery.html"></a>
                                                             </figcaption>
                                                         </figure>
                                                     </li>
-                                                    <li class="item commercial">
+                                                    <!--li class="item commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/mesa-riverview-tower-853x768.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/mesa-riverview-tower-853x768.jpg);"></div>                    <figcaption>
                                                                 <h3>Mesa Riverview Tower</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="mesa-riverview-tower.html"></a>
                                                             </figcaption>
                                                         </figure>
-                                                    </li>
+                                                    </li-->
                                                     <li class="item commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/commercial3.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/commercial3.jpg);"></div>                    <figcaption>
                                                                 <h3>Commercial Business Plaza</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="commercial-business-plaza.html"></a>
                                                             </figcaption>
                                                         </figure>
                                                     </li>
-                                                    <li class="item commercial">
+                                                    <!--li class="item commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/441_n_roosevelt_ave-03-1024x768.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/441_n_roosevelt_ave-03-1024x768.jpg);"></div>                    <figcaption>
                                                                 <h3>Southpark Business Center</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="southpark-business-center.html"></a>
                                                             </figcaption>
                                                         </figure>
-                                                    </li>
+                                                    </li-->
                                                     <li class="item commercial">
                                                         <figure>
-                                                            <div class="cover-image" style="background-image:url(<?php echo base_url()?>media/landing-pages/painters/wp-content/uploads/sun-city-festival-and-festival-ranch-4.jpg);"></div>                    <figcaption>
+                                                            <div class="cover-image" style="background-image:url(<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/sun-city-festival-and-festival-ranch-4.jpg);"></div>                    <figcaption>
                                                                 <h3>Sun City Festival &#038; Festival Ranch</h3>
                                                                 <p>Commercial</p>
                                                                 <a href="sun-city-festival-festival-ranch.html"></a>

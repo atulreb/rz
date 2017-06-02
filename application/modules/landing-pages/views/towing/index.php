@@ -189,20 +189,21 @@
                                 });
                             </script>
                         </div>
-                        <div id="text-8" class="widget widget_text substitute_widget_class">
+                        <div id="text-8" style="margin-left:0 !important;margin-top:15px" class="widget widget_text substitute_widget_class">
                             <div class="textwidget">
                                 <br>
                                 <br>
                                 <br>
-                                <br>
-                                <br>
-                                <br>
+                                <iframe width="300" height="230"
+src="https://www.youtube.com/embed/BYaOC7d10yA">
+</iframe>
 
                             </div>
                         </div>
                     </div>
                     <!-- end sidebarSubnav -->
                 </div>
+				
                 <!-- end sidebar -->
 
             </div>

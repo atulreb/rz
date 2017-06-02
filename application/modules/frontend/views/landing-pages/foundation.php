@@ -7,6 +7,7 @@
 
         <link href="favicon.png" type="image/x-icon" rel="shortcut icon">
         <link href="<?php echo base_url() ?>media/landing-pages/foundation/assets/css/master.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
         <script src="<?php echo base_url() ?>media/landing-pages/foundation/assets/plugins/jquery/jquery-1.11.3.min.js"></script>
         <script src="<?php echo base_url() ?>media/landing-pages/foundation/assets/js/modernizr.custom.js"></script>
@@ -16,11 +17,12 @@
             var base_url = '<?php echo base_url() ?>';
             var page_name = '<?php echo $page; ?>';
         </script>
+       
     </head>
 
 
     <body>
-
+<div id="sticky-anchor"></div>
         <!-- Loader -->
         <!--div id="page-preloader"><span class="spinner"></span></div-->
         <!-- Loader end -->
@@ -183,13 +185,13 @@
                         <div class="col-xs-12 text-center">
                             <h2 class="ui-title-block text-uppercase text-center">Our Cause</h2>
                             <div class="ui-subtitle-block ui-subtitle-block_large text-center">
-                               RazorClean Inc.
+                               RazorClean Foundation
                                 <div class="border-decor border-decor_mod-b center-element"></div>
                             </div>
 
                             <p class="fnt20 fnt-monserrat">
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
-RazorClean Inc. believes every child deserves a quality education and a chance to live in a clean and safe environment. 
+RazorClean Foundation believes every child deserves a quality education and a chance to live in a clean and safe environment. 
 Creating the RazorClean Foundation has empowered communities to stress education and the importants of happiness through clean. 
 Insuring that lives and communities are RazorClean, Safe, and Progressive. Together with the RazorClean customers, owner, 
 friends and members -has banded together to provide greater awareness and support for education and clean living.
@@ -918,7 +920,7 @@ and life-changing assistance to disabled, abused and disadvantaged children.
             <div class="section_mod-a">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3">
+                       <!--<div class="col-md-3">
                             <section class="section_mod-h">
                                 <h2 class="ui-title-inner ui-title-inner_small text-uppercase">CONTACT INFO.</h2>
                                 <div class="border-decor border-decor_mod-b border-decor_mod-e"></div>
@@ -931,8 +933,8 @@ North Little Rock, AR 72116 </li>
                                     <li class="list-contacts__item"><i class="icon icon_clock"></i> Mon - Fri: 8:00 a.m. - 8:00 p.m.</li>
                                 </ul>
                             </section>
-                        </div>
-                        <div class="col-md-9">
+                        </div>-->
+                        <div class="col-md-12">
                             <section class="section_mod-h">
                                 <h2 class="ui-title-inner ui-title-inner_small text-uppercase">SEND US A MESSAGE</h2>
                                 <div class="border-decor border-decor_mod-b border-decor_mod-e"></div>
@@ -1032,8 +1034,105 @@ North Little Rock, AR 72116 </li>
         </div>
     </div>
 </div>
+<style>
+.main-footer {
+	background-color: #444444;
+	width: 100%;
+}
 
-            <footer class="footer">
+.copyright-text {
+    color: #999;
+    font-size: 13px;
+    text-align: center;
+    line-height: 61px;
+}
+
+.social-links {
+	list-style:none;
+	margin-top: 15px;
+}
+
+.social-links li { 
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #272727;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	margin-right: 5px;
+}
+
+.social-links li a {
+	color:#fff;
+} 
+
+.social-links .facebook:hover {
+	background: #5c7ff6;
+} 
+
+.social-links .twitter:hover {
+	background: #22d5e3;
+}
+
+.social-links .google:hover {
+	background: #f82d2d;
+}
+
+.copyright-text, .social-links {
+	width: 21%;
+	float:left;
+}
+
+.leftDiv {
+	width:16%;
+	float:left;
+}
+
+@media all and (max-width: 425px) and (min-width: 200px) {
+  .copyright-text, .social-links {
+		width: 100%;
+		line-height: 30px;
+  }
+  
+  .social-links {
+	    padding-left: 35%;
+		margin-botttom:20px;
+  }
+}
+</style>
+
+<footer class="main-footer">
+    <div class="container">
+	      <div class="leftDiv"><img width="200" src="<?php echo frontend_asset_url()?>img/logow.png"></div>
+	
+           <span class="copyright-text">&copy; Copyright <?php echo date("Y")?> - RazorClean Foundation </span>
+           
+		   <span class="copyright-text">Call- 1-855 GO RZCLN (467-9256)</span>
+        
+		   <span class="copyright-text">Email- signup@rzclnhousecleaning.com</span>
+		   
+		   <ul class="social-links">
+				<li class="facebook">
+					<a target="_blank" href="<?php echo $global_setting['facebook_link']?>">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="twitter">
+					<a target="_blank" href="<?php echo $global_setting['twitter_link']?>">
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="google">
+					<a target="_blank" href="<?php echo $global_setting['google_link']?>">
+					<i class="fa fa-google-plus" aria-hidden="true"></i>
+					</a>
+				</li>
+			</ul>
+    </div>
+</footer>
+
+            <!--footer class="footer">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-12">
@@ -1115,7 +1214,7 @@ North Little Rock, AR 72116 </li>
                         </div>
                     </div>
                 </div>
-            </footer>
+            </footer-->
 
         </div>
         <!-- end layout-theme -->
@@ -1247,7 +1346,7 @@ North Little Rock, AR 72116 </li>
         </div>
 
 
-        <div id="rightSLideBar" class="hidden-xs hidden-sm">
+        <!--div id="rightSLideBar" class="hidden-xs hidden-sm">
             <div class="panel1 panel-default">
                 <div class="panel-leftheading">
                     <h3 class="panel-lefttitle"><i class="fa fa-users"></i> Lorem ipsum <br> dolor sit amet</h3>
@@ -1280,7 +1379,7 @@ North Little Rock, AR 72116 </li>
                 <div class="clearfix">
                 </div>
             </div>
-        </div>	
+        </div-->	
         <div id="applyModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1348,6 +1447,13 @@ North Little Rock, AR 72116 </li>
                 </div>
             </div>
         </div>
+		
+		
+		
+		
+		
+		
+<iframe src="<?php echo base_url()?>razorclean/stickyfooter" style="width: 100%;height: 66px;padding-top: 0px;position: fixed;bottom: 0;background: rgba(0, 0, 0, 0.45);z-index: 99999;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0"></iframe>
 
     </body>
 </html>

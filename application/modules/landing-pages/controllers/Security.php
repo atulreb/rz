@@ -41,6 +41,10 @@ class Security extends CI_Controller {
         $this->load->view('security/eventpermits', $data);
     }
 
+	 public function otherAreaExpertise() {
+        $data['global_setting'] = $this->global_setting;
+        $this->load->view('security/otherareaexpertise', $data);
+    }
     public function mediacenter($pg="") {
         $this->load->model('blog_model');
         $data['global_setting'] = $this->global_setting;

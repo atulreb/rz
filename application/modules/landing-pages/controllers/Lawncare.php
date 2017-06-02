@@ -44,6 +44,34 @@ class Lawncare extends CI_Controller {
     public function contactus() {
         $data['global_setting'] = $this->global_setting;
         $this->load->view('lawncare/contactus', $data);
+    }
+	public function belgiumBlock() {
+        $data['global_setting'] = $this->global_setting;
+        $this->load->view('lawncare/belgium_block', $data);
+    }
+	public function landscapeEdging() {
+        $data['global_setting'] = $this->global_setting;
+        $this->load->view('lawncare/landscape_edging', $data);
+    } 
+	public function aerationAndSeeding() {
+        $data['global_setting'] = $this->global_setting;
+        $this->load->view('lawncare/aeration_and_seeding', $data);
+    } 
+	public function programs() {
+        $data['global_setting'] = $this->global_setting;
+        $this->load->view('lawncare/programs', $data);
+    }
+	public function sprinklerRepair() {
+        $data['global_setting'] = $this->global_setting;
+        $this->load->view('lawncare/sprinkler_repair', $data);
+    }
+	public function ourWork() {
+        $data['global_setting'] = $this->global_setting;
+        $this->load->view('lawncare/our-work', $data);
+    }
+	public function weatherServices() {
+        $data['global_setting'] = $this->global_setting;
+        $this->load->view('lawncare/weather_services', $data);
     }    
     public function blog($pg = '') {
         $this->load->model('blog_model');

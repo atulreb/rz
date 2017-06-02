@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.onsitedetailing.net	TRUE	/	FALSE	1999999999	PHPSESSID	246e24b03aa665d607c86e850d04582e
+

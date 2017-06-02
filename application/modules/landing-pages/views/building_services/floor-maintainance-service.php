@@ -8,518 +8,541 @@
                                 </header>
                                 <div class="entry-content" itemprop="text">  <style>
                                         .slider_text {
-                                            text-align: center;
-                                        }
-                                        *{
-                                            text-decoration: none;
-                                        }
-                                        .the_page
-                                        {
-                                            padding: 0;
-                                        }
-                                        body
-                                        {
-                                            position: absolute;
-                                            top: 0;
-                                            left: 0;
-                                            right: 0;
-                                            margin: 0;
-                                        }
-                                        .slider_info:hover
-                                        {
-                                            opacity: 1;
-                                            animation: ease-in-out;
-                                        }
-                                        .slider_info
-                                        {
-                                            position: absolute;
-                                            opacity: .8;
-                                            top: 60px;
-                                            left: 0;
-                                            right: 0;
-                                            animation: 10s fading;
-                                        }
-                                        .poster_title
-                                        {
-                                            display: none;
-                                        }
-                                        .banner
-                                        {
-                                            position: absolute;
-                                            top: 0;
-                                            left: 0;
-                                            right: 0;
-                                        }
-                                        .slider_window
-                                        {
-                                            max-width: 1140px;
-                                            margin: 0 auto;
-                                            margin-bottom: 20px;
-                                            overflow: hidden;
-                                            position: relative;
-                                        }
-                                        @keyframes fading {
-                                            0% {
-                                                opacity: 1;
-                                            }
-                                            100% {
-                                                opacity: .8;
-                                            }
-                                        }
-                                        @keyframes slidy {
-                                            0% {
-                                                transform: translateX(0px)
-                                            }
-                                            8% {
-                                                transform: translateX(0px)
-                                            }
-                                            11% {
-                                                transform: translateX(-10%)
-                                            }
-                                            19% {
-                                                transform: translateX(-10%)
-                                            }
-                                            22% {
-                                                transform: translateX(-20%)
-                                            }
-                                            31% {
-                                                transform: translateX(-20%)
-                                            }
-                                            33% {
-                                                transform: translateX(-30%)
-                                            }
-                                            42% {
-                                                transform: translateX(-30%)
-                                            }
-                                            44% {
-                                                transform: translateX(-40%)
-                                            }
-                                            53% {
-                                                transform: translateX(-40%)
-                                            }
-                                            56% {
-                                                transform: translateX(-50%)
-                                            }
-                                            64% {
-                                                transform: translateX(-50%)
-                                            }
-                                            67% {
-                                                transform: translateX(-60%)
-                                            }
-                                            75% {
-                                                transform: translateX(-60%)
-                                            }
-                                            78% {
-                                                transform: translateX(-70%)
-                                            }
-                                            86% {
-                                                transform: translateX(-70%)
-                                            }
-                                            89% {
-                                                transform: translateX(-80%)
-                                            }
-                                            97% {
-                                                transform: translateX(-80%)
-                                            }
-                                            100% {
-                                                transform: translateX(-90%)
-                                            }
-                                        }
+            text-align: center;
+        }
+        *{
+            text-decoration: none;
+        }
+        .the_page
+        {
+            padding: 0;
+        }
+        body
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+        }
+        .slider_info:hover
+        {
+            opacity: 1;
+            animation: ease-in-out;
+        }
+        .slider_info
+        {
+            position: absolute;
+            opacity: .8;
+            top: 60px;
+            left: 0;
+            right: 0;
+            animation: 10s fading;
+        }
+        .poster_title
+        {
+            display: none;
+        }
+        .banner
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .slider_window
+        {
+            max-width: 1140px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+        @keyframes fading {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: .8;
+            }
+        }
+        @keyframes slidy {
+            0% {
+                transform: translateX(0px)
+            }
+            8% {
+                transform: translateX(0px)
+            }
+            11% {
+                transform: translateX(-10%)
+            }
+            19% {
+                transform: translateX(-10%)
+            }
+            22% {
+                transform: translateX(-20%)
+            }
+            31% {
+                transform: translateX(-20%)
+            }
+            33% {
+                transform: translateX(-30%)
+            }
+            42% {
+                transform: translateX(-30%)
+            }
+            44% {
+                transform: translateX(-40%)
+            }
+            53% {
+                transform: translateX(-40%)
+            }
+            56% {
+                transform: translateX(-50%)
+            }
+            64% {
+                transform: translateX(-50%)
+            }
+            67% {
+                transform: translateX(-60%)
+            }
+            75% {
+                transform: translateX(-60%)
+            }
+            78% {
+                transform: translateX(-70%)
+            }
+            86% {
+                transform: translateX(-70%)
+            }
+            89% {
+                transform: translateX(-80%)
+            }
+            97% {
+                transform: translateX(-80%)
+            }
+            100% {
+                transform: translateX(-90%)
+            }
+        }
 
-                                        li.slide {
-                                            display: inline-block;
-                                        }
+        li.slide {
+            display: inline-block;
+        }
 
-                                        #slider_container {
-                                            max-height: 450px;
-                                            margin: 0 auto;
-                                            position: relative;
-                                            z-index: 0;
-                                        }
+        #slider_container {
+            max-height: 450px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 0;
+        }
 
-                                        #slider {
-                                            width: 1000%;
-                                            position: relative;
-                                            transition: all 500ms ease-in-out;
-                                            animation: 20s slidy infinite;
-                                            animation-delay: 5s;
-                                            z-index: -1;
-                                            margin: 0;
-                                        }
+        #slider {
+            width: 1000%;
+            position: relative;
+            transition: all 500ms ease-in-out;
+            animation: 20s slidy infinite;
+            animation-delay: 5s;
+            z-index: -1;
+            margin: 0;
+        }
 
-                                        .poster_photo {
-                                            width: 100%;
-                                        }
+        .poster_photo {
+            width: 100%;
+        }
 
-                                        img.slide_img {
-                                            position: absolute;
-                                            bottom: 0px;
-                                            left: 0;
-                                            display: initial;
-                                        }
+        img.slide_img {
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            display: initial;
+        }
 
-                                        li.slide {
-                                            //box-sizing:border-box;
-                                            //border: 10px solid #16BBF0;
-                                            width: 10%;
-                                            height: 400px;
-                                            z-index: -1;
-                                            display: inline-block;
-                                        }
+        li.slide {
+            //box-sizing:border-box;
+            //border: 10px solid #16BBF0;
+            width: 10%;
+            height: 400px;
+            z-index: -1;
+            display: inline-block;
+        }
 
-                                        #slider div {
-                                            position: absolute;
-                                            width: 100%;
-                                        }
+        #slider div {
+            position: absolute;
+            width: 100%;
+        }
 
-                                        .tab {
-                                            background-color: #333333;
-                                            /* 
-                                            cursor: pointer; 
-                                            */
-                                            float: left;
-                                            margin-top: 390px;
-                                            width: 12.5%;
-                                            transition: all .2s linear;
-                                            height: 35px;
-                                            padding-top: 5px;
-                                            border-bottom: 1px solid #d5d5d5;
-                                            text-align: center;
-                                            color: white;
-                                        }
+        .tab {
+            background-color: #333333;
 
-                                        img.tab_icon {
-                                            width: 16%;
-                                            display: inline-block;
-                                        }
+            cursor: pointer; 
 
-                                        h3.tab_label {
-                                            font-family: 'Oswald', Arial, sans-serif;
-                                            color: white;
-                                            text-align: center;
-                                            font-size: 14px;
-                                            font-weight: 300;
-                                            line-height: 1.625;
-                                            margin: 0px;
-                                            display: inline-block;
-                                            vertical-align: top;
-                                            margin-left: 7px;
-                                        }
+            float: left;
+            margin-top: 390px;
+            width: 12.5%;
+            transition: all .2s linear;
+            height: 35px;
+            padding-top: 5px;
+            border-bottom: 1px solid #d5d5d5;
+            text-align: center;
+            color: white;
+        }
 
-                                        #slider li:nth-child(1) {
-                                            position: absolute;
-                                            left: 0%;
-                                        }
+        img.tab_icon {
+            width: 16%;
+            display: inline-block;
+        }
 
-                                        #slider li:nth-child(2) {
-                                            position: absolute;
-                                            left: 10%;
-                                        }
+        h3.tab_label {
+            font-family: 'Oswald', Arial, sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.625;
+            margin: 0px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 7px;
+        }
 
-                                        #slider li:nth-child(3) {
-                                            position: absolute;
-                                            left: 20%;
-                                        }
+        #slider li:nth-child(1) {
+            position: absolute;
+            left: 0%;
+        }
 
-                                        #slider li:nth-child(4) {
-                                            position: absolute;
-                                            left: 30%;
-                                        }
+        #slider li:nth-child(2) {
+            position: absolute;
+            left: 10%;
+        }
 
-                                        #slider li:nth-child(5) {
-                                            position: absolute;
-                                            left: 40%;
-                                        }
+        #slider li:nth-child(3) {
+            position: absolute;
+            left: 20%;
+        }
 
-                                        #slider li:nth-child(6) {
-                                            position: absolute;
-                                            left: 50%;
-                                        }
+        #slider li:nth-child(4) {
+            position: absolute;
+            left: 30%;
+        }
 
-                                        #slider li:nth-child(7) {
-                                            position: absolute;
-                                            left: 60%;
-                                        }
+        #slider li:nth-child(5) {
+            position: absolute;
+            left: 40%;
+        }
 
-                                        #slider li:nth-child(8) {
-                                            position: absolute;
-                                            left: 70%;
-                                        }
+        #slider li:nth-child(6) {
+            position: absolute;
+            left: 50%;
+        }
 
-                                        #slider li:nth-child(9) {
-                                            position: absolute;
-                                            left: 80%;
-                                        }
+        #slider li:nth-child(7) {
+            position: absolute;
+            left: 60%;
+        }
 
-                                        #slider li:nth-child(10) {
-                                            position: absolute;
-                                            left: 90%;
-                                        }
-                                        /*
-                                        #slider_container div:nth-child(1):hover ~ #slider {
-                                          animation: paused;
-                                          transform: translateX(-10%);
-                                        }
-                                        
-                                        #slider_container div:nth-child(1):hover {
-                                          background-color: #16BBF0;
-                                          height: 60px;
-                                          z-index: 1;
-                                          margin-top: 365px;
-                                        }
-                                        
-                                        #slider_container div:nth-child(2):hover {
-                                          background-color: #16BBF0;
-                                          height: 60px;
-                                          z-index: 1;
-                                          margin-top: 365px;
-                                        }
-                                        
-                                        #slider_container div:nth-child(2):hover ~ #slider {
-                                          animation: paused;
-                                          transform: translateX(-20%);
-                                        }
-                                        
-                                        #slider_container div:nth-child(3):hover {
-                                          background-color: #16BBF0;
-                                          height: 60px;
-                                          z-index: 1;
-                                          margin-top: 365px;
-                                        }
-                                        
-                                        #slider_container div:nth-child(3):hover ~ #slider {
-                                          animation: paused;
-                                          transform: translateX(-30%);
-                                        }
-                                        
-                                        #slider_container div:nth-child(4):hover {
-                                          background-color: #16BBF0;
-                                          height: 60px;
-                                          z-index: 1;
-                                          margin-top: 365px;
-                                        }
-                                        
-                                        #slider_container div:nth-child(4):hover ~ #slider {
-                                          animation: paused;
-                                          transform: translateX(-40%);
-                                        }
-                                        
-                                        #slider_container div:nth-child(5):hover {
-                                          background-color: #16BBF0;
-                                          height: 60px;
-                                          z-index: 1;
-                                          margin-top: 365px;
-                                        }
-                                        
-                                        #slider_container div:nth-child(5):hover ~ #slider {
-                                          animation: paused;
-                                          transform: translateX(-50%);
-                                        }
-                                        
-                                        #slider_container div:nth-child(6):hover {
-                                          background-color: #16BBF0;
-                                          height: 60px;
-                                          z-index: 1;
-                                          margin-top: 365px;
-                                        }
-                                        
-                                        #slider_container div:nth-child(6):hover ~ #slider {
-                                          animation: paused;
-                                          transform: translateX(-60%);
-                                        }
-                                        
-                                        #slider_container div:nth-child(7):hover {
-                                          background-color: #16BBF0;
-                                          height: 60px;
-                                          z-index: 1;
-                                          margin-top: 365px;
-                                        }
-                                        
-                                        #slider_container div:nth-child(7):hover ~ #slider {
-                                          animation: paused;
-                                          transform: translateX(-70%);
-                                        }
-                                        
-                                        #slider_container div:nth-child(8):hover {
-                                          background-color: #16BBF0;
-                                          height: 60px;
-                                          z-index: 1;
-                                          margin-top: 365px;
-                                        }
-                                        
-                                        #slider_container div:nth-child(8):hover ~ #slider {
-                                          animation: paused;
-                                          transform: translateX(-80%);
-                                        }*/
+        #slider li:nth-child(8) {
+            position: absolute;
+            left: 70%;
+        }
 
-                                        h4.banner_home_button_link {
-                                            color: white;
-                                            margin: 0;
-                                            line-height: 38px;
-                                            vertical-align: middle;
-                                            font-family: 'Titillium Web', sans-serif;
-                                            font-size: 22px;
-                                            background-color: #00AFF0;
-                                            transition: background-color 0.3s ease;
-                                            margin: 0 auto;
-                                            width: 273px;
-                                            height: 38px;
-                                            display: block;
-                                            text-align: center;
-                                        }
-                                        .title {
-                                            margin: 0;
-                                        }
-                                        .slider_text
-                                        {
-                                            padding: 40px 0px 30px 20px;
-                                            color: white;
-                                            text-transform: uppercase;
-                                            text-shadow: 1px 1px 7px #6B6B6B;
-                                            font-family: 'Titillium Web', sans-serif;
-                                            font-size: 50px;
-                                        }
-                                        .secondline:hover {
-                                            opacity: 1;
-                                            animation: ease-in-out;
-                                        }
-                                        .secondline {
-                                            text-align: left;
-                                            position: absolute;
-                                            top: 110px;
-                                            display: none;
-                                            animation: 10s fading;
-                                            opacity: .8;
-                                        }
-                                        .subtext
-                                        {
-                                            font-size: 22px;
-                                        }
-                                        .poster_photo
-                                        {
-                                            display: none;
-                                        }
-                                        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
-                                        @media screen and (max-width: 1050px)
-                                        {
-                                            h3.tab_label {
-                                                font-size: 12px;
-                                            }
-                                        }
-                                        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
-                                        @media screen and (max-width: 950px)
-                                        {
-                                            .t1
-                                            {
-                                                display: none;
-                                            }
-                                            .tab
-                                            {
-                                                width: 14.285%;
-                                            }
-                                            h3.tab_label {
-                                                font-size: 13px;
-                                            }
-                                        }
-                                        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
-                                        @media screen and (max-width: 905px)
-                                        {
-                                            h3.tab_label {
-                                                font-size: 12px;
-                                            }
-                                        }
-                                        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERIES FOR SMALLER WINDOWSvvvvvvvvvvvvvvvvvvvvvv */
-                                        @media screen and (max-width: 890px)
-                                        {
-                                            h1.slider_text
-                                            {
-                                                font-size: 40px;
-                                            }
-                                            h1.secondline {
-                                                top: 100px;
-                                            }
-                                        }
-                                        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
-                                        @media screen and (max-width: 875px)
-                                        {
+        #slider li:nth-child(9) {
+            position: absolute;
+            left: 80%;
+        }
 
-                                        }
-                                        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
-                                        @media screen and (max-width: 820px)
-                                        {
-                                            .t2
-                                            {
-                                                display: none;
-                                            }
-                                            h3.tab_label {
-                                                font-size: 12px;
-                                            }
-                                            .tab
-                                            {
-                                                width: 16.6666%;
-                                            }
-                                        }
-                                        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERIES FOR PHONES vvvvvvvvvvvvvvvvvvvvvv */
-                                        @media (max-width: 765px) {
-                                            .the_page
-                                            {
-                                                padding: 50px 0;
-                                            }
-                                            .poster_title
-                                            {
-                                                display: initial;
-                                            }
-                                            .slider_window
-                                            {
-                                                display: none;
-                                            }
-                                            .poster_photo
-                                            {
-                                                display: block;
-                                            }
-                                            .poster_photo
-                                            {
-                                                display: ;
-                                            }
-                                            .poster_photo {
-                                                position: relative;
-                                            }
-                                            .slider_text
-                                            {
-                                                position: absolute;
-                                                left: 0;
-                                                font-size: 20px;
-                                                text-align: center;
-                                            }
-                                        }
-                                        .slider_text
-                                        {
-                                            width: 90%;
-                                            padding: 2% 0 0 5%;
-                                            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-                                            margin: 5% 0 0 5%;
-                                            padding: 0;
-                                        }
-                                        .subtext {
-                                            font-size: 22px;
-                                        }
-                                        .slider_home_button
-                                        {
-                                            display: none;
-                                        }
+        #slider li:nth-child(10) {
+            position: absolute;
+            left: 90%;
+        }
+
+        #slider_container div:nth-child(1):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-10%);
+        }
+
+        #slider_container div:nth-child(1):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
+
+        #slider_container div:nth-child(2):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
+
+        #slider_container div:nth-child(2):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-20%);
+        }
+
+        #slider_container div:nth-child(3):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
+
+        #slider_container div:nth-child(3):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-30%);
+        }
+
+        #slider_container div:nth-child(4):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
+
+        #slider_container div:nth-child(4):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-40%);
+        }
+
+        #slider_container div:nth-child(5):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
+
+        #slider_container div:nth-child(5):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-50%);
+        }
+
+        #slider_container div:nth-child(6):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
+
+        #slider_container div:nth-child(6):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-60%);
+        }
+
+        #slider_container div:nth-child(7):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
+
+        #slider_container div:nth-child(7):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-70%);
+        }
+
+        #slider_container div:nth-child(8):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
+
+        #slider_container div:nth-child(8):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-80%);
+        }
+
+        h4.banner_home_button_link {
+            color: white;
+            margin: 0;
+            line-height: 38px;
+            vertical-align: middle;
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 22px;
+            background-color: #00AFF0;
+            transition: background-color 0.3s ease;
+            margin: 0 auto;
+            width: 273px;
+            height: 38px;
+            display: block;
+            text-align: center;
+        }
+        .title {
+            margin: 0;
+        }
+        .slider_text
+        {
+            padding: 40px 0px 30px 20px;
+            color: white;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 7px #6B6B6B;
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 50px;
+        }
+        .secondline:hover {
+            opacity: 1;
+            animation: ease-in-out;
+        }
+        .secondline {
+            text-align: left;
+            position: absolute;
+            top: 110px;
+            display: none;
+            animation: 10s fading;
+            opacity: .8;
+        }
+        .subtext
+        {
+            font-size: 22px;
+        }
+        .poster_photo
+        {
+            display: none;
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 1050px)
+        {
+            h3.tab_label {
+                font-size: 12px;
+            }
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 950px)
+        {
+            .t1
+            {
+                display: none;
+            }
+            .tab
+            {
+                width: 14.285%;
+            }
+            h3.tab_label {
+                font-size: 13px;
+            }
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 905px)
+        {
+            h3.tab_label {
+                font-size: 12px;
+            }
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERIES FOR SMALLER WINDOWSvvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 890px)
+        {
+            h1.slider_text
+            {
+                font-size: 40px;
+            }
+            h1.secondline {
+                top: 100px;
+            }
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 875px)
+        {
+
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 820px)
+        {
+            .t2
+            {
+                display: none;
+            }
+            h3.tab_label {
+                font-size: 12px;
+            }
+            .tab
+            {
+                width: 16.6666%;
+            }
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERIES FOR PHONES vvvvvvvvvvvvvvvvvvvvvv */
+        @media (max-width: 765px) {
+            .the_page
+            {
+                padding: 50px 0;
+            }
+            .poster_title
+            {
+                display: initial;
+            }
+            .slider_window
+            {
+                display: none;
+            }
+            .poster_photo
+            {
+                display: block;
+            }
+            .poster_photo
+            {
+                display: ;
+            }
+            .poster_photo {
+                position: relative;
+            }
+            .slider_text
+            {
+                position: absolute;
+                left: 0;
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        .slider_text
+        {
+            width: 90%;
+            padding: 2% 0 0 5%;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+            margin: 5% 0 0 5%;
+            padding: 0;
+        }
+        .subtext {
+            font-size: 22px;
+        }
+        .slider_home_button
+        {
+            display: none;
+        }
                                     </style>
                                     <div class="poster_photo"><img src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space"><div class="poster_title slider_text">A superior floor maintenance program<div class="subtext"></div></div></div>
                                     <div class="slider_window">
                                         <section id="slider_container">
-                                            <a href="../../additional-services/office-cleaning-service/index.html"><div class="tab t1"><i class="material-icons">headset_mic</i><h3 class="tab_label">Office</h3></div></a>
-                                            <a href="../janitorial-cleaning-services/healthcare/index.html"><div class="tab t2"><i class="material-icons">local_pharmacy</i><h3 class="tab_label">Healthcare</h3></div></a>
-                                            <a href="../janitorial-cleaning-services/educational/index.html"><div class="tab t3"><i class="material-icons">school</i><h3 class="tab_label">Education</h3></div></a>
-                                            <a href="../janitorial-cleaning-services/industrial/index.html"><div class="tab t4"><i class="material-icons">location_city</i><h3 class="tab_label">Industrial</h3></div></a>
-                                            <a href="../janitorial-cleaning-services/financial/index.html"><div class="tab t5"><i class="material-icons">attach_money</i><h3 class="tab_label">Financial</h3></div></a>
-                                            <a href="../janitorial-cleaning-services/religious/index.html"><div class="tab t6"><i class="material-icons">account_balance</i><h3 class="tab_label">Religious</h3></div></a>
-                                            <a href="../janitorial-cleaning-services/commercial/index.html"><div class="tab t7"><i class="material-icons">business</i><h3 class="tab_label">Commercial</h3></div></a>
-                                            <a href="../janitorial-cleaning-services/retail/index.html"><div class="tab t8"><i class="material-icons">shopping_cart</i><h3 class="tab_label">Retail</h3></div></a>
-
+                                           <a href="<?php echo base_url()?>building-services/office-cleaning-services">
+                                        <div class="tab t1"><i class="material-icons">headset_mic</i>
+                                            <h3 class="tab_label">Office</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/healthcare-building">
+                                        <div class="tab t2"><i class="material-icons">local_pharmacy</i>
+                                            <h3 class="tab_label">Healthcare</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/educational-building">
+                                        <div class="tab t3"><i class="material-icons">school</i>
+                                            <h3 class="tab_label">Education</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/industrial-building">
+                                        <div class="tab t4"><i class="material-icons">location_city</i>
+                                            <h3 class="tab_label">Industrial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/financial-building">
+                                        <div class="tab t5"><i class="material-icons">attach_money</i>
+                                            <h3 class="tab_label">Financial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/religious-building">
+                                        <div class="tab t6"><i class="material-icons">account_balance</i>
+                                            <h3 class="tab_label">Religious</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/commercial-building">
+                                        <div class="tab t7"><i class="material-icons">business</i>
+                                            <h3 class="tab_label">Commercial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/retail-building">
+                                        <div class="tab t8"><i class="material-icons">shopping_cart</i>
+                                            <h3 class="tab_label">Retail</h3></div>
+                                    </a>
                                             <ul id="slider">
                                                 <li class="slide">
                                                     <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/oval-office-100.jpg" alt="">
@@ -566,7 +589,7 @@
                                         <div class="slider_info">
                                             <h1 class="title slider_text">A superior floor maintenance program<br><div class="subtext"></div></h1>
                                             <a href="../../index.html" onclick="__gaTracker('send', 'event', 'outbound-article', '../../index.html', '\n            knightjanitorial.com\n        ');" class="slider_home_button"  target="_blank">
-                                                <h4 class="banner_home_button_link" style="padding:0 !important">knightjanitorial.com</h4>
+                                                <h4 class="banner_home_button_link" style="padding:0 !important">RazorCLean Inc.</h4>
                                             </a>
                                         </div>
                                     </div>
@@ -864,7 +887,7 @@
                                                 <img class="blue_arrow_flipped" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Arrow-75-flipped.png">
                                                 <div class="form_cta" style="text-align:center;">
                                                     <div class="form_title">Let the experts handle it!</div>
-                                                    <div class="form_title form_title_subtext">KNIGHT JANITORIAL HAS OVER A DECADE IN EXPERIENCE!</div>
+                                                    <div class="form_title form_title_subtext">RAZORCLEAN BUILDING SERVICES HAS OVER A DECADE IN EXPERIENCE!</div>
                                                 </div>
                                                 <div class="arrow-down"></div>
                                                 <p class="form_text">Tell us a little about yourself and we'll call you within one business day!</p>
@@ -991,8 +1014,8 @@
     setInterval(function(){document.getElementById('entry_1257225578').value = screen.width; }, 1500);</script></div>
                                     <div class="sixty read_more">
                                         <div class="ilblock">
-                                            <h1 class="sub_title">Knight Janitorial Services is known for its superior floor maintenance program</h1>
-                                            <p>We offer a variety of services for hard surface flooring and carpet flooring. Knight Janitorial Services utilizes the best swing machines, floor pads, and other floor equipment to strip &amp; wax, spray buff, polish, and scrub all types of hard surface flooring.  We have the capability to scrub and seal grout lines which can become very grimy if not properly cared for.</p><!-- --><div class="spacer"></div><div></div><img class="fifty" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/12/shiny-floor-warehouse-yellow-poles-4x3-100.jpg" alt="" /><!-- --><div class="forty">
+                                            <h1 class="sub_title">RazorClean Building Services Superior floor Care</h1>
+                                            <p>We offer a variety of services for hard surface flooring and carpet flooring. RBS utilizes the best swing machines, floor pads, and other floor equipment to strip & wax, spray buff, polish, and scrub all types of hard surface flooring. We have the capability to scrub and seal grout lines which can become very grimy if not properly cared for.</p><!-- --><div class="spacer"></div><div></div><img class="fifty" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/12/shiny-floor-warehouse-yellow-poles-4x3-100.jpg" alt="" /><!-- --><div class="forty">
                                                 <h3 class="title-description" style="text-align: left;">Our floor maintenance team can handle several types of hard surface flooring such as:</h3>
                                                 <ul style="text-align: left;">
                                                     <li>VCT (Vinyl Composite Tile)</li>
@@ -1005,12 +1028,12 @@
                                             </div>
                                             <div class="spacer"></div>
                                             <h3 class="subject">Carpet Cleaning and Maintenance Services</h3>
-                                            <p>Knight Janitorial Services has a great carpet cleaning service that can cover all types of carpeting.  We use low moisture methods and hot water extraction to remove dirt, grime, and stains from corner cubicles to high traffic hallways.</p>
+                                            <p>RBS is a carpet cleaning service that can cover all types of carpeting. We use low moisture methods and hot water extraction to remove dirt, grime, and stains from corner cubicles to high traffic hallways.</p>
 
-                                            <p>For smaller spaces we like to operate with hot water portable extractors and for larger carpeted areas we will restore it using a walk behind carpet cleaning machine or a truck mount if applicable.</p>
+                                            <p>For smaller spaces, we like to operate with hot water portable extractors and for larger carpeted areas we will restore it using a walk behind carpet cleaning machine or a truck mount if applicable.</p>
                                             <div class="spacer"></div>
                                             <h3 class="subject">Power Washing Services</h3>
-                                            <p>Knight Janitorial Services has the equipment and expertise to handle any size power washing job you might need on your property.  Our team of trained professionals provides a wide range of exterior and interior power washing services for your building.  We use the latest in trailer mount power washing technology to carry out all different types and size jobs.</p>
+                                            <p>RBS has the equipment and expertise to handle any size power washing job you might need on your property. Our team of trained professionals provides a wide range of exterior and interior power washing services for your building. We use the latest in trailer mount power washing technology to carry out all different types and size jobs.</p>
                                             <h3 class="sub_title">We specialize in removing problems like:</h3>
                                             <img class="fifty" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/12/IMG_1553-4x3.jpg" alt="grime being removed" />
                                             <ul class="forty">
@@ -1022,18 +1045,9 @@
                                             <div class="spacer"></div>
                                             <h3 class="subject">Parking Lot Striping Services</h3>
                                             <img src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/12/Power-Washing-Before-After-200.jpg" alt="power washing and striping before and after" />
-                                            <p>Not matter the size of the project, Knight Janitorial Services has the capacity to meet many needs of parking lots and striping requirements.</p>
-                                            <h3 class="sub_title">Services Include:</h3>
-                                            <ul class="">
-                                                <li>Parking Lot Re-Striping</li>
-                                                <li>New Parking Layouts</li>
-                                                <li>Traffic Buttons, Markets, and Reflectors</li>
-                                                <li>Warehouse Floor Striping</li>
-                                                <li>Wheel Stops</li>
-                                                <li>Speed Bumps</li>
-                                                <li>Sand Blasting</li>
-                                                <li>Signate</li>
-                                            </ul>
+                                            <p>Not matter the size of the project, RBS has the capacity to meet many needs of parking lots and striping requirements.</p>
+                                           <a href="javascript:;">CALL TODAY: 1-855-GO RZCLN (467-9256).
+RazorClean, The Circle Of Trust, Save Money Live RazorClean.</a>
                                         </div>
                                     </div>
                                     <style>

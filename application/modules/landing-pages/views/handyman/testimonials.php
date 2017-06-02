@@ -51,7 +51,7 @@
             <?php $this->load->view('partials/l_sidebar') ?>
         </div>
         <div id="body-bottom" class="section hide-from-tablet">
-            <img src="<?php echo base_url() ?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/body-bottom.jpg" alt="Chicago Handyman" />
+            <img src="<?php echo base_url() ?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/body-bottom.jpg" alt="RazorClean Handyman" />
         </div>
         <div id="cert" class="section hide-from-tablet"></div>
     </div>

@@ -1597,10 +1597,17 @@
             </div>
             <div class="row">	
                 <div class="col-md-12 mainContent">
-                    <h1 class="page_header">Welcome to On-Site Detailing</h1>
-                    <p><a href="https://member.angieslist.com/member/store/1934016?ref=search&amp;categoryId=16"><img class="alignleft size-full wp-image-129" src="<?php echo base_url()?>media/landing-pages/mobile-detail/wp-content/uploads/2016/11/angies-list.png" alt="Angies List" width="225" height="186" /></a>Professional, mobile auto detailing service is what On-Site Detailing, Inc does. Located in Wilmington, Delaware and Incorporated in 2003 On-Site detailing was developed by Owner and auto enthusiast Demetri Kyranakis who was formerly a sales representative w/ Mercedes Benz. It was here that many would call and ask “where should I take my car to have it cleaned properly?&#8221;. At the time, there was no good answer. Now, On-Site Detailing is the solution! Whether you are at home or at the office, On-Site Detailing comes to you! We strive for perfection on every appointment and welcome everyone’s feedback. Our client base consists of corporate as well as individual clients.</p>
-                    <p>On-Site Detailing – Delaware, Pennsylvania, New Jersey and Maryland’s leading mobile auto detailing service On-Site Detailing comes to your home or office to wash or fully detail your vehicle! Don’t wait in line for a disappointing service at your local “car wash�?. Our employees are certified auto detailers with certificates in automotive appearance. We treat you vehicle like it’s our own, our services start at $49.00. We also offer group discounts.</p>
-                </div>
+                    <h1 class="page_header">Welcome to RazorClean Mobile Detail</h1>
+                   <p><iframe width="420" height="315" src="https://www.youtube.com/embed/-gsJdSdC_Q8" style="
+    float: left;
+    margin-right: 12px;
+">
+</iframe>Specializing in auto’s, recreational vehicles, off-road, motorcycles, boats and watercraft, and truck rigs. RazorClean Mobile Detailing is licensed and insured, we offer competitive pricing, friendly professional service and experience.</p>
+                    <p>We can service your vehicle at your home or office, bringing all the equipment and products to restore your vehicle to its original beauty. We use a spot-free system, de-ionized water filtration system that enables us to wash your vehicle with professional results. For a gentle thorough wash, we use specially formulated products to ensure a proper finish each and every time. With our many years of auto detailing experience, our employees only use the finest products to optimize the perfect results.</p>
+                <p>Protect your investment and contact us today to set up an appointment for auto detailing or to set up monthly account service, or fleet services.  We are by appointment and last min request. 
+Call Today: 1-855-GO RZCLN (467-9256). 
+The Circle OF Trust, Save Money Live RazorClean.</p>
+				</div>
             </div>
             <div class="row">	
                 <div class="col-md-12 mainBody">
@@ -1623,7 +1630,7 @@
                                 <div class="home-icon">
                                     <a href="<?php echo base_url()?>mobile-detail/full-auto-detailing-service" title="Cars $149 &#8211; $159 Truck/SUV $179 &#8211; $199 The best" rel="bookmark">        <h3>Full Auto Detail Service</h3>
                                     </a>
-                                    <a href="<?php echo base_url()?>mobile-detail/full-auto-detailing-service" title="Cars $149 &#8211; $159 Truck/SUV $179 &#8211; $199 The best" rel="bookmark"><div class="latestimg pull-left" style="background-image: url(<?php echo base_url()?>media/landing-pages/mobile-detail/wp-content/themes/onsitedetailing/images/cssimgs/icondefault.png); width: 90px; height: 90px;"></div></a>
+                                    <a href="<?php echo base_url()?>mobile-detail/full-auto-detailing-service" title="Cars $149 &#8211; $159 Truck/SUV $179 &#8211; $199 The best" rel="bookmark"><div class="latestimg pull-left" style="background-image: url(<?php echo frontend_asset_url()?>img/loading/mobile-detail.png); width: 90px; height: 90px;"></div></a>
                                 <!-- <a href="http://www.onsitedetailing.net/full-auto-detail-service/" title="Cars $149 &#8211; $159 Truck/SUV $179 &#8211; $199 The best" rel="bookmark"><img src="http://www.onsitedetailing.net/<?php echo base_url()?>media/landing-pages/mobile-detail/wp-content/themes/onsitedetailing/images/cssimgs/icondefault.png" class="img-thumbnail pull-left"></a> -->
 
                                     <p>Cars $149 &#8211; $159 Truck/SUV $179 &#8211; $199 The best of both an interior and exterior detail all wrapped</p>
@@ -1637,7 +1644,7 @@
                                 <div class="home-icon">
                                     <a href="<?php echo base_url()?>mobile-detail/exterior-auto-detailing-service" title="Cars $99 &#8211; $129 Truck/SUV $149 &#8211; $179 Make your" rel="bookmark">        <h3>Exterior Auto Detailing Service</h3>
                                     </a>
-                                    <a href="<?php echo base_url()?>mobile-detail/exterior-auto-detailing-service" title="Cars $99 &#8211; $129 Truck/SUV $149 &#8211; $179 Make your" rel="bookmark"><div class="latestimg pull-left" style="background-image: url(<?php echo base_url()?>media/landing-pages/mobile-detail/wp-content/themes/onsitedetailing/images/cssimgs/icondefault.png); width: 90px; height: 90px;"></div></a>
+                                    <a href="<?php echo base_url()?>mobile-detail/exterior-auto-detailing-service" title="Cars $99 &#8211; $129 Truck/SUV $149 &#8211; $179 Make your" rel="bookmark"><div class="latestimg pull-left" style="background-image: url(<?php echo frontend_asset_url()?>img/loading/mobile-detail.png); width: 90px; height: 90px;"></div></a>
                                 <!-- <a href="http://www.onsitedetailing.net/exterior-auto-detailing/" title="Cars $99 &#8211; $129 Truck/SUV $149 &#8211; $179 Make your" rel="bookmark"><img src="http://www.onsitedetailing.net/<?php echo base_url()?>media/landing-pages/mobile-detail/wp-content/themes/onsitedetailing/images/cssimgs/icondefault.png" class="img-thumbnail pull-left"></a> -->
 
                                     <p>Cars $99 &#8211; $129 Truck/SUV $149 &#8211; $179 Make your vehicle’s paint shine like it did in the showroom!</p>
@@ -1649,7 +1656,7 @@
                                 <div class="home-icon">
                                     <a href="<?php echo base_url()?>mobile-detail/interior-auto-detailing-service" title="Cars $99 &#8211; $129 Truck/SUV $149 &#8211; $179 This service" rel="bookmark">        <h3>Interior Auto Detailing Service</h3>
                                     </a>
-                                    <a href="<?php echo base_url()?>mobile-detail/interior-auto-detailing-service" title="Cars $99 &#8211; $129 Truck/SUV $149 &#8211; $179 This service" rel="bookmark"><div class="latestimg pull-left" style="background-image: url(<?php echo base_url()?>media/landing-pages/mobile-detail/wp-content/themes/onsitedetailing/images/cssimgs/icondefault.png); width: 90px; height: 90px;"></div></a>
+                                    <a href="<?php echo base_url()?>mobile-detail/interior-auto-detailing-service" title="Cars $99 &#8211; $129 Truck/SUV $149 &#8211; $179 This service" rel="bookmark"><div class="latestimg pull-left" style="background-image: url(<?php echo frontend_asset_url()?>img/loading/mobile-detail.png); width: 90px; height: 90px;"></div></a>
                                 <!-- <a href="http://www.onsitedetailing.net/interior-auto-detailing/" title="Cars $99 &#8211; $129 Truck/SUV $149 &#8211; $179 This service" rel="bookmark"><img src="http://www.onsitedetailing.net/<?php echo base_url()?>media/landing-pages/mobile-detail/wp-content/themes/onsitedetailing/images/cssimgs/icondefault.png" class="img-thumbnail pull-left"></a> -->
 
                                     <p>Cars $99 &#8211; $129 Truck/SUV $149 &#8211; $179 This service will transform your vehicle’s interior and feel great! Stop</p>

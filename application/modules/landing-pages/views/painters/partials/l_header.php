@@ -13,17 +13,7 @@
         <meta name="description" content="RazorClean Painting"/>
         <meta name="robots" content="noodp"/>
         <link rel="canonical" href="RazorClean Painting" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="RazorClean Painting" />
-        <meta property="og:description" content="RazorClean Painting" />
-        <meta property="og:url" content="" />
-        <meta property="og:site_name" content="RazorClean Painting" />
-        <meta property="og:image" content="<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/warranty-cans.png" />
-        <meta property="og:image" content="<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/blog-image-300x300.jpg" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:description" content="RazorClean Painting" />
-        <meta name="twitter:title" content="RazorClean Painting" />
+       
         
         <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
         <link rel='dns-prefetch' href='http://maxcdn.bootstrapcdn.com/' />
@@ -494,7 +484,7 @@ jsFileLocation:"//arizonapaintingcompany.com/dev/wp-content/plugins/revslider/pu
         <div id="container" class="container">  
 
             <ul class="mobile-header list-inline visible-xs-block visible-sm-block text-center">
-                <li class="phone-number"><a href="tel:+18554679256">Contact number: (1-855) 467-9256</a> </li> 
+                <li class="phone-number"><a href="tel:+18554679256">Contact number: 1-855 GO RZCLN (467-9256)</a> </li> 
             </ul>	   
 
 
@@ -518,14 +508,13 @@ jsFileLocation:"//arizonapaintingcompany.com/dev/wp-content/plugins/revslider/pu
 
 
 
-                            <div class="header-top">
+                            <div class="header-top"style="padding-top:50px;padding-bottom:0px;border:0px">
 
                                 <div class="container">
 
                                     <div class="header-left">
 
-
-                                        <div class="social-media-icons">
+                                        <div class="social-media-icons" >
 
                                             <ul class="social-icons squares">
 
@@ -589,25 +578,25 @@ jsFileLocation:"//arizonapaintingcompany.com/dev/wp-content/plugins/revslider/pu
                                     <div class="header-right">
                                         <ul class="phone-area">
                                                        
-                                            <li class="phone-number"><a href="tel:+18554679256">Contact number: (1-855) 467-9256</a> </li> 
+                                            <li style="margin:0px"class="phone-number"><a href="tel:+18554679256">Contact number: 1-855 GO RZCLN (467-9256)</a> </li> 
                                         </ul>
                                        
                                     </div>
                                 </div>
                             </div>
-                            <div class="header">
+                            <div class="header" style="margin-top:-9px;margin-right:0px;background:white">
                                 <div class="container">
                                     <div class="mobile-nav-icon">
                                         <i class="fa fa-bars"></i>
                                     </div> 
                                     <span class="pull-left">           
-                                        <a href="<?php echo base_url()?>painters" title=""><img width="200"  src="<?php echo base_url() ?>media/landing-pages/painters/wp-content/uploads/az-painting-logo-320.png" class="img-responsive header-logo" alt="" /></a>      
+                                        <a href="<?php echo base_url()?>painters" title=""><img width="200"  src="<?php echo base_url() ?>media/landing-pages/painters/RazorCleanPaitners.png" class="img-responsive header-logo" alt="" /></a>      
                                     </span>  
                                     <div class="nav-wrapper">
                                         <nav id="nav" class="nav dropdown-nav">
                                             <ul class="menu">
-                                              <li id="menu-item-4838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4838"><a href="<?php echo base_url()?>painters/residential-painting-services">Residential</a></li>
-                                                <li id="menu-item-4837"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4837"><a href="<?php echo base_url()?>painters/commercial-painting-services">Commercial</a></li>
+                                              <li id="menu-item-4838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4838"><a href="<?php echo base_url()?>painters/services">Services</a></li>
+                                                <!--li id="menu-item-4837"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4837"><a href="<?php echo base_url()?>painters/commercial-painting-services">Commercial</a></li-->
                                                 <li id="menu-item-5043" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5043"><a href="javascript:;">Plan Your Paint Job</a>
                                                     <ul class="sub-menu">
 													 <li id="menu-item-4838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4838"><a href="<?php echo base_url()?>painters/residential-and-commercial">Residential & Commercial</a></li>

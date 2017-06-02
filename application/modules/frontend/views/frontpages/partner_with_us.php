@@ -4,6 +4,9 @@
         padding: 1px;
         margin: 0px 11px;
     }
+	 .partner-icons{
+        width:118px;
+    }
 </style>
 <!--Banner-Start-->
 <header class="head-bottom-border-style">
@@ -24,38 +27,106 @@
     <div class="container">
         <!--Heading-->
         <div class="main-heading col-sm-12 text-center">
-            <h6>elaborated code and creative design</h6>
+           
             <h2><span>Partner</span> With Us</h2>
             <div class="dot">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            <p>Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum</p>
-        </div>
+            <p style="padding:0">When you partner with RazorClean, you create opportunities to engage your company deeply within the communities we serve. You activate the process of permanent, positive change, and you connect your brand to a unique, trusted company that’s been around since 1897, who has hired thousands of employees in order to help change the world.</p>
+        <p style="padding:0">Are you an individual, non-profit agency or a corporation looking for a partner to help financially grow your company? Or would you like to make a significant impact in the lives and communities you serve? Then make a difference through a trusted company like RazorClean, The Circle Of Trust.  </p>
+		<p style="padding:0">Please click on the service that you would like to partner with us regarding. </p>
+		</div>
 
-        <div class="services_icon">
+       <div class="item active">
+            <div class="row desktop-logo-slider">
 
-            <div class="col-md-3 construction">
-                <img src="<?php echo frontend_asset_url() ?>img/Construction_icon_grey.png">
-                <p>Lorem Ipsum</p>
+
+                <div class="item  active top-slider">
+
+
+                    <a href="javascript:;" onclick="optionchange('Foundation');" class="openpopup thumbnail partner-icons showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/Foundation.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+                </div>
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Painters');" class="thumbnail partner-icons showSingle"><img src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/Painters.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+
+                </div>
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Lawn Care');" class="thumbnail partner-icons showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/Lawn Care.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+
+                </div>
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Building Services');" class="thumbnail partner-icons showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/Building.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+                </div>
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Pest Control');" class="thumbnail partner-icons showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/Pest.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+                </div>
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Staffing');" class="thumbnail  partner-icons showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/Staffing.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+                </div>
+
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Handyman');" class="thumbnail partner-icons  showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/handyman.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+                </div>
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Housekeepers');" class="thumbnail  partner-icons showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/House Keepers.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+                </div>
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Pool Cleaning');" class="thumbnail  partner-icons showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/pool-cleaning.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+                </div>
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Security');" class="thumbnail partner-icons  showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/security.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+                </div>
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Moving and Transport');" class="thumbnail  partner-icons showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/transport.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+                </div>
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Mobile Detail');" class="thumbnail  partner-icons showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/mobile-detail.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+                </div>
+
+                <div class="item top-slider">
+
+                    <a href="javascript:;" onclick="optionchange('Towing');" class="thumbnail  partner-icons showSingle"><img alt="" src="<?php echo frontend_asset_url() ?>img/slider-icons/dark/Towing.png" data-toggle="popover" data-trigger="hover" tabindex="1" data-placement="top" data-container="body"></a>
+
+                </div>
+
+
             </div>
-
-            <div class="col-md-3 lawn">
-                <img src="<?php echo frontend_asset_url() ?>img/Law_grey.png">
-                <p>Lorem Ipsum</p>
-            </div>
-
-            <div class="col-md-3 construction">
-                <img src="<?php echo frontend_asset_url() ?>img/Construction_icon_grey.png">
-                <p>Lorem Ipsum</p>
-            </div>
-
-            <div class="col-md-3 lawn">
-                <img src="<?php echo frontend_asset_url() ?>img/Law_grey.png">
-                <p>Lorem Ipsum</p>
-            </div>
-
         </div>
 
 
@@ -69,13 +140,13 @@
         <div class="row">
             <div class="col-sm-5 contact-block left">
                 <div class="main-heading col-sm-12 text-left">
-                    <h6>elaborated code and creative design</h6>
+                    
                     <h2><span> work with </span> us</h2>
                 </div>
-                <p>Non numquam eius modi tempora incidunt ut labore et dolore mag quaerat voluptatem. Ut enim ad minima veniam, quis nostrum. Dui eros, consequat et felis sit amet, porta fringilla tellus. Suspendisse lobortis odio non urna porttitor were up in iaculis. neque. </p>
+                <p>RazorClean offers individuals, non-profits and corporations a unique opportunity to support effective solutions to financially stability while also promoting their brand. We work to empower positive efforts that helps build long lasting healthy business relationships. Partner with RazorClean to make an impact in the communities where you live, play and conduct business around the United States.</p>
                 <p class="italic">
-                    Incididunt ut labore et dolore magna aliqua. Ut enim ad Neque por ro quisquam estqui dolorem ipsum quisquam est.</p>
-                <a href="http://www.themeforest.aurni.net/html/merab/#" class="btn black-border yellow">Read more</a>
+                    We would like to partner with you on one of your projects as well as a Sub-Contractor. Please contact us today and let us know how we can be of service.</p>
+                <a href="#" class="btn black-border yellow">Read more</a>
             </div>
             <div class="col-sm-7 contact-block right">
                 <span id="status"></span>
@@ -90,7 +161,7 @@
                         <input type="text" name="phone" placeholder="Phone" class="form-control">
                     </div>
                     <div class="col-sm-6">
-                        <select name="service" required="required" autocomplete="off">
+                        <select name="service" id="service" required="required" autocomplete="off">
                             <option value="">Select</option>
                             <option value="Foundation">Foundation</option>
                             <option value="Painters">Painters</option>
@@ -272,4 +343,8 @@
             }
         });
     });
+	function optionchange(val) {
+        $('#service').val(val).trigger('change');
+         $("input:text:visible:first").focus();
+    }
 </script>

@@ -7,556 +7,592 @@
                                 <header class="entry-header"><h1 class="entry-title" itemprop="headline">Floor Maintenance</h1> 
                                 </header>
 <div class="entry-content" itemprop="text">  <style>
-  *{
-  text-decoration: none;
-}
-.the_page
-{
-padding: 0;
-}
-body
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0;
-}
-.slider_info:hover
-{
-    opacity: 1;
-    animation: ease-in-out;
-}
-.slider_info
-{
-  position: absolute;
-  opacity: .8;
-  top: 60px;
-  left: 0;
-  right: 0;
-  animation: 10s fading;
-}
-@keyframes fading {
-        0% {
-        opacity: 1;
+  .slider_text {
+            text-align: center;
         }
-        100% {
-        opacity: .8;
+        *{
+            text-decoration: none;
         }
-  }
-.poster_title
-{
-display: none;
-}
-.banner
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-.slider_window
-{
-  max-width: 1140px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-}
-@keyframes slidy {
-  0% {
-    transform: translateX(0px)
-  }
-  8% {
-    transform: translateX(0px)
-  }
-  11% {
-    transform: translateX(-10%)
-  }
-  19% {
-    transform: translateX(-10%)
-  }
-  22% {
-    transform: translateX(-20%)
-  }
-  31% {
-    transform: translateX(-20%)
-  }
-  33% {
-    transform: translateX(-30%)
-  }
-  42% {
-    transform: translateX(-30%)
-  }
-  44% {
-    transform: translateX(-40%)
-  }
-  53% {
-    transform: translateX(-40%)
-  }
-  56% {
-    transform: translateX(-50%)
-  }
-  64% {
-    transform: translateX(-50%)
-  }
-  67% {
-    transform: translateX(-60%)
-  }
-  75% {
-    transform: translateX(-60%)
-  }
-  78% {
-    transform: translateX(-70%)
-  }
-  86% {
-    transform: translateX(-70%)
-  }
-  89% {
-    transform: translateX(-80%)
-  }
-  97% {
-    transform: translateX(-80%)
-  }
-  100% {
-    transform: translateX(-90%)
-  }
-}
+        .the_page
+        {
+            padding: 0;
+        }
+        body
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+        }
+        .slider_info:hover
+        {
+            opacity: 1;
+            animation: ease-in-out;
+        }
+        .slider_info
+        {
+            position: absolute;
+            opacity: .8;
+            top: 60px;
+            left: 0;
+            right: 0;
+            animation: 10s fading;
+        }
+        .poster_title
+        {
+            display: none;
+        }
+        .banner
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .slider_window
+        {
+            max-width: 1140px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+        @keyframes fading {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: .8;
+            }
+        }
+        @keyframes slidy {
+            0% {
+                transform: translateX(0px)
+            }
+            8% {
+                transform: translateX(0px)
+            }
+            11% {
+                transform: translateX(-10%)
+            }
+            19% {
+                transform: translateX(-10%)
+            }
+            22% {
+                transform: translateX(-20%)
+            }
+            31% {
+                transform: translateX(-20%)
+            }
+            33% {
+                transform: translateX(-30%)
+            }
+            42% {
+                transform: translateX(-30%)
+            }
+            44% {
+                transform: translateX(-40%)
+            }
+            53% {
+                transform: translateX(-40%)
+            }
+            56% {
+                transform: translateX(-50%)
+            }
+            64% {
+                transform: translateX(-50%)
+            }
+            67% {
+                transform: translateX(-60%)
+            }
+            75% {
+                transform: translateX(-60%)
+            }
+            78% {
+                transform: translateX(-70%)
+            }
+            86% {
+                transform: translateX(-70%)
+            }
+            89% {
+                transform: translateX(-80%)
+            }
+            97% {
+                transform: translateX(-80%)
+            }
+            100% {
+                transform: translateX(-90%)
+            }
+        }
 
-li {
-  display: inline-block;
-}
+        li.slide {
+            display: inline-block;
+        }
 
-#slider_container {
-  max-height: 450px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 0;
-}
+        #slider_container {
+            max-height: 450px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 0;
+        }
 
-#slider {
-  width: 1000%;
-  position: relative;
-  transition: all 500ms ease-in-out;
-  animation: 20s slidy infinite;
-  animation-delay: 5s;
-  z-index: -1;
-  margin: 0;
-}
+        #slider {
+            width: 1000%;
+            position: relative;
+            transition: all 500ms ease-in-out;
+            animation: 20s slidy infinite;
+            animation-delay: 5s;
+            z-index: -1;
+            margin: 0;
+        }
 
-.poster_photo {
-width: 100%;
-position: relative;
-}
+        .poster_photo {
+            width: 100%;
+        }
 
-img.slide_img {
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  display: initial;
-}
+        img.slide_img {
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            display: initial;
+        }
 
-li.slide {
-  //box-sizing:border-box;
-  //border: 10px solid #16BBF0;
-  width: 10%;
-  height: 400px;
-  z-index: -1;
-  display: inline-block;
-}
+        li.slide {
+            //box-sizing:border-box;
+            //border: 10px solid #16BBF0;
+            width: 10%;
+            height: 400px;
+            z-index: -1;
+            display: inline-block;
+        }
 
-#slider div {
-  position: absolute;
-  width: 100%;
-}
+        #slider div {
+            position: absolute;
+            width: 100%;
+        }
 
-.tab {
-  background-color: #333333;
-  /* 
-  cursor: pointer; 
-  */
-  float: left;
-  margin-top: 390px;
-  width: 12.5%;
-  transition: all .2s linear;
-  height: 35px;
-  padding-top: 5px;
-  border-bottom: 1px solid #d5d5d5;
-  text-align: center;
-  color: white;
-}
+        .tab {
+            background-color: #333333;
 
-img.tab_icon {
-  width: 16%;
-  display: inline-block;
-}
+            cursor: pointer; 
 
-h3.tab_label {
-  font-family: 'Oswald', Arial, sans-serif;
-  color: white;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.625;
-  margin: 0px;
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 7px;
-}
+            float: left;
+            margin-top: 390px;
+            width: 12.5%;
+            transition: all .2s linear;
+            height: 35px;
+            padding-top: 5px;
+            border-bottom: 1px solid #d5d5d5;
+            text-align: center;
+            color: white;
+        }
 
-#slider li:nth-child(1) {
-  position: absolute;
-  left: 0%;
-}
+        img.tab_icon {
+            width: 16%;
+            display: inline-block;
+        }
 
-#slider li:nth-child(2) {
-  position: absolute;
-  left: 10%;
-}
+        h3.tab_label {
+            font-family: 'Oswald', Arial, sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.625;
+            margin: 0px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 7px;
+        }
 
-#slider li:nth-child(3) {
-  position: absolute;
-  left: 20%;
-}
+        #slider li:nth-child(1) {
+            position: absolute;
+            left: 0%;
+        }
 
-#slider li:nth-child(4) {
-  position: absolute;
-  left: 30%;
-}
+        #slider li:nth-child(2) {
+            position: absolute;
+            left: 10%;
+        }
 
-#slider li:nth-child(5) {
-  position: absolute;
-  left: 40%;
-}
+        #slider li:nth-child(3) {
+            position: absolute;
+            left: 20%;
+        }
 
-#slider li:nth-child(6) {
-  position: absolute;
-  left: 50%;
-}
+        #slider li:nth-child(4) {
+            position: absolute;
+            left: 30%;
+        }
 
-#slider li:nth-child(7) {
-  position: absolute;
-  left: 60%;
-}
+        #slider li:nth-child(5) {
+            position: absolute;
+            left: 40%;
+        }
 
-#slider li:nth-child(8) {
-  position: absolute;
-  left: 70%;
-}
+        #slider li:nth-child(6) {
+            position: absolute;
+            left: 50%;
+        }
 
-#slider li:nth-child(9) {
-  position: absolute;
-  left: 80%;
-}
+        #slider li:nth-child(7) {
+            position: absolute;
+            left: 60%;
+        }
 
-#slider li:nth-child(10) {
-  position: absolute;
-  left: 90%;
-}
-/*
-#slider_container div:nth-child(1):hover ~ #slider {
-  animation: paused;
-  transform: translateX(-10%);
-}
+        #slider li:nth-child(8) {
+            position: absolute;
+            left: 70%;
+        }
 
-#slider_container div:nth-child(1):hover {
-  background-color: #16BBF0;
-  height: 60px;
-  z-index: 1;
-  margin-top: 365px;
-}
+        #slider li:nth-child(9) {
+            position: absolute;
+            left: 80%;
+        }
 
-#slider_container div:nth-child(2):hover {
-  background-color: #16BBF0;
-  height: 60px;
-  z-index: 1;
-  margin-top: 365px;
-}
+        #slider li:nth-child(10) {
+            position: absolute;
+            left: 90%;
+        }
 
-#slider_container div:nth-child(2):hover ~ #slider {
-  animation: paused;
-  transform: translateX(-20%);
-}
+        #slider_container div:nth-child(1):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-10%);
+        }
 
-#slider_container div:nth-child(3):hover {
-  background-color: #16BBF0;
-  height: 60px;
-  z-index: 1;
-  margin-top: 365px;
-}
+        #slider_container div:nth-child(1):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
 
-#slider_container div:nth-child(3):hover ~ #slider {
-  animation: paused;
-  transform: translateX(-30%);
-}
+        #slider_container div:nth-child(2):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
 
-#slider_container div:nth-child(4):hover {
-  background-color: #16BBF0;
-  height: 60px;
-  z-index: 1;
-  margin-top: 365px;
-}
+        #slider_container div:nth-child(2):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-20%);
+        }
 
-#slider_container div:nth-child(4):hover ~ #slider {
-  animation: paused;
-  transform: translateX(-40%);
-}
+        #slider_container div:nth-child(3):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
 
-#slider_container div:nth-child(5):hover {
-  background-color: #16BBF0;
-  height: 60px;
-  z-index: 1;
-  margin-top: 365px;
-}
+        #slider_container div:nth-child(3):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-30%);
+        }
 
-#slider_container div:nth-child(5):hover ~ #slider {
-  animation: paused;
-  transform: translateX(-50%);
-}
+        #slider_container div:nth-child(4):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
 
-#slider_container div:nth-child(6):hover {
-  background-color: #16BBF0;
-  height: 60px;
-  z-index: 1;
-  margin-top: 365px;
-}
+        #slider_container div:nth-child(4):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-40%);
+        }
 
-#slider_container div:nth-child(6):hover ~ #slider {
-  animation: paused;
-  transform: translateX(-60%);
-}
+        #slider_container div:nth-child(5):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
 
-#slider_container div:nth-child(7):hover {
-  background-color: #16BBF0;
-  height: 60px;
-  z-index: 1;
-  margin-top: 365px;
-}
+        #slider_container div:nth-child(5):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-50%);
+        }
 
-#slider_container div:nth-child(7):hover ~ #slider {
-  animation: paused;
-  transform: translateX(-70%);
-}
+        #slider_container div:nth-child(6):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
 
-#slider_container div:nth-child(8):hover {
-  background-color: #16BBF0;
-  height: 60px;
-  z-index: 1;
-  margin-top: 365px;
-}
+        #slider_container div:nth-child(6):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-60%);
+        }
 
-#slider_container div:nth-child(8):hover ~ #slider {
-  animation: paused;
-  transform: translateX(-80%);
-}*/
+        #slider_container div:nth-child(7):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
 
-h4.banner_home_button_link {
-  color: white;
-  margin: 0;
-  line-height: 38px;
-  vertical-align: middle;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 22px;
-  background-color: #00AFF0;
-  transition: background-color 0.3s ease;
-  margin: 0 auto;
-  width: 273px;
-  height: 38px;
-  display: block;
-  text-align: center;
-  margin-top: 100px;
-}
-.title {
-  margin: 0;
-    }
-.slider_text
-{
- /* padding: 40px 0px 90px 20px;*/
-  color: white;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 7px #6B6B6B;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 50px;
-  text-align: center;
-}
-.secondline {
-  text-align: left;
-  position: absolute;
-  top: 110px;
-  display: none;
-  opacity: .8;
-}
-.secondline:hover {
-    opacity: 1;
-    animation: ease-in-out;
-}
-.subtext
-{
-    font-size: 22px;
-}
-.poster_photo
-{
-  display: none;
-}
-                    /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
-                    @media screen and (max-width: 1050px)
-                    {
-                    h3.tab_label {
-                    font-size: 12px;
-                    }
-                    }
-                    /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
-                    @media screen and (max-width: 950px)
-                    {
-                    .t1
-                    {
-                    display: none;
-                    }
-                    .tab
-                    {
-                    width: 14.285%;
-                    }
-                    h3.tab_label {
-                    font-size: 13px;
-                    }
-                    }
-                    /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
-                    @media screen and (max-width: 905px)
-                    {
-                    h3.tab_label {
-                    font-size: 12px;
-                    }
-                    }
-                    /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERIES FOR SMALLER WINDOWSvvvvvvvvvvvvvvvvvvvvvv */
-                    @media screen and (max-width: 890px)
-                    {
-                    h1.slider_text
-                    {
-                        font-size: 40px;
-                    }
-                    h1.secondline {
-                    top: 100px;
-                    }
-                    }
-                    /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
-                    @media screen and (max-width: 875px)
-                    {
-                    
-                    }
-                    /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
-                    @media screen and (max-width: 820px)
-                    {
-                    .t2
-                    {
-                    display: none;
-                    }
-                    h3.tab_label {
-                    font-size: 12px;
-                    }
-                    .tab
-                    {
-                    width: 16.6666%;
-                    }
-                    }
-                    /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERIES FOR PHONES vvvvvvvvvvvvvvvvvvvvvv */
-                    @media (max-width: 765px) {
-                    .the_page
-                    {
-                    padding: 50px 0;
-                    }
-                    .poster_title
-                    {
-                    display: initial;
-                    }
-                    .slider_window
-                    {
-                    display: none;
-                    }
-                    .poster_photo
-                    {
-                      display: block;
-                    }
-                    .poster_photo
-                    {
-                      display: ;
-                    }
-                    .slider_text
-                    {
-                    position: absolute;
-                    font-size: 20px;
-                    text-align: center;
-                    left: 0;
-                    right: 0;
-                    margin-top: 25px;
-                    }
-                    }
+        #slider_container div:nth-child(7):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-70%);
+        }
+
+        #slider_container div:nth-child(8):hover {
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
+        }
+
+        #slider_container div:nth-child(8):hover ~ #slider {
+            animation: paused;
+            transform: translateX(-80%);
+        }
+
+        h4.banner_home_button_link {
+            color: white;
+            margin: 0;
+            line-height: 38px;
+            vertical-align: middle;
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 22px;
+            background-color: #00AFF0;
+            transition: background-color 0.3s ease;
+            margin: 0 auto;
+            width: 273px;
+            height: 38px;
+            display: block;
+            text-align: center;
+        }
+        .title {
+            margin: 0;
+        }
         .slider_text
         {
-        width: 90%;
-        padding: 2% 0 0 5%;
-        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-        margin: 5% 0 0 5%;
-        padding: 0;
+            padding: 40px 0px 30px 20px;
+            color: white;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 7px #6B6B6B;
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 50px;
+        }
+        .secondline:hover {
+            opacity: 1;
+            animation: ease-in-out;
+        }
+        .secondline {
+            text-align: left;
+            position: absolute;
+            top: 110px;
+            display: none;
+            animation: 10s fading;
+            opacity: .8;
+        }
+        .subtext
+        {
+            font-size: 22px;
+        }
+        .poster_photo
+        {
+            display: none;
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 1050px)
+        {
+            h3.tab_label {
+                font-size: 12px;
+            }
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 950px)
+        {
+            .t1
+            {
+                display: none;
+            }
+            .tab
+            {
+                width: 14.285%;
+            }
+            h3.tab_label {
+                font-size: 13px;
+            }
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 905px)
+        {
+            h3.tab_label {
+                font-size: 12px;
+            }
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERIES FOR SMALLER WINDOWSvvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 890px)
+        {
+            h1.slider_text
+            {
+                font-size: 40px;
+            }
+            h1.secondline {
+                top: 100px;
+            }
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 875px)
+        {
+
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERY vvvvvvvvvvvvvvvvvvvvvv */
+        @media screen and (max-width: 820px)
+        {
+            .t2
+            {
+                display: none;
+            }
+            h3.tab_label {
+                font-size: 12px;
+            }
+            .tab
+            {
+                width: 16.6666%;
+            }
+        }
+        /* vvvvvvvvvvvvvvvvvvvvvv MEDIA QUERIES FOR PHONES vvvvvvvvvvvvvvvvvvvvvv */
+        @media (max-width: 765px) {
+            .the_page
+            {
+                padding: 50px 0;
+            }
+            .poster_title
+            {
+                display: initial;
+            }
+            .slider_window
+            {
+                display: none;
+            }
+            .poster_photo
+            {
+                display: block;
+            }
+            .poster_photo
+            {
+                display: ;
+            }
+            .poster_photo {
+                position: relative;
+            }
+            .slider_text
+            {
+                position: absolute;
+                left: 0;
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        .slider_text
+        {
+            width: 90%;
+            padding: 2% 0 0 5%;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+            margin: 5% 0 0 5%;
+            padding: 0;
         }
         .subtext {
-        font-size: 22px;
+            font-size: 22px;
         }
         .slider_home_button
         {
-        display: none;
+            display: none;
         }
 </style>
        <div class="poster_photo"><img src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space"><div class="poster_title slider_text">prevent patient exposure to pathogens that can linger on surfaces for months<div class="subtext"></div></div></div>
-<div class="slider_window marketonlyreel">
-            <section id="slider_container">
-                <div class="tab t1"><i class="material-icons">location_city</i><h3 class="tab_label">Austin, Tx</h3></div>
-                <div class="tab t2"><i class="material-icons">location_city</i><h3 class="tab_label">Birmingham, Al</h3></div>
-                <div class="tab t3"><i class="material-icons">location_city</i><h3 class="tab_label">Dallas, Tx</h3></div>
-                <div class="tab t4"><i class="material-icons">location_city</i><h3 class="tab_label">Denver, Co</h3></div>
-                <div class="tab t5"><i class="material-icons">location_city</i><h3 class="tab_label">Fort Worth, Tx</h3></div>
-                <div class="tab t6"><i class="material-icons">location_city</i><h3 class="tab_label">Longview, Tx</h3></div>
-                <div class="tab t7"><i class="material-icons">location_city</i><h3 class="tab_label">San Antonio</h3></div>
-                <div class="tab t8"><i class="material-icons">location_city</i><h3 class="tab_label">Tyler, Tx</h3></div>
-                
-                <ul id="slider">
-                    <li class="slide">
-                      <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/ER-Room-100.jpg" alt="hospital operation room with big lights" alt="">
-                    </li>
-                    <li class="slide">
-                      <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/08/Medical-100.jpg" alt="medical hospital building">
-                    </li>
-                    <li class="slide">
-                      <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/ER-Room-100.jpg" alt="hospital operation room with big lights">
-                    </li>
-                    <li class="slide">
-                      <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/gurney-100.jpg" alt="hospital gurney in the hallway">
-                    </li>
-                    <li class="slide">
-                      <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/healthcare-office-100.jpg" alt="hospital office desk with stethoscope">
-                    </li>
-                    <li class="slide">
-                      <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/08/Medical-100.jpg" alt="medical hospital building">
-                    </li>
-                    <li class="slide">
-                      <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/ER-Room-100.jpg" alt="hospital operation room with big lights">
-                    </li>
-                    <li class="slide">
-                      <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/gurney-100.jpg" alt="hospital gurney in the hallway">
-                    </li>
-                    <li class="slide">
-                      <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/healthcare-office-100.jpg" alt="hospital office desk with stethoscope">
-                    </li>
-                    <li class="slide">
-                      <img class="slide_img" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/gurney-100.jpg" alt="hospital gurney in the hallway" alt="">
-                    </li>
-                </ul>
-            </section>
-            <div class="slider_info">
-                <h1 class="title slider_text">prevent patient exposure to pathogens that can linger on surfaces for months<br><div class="subtext"></div></h1>
-                <a href="../../index.html" onclick="__gaTracker('send', 'event', 'outbound-article', '../../index.html', '\n                    knightjanitorial.com\n                ');" class="slider_home_button"  target="_blank">
-                    <h4 class="banner_home_button_link" style="padding:0 !important">knightjanitorial.com</h4>
-                </a>
-            </div>
+<div class="slider_window">
+        <section id="slider_container">
+            <a href="<?php echo base_url()?>building-services/office-cleaning-services">
+                                        <div class="tab t1"><i class="material-icons">headset_mic</i>
+                                            <h3 class="tab_label">Office</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/healthcare-building">
+                                        <div class="tab t2"><i class="material-icons">local_pharmacy</i>
+                                            <h3 class="tab_label">Healthcare</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/educational-building">
+                                        <div class="tab t3"><i class="material-icons">school</i>
+                                            <h3 class="tab_label">Education</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/industrial-building">
+                                        <div class="tab t4"><i class="material-icons">location_city</i>
+                                            <h3 class="tab_label">Industrial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/financial-building">
+                                        <div class="tab t5"><i class="material-icons">attach_money</i>
+                                            <h3 class="tab_label">Financial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/religious-building">
+                                        <div class="tab t6"><i class="material-icons">account_balance</i>
+                                            <h3 class="tab_label">Religious</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/commercial-building">
+                                        <div class="tab t7"><i class="material-icons">business</i>
+                                            <h3 class="tab_label">Commercial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/retail-building">
+                                        <div class="tab t8"><i class="material-icons">shopping_cart</i>
+                                            <h3 class="tab_label">Retail</h3></div>
+                                    </a>
+            <ul id="slider">
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/oval-office-100.jpg" alt="">
+                    <h1 class="secondline slider_text"></h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space">
+                    <h1 class="secondline slider_text">in the office</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/healthcare-office-100.jpg" alt="hospital office desk with stethoscope">
+                    <h1 class="secondline slider_text">in healthcare</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/School-Hallway-Clean-100.jpg" alt="colorful school hallway">
+                    <h1 class="secondline slider_text">in educational buildings</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/gray-warehouse-100.jpg" alt="industrial warehouse with windows">
+                    <h1 class="secondline slider_text">in industrial buildings</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/office-100.jpg" alt="financial bank lobby">
+                    <h1 class="secondline slider_text">in financial buildings</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/Religious-100.jpg" alt="religious auditorium podium">
+                    <h1 class="secondline slider_text">in religious buildings</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/Commercial-100.jpg" alt="commercial building">
+                    <h1 class="secondline slider_text">in commercial buildings</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/retail-shops-100.jpg" alt="retail shops">
+                    <h1 class="secondline slider_text">in retail buildings</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/oval-office-100.jpg" alt="">
+                    <h1 class="secondline slider_text"></h1>
+                </li>
+            </ul>
+        </section>
+        <div class="slider_info">
+            <h1 class="title slider_text">From post-construction cleanup to move-out services, we do it all<br><div class="subtext"></div></h1>
+            <a href="../../index.html" onclick="__gaTracker('send', 'event', 'outbound-article', '../../index.html', '\n            knightjanitorial.com\n        ');" class="slider_home_button"  target="_blank">
+                <h4 class="banner_home_button_link" style="padding:0 !important">RazorClean INc.</h4>
+            </a>
         </div>
+    </div>
 <div class="thirty"><style>
 .blue_arrow_flipped
 {
@@ -851,7 +887,7 @@ input:hover[type="submit"]
     <img class="blue_arrow_flipped" src="<?php echo base_url()?>media/landing-pages/building-services/wp-content/uploads/2015/09/Arrow-75-flipped.png">
         <div class="form_cta" style="text-align:center;">
             <div class="form_title">Let the experts handle it!</div>
-            <div class="form_title form_title_subtext">KNIGHT JANITORIAL HAS OVER A DECADE IN EXPERIENCE!</div>
+            <div class="form_title form_title_subtext">RAZORCLEAN BUILDING SERVICES HAS OVER A DECADE IN EXPERIENCE!</div>
         </div>
         <div class="arrow-down"></div>
         <p class="form_text">Tell us a little about yourself and we'll call you within one business day!</p>
@@ -978,8 +1014,8 @@ input:hover[type="submit"]
         setInterval(function(){document.getElementById('entry_1257225578').value = screen.width;},1500);
 </script></div>
 <div class="sixty read_more">
-    <h1 class="subject">Knight Janitorial Terminal Cleaning Services</h1>
-    <p class="info_block">Knight Janitorial Services’ terminal cleaning services follow all proper sanitizing protocols to ensure all surface areas and equipment are properly cleaned and sterilized to prevent cross contamination.</p>
+    <h1 class="subject">Razorclean building Terminal Cleaning Services</h1>
+    <p class="info_block">Razorclean building services’ terminal cleaning services follow all proper sanitizing protocols to ensure all surface areas and equipment are properly cleaned and sterilized to prevent cross contamination.</p>
     <h2 class="sub_title">Our terminal cleaning services include:</h2>
     <ul>
         <li>Removing all detachable objects and sanitizing them</li>
@@ -996,16 +1032,16 @@ input:hover[type="submit"]
         <li>Operating rooms</li>
     </ul>
     <h3 class="subject">Terminal Cleaning Teams</h3>
-    Knight Janitorial Services’ team members are carefully screened to ensure that they have the highest ethics and morals, and we are confident that they will present themselves in a highly professional manner through their work and conduct.  Our company has policies and guidelines to ensure the highest level of service and safety.
+    Razorclean building services’ team members are carefully screened to ensure that they have the highest ethics and morals, and we are confident that they will present themselves in a highly professional manner through their work and conduct.  Our company has policies and guidelines to ensure the highest level of service and safety.
     <h3 class="subject">Safety Training &#8211; Disinfectants and Equipment</h3>
-    Knight Janitorial Services trains our workers to properly handle the chemicals being used in your healthcare facility.  This training enables management and our team members to better serve you and your facility.  We will supply and monitor a Bloodborne Pathogen plan as prescribed by OSHA. We will also supply SDS (Safety Data Sheets) of our chemicals used in your facility for your records. Proper protocol is followed when we provide our cleaning teams with proper PPE (personal protective equipment) and utilizing EPA (Environmental Protection Agency) registered surface disinfectants such as quaternary cleaning chemicals.
+    Razorclean building services trains our workers to properly handle the chemicals being used in your healthcare facility.  This training enables management and our team members to better serve you and your facility.  We will supply and monitor a Bloodborne Pathogen plan as prescribed by OSHA. We will also supply SDS (Safety Data Sheets) of our chemicals used in your facility for your records. Proper protocol is followed when we provide our cleaning teams with proper PPE (personal protective equipment) and utilizing EPA (Environmental Protection Agency) registered surface disinfectants such as quaternary cleaning chemicals.
     <h3 class="subject">Insurance | Security | Working Management | Supervisors</h3>
     <h3 class="subject">Insurance</h3>
-    Knight janitorial Services maintains general liability insurance, medical expense insurance, personal injury insurance, automobile liability insurance, umbrella liability insurance, and a business services bond.
+    Razorclean building services maintains general liability insurance, medical expense insurance, personal injury insurance, automobile liability insurance, umbrella liability insurance, and a business services bond.
     <h3 class="subject">Facility Security</h3>
     The security of your office is our main concern.  While work is being performed our workers lock themselves inside the rooms in which they are working.  Workers do no unlock doors for anyone.  Our supervisors recheck all doors at the end of the night to make sure that the right doors are locked.
     <h3 class="subject">Working Management</h3>
-    We, as Management of Knight Janitorial Services certainly take great pride in our work, because of this we will continuously supervise and audit the services being provided by our workers.  We have daytime area managers as well as nighttime supervisors who are responsible for working hand-in-hand with our cleaning teams on a consistent basis to continually convey to them our expectations as well as yours.
+    We, as Management of Razorclean building services certainly take great pride in our work, because of this we will continuously supervise and audit the services being provided by our workers.  We have daytime area managers as well as nighttime supervisors who are responsible for working hand-in-hand with our cleaning teams on a consistent basis to continually convey to them our expectations as well as yours.
     <h3 class="subject">Supervisors</h3>
     Supervisors are constantly working with the cleaning teams and checking behind them.  Your office will receive a grade of cleanliness of your facility several times a month.  The grade will be based on different criteria as our crews are encouraged to strive for perfection.  The grading process helps to ensure we are constantly improving the quality of service we provide while maintaining a close working relationship with our cleaning teams.
     <style>

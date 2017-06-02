@@ -6,11 +6,11 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand desktop-only" href="#">
-                    <img src="<?php echo frontend_asset_url()?>img/logow.png" alt="">
+                <a class="navbar-brand desktop-only" href="<?php echo base_url()?>">
+                    <img style="width:285px" src="<?php echo frontend_asset_url()?>img/logow.png" alt="">
                 </a>
-                <a class="navbar-brand-mobile mobile-only" href="#">
-                    <img src="<?php echo frontend_asset_url()?>img/logob.png" alt="">
+                <a class="navbar-brand-mobile mobile-only" href="<?php echo base_url()?>">
+                    <img src="<?php echo frontend_asset_url()?>img/logowl.png" alt="">
                 </a>
             </div>
 
@@ -20,9 +20,13 @@
                     <!--li>
                         <a class="page-scroll" href="<?php echo base_url()?>">Home</a>
                     </li-->
-                    <li>
-                        <a class="page-scroll" href="<?php echo base_url()?>razor">RazorClean Inc</a>
+                    <li class="dropdown-content">
+                        <a class="page-scroll" href="<?php echo base_url()?>razor">About RazorClean, Inc</a>
+                        <ul class="submenu">
+                            <li> <a href="<?php echo base_url()?>razor/media">Media</a></li>
+                        </ul>
                     </li>
+                    
                     <li>
                         <a class="page-scroll" href="<?php echo base_url()?>blog">Blog</a>
                     </li>
@@ -42,7 +46,7 @@
                         <a class="page-scroll" href="<?php echo base_url()?>brand-services">Brands /Services</a>
                     </li>
 					<li style="margin-right:10px">
-                        <a class="page-scroll btn-custom btn-signin" style="color:#fff " href="<?php echo base_url()?>user-signup">User Signup</a>
+                        <a class="page-scroll btn-custom btn-signin" style="color:#fff " href="<?php echo base_url()?>user-signup">User Sign Up</a>
                     </li>
                     <li>
                         <a class="page-scroll btn-custom btn-signin" style="color:#fff " href="<?php echo base_url()?>login">Sign In</a>

@@ -470,10 +470,10 @@
                             <div class="wpb_column vc_column_container vcsp_col vc_col-sm-12">
                                 <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
-                                        <div class="vcsp_block_title wpb_content_element  vcsp_section_title"><span>Virginia Graeme Baker</span>
+                                        <div class="vcsp_block_title wpb_content_element  vcsp_section_title"><span>Is Your Pool Drain Safe?</span>
                                         </div>
-                                        <div class="vcsp_block_title wpb_content_element  vcsp_section_subtitle"><span>Is Your Pool Drain Safe?</span>
-                                        </div>
+                                        <!--div class="vcsp_block_title wpb_content_element  vcsp_section_subtitle"><span>Is Your Pool Drain Safe?</span>
+                                        </div-->
                                     </div>
                                 </div>
                             </div>

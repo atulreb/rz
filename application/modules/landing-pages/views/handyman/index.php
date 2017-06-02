@@ -3,27 +3,27 @@
             <div id="banner-wrap" class="clearboth">
                 <div class="banner-fade section hide-from-mobile">
                     <p>
-                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2016/03/hire-the-right-handyman.jpg" width="1080" height="300" alt="Chicago Handyman">
+                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2016/03/hire-the-right-handyman.jpg" width="1080" height="300" alt="RazorClean Handyman">
+                        </a>
+                    </p>
+                    <!--p>
+                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2016/03/and-finish-your-punch-list.jpg" width="1080" height="300" alt="RazorClean Handyman">
+                        </a>
+                    </p-->
+                    <p>
+                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/bathroom-renovations-chicago.jpg" width="1080" height="300" alt="RazorClean Handyman">
                         </a>
                     </p>
                     <p>
-                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2016/03/and-finish-your-punch-list.jpg" width="1080" height="300" alt="Chicago Handyman">
+                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/kitchen-remodeling.jpg" width="1080" height="300" alt="RazorClean Handyman">
                         </a>
                     </p>
                     <p>
-                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/bathroom-renovations-chicago.jpg" width="1080" height="300" alt="Chicago Handyman">
+                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/electrical-repairs-chicago.jpg" width="1080" height="300" alt="RazorClean Handyman">
                         </a>
                     </p>
                     <p>
-                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/kitchen-remodeling.jpg" width="1080" height="300" alt="Chicago Handyman">
-                        </a>
-                    </p>
-                    <p>
-                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/electrical-repairs-chicago.jpg" width="1080" height="300" alt="Chicago Handyman">
-                        </a>
-                    </p>
-                    <p>
-                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/handyman-services-in-chicago.jpg" width="1080" height="300" alt="Chicago Handyman">
+                        <a href="#"><img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/handyman-services-in-chicago.jpg" width="1080" height="300" alt="RazorClean Handyman">
                         </a>
                     </p>
                 </div>
@@ -43,13 +43,13 @@
                         <div class="circle red-design">
                             <i class="fa fa-check-square-o font-size"></i>
                             <h2>Tell Us What You Need</h2>
-                            <p>What's on your punch list?</p>
+                            <p>What's on your handyman service?</p>
                         </div>
                     </a>
                     <a href="<?php echo base_url()?>handyman/reviews">
                         <div class="circle green-design">
                             <i class="fa fa fa-comments font-size"></i>
-                            <h2>Read All About Punch List</h2>
+                            <h2>Read All About handyman service</h2>
                             <p>What others have to say about us</p>
                         </div>
                 </div>
@@ -64,12 +64,13 @@
                                 </li>
                             </ul>
                         </div>
-                        <h1>Your Chicago Handyman Service Experts</h1>
-                        <p><strong>Punch List</strong> hires only skilled craftsmen with years of industry experience. This allows us to provide an exceptional experience that is unmatched in the <a href="#">Chicago Handyman</a> industry. Our team of handymen and construction professionals have real world experience helping home and business owners to maintain their properties.</p>
+                        <h1>Your RazorClean Handyman Service Experts</h1>
+                        <p><strong>RazorClean Handyman</strong> hires only skilled craftsmen with years of industry experience. This allows us to provide an exceptional experience that is unmatched in the <a href="#">RazorClean Handyman</a> industry. Our team of handymen and construction professionals have real world experience helping home and business owners to maintain their properties.</p>
                         <h2>Welcome To Punchlist</h2>
-                        <p>We are a family owned local business. Our families live, work and go to school right here in Chicago. You may have even seen us around town. Check us out on our about us page. Here at <strong>Punch List</strong> our goal is provide an amazing experience for all our customers. Thank you for considering us for your potential projects!
+                        <p>We are a family owned local business. Our families live, work and go to school right. You may have even seen us around town. Check us out on our about us page. Here at <strong>RazorClean Handyman</strong> our goal is provide an amazing experience for all our customers. Thank you for considering us for your potential projects!
                             <br />
-                            <strong><i>The Punch List Team</i></strong>
+							<br />
+                            <strong><i>The RazorClean Handyman Team</i></strong>
                         </p>
                         <div style="background-color: #edeade; padding: 10px;">
                             <h2>Handyman Services for The Home</h2>
@@ -80,21 +81,21 @@
                         <p>&nbsp;</p>
                         <div class="not-a-box">
                             <h2>Kitchen &amp; Bathroom Remodeling Services</h2>
-                            <p><img class="alignright wp-image-14 size-full" src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/kitchen-and-bathroom-remodeling-services.jpg" alt="Chicago Handyman - Kitchen and Bathroom Remodeling Services" width="125" height="125" />Over time, your home&#8217;s bathrooms and kitchen may become in need of repairs. From replacement tiles to installing new bathroom fixtures, our professional Chicago handymen have the experience to make the repairs to your home in a quick and efficient manor.</p>
+                            <p><img class="alignright wp-image-14 size-full" src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/kitchen-and-bathroom-remodeling-services.jpg" alt="RazorClean Handyman - Kitchen and Bathroom Remodeling Services" width="125" height="125" />Over time, your home&#8217;s bathrooms and kitchen may become in need of repairs. From replacement tiles to installing new bathroom fixtures, our professional RazorClean handymen have the experience to make the repairs to your home in a quick and efficient manor.</p>
                             <p><a class="make-button" title="Kitchen Remodeling" href="<?php echo base_url()?>handyman/services">Read More</a>
                             </p>
                         </div>
                         <p>&nbsp;</p>
                         <div style="background-color: #edeade; padding: 10px;">
                             <h2>Commercial Handyman Professionals</h2>
-                            <p><img class="alignright wp-image-15 size-full" src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/commercial-handyman-professionals.jpg" alt="Chicago Handyman - Commercial Handyman Projects" width="125" height="125" />Have some odd jobs that need to get down around the office, but don&#8217;t have the time or need to call out individual contractors. The beauty of Punch List is we can offer the most economical and time efficient solution to your repair and maintenance needs. Our professionals can repaint the conference room, repair damaged drywall in the break room, and mount the new flat screen TV in the lobby &#8211; All in the same day!</p>
+                            <p><img class="alignright wp-image-15 size-full" src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/uploads/2014/11/commercial-handyman-professionals.jpg" alt="RazorClean Handyman - Commercial Handyman Projects" width="125" height="125" />Have some odd jobs that need to get down around the office, but don&#8217;t have the time or need to call out individual contractors. The beauty of RazorClean Handyman is we can offer the most economical and time efficient solution to your repair and maintenance needs. Our professionals can repaint the conference room, repair damaged drywall in the break room, and mount the new flat screen TV in the lobby &#8211; All in the same day!</p>
                             <p><a class="make-button" title="Handyman Services" href="<?php echo base_url()?>handyman/services">Read More</a>
                             </p>
                         </div>
                         <p>&nbsp;</p>
                         <div class="not-a-box">
-                            <h2>Why You Should Hire Us For Your Chicago Handyman Needs</h2>
-                            <p>Instead of calling multiple contractors, you can choose one company that makes it easy! Our skilled craftsmen will help you finally finish your punch list and get you back to enjoying your home or focused on your business. You&#8217;ll be amazed at the clean and efficient craftsman that are here to put your household back in tip top shape.</p>
+                            <h2>Why You Should Hire Us For Your RazorClean Handyman Needs</h2>
+                            <p>Instead of calling multiple contractors, you can choose one company that makes it easy! Our skilled craftsmen will help you finally finish your list and get you back to enjoying your home or focused on your business. You&#8217;ll be amazed at the clean and efficient craftsman that are here to put your household back in tip top shape.</p>
                             <p><a class="make-button" title="About Us" href="<?php echo base_url()?>handyman/aboutus">Read More</a>
                             </p>
                         </div>
@@ -126,7 +127,7 @@
                             </div>
                             <div>
                                 <ul>
-                                    <li><a title="Doors &amp; Windows" href="chicago-doors.html">Doors &amp; Windows</a>
+                                    <li><a title="Doors &amp; Windows" href="#">Doors &amp; Windows</a>
                                     </li>
                                     <li><a title="Odd Jobs" href="chicago-odd-jobs.html">Odd Jobs</a>
                                     </li>
@@ -136,12 +137,12 @@
                         <p>&nbsp;</p>
                         
                         <p>&nbsp;</p>
-                        <h3>If you are looking for a Chicago Handyman then please call 1-855 GO RZCLN (467-9256) </h3>
+                        <h3>If you are looking for a RazorClean Handyman then please call 1-855 GO RZCLN (467-9256) </h3>
                     </div>
                     <?php $this->load->view('partials/l_sidebar') ?>
                 </div>
                 <div id="body-bottom" class="section hide-from-tablet">
-                    <img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/body-bottom.jpg" alt="Chicago Handyman" />
+                    <img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/body-bottom.jpg" alt="RazorClean Handyman" />
                 </div>
                 <div id="cert" class="section hide-from-tablet"></div>
             </div>

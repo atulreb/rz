@@ -28,7 +28,7 @@
                                                         <div class="tp-caption white_rokkit   tp-resizeme" id="slide-1-layer-1" data-x="28" data-y="249" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:top;s:300;e:easeOutExpo;" data-transform_out="auto:auto;s:300;" data-start="800" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 5; white-space: nowrap; font-size: 50px; line-height: 36px; font-weight: 100; color: rgba(2, 2, 2, 1.00);font-family:\'Open Sans\', sans-serif;text-transform:left;padding:0px 4px 0px 4px;">Contact Us </div>
 
                                                         <!-- LAYER NR. 2 -->
-                                                        <div class="tp-caption trans_background   tp-resizeme" id="slide-1-layer-2" data-x="23" data-y="307" data-width="['508']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:bottom;s:300;e:easeOutExpo;" data-transform_out="auto:auto;s:300;" data-start="1100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; min-width: 508px; max-width: 508px; white-space: normal; font-size: 18px; line-height: 26px; font-weight: 100; color: rgba(2, 2, 2, 1.00);text-transform:left;padding:5px 15px 5px 15px;">RazorClean Staffing provides service to Memphis and surrounding areas as well as Greenville, MS and Dallas/Fort Worth TX. </div>
+                                                        <div class="tp-caption trans_background   tp-resizeme" id="slide-1-layer-2" data-x="23" data-y="307" data-width="['508']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:bottom;s:300;e:easeOutExpo;" data-transform_out="auto:auto;s:300;" data-start="1100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; min-width: 508px; max-width: 508px; white-space: normal; font-size: 18px; line-height: 26px; font-weight: 100; color: rgba(2, 2, 2, 1.00);text-transform:left;padding:5px 15px 5px 15px;">RazorClean Staffing provides service in 14 states. </div>
 
                                                         <!-- LAYER NR. 3 -->
                                                         <div class="tp-caption   tp-resizeme" id="slide-1-layer-3" data-x="606" data-y="323" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:left;s:300;e:easeOutExpo;" data-transform_out="auto:auto;s:300;" data-start="1400" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);text-transform:left;"><a href="#" class="button small black">Contact</a> </div>
@@ -315,7 +315,7 @@
                                                         <div class="span12">
                                                             <div class="portfolio_section_title">
                                                                 <h3 class="page-header">
-						<a href="tag-portfolio/job-opportunities/index.html" title="New Job Opportunities"><span class="page_header_title">Specialize employment areas:</span></a>
+						<a href="<?php echo base_url()?>staffing/opportunities" title="New Job Opportunities"><span class="page_header_title">Specialize employment areas:</span></a>
 						<span id="right_car_arrow1aq-block-6" class="cars_arrow_control right_car_arrow"><i class="icon-angle-right"></i></span><span id="left_car_arrow1aq-block-6" class="cars_arrow_control left_car_arrow"><i class="icon-angle-left"></i></span></h3></div>
                                                             <div class="portfolio_section_title">
                                                                 <p></p>
@@ -368,10 +368,10 @@
                                                                         </div>
                                                                         <div class="the_portfolio_list_li_div" id="post-24119">
                                                                             <div class="portfolio_item">
-                                                                                <a href="<?php echo base_url()?>media/landing-pages/staffing/wp-content/uploads/crown-image.jpg" class="prettyPhoto slideshow_24119" rel="prettyPhoto"></a>
+                                                                                <a href="<?php echo base_url()?>media/landing-pages/staffing/wp-content/uploads/crown-image.jpg" style='height:198px' class="prettyPhoto slideshow_24119" rel="prettyPhoto"></a>
                                                                                 <div class="portfolio_thumbnail">
 
-                                                                                    <img width="259" height="194" src="<?php echo base_url()?>media/landing-pages/staffing/wp-content/uploads/crown-image.jpg" class="attachment-portfolio size-portfolio wp-post-image" alt="" />
+                                                                                    <img width="259" height="194" src="<?php echo base_url()?>media/landing-pages/staffing/wp-content/uploads/crown-image.jpg" style='height:198px' class="attachment-portfolio size-portfolio wp-post-image" alt="" />
                                                                                     <div class="portfolio_overlay">
                                                                                     </div>
                                                                                     <div class="center-bar">
@@ -570,7 +570,7 @@
                         <div class="container">
                             <div class="row-fluid">
                                 <div id="aq-block-10" class="aq-block  aq-block-aq_clients_block aq_span12 span12 aq-first cf">
-                                    <div class="row-fluid">
+                                    <!--div class="row-fluid">
                                         <div class="span12">
 
                                             <div id="aq-block-10">
@@ -638,9 +638,59 @@
                                     </div>
 
                                 </div>
+                            </div-->
+                            <div class="row-fluid">
+                                <div id="aq-block-10" class="aq-block  aq-block-aq_clients_block aq_span12 span12 aq-first cf">
+                                    <div class="row-fluid">
+                                        <div class="span12">
+
+                                            <div id="aq-block-10">
+                                                
+
+                                                <div class="clients_content">
+                                                    <div class="clients_box " style="
+"><iframe width="100%" height="345" src="https://www.youtube.com/embed/V5sLSQ821ow">
+</iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <script type="text/javascript" language="javascript">
+                                                jQuery(document).ready(function($) {
+
+                                                    var owl = jQuery("#aq-block-10 .clients_list");
+
+                                                    owl.owlCarousel({
+                                                        items: 6, //10 items above 1000px browser width
+                                                        itemsDesktop: [1000, 6], //5 items between 1000px and 901px
+                                                        itemsDesktopSmall: [900, 5], // betweem 900px and 601px
+                                                        itemsTablet: [600, 3], //2 items between 600 and 0
+                                                        itemsMobile: false, // itemsMobile disabled - inherit from itemsTablet option
+                                                        pagination: false,
+                                                        scrollPerPage: true,
+                                                        slideSpeed: 1000,
+
+                                                    });
+
+                                                    // Custom Navigation Events
+                                                    jQuery("#aq-block-10 #right_car_arrow3").click(function() {
+                                                        owl.trigger('owl.next');
+                                                    })
+                                                    jQuery("#aq-block-10 #left_car_arrow3").click(function() {
+                                                        owl.trigger('owl.prev');
+                                                    })
+
+                                                });
+                                            </script>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
+                        
                     </div>
+                    
+                    
                     <div class="new_section"></div>
                 </div>
             </div>

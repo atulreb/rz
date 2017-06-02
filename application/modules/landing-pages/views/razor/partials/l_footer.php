@@ -253,8 +253,9 @@
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/razor/wp-content/themes/quartz/assets/javascript/quartz8a54.js?ver=1.0.0'></script>
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/razor/wp-includes/js/wp-embed.min801b.js?ver=4.5.7'></script>
     <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/razor/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min972f.js?ver=5.0.1'></script>
-</body>
 
-<!-- Mirrored from quartz.themegasm.net/homepage-portfolio/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 May 2017 17:19:36 GMT -->
-
+<div style="clear:both"></div>
+<iframe src="<?php echo base_url()?>razorclean/stickyfooter" style="left: 0;width: 100%;height: 66px;padding-top: 0px;position: fixed;bottom: 0;background: rgba(0, 0, 0, 0.45);z-index: 99999;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0"></iframe>
+	
+	</body>
 </html>

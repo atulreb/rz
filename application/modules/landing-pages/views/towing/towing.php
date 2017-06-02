@@ -68,7 +68,12 @@
                         <br>
                         <br>
                         <br>
-                        <a id="call"href="tel:6159742222"></span></a></div>
+                        <a  href="tel:18554679256" style="padding: 10px;
+    background: #bd252c;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 7px;">1-855 GO RZCLN (467-9256)
+                        </a></div>
                 </div><div id="gform_widget-2" class="widget gform_widget substitute_widget_class"><link rel='stylesheet' id='gforms_reset_css-css'  href='<?php echo base_url() ?>media/landing-pages/towing/wp-content/plugins/gravityforms/css/formresetd584.css?ver=1.7.12' type='text/css' media='all' />
                     <link rel='stylesheet' id='gforms_datepicker_css-css'  href='<?php echo base_url() ?>media/landing-pages/towing/wp-content/plugins/gravityforms/css/datepickerd584.css?ver=1.7.12' type='text/css' media='all' />
                     <link rel='stylesheet' id='gforms_formsmain_css-css'  href='<?php echo base_url() ?>media/landing-pages/towing/wp-content/plugins/gravityforms/css/formsmaind584.css?ver=1.7.12' type='text/css' media='all' />

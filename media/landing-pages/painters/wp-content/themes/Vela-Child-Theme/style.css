@@ -105,8 +105,8 @@ h3.frm_pos_top.frm_section_spacing {
 			margin-left: -10px;
 			margin-right: -10px;
 			font-weight: 500 !important;
-			color: #fff!important;
-			text-shadow: 2px 1px 1px #000000;
+			color: #e00000 !important
+
 			}
 			
 		#search .search-button {
@@ -159,7 +159,7 @@ h3.frm_pos_top.frm_section_spacing {
 			letter-spacing: 1px;
 		}
 		ul.phone-area {
-			margin-top: -50px;
+			margin-top: -13px;
 		}
 		ul.phone-area li {
 			display: inline-block;
@@ -175,9 +175,9 @@ h3.frm_pos_top.frm_section_spacing {
 			list-style-type: none;
 			margin: 0 auto 20px;
 			padding: 0;
-			width: 500px;
-			height: 100px;
 			margin-top: -30px;
+			    width: 226px;
+    height: 63px;
 			}
 
 		.tab {

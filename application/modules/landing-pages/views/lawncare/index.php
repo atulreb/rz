@@ -51,14 +51,14 @@
                                                         <div class="content">
                                                             <h2>Leaders in Decorative Landscape Edging</h2>
                                                             <p><span><br>Beauty blossoms right in your own front yard.<br>
-                                                                    Call us today at <strong>(816) 875-9645</strong>.</span>
+                                                                    Call us today at <strong>1-855 GO RZCLN (467-9256)</strong>.</span>
                                                             </p>
                                                             <div class="buttons">
                                                                 <div class="button transparent_2">
-                                                                    <a class="primary-color" href="landscape-curbing-and-walkways-gallery/index.html">View Our Work</a>
+                                                                    <a class="primary-color" href="<?php echo base_url()?>lawncare/our-work">View Our Work</a>
                                                                 </div>
                                                                 <div class="button transparent_2">
-                                                                    <a class="extra-color-1" href="curbing-edging-borders/index.html">Learn About Us</a>
+                                                                    <a class="extra-color-1" href="<?php echo base_url()?>lawncare/about-us">Learn About Us</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -73,15 +73,15 @@
                                                         <div class="content">
                                                             <h2>Experience</h2>
                                                             <p><span>Expert design and professional installation.<br>
-                                                                    Call us today at <strong>(816) 875-9645</strong>.
+                                                                    Call us today at <strong>1-855 GO RZCLN (467-9256)</strong>.
                                                                 </span>
                                                             </p>
                                                             <div class="buttons">
                                                                 <div class="button transparent_2">
-                                                                    <a class="extra-color-3" href="testimonials/index.html">Learn More Now</a>
+                                                                    <a class="extra-color-3" href="<?php echo base_url()?>lawncare/testimonials">Learn More Now</a>
                                                                 </div>
                                                                 <div class="button transparent_2">
-                                                                    <a class="primary-color" href="belgium-block-curbing-before-and-after/index.html">View Work Instead</a>
+                                                                     <a class="primary-color" href="<?php echo base_url()?>lawncare/our-work">Our Work Instead</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -96,14 +96,14 @@
                                                         <div class="content">
                                                             <h2>Landscape Design</h2>
                                                             <p><span>Love your landscape - all year round.<br>
-                                                                    Call us today at <strong>(816) 875-9645</strong>.</span>
+                                                                    Call us today at <strong>1-855 GO RZCLN (467-9256)</strong>.</span>
                                                             </p>
                                                             <div class="buttons">
                                                                 <div class="button transparent_2">
-                                                                    <a class="extra-color-1" href="belgium-block-curbing-before-and-after/index.html">View More</a>
+                                                                    <a class="extra-color-1" href="<?php echo base_url()?>lawncare/testimonials">View More</a>
                                                                 </div>
                                                                 <div class="button transparent_2">
-                                                                    <a class="primary-color" href="testimonials/index.html">Learn About Us</a>
+                                                                    <a class="primary-color" href="<?php echo base_url()?>lawncare/about-us">Learn About Us</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -139,7 +139,7 @@
                                     <div class="col span_12  ">
                                         <div class="vc_col-sm-12 wpb_column column_container col no-extra-padding has-animation" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="" data-hover-bg-opacity="1" data-animation="fade-in" data-delay="400">
                                             <div class="wpb_wrapper">
-                                                <a href="landscape-curbing-edging/index.html" target="_self" class="left"><img class="img-with-animation " data-delay="0" height="100%" width="100%" data-animation="fade-in" src="<?php echo base_url() ?>media/landing-pages/lawncare/wp-content/uploads/2014/03/icon1-LandscapeEdging.png" alt="icon1 landscape edging" />
+                                                <a href="<?php echo base_url()?>lawncare/landscape-curbing-edging" target="_self" class="left"><img class="img-with-animation " data-delay="0" height="100%" width="100%" data-animation="fade-in" src="<?php echo base_url() ?>media/landing-pages/lawncare/wp-content/uploads/2014/03/icon1-LandscapeEdging.png" alt="icon1 landscape edging" />
                                                 </a>
                                             </div>
                                         </div>
@@ -148,7 +148,7 @@
                                 <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
                                         <h4>Landscape Edging</h4>
-                                        <p>This is our specialty! Olympic Lawn &amp; Landscape, Inc. offers only the best in landscape curbing and edging to set your landscape elements apart and add finish to your property.</p>
+                                        <p>This is our specialty! RazorClean Lawn Care offers only the best in landscape curbing and edging to set your landscape elements apart and add finish to your property.</p>
 
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@
                                     <div class="col span_12  ">
                                         <div class="vc_col-sm-12 wpb_column column_container col no-extra-padding has-animation" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="" data-hover-bg-opacity="1" data-animation="fade-in" data-delay="600">
                                             <div class="wpb_wrapper">
-                                                <a href="belgium-block-edging-curbing/index.html" target="_self" class="left"><img class="img-with-animation " data-delay="0" height="100%" width="100%" data-animation="fade-in" src="<?php echo base_url() ?>media/landing-pages/lawncare/wp-content/uploads/2015/04/icon2-BelgiumBlock.png" alt="icon 2 belgium block" />
+                                                <a href="<?php echo base_url()?>lawncare/belgium-block-edging-curbing" target="_self" class="left"><img class="img-with-animation " data-delay="0" height="100%" width="100%" data-animation="fade-in" src="<?php echo base_url() ?>media/landing-pages/lawncare/wp-content/uploads/2015/04/icon2-BelgiumBlock.png" alt="icon 2 belgium block" />
                                                 </a>
                                             </div>
                                         </div>
@@ -220,7 +220,7 @@
                                     <div class="col span_12  ">
                                         <div class="vc_col-sm-12 wpb_column column_container col no-extra-padding has-animation" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="" data-hover-bg-opacity="1" data-animation="fade-in" data-delay="1000">
                                             <div class="wpb_wrapper">
-                                                <a href="snow-removal/index.html" target="_self" class="left"><img class="img-with-animation " data-delay="0" height="100%" width="100%" data-animation="fade-in" src="<?php echo base_url() ?>media/landing-pages/lawncare/wp-content/uploads/2015/04/icon4-WinterServices.png" alt="icon4 winter services" />
+                                                <a href="<?php echo base_url()?>lawncare/weather-services" target="_self" class="left"><img class="img-with-animation " data-delay="0" height="100%" width="100%" data-animation="fade-in" src="<?php echo base_url() ?>media/landing-pages/lawncare/wp-content/uploads/2015/04/icon4-WinterServices.png" alt="icon4 winter services" />
                                                 </a>
                                             </div>
                                         </div>
@@ -248,7 +248,7 @@
 
                                 <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
-                                        <h2 style="text-align: center;"><span style="color: #ffffff;">Call<strong> (816) 875-9645 </strong>or Contact a</span><a class="nectar-button large accent-color regular-button"  href="http://www.olympiclawn.net/contact-olympic-lawn.php" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>Landscape Designer</span> </a></h2>
+                                        <h2 style="text-align: center;"><span style="color: #ffffff;">Call<strong> 1-855 GO RZCLN (467-9256) </strong><!--or Contact a</span><a class="nectar-button large accent-color regular-button"  href="http://www.olympiclawn.net/contact-olympic-lawn.php" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>Landscape Designer</span> </a--></h2>
 
                                     </div>
                                 </div>
@@ -263,7 +263,7 @@
                     </div>
                     <div class="col span_12 dark left">
                         <div style=" background-image: url('<?php echo base_url() ?>media/landing-pages/lawncare/wp-content/uploads/2014/03/homepage_01.jpg'); " class="vc_col-sm-3 wpb_column column_container col centered-text has-animation padding-5-percent" data-using-bg="true" data-bg-cover="" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="#336633" data-hover-bg-opacity="1" data-animation="fade-in-from-bottom" data-delay="0">
-                            <a class="column-link" href="landscape-design/index.html"></a>
+                            <a class="column-link" href="<?php echo base_url()?>lawncare/landscape-curbing-edging"></a>
                             <div class="wpb_wrapper">
 
                                 <div class="wpb_text_column wpb_content_element ">
@@ -277,7 +277,7 @@
                         </div>
 
                         <div style=" background-image: url('<?php echo base_url() ?>media/landing-pages/lawncare/wp-content/uploads/2014/03/Home_BelgiumBlock.jpg'); " class="vc_col-sm-3 wpb_column column_container col centered-text has-animation padding-5-percent" data-using-bg="true" data-bg-cover="" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="#336633" data-hover-bg-opacity="1" data-animation="fade-in-from-bottom" data-delay="0">
-                            <a class="column-link" href="curbing-edging-borders/index.html"></a>
+                            <a class="column-link" href="<?php echo base_url()?>lawncare/belgium-block-edging-curbing"></a>
                             <div class="wpb_wrapper">
 
                                 <div class="wpb_text_column wpb_content_element ">
@@ -305,7 +305,7 @@
                         </div>
 
                         <div style=" background-image: url('<?php echo base_url() ?>media/landing-pages/lawncare/wp-content/uploads/2014/03/Home_SnowRemoval.jpg'); " class="vc_col-sm-3 wpb_column column_container col centered-text has-animation padding-5-percent" data-using-bg="true" data-bg-cover="" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="#336633" data-hover-bg-opacity="1" data-animation="fade-in-from-bottom" data-delay="0">
-                            <a class="column-link" href="snow-removal/index.html"></a>
+                            <a class="column-link" href="<?php echo base_url()?>lawncare/weather-services"></a>
                             <div class="wpb_wrapper">
 
                                 <div class="wpb_text_column wpb_content_element ">
@@ -329,8 +329,8 @@
 
                                 <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
-                                        <h2>Olympic Lawn &amp; Landscape Service</h2>
-                                        <p>Olympic Lawn &amp; Landscape has proudly served the Kansas City, Missouri, community and its surrounding areas since 2004. Through expert design and installation, our skilled professionals provide home and business owners with the quality custom curbing and landscaping service they need for beautiful outdoor spaces. In fact, when it comes to landscape curbing, &#8212; our area of specialty &#8212; we aim to bring your current landscape ideas to life or to create a unique, new layout specifically designed for your space.</p>
+                                        <h2>RazorClean Lawn Care</h2>
+                                        <p>RazorClean Lawn Care is an affordable, premium lawn care and landscaping company providing old fashion service with new age equipment. Services provided to commercial and residential customers.  Through expert design and installation, our skilled professionals provide home and business owners with the quality custom curbing and landscaping service they need for beautiful outdoor spaces. In fact, when it comes to landscape curbing, — our area of specialty — we aim to bring your current landscape ideas to life or to create a unique, new layout specifically designed for your space.</p>
 
                                     </div>
                                 </div>
@@ -344,9 +344,9 @@
                                 <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
                                         <h2>How We Can Help</h2>
-                                        <p>Custom curbing is just the start of our full-service operation. Our service menu ranges from complete lawn care, landscaping service and design and more! We also offer seasonal snow removal services. Have something special in mind for your lawn or garden? We can help with that, too!</p>
-                                        <p>We provide free consultations for all of our services, so find out why Olympic Lawn &amp; Landscape has earned a reputation of excellence in the Kansas City area. Contact us today, and let us transform your piece of the world!</p>
-
+                                        <p>Custom curbing is just the start of our full-service operation. Our service menu ranges from complete lawn care, landscaping service and design and more! We also offer seasonal snow removal services. Have something special in mind for your lawn or garden? We can help with that, too!
+We provide free consultations for all of our services, so find out why RazorClean Lawn Care has earned a reputation of excellence service in your area. Contact us today, and let us transform your piece of the world!
+</p>
                                     </div>
                                 </div>
 
@@ -358,9 +358,8 @@
 
                                 <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
-                                        <h2>Lawn &amp; Landscape Service in Lee&#8217;s Summit</h2>
-                                        <p>Whether your landscaping project is commercial or residential, Olympic Lawn &amp; Landscape will provide you with quality landscaping service.  Our experienced <a href="http://www.olympiclawn.net/landscapers-lees-summit.html">Lee&#8217;s Summit landscapers</a> will guide you through your entire landscaping project with expert landscaping design consultation and installation. We provide <a title="Click for information" href="http://www.olympiclawn.net/Contact-Olympic-Lawn.php" target="_blank">Free Custom Landscaping Estimates</a>. Whether you want to give your front yard a new look or are looking for a way to spruce up your commercial property, our design experts will craft something that leaves a lasting impression.</p>
-
+                                        <h2>Lawn &amp; Landscape Service in Your Area</h2>
+                                        <p>Whether your landscaping project is commercial or residential, RazorClean Lawn Care will provide you with quality landscaping service.  Our experienced  Landscapers will guide you through your entire landscaping project with expert landscaping design consultation and installation. We provide Free Custom Landscaping Estimates. Whether you want to give your front yard a new look or are looking for a way to spruce up your commercial property, our design experts will craft something that leaves a lasting impression.</p>
                                     </div>
                                 </div>
 
@@ -368,8 +367,8 @@
                         </div>
                     </div>
                 </div>
-               
-               
+
+
 
 
 
@@ -396,4 +395,5 @@
         }
     </script>
 
-    <?php $this->load->view('partials/l_footer')?>
+    <?php
+    $this->load->view('partials/l_footer')?>

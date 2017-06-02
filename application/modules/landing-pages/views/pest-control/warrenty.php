@@ -15,7 +15,7 @@
         <span property="dc:title" content="Warranty" class="rdf-meta element-hidden"></span>    
   
   <div class="content clearfix">
-    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="warranty" class="custom-left" src=".<?php echo base_url()?>media/landing-pages/pest-control/images/Warrnty1_0.jpg" /></p>
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="warranty" class="custom-left" src="<?php echo base_url()?>media/landing-pages/pest-control/images/Warrnty1_0.jpg" /></p>
 
 <h2>Pest Control Warranty</h2>
 

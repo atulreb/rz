@@ -508,20 +508,44 @@
             display: none;
         }
     </style>
-    <div class="poster_photo"><img src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space"><div class="poster_title slider_text">From post-construction cleanup to move-out services, we do it all<div class="subtext"></div></div></div>
-    <div class="slider_window">
+    <div class="poster_photo"><img src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space">
+	<!--div class="poster_title slider_text">From post-construction cleanup to move-out services, we do it all<div class="subtext"></div></div--></div>
+    <div class="slider_window" style="background-image:url(<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/deap-clean.jpg);    background-size: cover;    background-repeat: no-repeat;">
         <section id="slider_container">
-            <a href="../../additional-services/office-cleaning-service/index.html"><div class="tab t1"><i class="material-icons">headset_mic</i><h3 class="tab_label">Office</h3></div></a>
-            <a href="../janitorial-cleaning-services/healthcare/index.html"><div class="tab t2"><i class="material-icons">local_pharmacy</i><h3 class="tab_label">Healthcare</h3></div></a>
-            <a href="../janitorial-cleaning-services/educational/index.html"><div class="tab t3"><i class="material-icons">school</i><h3 class="tab_label">Education</h3></div></a>
-            <a href="../janitorial-cleaning-services/industrial/index.html"><div class="tab t4"><i class="material-icons">location_city</i><h3 class="tab_label">Industrial</h3></div></a>
-            <a href="../janitorial-cleaning-services/financial/index.html"><div class="tab t5"><i class="material-icons">attach_money</i><h3 class="tab_label">Financial</h3></div></a>
-            <a href="../janitorial-cleaning-services/religious/index.html"><div class="tab t6"><i class="material-icons">account_balance</i><h3 class="tab_label">Religious</h3></div></a>
-            <a href="../janitorial-cleaning-services/commercial/index.html"><div class="tab t7"><i class="material-icons">business</i><h3 class="tab_label">Commercial</h3></div></a>
-            <a href="../janitorial-cleaning-services/retail/index.html"><div class="tab t8"><i class="material-icons">shopping_cart</i><h3 class="tab_label">Retail</h3></div></a>
-
+            <a href="<?php echo base_url()?>building-services/office-cleaning-services">
+                                        <div class="tab t1"><i class="material-icons">headset_mic</i>
+                                            <h3 class="tab_label">Office</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/healthcare-building">
+                                        <div class="tab t2"><i class="material-icons">local_pharmacy</i>
+                                            <h3 class="tab_label">Healthcare</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/educational-building">
+                                        <div class="tab t3"><i class="material-icons">school</i>
+                                            <h3 class="tab_label">Education</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/industrial-building">
+                                        <div class="tab t4"><i class="material-icons">location_city</i>
+                                            <h3 class="tab_label">Industrial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/financial-building">
+                                        <div class="tab t5"><i class="material-icons">attach_money</i>
+                                            <h3 class="tab_label">Financial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/religious-building">
+                                        <div class="tab t6"><i class="material-icons">account_balance</i>
+                                            <h3 class="tab_label">Religious</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/commercial-building">
+                                        <div class="tab t7"><i class="material-icons">business</i>
+                                            <h3 class="tab_label">Commercial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/retail-building">
+                                        <div class="tab t8"><i class="material-icons">shopping_cart</i>
+                                            <h3 class="tab_label">Retail</h3></div>
+                                    </a>
             <ul id="slider">
-                <li class="slide">
+                <!--li class="slide">
                     <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/oval-office-100.jpg" alt="">
                     <h1 class="secondline slider_text"></h1>
                 </li>
@@ -560,15 +584,15 @@
                 <li class="slide">
                     <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/oval-office-100.jpg" alt="">
                     <h1 class="secondline slider_text"></h1>
-                </li>
+                </li-->
             </ul>
         </section>
-        <div class="slider_info">
+        <!--div class="slider_info">
             <h1 class="title slider_text">From post-construction cleanup to move-out services, we do it all<br><div class="subtext"></div></h1>
             <a href="../../index.html" onclick="__gaTracker('send', 'event', 'outbound-article', '../../index.html', '\n            knightjanitorial.com\n        ');" class="slider_home_button"  target="_blank">
-                <h4 class="banner_home_button_link" style="padding:0 !important">knightjanitorial.com</h4>
+                <h4 class="banner_home_button_link" style="padding:0 !important">RazorClean INc.</h4>
             </a>
-        </div>
+        </div-->
     </div><div class="thirty"><style>
             .blue_arrow_flipped
             {
@@ -863,7 +887,7 @@
                 <img class="blue_arrow_flipped" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Arrow-75-flipped.png">
                 <div class="form_cta" style="text-align:center;">
                     <div class="form_title">Let the experts handle it!</div>
-                    <div class="form_title form_title_subtext">KNIGHT JANITORIAL HAS OVER A DECADE IN EXPERIENCE!</div>
+                    <div class="form_title form_title_subtext">RAZORCLEAN BUILDING SERVICES HAS OVER A DECADE IN EXPERIENCE!</div>
                 </div>
                 <div class="arrow-down"></div>
                 <p class="form_text">Tell us a little about yourself and we'll call you within one business day!</p>
@@ -993,8 +1017,9 @@
         </script></div><div>
         <div class="sixty read_more">
             <div class="info_block">
-                <h1 class="sub_title">Deep Cleaning</h1>
-
+                <h1 class="sub_title">RazorClean Building Services 
+Deep Cleaning</h1>
+                <img class="ninty" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/12/rbs_cc1.jpg" alt="" />
                 <h3 class="title-description">Our deep cleaning teams can handle several types of hard surface flooring such as:</h3>
                 <ul>
                     <li>Post Construction Cleanup</li>
@@ -1005,7 +1030,7 @@
                 <br>
                 <h3 >Post Construction Cleanup Services</h3>
 
-                Knight Janitorial Services has a post construction team that is dedicated professional, and experienced.  We have a proven track record along with the capability of accurately estimating job costs, proactive scheduling, and meeting all completion milestones and dates.
+               RazorClean Building Services has a post construction team that is dedicated professional, and experienced. We have a proven record of accomplishment along with the capability of accurately estimating job costs, proactive scheduling, and meeting all completion milestones and dates. 
 
                 <h3 >Post Construction Cleanup Services Include (but not included to):</h3>
                 <ul>
@@ -1018,10 +1043,11 @@
                 <br>
                 <h3 >Tenant Ready Services</h3>
 
-                Knight Janitorial Services can help property management companies and landlords ready their vacant suites and buildings.  Our services will ensure that all surfaces are wiped down and sanitized, windows are wiped down, and all floor surfaces are swept, mopped, and vacuumed.
+                <p>RBS can help property management companies and landlords ready their vacant suites and buildings. Our services will ensure that all surfaces are wiped down and sanitized, windows are wiped down, and all floor surfaces are swept, mopped, and vacuumed. </p>
                 <br>
                 <h3 >Vacancy Buildings</h3>
-                Knight Janitorial Services understands that property managers and landlords are busy professionals who need assistance in keeping up with vacant buildings.
+                <p>RBS understands that property managers and landlords are busy professionals who need assistance in keeping up with vacant buildings. </p>
+
                 <h3 >Our vacant building cleaning service can help maintain unoccupied spaces by providing the following:</h3>
                 <ul>
                     <li>Removing cob webs</li>
@@ -1032,7 +1058,9 @@
                 </ul>
                 <br>
                 <h3 >Miscellaneous Cleanup</h3>
-                Knight Janitorial Services also can provide miscellaneous cleanup services such as high ceiling dusting, cob web removal, and lightbulb replacement.  Our team members will utilize scissor lifts and extension poles to be able to reach high surfaces safely and securely.
+                <p>RBS also can provide miscellaneous cleanup services such as high ceiling dusting, cob web removal, and lightbulb replacement. Our team members will utilize scissor lifts and extension poles to be able to reach high surfaces safely and securely.</p>
+                <a href="javascript:;">Call Today: 1-855-GO RZCLN (467-9256)
+RazorClean, The Circle Of Trust, Save Money Live RazorClean.</a>
             </div>
         </div>
     </div>

@@ -49,7 +49,7 @@
     </head>
 
     <body class="home page-template page-template-page_home page-template-page_home-php page page-id-5">
-
+	
         <div id="wrapper">
 
 
@@ -304,6 +304,13 @@
                 </li>
             </ul>
         </div>
+		
+		
+		
+		
+		
+		
+		
         <script type='text/javascript' src='<?php echo base_url()?>media/landing-pages/foundation/wp-content/plugins/contact-form-7/includes/js/jquery.form.min_2.js'></script>
         <script type='text/javascript'>
             /* <![CDATA[ */
@@ -461,6 +468,8 @@
             jQuery(document).ready(function(){jQuery("#back-top").hide(); jQuery(function(){jQuery(window).scroll(function(){if (jQuery(this).scrollTop() > 100){jQuery("#back-top").fadeIn()} else{jQuery("#back-top").fadeOut()}}); jQuery("#back-top a").click(function(){jQuery("body,html").animate({scrollTop:0}, 800); return false})})});
 
 
-        </script>  
+        </script>
+
+	
     </body>
 </html>

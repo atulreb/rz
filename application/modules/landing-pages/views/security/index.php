@@ -1,7 +1,7 @@
     <?php $this->load->view('partials/l_header')?>
         <DIV id="panels">
            <DIV id="sidenav">
-                <div id="security" style="cursor:pointer; height:94px; width:251px;" onmouseover="ShowContent('securitypanel'); return true;" onmouseout="HideContent('securitypanel'); return true;" onclick="javascript:ReverseContent('securitypanel')">
+                <div id="security" style="cursor:pointer; height:94px; width:241px;margin-bottom:4px" onmouseover="ShowContent('securitypanel'); return true;" onmouseout="HideContent('securitypanel'); return true;" >
                     <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                         <TR>
                             <TD WIDTH="20" rowspan=2></TD>
@@ -9,13 +9,13 @@
                         </TR>
                         <TR>
                             <TD WIDTH="10"></TD>
-                            <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies in NYC</h1></TD>
+                            <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies</h1></TD>
                         </TR>
 
                     </TABLE>	
                 </div>
 
-                <div id="investigations" style="cursor:pointer; height:94px; width:251px;" onmouseover="ShowContent('investigationspanel'); return true;" onmouseout="HideContent('investigationspanel'); return true;" onclick="javascript:ReverseContent('investigationspanel')">
+                <div id="investigations" style="cursor:pointer; height:94px; width:241px;margin-bottom:4px" onmouseover="ShowContent('investigationspanel'); return true;" onmouseout="HideContent('investigationspanel'); return true;" >
                     <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                         <TR>
                             <TD WIDTH="20" rowspan=2></TD>
@@ -23,12 +23,12 @@
                         </TR>
                         <TR>
                             <TD WIDTH="10"></TD>
-                            <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies in NYC</h2></TD>
+                            <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies</h2></TD>
                         </TR>
                     </TABLE>
                 </div>
 
-                <div id="permits"  style="cursor:pointer; height:88px; width:251px;" onmouseover="ShowContent('permitspanel'); return true;" onmouseout="HideContent('permitspanel'); return true;" onclick="javascript:ReverseContent('permitspanel')">
+                <div id="permits"  style="cursor:pointer; height:82px; width:241px;margin-bottom:4px" onmouseover="ShowContent('permitspanel'); return true;" onmouseout="HideContent('permitspanel'); return true;" >
                     <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                         <TR>
                             <TD WIDTH="20" rowspan=2></TD>
@@ -36,7 +36,7 @@
                         </TR>
                         <TR>
                             <TD WIDTH="10"></TD>
-                            <TD ALIGN="left" VALIGN="top"><h2>Your source for NYC event permits anywhere in the city</h2></TD>
+                            <TD ALIGN="left" VALIGN="top"><h2>Your source for event permits anywhere in the city</h2></TD>
                         </TR>
 
                     </TABLE>
@@ -183,7 +183,7 @@
                         </TR>
                         <TR>
                             <TD ALIGN="center" VALIGN="top" class="tahoma11">
-                                
+                                </br>
                                 <form id="contactform1" method="post" action="">
                                     <TABLE BORDER="0" CELLSPACING="2" CELLPADDING="0">
                                         <TR>
@@ -227,44 +227,13 @@
 
                             <TABLE BORDER="0" WIDTH="270" CELLSPACING="0" CELLPADDING="0">
                                 <TR>
-                                    <TD ALIGN="left" VALIGN="top"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/home/learnmore.gif" ALT="Learn more about MG Security Services" WIDTH="230" HEIGHT="35" HSPACE="0" VSPACE="10" BORDER="0"></TD>
+                                    <TD ALIGN="left" VALIGN="top"><h3 style="font-size:25px;line-height:28px">LEARN ABOUT RAZORCLEAN SECURITY SERVICES</h3></TD>
                                 </TR>
                                 <TR>
                                     <TD ALIGN="left" VALIGN="top" BGCOLOR="#000000">
-                                        <!--url's used in the movie-->
-                                        <!--text used in the movie-->
-                                        <!-- saved from url=(0013)about:internet -->
-                                        <script language="JavaScript" type="text/javascript">
-                                            AC_FL_RunContent(
-                                                    'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0',
-                                                    'width', '274',
-                                                    'height', '224',
-                                                    'src', 'mgs_video',
-                                                    'quality', 'high',
-                                                    'pluginspage', 'http://www.adobe.com/go/getflashplayer',
-                                                    'align', 'middle',
-                                                    'play', 'true',
-                                                    'loop', 'true',
-                                                    'scale', 'showall',
-                                                    'wmode', 'window',
-                                                    'devicefont', 'false',
-                                                    'id', 'mgs_video',
-                                                    'bgcolor', '#000000',
-                                                    'name', 'mgs_video',
-                                                    'menu', 'true',
-                                                    'allowFullScreen', 'false',
-                                                    'allowScriptAccess', 'sameDomain',
-                                                    'movie', 'mgs_video',
-                                                    'salign', ''
-                                                    ); //end AC code
-                                        </script>
-                                        <noscript>
-                                            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="274" height="224" id="mgs_video" align="middle">
-                                                <param name="allowScriptAccess" value="sameDomain" />
-                                                <param name="allowFullScreen" value="false" />
-                                                <param name="movie" value="mgs_video.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#000000" />	<embed src="mgs_video.swf" quality="high" bgcolor="#000000" width="274" height="224" name="mgs_video" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
-                                            </object>
-                                        </noscript>
+                                       <iframe width="" height="220"
+src="https://www.youtube.com/embed/b5kWuYfyFwc">
+</iframe>
                                     </TD>
                                 </TR>
                             </TABLE>
@@ -278,7 +247,7 @@
 
                             <TABLE BORDER="0" WIDTH="280" CELLSPACING="0" CELLPADDING="0">
                                 <TR>
-                                    <TD ALIGN="left" VALIGN="top" style="line-height:14px;"><IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/home/inthenews.gif" ALT="MG Security Services In the News" WIDTH="230" HEIGHT="35" HSPACE="0" VSPACE="10" BORDER="0"><BR>
+                                    <TD ALIGN="left" VALIGN="top" style="line-height:14px;"><h3 style="font-size:25px;line-height:28px">RazorClean Security Services in the news</h3><BR>
                                         <IMG SRC="<?php echo base_url()?>media/landing-pages/security/images/blank.gif" ALT="" WIDTH="1" HEIGHT="6" HSPACE="0" VSPACE="0" BORDER="0"><BR>
 
 

@@ -104,12 +104,12 @@
                         </div>
                     </p>
                     <p>&nbsp;</p>
-                    <h3>If you are looking for Punch List&#8217;s Photo Gallery then please call 1-855 GO RZCLN (467-9256) </h3>
+                    <h3>If you are looking for RazorClean Handyman's Photo Gallery then please call 1-855 GO RZCLN (467-9256) </h3>
                 </div>
                     <?php $this->load->view('partials/l_sidebar') ?>
             </div>
             <div id="body-bottom" class="section hide-from-tablet">
-                <img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/body-bottom.jpg" alt="Chicago Handyman" />
+                <img src="<?php echo base_url()?>media/landing-pages/handyman/wp-content/themes/Punch_List/images/body-bottom.jpg" alt="RazorClean Handyman" />
             </div>
             <div id="cert" class="section hide-from-tablet"></div>
         </div>

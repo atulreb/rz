@@ -7,6 +7,9 @@
                                 <header class="entry-header"><h1 class="entry-title" itemprop="headline">Floor Maintenance</h1> 
                                 </header>
 <div class="entry-content" itemprop="text">  <style>
+       .slider_text {
+            text-align: center;
+        }
         *{
             text-decoration: none;
         }
@@ -36,14 +39,6 @@
             right: 0;
             animation: 10s fading;
         }
-        @keyframes fading {
-            0% {
-                opacity: 1;
-            }
-            100% {
-                opacity: .8;
-            }
-        }
         .poster_title
         {
             display: none;
@@ -59,8 +54,17 @@
         {
             max-width: 1140px;
             margin: 0 auto;
+            margin-bottom: 20px;
             overflow: hidden;
             position: relative;
+        }
+        @keyframes fading {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: .8;
+            }
         }
         @keyframes slidy {
             0% {
@@ -122,7 +126,7 @@
             }
         }
 
-        li {
+        li.slide {
             display: inline-block;
         }
 
@@ -145,7 +149,6 @@
 
         .poster_photo {
             width: 100%;
-            position: relative;
         }
 
         img.slide_img {
@@ -171,9 +174,9 @@
 
         .tab {
             background-color: #333333;
-            /* 
+
             cursor: pointer; 
-            */
+
             float: left;
             margin-top: 390px;
             width: 12.5%;
@@ -252,102 +255,102 @@
             position: absolute;
             left: 90%;
         }
-        /*
+
         #slider_container div:nth-child(1):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-10%);
+            animation: paused;
+            transform: translateX(-10%);
         }
-        
+
         #slider_container div:nth-child(1):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(2):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(2):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-20%);
+            animation: paused;
+            transform: translateX(-20%);
         }
-        
+
         #slider_container div:nth-child(3):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(3):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-30%);
+            animation: paused;
+            transform: translateX(-30%);
         }
-        
+
         #slider_container div:nth-child(4):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(4):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-40%);
+            animation: paused;
+            transform: translateX(-40%);
         }
-        
+
         #slider_container div:nth-child(5):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(5):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-50%);
+            animation: paused;
+            transform: translateX(-50%);
         }
-        
+
         #slider_container div:nth-child(6):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(6):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-60%);
+            animation: paused;
+            transform: translateX(-60%);
         }
-        
+
         #slider_container div:nth-child(7):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(7):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-70%);
+            animation: paused;
+            transform: translateX(-70%);
         }
-        
+
         #slider_container div:nth-child(8):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(8):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-80%);
-        }*/
+            animation: paused;
+            transform: translateX(-80%);
+        }
 
         h4.banner_home_button_link {
             color: white;
@@ -363,31 +366,30 @@
             height: 38px;
             display: block;
             text-align: center;
-            margin-top: 100px;
         }
         .title {
             margin: 0;
         }
         .slider_text
         {
-            /* padding: 40px 0px 90px 20px;*/
+            padding: 40px 0px 30px 20px;
             color: white;
             text-transform: uppercase;
             text-shadow: 1px 1px 7px #6B6B6B;
             font-family: 'Titillium Web', sans-serif;
             font-size: 50px;
-            text-align: center;
+        }
+        .secondline:hover {
+            opacity: 1;
+            animation: ease-in-out;
         }
         .secondline {
             text-align: left;
             position: absolute;
             top: 110px;
-            display: ;
+            display: none;
+            animation: 10s fading;
             opacity: .8;
-        }
-        .secondline:hover {
-            opacity: 1;
-            animation: ease-in-out;
         }
         .subtext
         {
@@ -479,67 +481,115 @@
             {
                 display: ;
             }
+            .poster_photo {
+                position: relative;
+            }
             .slider_text
             {
                 position: absolute;
+                left: 0;
                 font-size: 20px;
                 text-align: center;
-                left: 0;
-                right: 0;
-                margin-top: 25px;
             }
         }
-
+        .slider_text
+        {
+            width: 90%;
+            padding: 2% 0 0 5%;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+            margin: 5% 0 0 5%;
+            padding: 0;
+        }
+        .subtext {
+            font-size: 22px;
+        }
+        .slider_home_button
+        {
+            display: none;
+        }
     </style>
     <div class="poster_photo"><img src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space"><div class="poster_title slider_text">The experts in janitorial services<div class="subtext"></div></div></div>
-    <div class="slider_window marketonlyreel">
+    <div class="slider_window">
         <section id="slider_container">
-            <div class="tab t1"><i class="material-icons">location_city</i><h3 class="tab_label">Austin, Tx</h3></div>
-            <div class="tab t2"><i class="material-icons">location_city</i><h3 class="tab_label">Birmingham, Al</h3></div>
-            <div class="tab t3"><i class="material-icons">location_city</i><h3 class="tab_label">Dallas, Tx</h3></div>
-            <div class="tab t4"><i class="material-icons">location_city</i><h3 class="tab_label">Denver, Co</h3></div>
-            <div class="tab t5"><i class="material-icons">location_city</i><h3 class="tab_label">Fort Worth, Tx</h3></div>
-            <div class="tab t6"><i class="material-icons">location_city</i><h3 class="tab_label">Longview, Tx</h3></div>
-            <div class="tab t7"><i class="material-icons">location_city</i><h3 class="tab_label">San Antonio</h3></div>
-            <div class="tab t8"><i class="material-icons">location_city</i><h3 class="tab_label">Tyler, Tx</h3></div>
-
+            <a href="<?php echo base_url()?>building-services/office-cleaning-services">
+                                        <div class="tab t1"><i class="material-icons">headset_mic</i>
+                                            <h3 class="tab_label">Office</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/healthcare-building">
+                                        <div class="tab t2"><i class="material-icons">local_pharmacy</i>
+                                            <h3 class="tab_label">Healthcare</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/educational-building">
+                                        <div class="tab t3"><i class="material-icons">school</i>
+                                            <h3 class="tab_label">Education</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/industrial-building">
+                                        <div class="tab t4"><i class="material-icons">location_city</i>
+                                            <h3 class="tab_label">Industrial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/financial-building">
+                                        <div class="tab t5"><i class="material-icons">attach_money</i>
+                                            <h3 class="tab_label">Financial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/religious-building">
+                                        <div class="tab t6"><i class="material-icons">account_balance</i>
+                                            <h3 class="tab_label">Religious</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/commercial-building">
+                                        <div class="tab t7"><i class="material-icons">business</i>
+                                            <h3 class="tab_label">Commercial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/retail-building">
+                                        <div class="tab t8"><i class="material-icons">shopping_cart</i>
+                                            <h3 class="tab_label">Retail</h3></div>
+                                    </a>
             <ul id="slider">
                 <li class="slide">
-                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space" alt="">
-                </li>
-                <li class="slide">
-                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Office-Entry-100.jpg" alt="clean office entry with two desks">
-                </li>
-                <li class="slide">
-                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space">
-                </li>
-                <li class="slide">
-                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/07/Conference-Room-Clean-100.jpg" alt="office conference room with tv">
-                </li>
-                <li class="slide">
-                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/office-100.jpg" alt="office lobby">
-                </li>
-                <li class="slide">
-                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Office-Entry-100.jpg" alt="clean office entry with two desks">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/oval-office-100.jpg" alt="">
+                    <h1 class="secondline slider_text"></h1>
                 </li>
                 <li class="slide">
                     <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space">
+                    <h1 class="secondline slider_text">in the office</h1>
                 </li>
                 <li class="slide">
-                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/07/Conference-Room-Clean-100.jpg" alt="office conference room with tv">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/healthcare-office-100.jpg" alt="hospital office desk with stethoscope">
+                    <h1 class="secondline slider_text">in healthcare</h1>
                 </li>
                 <li class="slide">
-                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/office-100.jpg" alt="office lobby">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/School-Hallway-Clean-100.jpg" alt="colorful school hallway">
+                    <h1 class="secondline slider_text">in educational buildings</h1>
                 </li>
                 <li class="slide">
-                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/07/Conference-Room-Clean-100.jpg" alt="office conference room with tv" alt="">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/gray-warehouse-100.jpg" alt="industrial warehouse with windows">
+                    <h1 class="secondline slider_text">in industrial buildings</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/office-100.jpg" alt="financial bank lobby">
+                    <h1 class="secondline slider_text">in financial buildings</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/Religious-100.jpg" alt="religious auditorium podium">
+                    <h1 class="secondline slider_text">in religious buildings</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/Commercial-100.jpg" alt="commercial building">
+                    <h1 class="secondline slider_text">in commercial buildings</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/08/retail-shops-100.jpg" alt="retail shops">
+                    <h1 class="secondline slider_text">in retail buildings</h1>
+                </li>
+                <li class="slide">
+                    <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/oval-office-100.jpg" alt="">
+                    <h1 class="secondline slider_text"></h1>
                 </li>
             </ul>
         </section>
         <div class="slider_info">
-            <h1 class="title slider_text">The experts in janitorial services<br><div class="subtext"></div></h1>
-            <a href="../../index.html" onclick="__gaTracker('send', 'event', 'outbound-article', '../../index.html', '\n                    knightjanitorial.com\n                ');" class="slider_home_button"  target="_blank">
-                <h4 class="banner_home_button_link" style="padding:0 !important">knightjanitorial.com</h4>
+            <h1 class="title slider_text">From post-construction cleanup to move-out services, we do it all<br><div class="subtext"></div></h1>
+            <a href="../../index.html" onclick="__gaTracker('send', 'event', 'outbound-article', '../../index.html', '\n            knightjanitorial.com\n        ');" class="slider_home_button"  target="_blank">
+                <h4 class="banner_home_button_link" style="padding:0 !important">RazorClean INc.</h4>
             </a>
         </div>
     </div>
@@ -838,7 +888,7 @@
                     <img class="blue_arrow_flipped" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Arrow-75-flipped.png">
                     <div class="form_cta" style="text-align:center;">
                         <div class="form_title">Let the experts handle it!</div>
-                        <div class="form_title form_title_subtext">KNIGHT JANITORIAL HAS OVER A DECADE IN EXPERIENCE!</div>
+                        <div class="form_title form_title_subtext">RAZORCLEAN BUILDING SERVICES HAS OVER A DECADE IN EXPERIENCE!</div>
                     </div>
                     <div class="arrow-down"></div>
                     <p class="form_text">Tell us a little about yourself and we'll call you within one business day!</p>
@@ -1025,7 +1075,7 @@
         @media (max-width: 765px) {
             .sixty{padding: 0 20px;background-color: white;}
         }
-    </style></div></article></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar"><section id="text-7" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><a href="../../get-a-quote/index.html"><img src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/01/bigquote-btn.png"></a></div>
+    </style></div></article></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar"><section id="text-7" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><a href="#"><img src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/01/bigquote-btn.png"></a></div>
         </div></section>
     <section id="text-2" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Association Involvement</h4>
             <div class="textwidget"><p style="padding-left:70px;"><a href="http://www.bbb.org/" target="_blank"><img src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/02/bbb-aplus-rating1.jpg" alt="Better Business Bureau" style="

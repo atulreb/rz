@@ -18,7 +18,7 @@
     <link type="text/css" rel="stylesheet" href="<?php echo base_url() ?>media/landing-pages/pest-control/sites/default/files/css/css_3xxxETDuvkZwc-KEDMomGW6VF75UmTMsD7tQa3ipZPY.css" media="all" />
     <link type="text/css" rel="stylesheet" href="<?php echo base_url() ?>media/landing-pages/pest-control/sites/default/files/css/css_oDt8eYr0RgosU_Ol9ZpJANDo7EDK0QgP3ZQ7VuD3mPU.css" media="all" />
 
-
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!--[if gte IE 9]><!-->
     <link type="text/css" rel="stylesheet" href="<?php echo base_url() ?>media/landing-pages/pest-control/sites/default/files/css/css_jWgUn4nrVs4JiE64fsduNLfWBr7hV-pZwlHVKgFB3vY.css" media="all" />
@@ -261,7 +261,7 @@
                                                     </ul>
                                                 </li>
                                                 <li id="menu-470-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent">
-                                                    <a href="<?php echo base_url()?>pest-control/service-areas" class="sf-depth-1 menuparent">Service Areas</a>
+                                                    <a href="javascript:;" class="sf-depth-1 menuparent">Service Areas</a>
                                                     <ul>
                                                         <li id="menu-485-1" class="firstandlast odd sf-item-1 sf-depth-2 sf-no-children">
                                                             <a href="<?php echo base_url()?>pest-control/service-information" class="sf-depth-2">Service Information</a>

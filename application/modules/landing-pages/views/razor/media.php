@@ -151,8 +151,8 @@
                                        data-paddingright="[0,0,0,0]"
                                        data-paddingbottom="[0,0,0,0]"
                                        data-paddingleft="[0,0,0,0]"
-                                       style="z-index: 11; white-space: nowrap; font-size: 86px; font-weight: 400;font-family:Montserrat;">Beautiful<br/>
-                                       Websites 
+                                       style="z-index: 11; white-space: nowrap; font-size: 86px; font-weight: 400;font-family:Montserrat;">RazorClean<br/>
+                                       Inc. 
                                     </h2>
                                     <!-- LAYER NR. 8 -->
                                     <div class="tp-caption WebProduct-Content-Light   tp-resizeme" 
@@ -311,125 +311,7 @@
                                        style="z-index: 19;background-color:rgba(255, 255, 255, 1.00);"> </div>
                                  </li>
                                  <!-- SLIDE  -->
-                                 <li data-index="rs-16" data-transition="slidevertical" data-slotamount="1" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/revslider/web-product-dark/officeloop_cover-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Get a License" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                    <!-- MAIN IMAGE -->
-                                    <img src="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/revslider/web-product-dark/officeloop_cover.jpg"  alt="" title="Home Agency"  data-bgposition="center center" data-bgfit="cover" class="rev-slidebg" data-no-retina>
-                                    <!-- LAYERS -->
-                                    <!-- BACKGROUND VIDEO LAYER -->
-                                    <div class="rs-background-video-layer" 
-                                       data-forcerewind="on" 
-                                       data-volume="mute" 
-                                       data-videowidth="100%" 
-                                       data-videoheight="100%" 
-                                       data-videomp4="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/revslider/web-product-dark/officeloop_low.mp4" 
-                                       data-videopreload="auto" 
-                                       data-videoloop="none" 
-                                       data-forceCover="1" 
-                                       data-aspectratio="16:9" 
-                                       data-autoplay="true" 
-                                       data-autoplayonlyfirsttime="false" 
-                                       ></div>
-                                    <!-- LAYER NR. 16 -->
-                                    <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme" 
-                                       id="slide-16-layer-11" 
-                                       data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                                       data-y="['middle','middle','middle','middle']" data-voffset="['1','1','1','1']" 
-                                       data-width="full"
-                                       data-height="full"
-                                       data-whitespace="nowrap"
-                                       data-type="shape" 
-                                       data-basealign="slide" 
-                                       data-responsive_offset="on" 
-                                       data-frames='[{"from":"opacity:0;","speed":1500,"to":"o:1;","delay":0,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                                       data-textAlign="['left','left','left','left']"
-                                       data-paddingtop="[0,0,0,0]"
-                                       data-paddingright="[0,0,0,0]"
-                                       data-paddingbottom="[0,0,0,0]"
-                                       data-paddingleft="[0,0,0,0]"
-                                       style="z-index: 20;background-color:rgba(64, 50, 70, 0.90);"> </div>
-                                    <!-- LAYER NR. 17 -->
-                                    <div class="tp-caption WebProduct-Title-Light   tp-resizeme" 
-                                       id="slide-16-layer-7" 
-                                       data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                                       data-y="['middle','middle','top','top']" data-voffset="['-80','-80','176','187']" 
-                                       data-fontsize="['86','86','50','40']"
-                                       data-lineheight="['90','90','50','40']"
-                                       data-fontweight="['400','400','100','100']"
-                                       data-width="none"
-                                       data-height="none"
-                                       data-whitespace="nowrap"
-                                       data-type="text" 
-                                       data-responsive_offset="on" 
-                                       data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                                       data-textAlign="['center','center','center','center']"
-                                       data-paddingtop="[0,0,0,0]"
-                                       data-paddingright="[0,0,0,0]"
-                                       data-paddingbottom="[0,0,0,0]"
-                                       data-paddingleft="[0,0,0,0]"
-                                       style="z-index: 21; white-space: nowrap; font-size: 86px; font-weight: 400;font-family:Montserrat;">The Whole World of<br/>
-                                       Slider Revolution 
-                                    </div>
-                                    <!-- LAYER NR. 18 -->
-                                    <div class="tp-caption WebProduct-SubTitle-Light   tp-resizeme" 
-                                       id="slide-16-layer-10" 
-                                       data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                                       data-y="['middle','middle','top','top']" data-voffset="['44','44','294','287']" 
-                                       data-fontsize="['15','15','15','13']"
-                                       data-width="none"
-                                       data-height="none"
-                                       data-whitespace="nowrap"
-                                       data-type="text" 
-                                       data-responsive_offset="on" 
-                                       data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1250,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                                       data-textAlign="['left','left','left','left']"
-                                       data-paddingtop="[0,0,0,0]"
-                                       data-paddingright="[0,0,0,0]"
-                                       data-paddingbottom="[0,0,0,0]"
-                                       data-paddingleft="[0,0,0,0]"
-                                       style="z-index: 22; white-space: nowrap;font-family:Roboto;letter-spacing:2px;font-weight:500;">LICENSES STARTING FROM $18 </div>
-                                    <!-- LAYER NR. 19 -->
-                                    <div class="tp-caption WebProduct-Content-Light   tp-resizeme" 
-                                       id="slide-16-layer-9" 
-                                       data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                                       data-y="['middle','middle','top','top']" data-voffset="['129','129','345','326']" 
-                                       data-fontsize="['16','16','16','14']"
-                                       data-lineheight="['24','24','24','22']"
-                                       data-fontweight="['300','300','600','600']"
-                                       data-width="['448','448','334','277']"
-                                       data-height="['none','none','76','68']"
-                                       data-whitespace="normal"
-                                       data-type="text" 
-                                       data-responsive_offset="on" 
-                                       data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1500,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                                       data-textAlign="['center','center','center','center']"
-                                       data-paddingtop="[0,0,0,0]"
-                                       data-paddingright="[0,0,0,0]"
-                                       data-paddingbottom="[0,0,0,0]"
-                                       data-paddingleft="[0,0,0,0]"
-                                       style="z-index: 23; min-width: 448px; max-width: 448px; white-space: normal; font-weight: 300;font-family:Roboto;">Make the most of your website and enhance it with cutting-edge ThemePunch technology. </div>
-                                    <!-- LAYER NR. 20 -->
-                                    <a class="tp-caption Sports-Button-Light  " 
-                                       href="http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380?ref=themepunch" target="_blank"			 id="slide-16-layer-8" 
-                                       data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                                       data-y="['middle','middle','top','top']" data-voffset="['268','268','456','430']" 
-                                       data-fontsize="['17','17','16','16']"
-                                       data-lineheight="['17','17','48','48']"
-                                       data-fontweight="['300','300','600','600']"
-                                       data-width="none"
-                                       data-height="none"
-                                       data-whitespace="nowrap"
-                                       data-type="button" 
-                                       data-actions=''
-                                       data-responsive_offset="on" 
-                                       data-responsive="off"
-                                       data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1750,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"},{"frame":"hover","speed":"500","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:2px 2px 2px 2px;"}]'
-                                       data-textAlign="['left','left','left','left']"
-                                       data-paddingtop="[12,12,12,12]"
-                                       data-paddingright="[35,35,35,35]"
-                                       data-paddingbottom="[12,12,12,12]"
-                                       data-paddingleft="[35,35,35,35]"
-                                       style="z-index: 24; white-space: nowrap; font-weight: 300;font-family:Roboto;letter-spacing:1px;text-decoration: none;">BUY ON ENVATO </a>
-                                 </li>
+                                 
                               </ul>
                               <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
                                  if(htmlDiv) {
@@ -577,7 +459,7 @@
                               <div class="vc_column-inner vc_custom_1471003539766">
                                  <div class="wpb_wrapper">
                                     <div data-animate='none' style='animation-duration:0.5s;animation-delay:0s;' class='icon_item s1'>
-                                       <div style='background-image:url(<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/ignasi_pattern_s.png);background-repeat:repeat;'  class='icon_item_icon'><i style='color:#ffffff;background-color:#1cce9e;' class='icon-equalizer'></i></div>
+                                       <div style='background-image:url(<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/ignasi_pattern_s.png);background-repeat:repeat;'  class='icon_item_icon'><i style='color:#ffffff;background-color:#AB2438;' class='icon-equalizer'></i></div>
                                        <div class='icon_item_content'>
                                           <h5>Customizable</h5>
                                           <div class='text'>We fundamentally believe that our customers are more interested in a simple, attractive.</div>
@@ -590,7 +472,7 @@
                               <div class="vc_column-inner vc_custom_1471003545888">
                                  <div class="wpb_wrapper">
                                     <div data-animate='none' style='animation-duration:0.5s;animation-delay:0s;' class='icon_item s1'>
-                                       <div style='background-image:url(<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/skulls.png);background-repeat:repeat;'  class='icon_item_icon'><i style='color:#ffffff;background-color:#1cce9e;' class='icon-calendar-3'></i></div>
+                                       <div style='background-image:url(<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/skulls.png);background-repeat:repeat;'  class='icon_item_icon'><i style='color:#ffffff;background-color:#AB2438;' class='icon-calendar-3'></i></div>
                                        <div class='icon_item_content'>
                                           <h5>Punctual</h5>
                                           <div class='text'>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring.</div>
@@ -603,7 +485,7 @@
                               <div class="vc_column-inner vc_custom_1471003561265">
                                  <div class="wpb_wrapper">
                                     <div data-animate='none' style='animation-duration:0.5s;animation-delay:0s;' class='icon_item s1'>
-                                       <div style='background-image:url(<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/symphony.png);background-repeat:repeat;'  class='icon_item_icon'><i style='color:#ffffff;background-color:#1cce9e;' class='icon-umbrella-1'></i></div>
+                                       <div style='background-image:url(<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/symphony.png);background-repeat:repeat;'  class='icon_item_icon'><i style='color:#ffffff;background-color:#AB2438;' class='icon-umbrella-1'></i></div>
                                        <div class='icon_item_content'>
                                           <h5>Water Proof</h5>
                                           <div class='text'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</div>
@@ -1015,7 +897,7 @@
                </div>
             </div>
          </div>
-         <div class="vc_row wpb_row vc_row-fluid">
+         <!--div class="vc_row wpb_row vc_row-fluid">
             <div class="wpb_column vc_column_container vc_col-sm-12">
                <div class="vc_column-inner ">
                   <div class="wpb_wrapper">
@@ -1037,7 +919,7 @@
                   </div>
                </div>
             </div>
-         </div>
+         </div-->
          <div class="vc_row wpb_row vc_row-fluid confine">
             <div class="wpb_column vc_column_container vc_col-sm-12">
                <div class="vc_column-inner ">
@@ -1053,7 +935,7 @@
                            <li class='themegasm_testimonial'>
                               <img width="150" height="150" src="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t9-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="t9" srcset="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t9-150x150.jpg 150w, <?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t9-180x180.jpg 180w, <?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t9-300x300.jpg 300w, <?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t9-600x600.jpg 600w" sizes="(max-width: 150px) 100vw, 150px" />
                               <div class='themegasm_testimonial_text'>
-                                 <p>“The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.”</p>
+                                 <p>“The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.�?</p>
                               </div>
                               <div class='testimonial_author'>
                                  <h5>Jane Morad</h5>
@@ -1063,7 +945,7 @@
                            <li class='themegasm_testimonial'>
                               <img width="150" height="150" src="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t5-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="t5" srcset="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t5-150x150.jpg 150w, <?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t5-180x180.jpg 180w, <?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t5-300x300.jpg 300w, <?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t5-600x600.jpg 600w" sizes="(max-width: 150px) 100vw, 150px" />
                               <div class='themegasm_testimonial_text'>
-                                 <p>“Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack.”</p>
+                                 <p>“Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack.�?</p>
                               </div>
                               <div class='testimonial_author'>
                                  <h5>Maria Fallon</h5>
@@ -1073,7 +955,7 @@
                            <li class='themegasm_testimonial'>
                               <img width="150" height="150" src="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t10-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="t10" srcset="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t10-150x150.jpg 150w, <?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t10-180x180.jpg 180w, <?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t10-300x300.jpg 300w, <?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/05/t10-600x600.jpg 600w" sizes="(max-width: 150px) 100vw, 150px" />
                               <div class='themegasm_testimonial_text'>
-                                 <p>“Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex.”</p>
+                                 <p>“Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex.�?</p>
                               </div>
                               <div class='testimonial_author'>
                                  <h5>Cameron Mustafi</h5>
@@ -1109,7 +991,7 @@
                </div>
             </div>
          </div>
-         <div class="vc_row wpb_row vc_row-fluid">
+         <!--div class="vc_row wpb_row vc_row-fluid">
             <div class="wpb_column vc_column_container vc_col-sm-12">
                <div class="vc_column-inner vc_custom_1464349509987">
                   <div class="wpb_wrapper">
@@ -1123,7 +1005,7 @@
                   </div>
                </div>
             </div>
-         </div>
+         </div-->
       </div>
    </article>
 </section>

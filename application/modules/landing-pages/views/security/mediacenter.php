@@ -2,7 +2,7 @@
 <DIV id="panels">
     <DIV id="sidenav">
         <div id="security" style="  height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'security.html'">
+    margin-bottom: 5px;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -10,14 +10,14 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies in NYC</h1></TD>
+                    <TD ALIGN="left" VALIGN="top"><h1>One of the most respected security companies</h1></TD>
                 </TR>
 
             </TABLE>	
         </div>
 
         <div id="investigations" style="  height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'investigations.html'">
+    margin-bottom: 5px;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -25,13 +25,13 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies in NYC</h2></TD>
+                    <TD ALIGN="left" VALIGN="top"><h2>One of the premier private detective agencies</h2></TD>
                 </TR>
             </TABLE>
         </div>
 
         <div id="permits"  style="  height:94px;  width: 241px;
-    margin-bottom: 5px;" onclick="javascript:window.location.href = 'eventpermits.html'">
+    margin-bottom: 5px;" >
             <TABLE BORDER="0" WIDTH="251" CELLSPACING="0" CELLPADDING="0">
                 <TR>
                     <TD WIDTH="20" rowspan=2></TD>
@@ -39,7 +39,7 @@
                 </TR>
                 <TR>
                     <TD WIDTH="10"></TD>
-                    <TD ALIGN="left" VALIGN="top"><h2>Your source for NYC event permits anywhere in the city</h2></TD>
+                    <TD ALIGN="left" VALIGN="top"><h2>Your source for event permits anywhere in the city</h2></TD>
                 </TR>
 
             </TABLE>
@@ -89,7 +89,7 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2" align="center" valign="top">
-                                                <input type="image" src="http://54.209.190.106/Razorclean/media/landing-pages/security/images/submit.png" name="submit" value="submit"></td>
+                                                <input type="image" src="<?php echo base_url()?>media/landing-pages/security/images/submit.png" name="submit" value="submit"></td>
                                         </tr>
                                     </tbody></table>
                                 </form>
@@ -123,8 +123,13 @@
                 <TD ALIGN="left" VALIGN="top" WIDTH="20"></TD>
 
                 <TD ALIGN="left" VALIGN="top">
-                    MG Security Services LLC has <A HREF="about.html" style="font-weight:bold;">four executives</A> that are experts in niche subject matter and are available to answer a journalist's 
-                    inquiry. <A HREF="contact.html" style="font-weight:bold;">Please contact us if you need an expert comment on a developing situation</A>.
+                   RazorClean Security Services: 
+				   <!--<A HREF="about.html" style="font-weight:bold;">four executives</A> that are experts in niche subject matter and are available to answer a journalist's -->
+                     
+				   <br/>
+					<A HREF="<?php echo base_url()?>security/contact" style="font-weight:bold;">Please contact us if you are in need of some help.</A>.
+				   <br/>
+					Call Us Today: 1-855-GO RZCLN (467-9526)
                 </TD>
             </TR>
 
@@ -132,7 +137,8 @@
             <TR>
                 <TD ALIGN="left" VALIGN="top" WIDTH="20"></TD>
                 <TD ALIGN="left" VALIGN="top">
-                    <BR><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="10" BORDER="0"><BR>
+                    <BR>
+					<IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="10" BORDER="0"><BR>
                     <span class="orangecallout18">Video Archive</span>
                     <BR><IMG SRC="<?php echo base_url() ?>media/landing-pages/security/images/blackpixel.gif" ALT="" WIDTH="600" HEIGHT="1" HSPACE="0" VSPACE="10" BORDER="0"><BR><BR>
                 </TD>
@@ -150,8 +156,9 @@
                         <tr>
                             <?php foreach($arr_blog_data as $data){?>
                             <TD ALIGN="center" VALIGN="top"> <BR>
-                                <a href="<?php echo base_url()."security/mediacenter/details/".$data['slug']?>" ><img src="<?php echo base_url() ."uploads/blogs/".$data['blog_image']?>" alt="" width="290" hspace="0" vspace="0" border="0" height="163"></A><BR>
-                                <a href="<?php echo base_url()."security/mediacenter/details/".$data['slug']?>"><?php echo $data['post_title']?></A>
+                                <a href="<?php echo base_url()."security/mediacenter/details/".$data['slug']?>" >
+									<img src="<?php echo base_url() ."uploads/blogs/".$data['blog_image']?>" alt="" width="290" hspace="0" vspace="0" border="0" height="163"></A><BR>
+                                <!--<a href="<?php //echo base_url()."security/mediacenter/details/".$data['slug']?>"><?php //echo $data['post_title']?></A>-->
                             </TD>
                             <?php }?>
                            

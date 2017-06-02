@@ -58,11 +58,12 @@
 				
 	<div class="wpb_text_column wpb_content_element ">
 		<div class="wpb_wrapper">
-			<h1>Landscaping Company for Home and Community Associations</h1>
-<p>In order to provide landscaping services for large residential groups such as home and community associations, a landscaping company must be familiar with the plants, trees, climate and irrigation specific to each property. They must be efficient, professional and excellent in what they do while also being skilled in customer service. Olympic Lawn &amp; Landscape, Inc. is proud to maintain an excellent reputation in each of these areas and is fully equipped to design and maintain the landscape of any community or home association in our service area.</p>
-<p>We understand that landscaping is a major expense for residential groups. Next to insurance, it often requires the greatest investment. That’s why Olympic Lawn &amp; Landscape will treat your community with care and offer our expert design and maintenance on every project.</p>
-<p>If you are looking for a professional landscape company for your <strong>community or home association</strong>, contact us today for a free consultation. All of the services we list for residential and commercial landscaping are available to home groups, and we will gladly assess your area and create an ideal setting to make your property stand out for its natural beauty. Keep your current residents happy and attract others to your&nbsp;area for years to come by letting us serve you with our professional, quality landscaping service.</p>
-<h1></h1>
+			<h1>About RazorClean Lawn Care</h1>
+<p>Our company is based on the belief that our customers' needs are of the utmost importance. Our entire team is committed to meeting those needs. As a result, a high percentage of our business is from repeat customers and referrals. </p>
+<p>RazorClean lawn care is an industry leader in the landscaping industry. We proudly service residential and commercial clients. We have years of experience in landscaping and operate with the latest and most innovative equipment on the market. </p>
+<p>Our landscapers can help you design and maintain the perfect landscape. They are well trained and skilled. Our team of professionals is fully licensed, insured and bonded. We will make sure that your project is accomplished without any delays and drawbacks. Whether it’s a small landscaping task or a big project, we are always ready to do it for you. Our prices are designed to fit within your budget and the speed of our service is unbelievable.</p>
+<p>We would welcome the opportunity to earn your trust and deliver you the best service in the industry.</p>
+<h1>RazorClean Lawn Care, The Circle Of Trust.</h1>
 
 		</div>
 	</div>
@@ -72,14 +73,26 @@
 
 	<div  class="vc_col-sm-4 wpb_column column_container col boxed padding-2-percent"  data-bg-cover="" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="" data-hover-bg-opacity="1" data-animation="" data-delay="0">
 			<div class="wpb_wrapper">
-				<div class="img-with-aniamtion-wrap center"><img class="img-with-animation " data-delay="0" height="100%" width="100%" data-animation="fade-in-from-bottom" src="<?php echo base_url()?>media/landing-pages/lawncare/wp-content/uploads/2015/03/Walkway-13-Garden-Center0.jpg" alt="Walkway-13-Garden-Center0" /></div><div style="margin-top: 25px; margin-bottom: 25px;" class="divider-border"></div>
+				<div class="img-with-aniamtion-wrap center"><img class="img-with-animation " data-delay="0" height="100%" width="100%" data-animation="fade-in-from-bottom" src="<?php echo base_url()?>media/landing-pages/lawncare/wp-content/uploads/2015/03/lc_aboutus1.jpg" alt="Walkway-13-Garden-Center0" /></div><div style="margin-top: 25px; margin-bottom: 25px;" class="divider-border"></div>
 	<div class="wpb_widgetised_column wpb_content_element">
 		<div id="sidebar" class="wpb_wrapper">
 			
 		</div> 
 	</div> 
 			</div> 
+			
+	</div>
+<div  class="vc_col-sm-4 wpb_column column_container col boxed padding-2-percent"  data-bg-cover="" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="" data-hover-bg-opacity="1" data-animation="" data-delay="0">
+			<div class="wpb_wrapper">
+				<div class="img-with-aniamtion-wrap center"><img class="img-with-animation " data-delay="0" height="100%" width="100%" data-animation="fade-in-from-bottom" src="<?php echo base_url()?>media/landing-pages/lawncare/wp-content/uploads/2015/03/lc_aboutus2.jpg" alt="Walkway-13-Garden-Center0" /></div><div style="margin-top: 25px; margin-bottom: 25px;" class="divider-border"></div>
+	<div class="wpb_widgetised_column wpb_content_element">
+		<div id="sidebar" class="wpb_wrapper">
+			
+		</div> 
 	</div> 
+			</div> 
+			
+	</div>	
 </div></div>
 	
 	

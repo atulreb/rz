@@ -211,7 +211,7 @@
 			   <div class="spacing-top_service col-md-4 col-sm-12">
 			   
 			   <div class="service_icon">
-			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Handyman_Icon.png">
+			   <img src="<?php echo frontend_asset_url()?>img/brands-services/handyman_icon1.png">
 			   </div>
 			   <div class="service_img">
 			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Handyman.png">
@@ -232,7 +232,7 @@
 			   <div class="spacing-top_service col-md-4 col-sm-12">
 			   
 			   <div class="service_icon">
-			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Painter_Icon.png">
+			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Mobile_icon.png">
 			   </div>
 			   <div class="service_img">
 			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Mobile_Details.png">
@@ -253,7 +253,7 @@
 			   <div class="spacing-top_service col-md-4 col-sm-12">
 			   
 			   <div class="service_icon">
-			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Painter_Icon.png">
+			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Transport_icon.png">
 			   </div>
 			   <div class="service_img">
 			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Moving.png">
@@ -274,7 +274,7 @@
 			   <div class="spacing-top_service col-md-4 col-sm-12">
 			   
 			   <div class="service_icon">
-			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Painter_Icon.png">
+			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Pool_icon.png">
 			   </div>
 			   <div class="service_img">
 			   <img src="<?php echo frontend_asset_url()?>img/brands-services/pool_Cleaning.png">
@@ -297,7 +297,7 @@
 			   <div class="spacing-top_service col-md-4 col-sm-12">
 			   
 			   <div class="service_icon">
-			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Painter_Icon.png">
+			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Security_icon.png">
 			   </div>
 			   <div class="service_img">
 			   <img src="<?php echo frontend_asset_url()?>img/brands-services/Security.png">

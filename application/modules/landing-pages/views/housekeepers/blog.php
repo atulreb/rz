@@ -11,7 +11,7 @@
                                     <div class="slideshow_inner_caption">
                                         <div class="slideshow_align_caption">
                                             <h2 style="font-size:28px; " class="avia-caption-title" itemprop="name">Latest News</h2>
-                                            <br><a href="https://downtownmaid.com/book-now/" class="avia-slideshow-button avia-button avia-color-orange avia-multi-slideshow-button" data-duration="800" data-easing="easeInOutQuad">Book Now</a><a href="https://downtownmaid.com/services-pricing/" class="avia-slideshow-button avia-button avia-color-theme-color avia-multi-slideshow-button avia-slideshow-button-2" data-duration="800" data-easing="easeInOutQuad">Services</a>
+                                            <br><a href="<?php echo base_url()?>housekeepers/contact" class="avia-slideshow-button avia-button avia-color-orange avia-multi-slideshow-button" data-duration="800" data-easing="easeInOutQuad">Book Now</a><a href="<?php echo base_url()?>housekeepers/services" class="avia-slideshow-button avia-button avia-color-theme-color avia-multi-slideshow-button avia-slideshow-button-2" data-duration="800" data-easing="easeInOutQuad">Services</a>
                                         </div>
                                     </div>
                                 </div>
@@ -101,17 +101,17 @@
                             
                         </div><span class="seperator extralight-border"></span>
                     </section>
-                    <section id="text-7" class="widget clearfix widget_text">
-                        <h3 class="widgettitle">Get In Touch</h3>
-                        <div class="textwidget">
-                            <p><span class="av_font_icon avia_animate_when_visible av-icon-style-  av-no-color avia-icon-pos-left " style=""><span class="av-icon-char" style="font-size:20px;line-height:20px;" aria-hidden="true" data-av_icon="?" data-av_iconfont="entypo-fontello"></span></span> RazorClean House Cleaning </p>
-                                <br>Miami, FL 33131 </p>
-                            <p><span class="av_font_icon avia_animate_when_visible av-icon-style-  av-no-color avia-icon-pos-left " style=""><span class="av-icon-char" style="font-size:20px;line-height:20px;" aria-hidden="true" data-av_icon="?" data-av_iconfont="entypo-fontello"></span></span> signup@rzclnhousecleaning.com</p>
-                            <p><span class="av_font_icon avia_animate_when_visible av-icon-style-  av-no-color avia-icon-pos-left " style=""><span class="av-icon-char" style="font-size:20px;line-height:20px;" aria-hidden="true" data-av_icon="?" data-av_iconfont="entypo-fontello"></span></span> 1-855 GO RZCLN (467-9256) </p>
-                            <p>We are here to help you, please give us a call or email us. Thank You</p>
-                        </div>
-                        <span class="seperator extralight-border"></span>
-                    </section>
+                     <section id="text-6" class="widget clearfix widget_text">
+                                    <h3 class="widgettitle">Get In Touch</h3>
+                                    <div class="textwidget">
+                                        <p><span class="av_font_icon avia_animate_when_visible av-icon-style-  av-no-color avia-icon-pos-left  avia_start_animation avia_start_delayed_animation icon-chevron-right" style=""><span class="av-icon-char icon-home" style="font-size:20px;line-height:20px;"></span></span> RazorClean House Cleaning </p>
+                                        </p>
+                                        <p><span class="av_font_icon avia_animate_when_visible av-icon-style-  av-no-color avia-icon-pos-left  avia_start_animation avia_start_delayed_animation" style=""><span class="av-icon-char icon-email" style="font-size:20px;line-height:20px;" ></span></span> signup@rzclnhousecleaning.com</p>
+                                        <p><span class="av_font_icon avia_animate_when_visible av-icon-style-  av-no-color avia-icon-pos-left  avia_start_animation avia_start_delayed_animation" style=""><span class="av-icon-char icon-phone" style="font-size:20px;line-height:20px;" ></span></span> 1-855 GO RZCLN (467-9256) </p>
+                                        <p>We are here to help you, please give us a call or email us. Thank You</p>
+                                    </div>
+                                    <span class="seperator extralight-border"></span>
+                                </section>
                 </div>
             </aside>
         </div>

@@ -1,5 +1,5 @@
 .social-media-icons {
-	margin-top: -30px;
+	margin-top: -15px;
 }
 
 .header-right .additional-links {
@@ -10,7 +10,7 @@
 #header .header-top {
     background-color: #fff;
     padding-bottom: 50px;
-    padding-top: 60px !important;
+    padding-top:27px !important;
     line-height: 65px!important;
 }
 
@@ -26,7 +26,7 @@ img.img-responsive.header-logo {
 }
 
 ul.phone-area {
-    margin-bottom: 20px;
+    margin-bottom: -20px;
 }
 
 .additional-links {

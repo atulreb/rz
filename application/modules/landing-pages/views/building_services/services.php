@@ -175,9 +175,9 @@
 
         .tab {
             background-color: #333333;
-            /* 
+
             cursor: pointer; 
-            */
+
             float: left;
             margin-top: 390px;
             width: 12.5%;
@@ -256,102 +256,102 @@
             position: absolute;
             left: 90%;
         }
-        /*
+
         #slider_container div:nth-child(1):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-10%);
+            animation: paused;
+            transform: translateX(-10%);
         }
-        
+
         #slider_container div:nth-child(1):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(2):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(2):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-20%);
+            animation: paused;
+            transform: translateX(-20%);
         }
-        
+
         #slider_container div:nth-child(3):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(3):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-30%);
+            animation: paused;
+            transform: translateX(-30%);
         }
-        
+
         #slider_container div:nth-child(4):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(4):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-40%);
+            animation: paused;
+            transform: translateX(-40%);
         }
-        
+
         #slider_container div:nth-child(5):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(5):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-50%);
+            animation: paused;
+            transform: translateX(-50%);
         }
-        
+
         #slider_container div:nth-child(6):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(6):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-60%);
+            animation: paused;
+            transform: translateX(-60%);
         }
-        
+
         #slider_container div:nth-child(7):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(7):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-70%);
+            animation: paused;
+            transform: translateX(-70%);
         }
-        
+
         #slider_container div:nth-child(8):hover {
-          background-color: #16BBF0;
-          height: 60px;
-          z-index: 1;
-          margin-top: 365px;
+            background-color: #16BBF0;
+            height: 60px;
+            z-index: 1;
+            margin-top: 365px;
         }
-        
+
         #slider_container div:nth-child(8):hover ~ #slider {
-          animation: paused;
-          transform: translateX(-80%);
-        }*/
+            animation: paused;
+            transform: translateX(-80%);
+        }
 
         h4.banner_home_button_link {
             color: white;
@@ -512,15 +512,38 @@
     <div class="poster_photo"><img src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Open-Office-100.jpg" alt="big open office space"><div class="poster_title slider_text">Great office cleaning helps maintain a productive environment<div class="subtext"></div></div></div>
     <div class="slider_window">
         <section id="slider_container">
-            <a href="../additional-services/office-cleaning-service/index.html"><div class="tab t1"><i class="material-icons">headset_mic</i><h3 class="tab_label">Office</h3></div></a>
-            <a href="janitorial-cleaning-services/healthcare/index.html"><div class="tab t2"><i class="material-icons">local_pharmacy</i><h3 class="tab_label">Healthcare</h3></div></a>
-            <a href="janitorial-cleaning-services/educational/index.html"><div class="tab t3"><i class="material-icons">school</i><h3 class="tab_label">Education</h3></div></a>
-            <a href="janitorial-cleaning-services/industrial/index.html"><div class="tab t4"><i class="material-icons">location_city</i><h3 class="tab_label">Industrial</h3></div></a>
-            <a href="janitorial-cleaning-services/financial/index.html"><div class="tab t5"><i class="material-icons">attach_money</i><h3 class="tab_label">Financial</h3></div></a>
-            <a href="janitorial-cleaning-services/religious/index.html"><div class="tab t6"><i class="material-icons">account_balance</i><h3 class="tab_label">Religious</h3></div></a>
-            <a href="janitorial-cleaning-services/commercial/index.html"><div class="tab t7"><i class="material-icons">business</i><h3 class="tab_label">Commercial</h3></div></a>
-            <a href="janitorial-cleaning-services/retail/index.html"><div class="tab t8"><i class="material-icons">shopping_cart</i><h3 class="tab_label">Retail</h3></div></a>
-
+            <a href="<?php echo base_url()?>building-services/office-cleaning-services">
+                                        <div class="tab t1"><i class="material-icons">headset_mic</i>
+                                            <h3 class="tab_label">Office</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/healthcare-building">
+                                        <div class="tab t2"><i class="material-icons">local_pharmacy</i>
+                                            <h3 class="tab_label">Healthcare</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/educational-building">
+                                        <div class="tab t3"><i class="material-icons">school</i>
+                                            <h3 class="tab_label">Education</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/industrial-building">
+                                        <div class="tab t4"><i class="material-icons">location_city</i>
+                                            <h3 class="tab_label">Industrial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/financial-building">
+                                        <div class="tab t5"><i class="material-icons">attach_money</i>
+                                            <h3 class="tab_label">Financial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/religious-building">
+                                        <div class="tab t6"><i class="material-icons">account_balance</i>
+                                            <h3 class="tab_label">Religious</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/commercial-building">
+                                        <div class="tab t7"><i class="material-icons">business</i>
+                                            <h3 class="tab_label">Commercial</h3></div>
+                                    </a>
+                                    <a href="<?php echo base_url()?>building-services/retail-building">
+                                        <div class="tab t8"><i class="material-icons">shopping_cart</i>
+                                            <h3 class="tab_label">Retail</h3></div>
+                                    </a>
             <ul id="slider">
                 <li class="slide">
                     <img class="slide_img" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/oval-office-100.jpg" alt="">
@@ -865,7 +888,7 @@
                 <img class="blue_arrow_flipped" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/09/Arrow-75-flipped.png">
                 <div class="form_cta" style="text-align:center;">
                     <div class="form_title">Let the experts handle it!</div>
-                    <div class="form_title form_title_subtext">KNIGHT JANITORIAL HAS OVER A DECADE IN EXPERIENCE!</div>
+                    <div class="form_title form_title_subtext">RAZORCLEAN BUILDING SERVICES HAS OVER A DECADE IN EXPERIENCE!</div>
                 </div>
                 <div class="arrow-down"></div>
                 <p class="form_text">Tell us a little about yourself and we'll call you within one business day!</p>
@@ -992,8 +1015,10 @@
     </div>
     <div class="sixty read_more">
         <div class="ilblock">
+            
+            <h1 class="sub_title">RazorClean Building Services General Cleaning Services Include:</h1>
+            <img style="width:100%" class="ninty" src="<?php echo base_url() ?>media/landing-pages/building-services/wp-content/uploads/2015/12/rbs_gcl1.jpg" alt="grime being removed" />
             <h2 class="subject">Our general cleaning services can maintain any type of building facility because our cleaning teams are incredibly thorough and professional.</h2>
-            <h1 class="sub_title">Knight Janitorial General Cleaning Services Include:</h1>
             <ul>
                 <li>A thorough office cleaning, that covers everything from breakrooms and conference rooms.</li>
                 <li>Dedicated and experienced account managers that can handle any type of requests.</li>
@@ -1008,20 +1033,20 @@
                 <li>Ancillary Rooms such as locker rooms, and empty offices</li>
             </ul>
             &nbsp;
-            <h3 class="subject">Knight Janitorial Cleaning Teams</h3>
-            &nbsp;
-            <h2 class="sub_title">Team Screening</h2>
-            Our team members are carefully screened to ensure that they have the highest ethics and morals, and we are confident that they will present themselves in a highly professional manner through their work and conduct.  Our company has policies and guidelines in place to ensure the highest level of service and safety.
+            
+            <h2 class="sub_title">RBS Team Screening</h2>
+            <p>Our team members are carefully screened to ensure that they have the highest ethics and morals, and we are confident that they will present themselves in a highly professional manner through their work and conduct. Our company has policies and guidelines in place to ensure the highest level of service and safety. </p>
             <h2 class="sub_title">Safety Training</h2>
-            Because Knight Janitorial Services provides general cleaning for different types of buildings, we train our workers to properly handle the chemicals being used in your facility with floor care and safe work procedures.  This training enables management and our workers to better serve you and your office inhabitants.
-
-            We will supply and monitor a Bloodborne Pathogen plan as prescribed by OSHA.  We will also supply a SDS (Safety Data Sheets) of our chemicals used in your office for your records.
+            <p>Because RBS provides general cleaning for different types of buildings, we train our workers to properly handle the chemicals being used in your facility with floor care and safe work procedures. This training enables management and our workers to better serve you and your office inhabitants. We will supply and monitor a Bloodborne Pathogen plan as prescribed by OSHA. We will also supply a SDS (Safety Data Sheets) of our chemicals used in your office for your records. </p>
+            
             <h2 class="sub_title">Insurance</h2>
-            Knight Janitorial Services maintains general liability insurance, medical expense, insurance, personal injury insurance, automobile liability insurance, umbrella liability insurance, and a business services bond.
-            <h2 class="sub_title">Facility Security</h2>
-            The security of your facility is our main concern.  While work is being performed our workers lock themselves inside the rooms in which they are working.  Workers do not unlock doors for anyone.  Our supervisors recheck all doors at the end of the night to make sure that right doors are locked. 
-
+            <p>RBS maintains general liability insurance, medical expense, insurance, personal injury insurance, automobile liability insurance, umbrella liability insurance, and a business services bond. </p>
         </div>
+            <h2 class="sub_title">Facility Security</h2>
+            <p>The security of your facility is our main concern. While work is being performed our workers lock themselves inside the rooms in which they are working. Workers do not unlock doors for anyone. Our supervisors recheck all doors at the end of the night to make sure that right doors are locked.</p>
+            <a href="javascript:;">Call Today: 1-855-GO RZCLN (467-9256)
+RazorClean, The Circle Of Trust, Save Money Live RazorClean.</a>    
+    </div>
     </div>
     <style>
         #read_more_toggle

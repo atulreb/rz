@@ -473,12 +473,12 @@
                 margin-bottom: 0px !important;
             }
 			.main_menu button {
-				margin: 19px 4px;
+				
     padding: 5px 15px;
     border-radius: 5px;
 			}
 			.main_menu button:hover {
-				margin: 19px 4px;
+				
     padding: 5px 15px;
     border-radius: 5px;
 			}
@@ -543,45 +543,45 @@
                 <!-- ####################################### -->
 
 
-                <!--div id="offcanvas-menu">
+                <div id="offcanvas-menu">
                     <div id="offcanvas-menu-inner">
                         <div class="offcanvas_nav">
                             <nav class="main_menu_t">
                                 <ul id="menu-menu-1" class="main_menu">
 
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-94"><a href="<?php echo base_url()?>">Home</a><p class="description"></p>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-94"><a href="<?php echo base_url()?>">About RazorClean, Inc</a><p class="description"></p>
                                         <ul class="sub-menu">
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1042 current_page_item menu-item-1128"><a href="<?php echo base_url()?>razor">RazorClean Inc</a><p class="description"></p></li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1131"><a href="<?php echo base_url()?>razor/blog">Blog</a><p class="description"></p></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1042 current_page_item menu-item-1128"><a href="<?php echo base_url()?>razor/media">Media</a><p class="description"></p></li>
+                                            
                                         </ul>
                                     </li>
-                                    <li id="menu-item-209" class="mega cols-3 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-209"><a href="<?php echo base_url()?>razor/blog">Blog</a>
+                                    <li id="menu-item-209" class="mega cols-3 menu-item menu-item-type-custom menu-item-object-custom  menu-item-209"><a href="<?php echo base_url()?>razor/blog">Blog</a>
                                         <p class="description"></p>
 
                                     </li>
-									<li id="menu-item-209" class="mega cols-3 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-209"><a href="#">Portfolio</a>
+									<li id="menu-item-209" class="mega cols-3 menu-item menu-item-type-custom menu-item-object-custom  menu-item-209"><a href="<?php echo base_url()?>testimonials">Testimonials</a>
                                         <p class="description"></p>
 
                                     </li>
-                                    <li id="menu-item-236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-236"><a href="#">Other Styles</a>
+                                    <li id="menu-item-236" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-236"><a href="<?php echo base_url()?>partner">Partner With Us</a>
                                         <p class="description"></p>
 
                                     </li>
-                                    <li id="menu-item-267" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-267"><a href="#">Single Portfolio Item</a>
+                                    <li id="menu-item-267" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-267"><a href="<?php echo base_url()?>shop">Shop</a>
                                         <p class="description"></p>
 
                                     </li>
 
 
-                                    <li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-365"><a href="shop/index.html">Shop</a>
+                                    <li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-365"><a href="<?php echo base_url()?>brand-services">Brands/Services</a>
                                         <p class="description"></p>
 
                                     </li>
-                                    <li id="menu-item-469" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-469"><a href="#">Pages</a>
+                                    <li id="menu-item-469" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-469"><button onclick="window.location.href='<?php echo base_url()?>user-signup'" >User Sign Up</button>
                                         <p class="description"></p>
 
                                     </li>
-                                    <li id="menu-item-637" class="mega cols-3 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-637"><a href="#">Components</a>
+                                    <li id="menu-item-637" class="mega cols-3 menu-item menu-item-type-custom menu-item-object-custom  menu-item-637"><button onclick="window.location.href='<?php echo base_url()?>login'" >Sign In</button>
                                         <p class="description"></p>
 
                                     </li>
@@ -589,98 +589,51 @@
                             </nav>
                         </div>
                         <article id="text-2" class="widget widget_text">
-                            <h6>About Me</h6>
+                            <h6>About RazorClean Inc.</h6>
                             <div class="textwidget">
-                                <p>People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things.</p>
+                                <p>
+								RazorClean Inc. - RazorClean is a management, supply and contracting company. Our brands play a major part in helping our customers achieve a sustainable future. We take pride in helping improve the overall well -being and financial health of our clients. 
+								</p>
                             </div>
                         </article>
-                        <style type="text/css" media="screen">
-                            #quartz_twitter_widget-2 .twitter_widget .tweet a {
-                                color: #54c2dd!important;
-                            }
-                        </style>
-                        <article id="quartz_twitter_widget-2" class="widget widget_quartz_twitter_widget">
-                            <h6>Latest Tweets</h6>
-                            <div data-id="alialaa" data-number="5" data-retweets="true" data-avatar="true" class="twitter_widget true"></div>
-                        </article>
+                       
+                        
                     </div>
-                </div-->
+                </div>
                 <div id="main_header" class="">
                     <div class="row">
                         <div class="small-12 columns">
 
                             <div id="logo">
-                                <a href="index.html"><img src="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/04/logo.png" alt="Quartz, Just another WordPress site">
-                                    <img class="alt" src="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/04/logoalt.png" alt="Quartz, Just another WordPress site">
+                                <a href="<?php echo base_url()?>">
+									<img src="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/04/logow.png" alt="RazorClean, Inc">
+                                    <img class="alt" src="<?php echo base_url() ?>media/landing-pages/razor/wp-content/uploads/2016/04/logoalt.png" alt="RazorClean, Inc">
                                 </a>
                             </div>
 							
-							<!--div id="header_buttons" class="">
-                                <div class="header_button_wrap">
-                                    <div class="header_button cart_button" style="display: none;">
-                                        <div class="cart_count_wrap">
-                                            <i class="icon-bag"></i>
-                                            <span class="cart_count"></span>
-                                        </div>
-                                    </div>
-                                    <div class="cart_wdg">
-                                        <div class="knob"></div>
-                                        <div class="dropdown_woo_cart widget light woocommerce widget_shopping_cart">
-                                            <div class="widget_shopping_cart_content"></div>
-                                        </div>
-                                    </div>
-                                </div>
+							<div id="header_buttons" class="">
+                                
 
-                                <div class="header_button search"><i class="icon-search-6"></i>
-                                    <form action="http://quartz.themegasm.net/" id="angular_search" method="get" data-ng-app="themegasm_search">
-                                        <div class="knob_border"></div>
-                                        <div class="knob"></div>
-                                        <input type="hidden" name="type" value="ajax" />
-
-                                        <div class="search_field">
-                                            <input autofocus placeholder="start typing..." class="search_input" data-ng-model="query" type="text" id="s" autocomplete="off" name="s" value="" />
-                                        </div>
-
-
-                                        <div class="search_results empty" data-ng-controller="search_controller" data-ng-show="query">
-                                            <ul class="themegasm_search_results" data-ng-show="query">
-                                                <li data-ng-animate="'animate'" data-ng-repeat="post in posts| filter: query | filter: type.type">
-                                                    <a href="%7b%7bpost.html">
-
-                                                        <img width="80" data-ng-if="post.thumbnail" data-ng-src="{{post.thumbnail}}" alt="{{post.title}}">
-                                                        <div class="search_results_content">
-
-                                                            <h3 data-ng-bind-html="post.title | highlight:query"></h3>
-                                                            <p data-ng-bind-html="post.excerpt | highlight:query"></p>
-
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-
-                                        </div>
-
-                                    </form>
-                                </div>
+                                
 
                                 <div class="header_button hamburger">
                                     <div class="hamico"><span></span><span></span><span></span>
                                     </div>
                                 </div>
 
-                            </div-->
+                            </div>
                             
                             <div class="main_menu_wrap">
                                 <nav class="main_menu_t">
                                     <ul id="menu-menu-2" class="main_menu">
-                                         <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-94"><a href="javascript:;">Home</a><p class="description"></p>
+<!--                                         <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-94"><a href="javascript:;">Home</a><p class="description"></p>
                                         <ul class="sub-menu">
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1042 current_page_item menu-item-1128"><a href="<?php echo base_url()?>">Home</a><p class="description"></p></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1042 current_page_item menu-item-1128"><a href="<?php echo base_url()?>razor">RazorClean Inc</a><p class="description"></p></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1131"><a href="<?php echo base_url()?>razor/blog">Blog</a><p class="description"></p></li>
                                         </ul>
-                                    </li>
-                                        <li class="cols-4 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-40"><a href="<?php echo base_url()?>razor">RazorClean Inc</a>
+                                    </li>-->
+                                        <li class="cols-4 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-40"><a href="<?php echo base_url()?>razor">About RazorClean, Inc</a>
                                             <p class="description"></p>
 											<ul class="sub-menu">
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1042 current_page_item menu-item-1128"><a href="<?php echo base_url()?>razor/media">Media</a><p class="description"></p></li>
@@ -702,11 +655,15 @@
                                             <p class="description"></p>
 
                                         </li>
-										<li class="cols-3 menu-item menu-item-type-custom menu-item-object-custom  menu-item-637"><button onclick="window.location.href='<?php echo base_url()?>user-signup'" >User Signup</button>
+                                        <li class="cols-3 menu-item menu-item-type-custom menu-item-object-custom  menu-item-637"><a href="<?php echo base_url()?>brand-services">Brands/Services</a>
                                             <p class="description"></p>
 
                                         </li>
-										<li class="cols-3 menu-item menu-item-type-custom menu-item-object-custom  menu-item-637"><button onclick="window.location.href='<?php echo base_url()?>login'" >Signin</button>
+										<li class="cols-3 menu-item menu-item-type-custom menu-item-object-custom  menu-item-637"><a><button onclick="window.location.href='<?php echo base_url()?>user-signup'" >User Sign Up</button></a>
+                                            <p class="description"></p>
+
+                                        </li>
+										<li class="cols-3 menu-item menu-item-type-custom menu-item-object-custom  menu-item-637"><a><button onclick="window.location.href='<?php echo base_url()?>login'" >Sign In</button></a>
                                             <p class="description"></p>
 
                                         </li>

@@ -864,7 +864,7 @@
 
                         <a id="logo" href="index.html">
 
-                            <img class="stnd default-logo" alt="" src="<?php echo base_url()?>media/landing-pages/lawncare/wp-content/uploads/2015/04/New-Logo-2014_No-Tagline_450.png" /><img class="retina-logo " alt="Olympic Lawn &amp; Landscape, Inc." src="#" />
+                            <img class="stnd default-logo" alt="" src="<?php echo base_url()?>media/landing-pages/lawncare/wp-content/uploads/2015/04/New-Logo-2014_No-Tagline_450.png" /><img class="retina-logo " alt="Olympic Lawn &amp; Landscape, Inc." src="<?php echo base_url()?>media/landing-pages/lawncare/wp-content/uploads/2015/04/New-Logo-2014_No-Tagline_450.png" />
                         </a>
 
                     </div>

@@ -25,7 +25,7 @@
 				<?php foreach($arr_blog_data as $bd){ ?>
 				<li class="portfolio_element span4 portfoliotagfilter-job-opportunities">
 							<div class="portfolio_item">
-                                    <a href="<?php echo base_url()?>media/landing-pages/staffing/wp-content/uploads/picking-packing-.jpg" class="prettyPhoto slideshow_24135" rel="prettyPhoto"></a>
+                                    <a href="<?php echo base_url() ."uploads/blogs/233x155/".$bd['blog_image']?>" class="prettyPhoto slideshow_24135" rel="prettyPhoto"></a>
 										<div class="portfolio_thumbnail">
 									
 

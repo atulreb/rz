@@ -479,7 +479,7 @@ h4 a {
     background: url(../img/slide5-4-img.jpg) center center no-repeat;
 }
 .slide20 .term_left {
-    background: url(../img/slide5-5-img.jpg) center center no-repeat;
+    background: url(../img/slide5-5-img.jpg) center center no-repeat / cover;
 }
 .slide21 .term_left {
     background: url(../img/slide5-6-img.jpg) center center no-repeat;
@@ -1148,7 +1148,7 @@ h4.heading__external-link {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.60);
-    position: absolute;
+       position: absolute;
 }
 .first_screen .cherry-box.title_box span.head-txt {
     font-size: 26px;
@@ -4100,4 +4100,47 @@ h4 { font-size:18px;}*/
 }
 #mslide2.slide72 .term_left {
     background: url("../img/ProTransport06.jpg") no-repeat scroll center center / cover;
+}
+
+.qualitiesIcon1 {
+    height:185px;
+    background-image:url('../img/1_Grey.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+}
+.qualitiesIcon2 {
+    height:185px;
+    background-image:url('../img/2_Grey.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+}
+.qualitiesIcon3 {
+    height:185px;
+    background-image:url('../img/3_Grey.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+}
+.qualitiesIcon1:hover {
+    background-image:url('../img/1_Red.png');
+}
+.qualitiesIcon2:hover {
+    background-image:url('../img/2_Red.png');
+}
+.qualitiesIcon3:hover {
+    background-image:url('../img/3_Red.png');
+}
+.qualitiesIcon1 {
+    margin-left: auto !important;
+}
+
+.qualitiesIcon2 {
+    margin-left: auto !important;
+}
+
+
+.qualitiesIcon3 {
+    margin-left: auto !important;
 }
